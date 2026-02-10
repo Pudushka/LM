@@ -1,0 +1,77 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  businesses Business[]
+}
+
+model Business {
+  id        String   @id @default(cuid())
+  name      String
+  website   String
+  location  String
+  specialty String
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  prompts Prompt[]
+  scans   Scan[]
+}
+
+model Prompt {
+  id         String  @id @default(cuid())
+  text       String
+  category   String
+  isCustom   Boolean @default(false)
+  isActive   Boolean @default(true)
+  businessId String
+
+  business    Business     @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  scanResults ScanResult[]
+}
+
+model Scan {
+  id          String    @id @default(cuid())
+  businessId  String
+  status      String    @default("pending")
+  totalScore  Float?
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  business Business     @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  results  ScanResult[]
+}
+
+model ScanResult {
+  id              String   @id @default(cuid())
+  scanId          String
+  promptId        String
+  engine          String
+  response        String
+  mentioned       Boolean
+  mentionContext  String?
+  competitors     String   @default("[]")
+  sentiment       String?
+  position        Int?
+  analysis        String?
+  recommendations String?
+  createdAt       DateTime @default(now())
+
+  scan   Scan   @relation(fields: [scanId], references: [id], onDelete: Cascade)
+  prompt Prompt @relation(fields: [promptId], references: [id], onDelete: Cascade)
+}
