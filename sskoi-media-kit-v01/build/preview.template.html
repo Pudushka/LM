@@ -1,0 +1,196 @@
+<title>SSKOI Media Kit v01</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a review contact sheet. Videos first as a row of upright frames, then the stills grouped
+   by layout type on blush paper; every frame carries its file name so feedback can point at it. */
+:root{
+  --ink:#1d1418;        /* pressed-petal black */
+  --paper:#ede4e1;      /* blush-grey paper */
+  --paper-2:#e2d5d1;    /* linen fold */
+  --blush:#f6cfcd;      /* Baby Pink petal */
+  --coral:#c9543c;      /* Coral rose, darkened for text on paper */
+  --rule:rgba(29,20,24,.18);
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --text:"Hanken Grotesk","PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono","SFMono-Regular",Menlo,monospace;
+  --gutter:clamp(16px,4vw,48px);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--text);-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:4px}
+:focus-visible{outline:2px solid var(--coral);outline-offset:3px}
+.wrap{padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
+.mono{font:400 11px/1.5 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+
+.top{padding-block:clamp(28px,5vw,56px) clamp(24px,4vw,40px);border-bottom:1px solid var(--ink)}
+.top-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px}
+.mast{font:500 24px/1 var(--display);letter-spacing:.34em}
+.status{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--ink);border-radius:999px;padding:7px 14px}
+.status::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--coral)}
+h1{margin:clamp(22px,4vw,44px) 0 14px;font:400 clamp(44px,9vw,120px)/.9 var(--display);letter-spacing:-.03em;text-wrap:balance}
+h1 em{font-style:italic}
+.lede{margin:0;max-width:62ch;font-size:clamp(16px,1.4vw,18px)}
+.jump{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:22px}
+.jump a{text-decoration:none;border:1px solid var(--rule);border-radius:999px;padding:8px 14px}
+.jump a:hover{border-color:var(--ink)}
+
+section{padding-block:clamp(36px,6vw,72px);border-bottom:1px solid var(--rule)}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 24px;margin-bottom:clamp(18px,3vw,30px)}
+h2{margin:0;font:400 clamp(32px,5vw,60px)/1 var(--display);letter-spacing:-.02em}
+h2 em{font-style:italic}
+h3{margin:clamp(26px,4vw,40px) 0 14px;font:500 15px/1.4 var(--text);display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--rule);padding-top:14px}
+h3:first-of-type{margin-top:0}
+h3 span{font:400 11px/1.9 var(--mono);letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+
+.grid{display:grid;gap:clamp(10px,1.6vw,20px);grid-template-columns:repeat(var(--cols,2),minmax(0,1fr))}
+.g-reel{--cols:2}.g-feed{--cols:2}.g-story{--cols:2}.g-photo{--cols:2}.g-wide{--cols:1}
+@media (min-width:700px){.g-reel{--cols:3}.g-feed{--cols:3}.g-story{--cols:3}.g-photo{--cols:4}.g-wide{--cols:2}}
+@media (min-width:1100px){.g-reel{--cols:6}.g-feed{--cols:5}.g-story{--cols:5}.g-photo{--cols:6}.g-wide{--cols:4}}
+figure{margin:0;min-width:0}
+figure button{display:block;width:100%;padding:0;border:0;background:var(--paper-2);cursor:zoom-in}
+figure img{width:100%;height:auto}
+video{width:100%;background:var(--ink)}
+.r916{aspect-ratio:9/16}.r169{aspect-ratio:16/9}
+figcaption{padding-top:8px;font:400 10.5px/1.45 var(--mono);letter-spacing:.04em;overflow-wrap:anywhere;opacity:.78}
+figcaption b{display:block;font:500 14px/1.4 var(--text);letter-spacing:0;opacity:1;color:var(--ink)}
+.hero-loop{margin-top:clamp(22px,3vw,36px)}
+
+.notes{display:grid;gap:clamp(24px,4vw,56px);grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.notes h4{margin:0 0 10px;font:500 15px/1.4 var(--text)}
+.notes ul{margin:0;padding-left:18px}
+.notes li{margin-bottom:8px;font-size:15px}
+.notes p{margin:0 0 10px;font-size:15px}
+code{font:400 13px/1.5 var(--mono);background:var(--paper-2);padding:1px 6px}
+.end{padding-block:28px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;opacity:.7}
+
+dialog{width:min(96vw,1100px);max-height:94vh;padding:0;border:0;background:var(--ink);color:var(--paper)}
+dialog::backdrop{background:rgba(29,20,24,.82)}
+dialog img{width:100%;max-height:calc(94vh - 58px);object-fit:contain;background:var(--ink)}
+.lb-bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 16px}
+.lb-bar span{font:400 11px/1.4 var(--mono);letter-spacing:.04em;overflow-wrap:anywhere;min-width:0}
+.lb-bar button{flex:none;border:1px solid var(--paper);border-radius:999px;background:none;color:var(--paper);padding:8px 16px;font:500 13px/1 var(--text);cursor:pointer}
+.lb-bar button:hover{background:var(--paper);color:var(--ink)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<header class="top wrap">
+  <div class="top-row">
+    <span class="mast">SSKOI</span>
+    <span class="status mono">Review · 未批准 · 未发布</span>
+  </div>
+  <h1>Media Kit <em>v01</em></h1>
+  <p class="lede">给官网和社交媒体用的图片与短视频。50 张图片、7 条视频，全部由现有照片重新裁切、排版和合成。点任意图片可以放大；文件名写在每张图下面，反馈时直接引用。</p>
+  <nav class="jump mono" aria-label="分区">
+    <a href="#video">视频 7</a><a href="#feed">信息流帖子 21</a><a href="#story">Story 5</a><a href="#photo">无文字裁切 24</a><a href="#notes">来源与限制</a>
+  </nav>
+</header>
+
+<main>
+<section class="wrap" id="video" aria-labelledby="video-h">
+  <div class="sec-head"><h2 id="video-h">视频 <em>Reels</em></h2><span class="mono">1080 × 1920 · MP4 · 无声</span></div>
+  <div class="grid g-reel" id="g-video"></div>
+  <figure class="hero-loop">
+    <video class="r169" id="hero-loop" src="vid/hero.mp4" poster="img/hero.webp" controls loop muted playsinline preload="none"></video>
+    <figcaption><b>官网首屏循环 · 24 秒 · 无文字 · 首尾相接</b>SSKOI_Brand_Website-Hero-Loop_16x9_v01_REVIEW.mp4（此处播放的是 720p 版）</figcaption>
+  </figure>
+</section>
+
+<section class="wrap" id="feed" aria-labelledby="feed-h">
+  <div class="sec-head"><h2 id="feed-h">信息流帖子 <em>4:5</em></h2><span class="mono">1080 × 1350 · JPEG</span></div>
+  <div id="feed-groups"></div>
+</section>
+
+<section class="wrap" id="story" aria-labelledby="story-h">
+  <div class="sec-head"><h2 id="story-h">Story <em>9:16</em></h2><span class="mono">1080 × 1920 · JPEG</span></div>
+  <div class="grid g-story" id="g-story"></div>
+</section>
+
+<section class="wrap" id="photo" aria-labelledby="photo-h">
+  <div class="sec-head"><h2 id="photo-h">无文字裁切 <em>Photos</em></h2><span class="mono">官网版块、广告、自行排版</span></div>
+  <h3>竖图 4:5 <span>16 张 · 1080 × 1350</span></h3>
+  <div class="grid g-photo" id="g-photo"></div>
+  <h3>横图 16:9 <span>8 张 · 1920 × 1080</span></h3>
+  <div class="grid g-wide" id="g-wide"></div>
+</section>
+
+<section class="wrap" id="notes" aria-labelledby="notes-h">
+  <div class="sec-head"><h2 id="notes-h">来源与<em>限制</em></h2></div>
+  <div class="notes">
+    <div>
+      <h4>素材来源</h4>
+      <ul>
+        <li>郁金香、普通玫瑰、植绒露莲：Listing v19 的 02–05 图。</li>
+        <li>奥斯汀玫瑰：Listing v15 的 PT01–PT04，裁掉了原图上的标题和边框。</li>
+        <li>品牌封面：网站 v06 首屏图。</li>
+        <li>全色系图里的花束：Listing 主图和礼盒实物图，去掉了白底。</li>
+      </ul>
+    </div>
+    <div>
+      <h4>已知限制</h4>
+      <ul>
+        <li>没有新拍摄或新生成的画面。来源图本身是 AI 辅助的，花型、颜色、枝数仍需对照实物确认。</li>
+        <li>视频是静态照片的慢推和淡入淡出，花不会动，没有声音。</li>
+        <li>奥斯汀玫瑰的图分辨率偏低，竖版放大后略软。</li>
+        <li>郁金香 10 个颜色的主图是同一构图换色。</li>
+      </ul>
+    </div>
+    <div>
+      <h4>怎么反馈</h4>
+      <p>写成：<code>文件名 + APPROVED 或 NEEDS-FIX + 原因</code>。</p>
+      <p>原尺寸图片在 Drive：<a href="https://drive.google.com/drive/folders/1tFwg3FT91NQUamHlpAhB6Aw49Mxs4Lkc" target="_blank" rel="noopener">SSKOI_Media-Kit_Social-Website_v01_20261114_REVIEW</a>。</p>
+      <p>原尺寸视频目前只在代码仓库的 <code>sskoi-media-kit-v01/out/video/</code>，还没有进 Drive。</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="end wrap mono"><span>SSKOI faux florals</span><span>Media kit v01 · 2026-11-14 · for review</span></footer>
+
+<dialog id="lb" aria-label="放大查看">
+  <img id="lb-img" src="" alt="">
+  <div class="lb-bar"><span id="lb-name"></span><button type="button" id="lb-close">关闭</button></div>
+</dialog>
+
+<script>
+(function(){
+  var M=/*MANIFEST*/null;
+  function $(id){return document.getElementById(id)}
+  function short(n){return n.replace(/^SSKOI_/,'').replace(/_v01_REVIEW\.(jpg|mp4)$/,'')}
+  function still(it,alt){
+    var f=document.createElement('figure'),b=document.createElement('button'),i=document.createElement('img'),c=document.createElement('figcaption');
+    b.type='button';b.setAttribute('aria-label','放大 '+short(it.name));
+    i.src=it.src;i.alt=alt;i.loading='lazy';i.decoding='async';
+    b.appendChild(i);c.textContent=short(it.name);f.appendChild(b);f.appendChild(c);
+    b.addEventListener('click',function(){open(it)});
+    return f;
+  }
+  var KIND={'Cover':['封面','整幅照片加大标题'],'Detail-Plate':['细节图版','一张特写裱在纸色底上'],'Styling-Note':['搭配笔记','两张图加一条搭配建议'],'All-Colours':['全色系','一款花的全部颜色，实物图去白底'],'Statement':['标语','大标语加一束花']};
+  var groups=$('feed-groups');
+  Object.keys(KIND).forEach(function(k){
+    var items=M.feed.filter(function(x){return x.kind===k});
+    var h=document.createElement('h3');h.innerHTML=KIND[k][0]+' · '+KIND[k][1]+' <span>'+items.length+' 张</span>';
+    var g=document.createElement('div');g.className='grid g-feed';
+    items.forEach(function(it){g.appendChild(still(it,KIND[k][0]+'：'+short(it.name)))});
+    groups.appendChild(h);groups.appendChild(g);
+  });
+  M.story.forEach(function(it){$('g-story').appendChild(still(it,'Story：'+short(it.name)))});
+  M.photo.forEach(function(it){$(it.wide?'g-wide':'g-photo').appendChild(still(it,'照片：'+short(it.name)))});
+  M.video.forEach(function(v,n){
+    var f=document.createElement('figure'),e=document.createElement('video'),c=document.createElement('figcaption');
+    e.className='r916';e.id='reel-'+(n+1);e.src=v.src;e.poster=v.poster;e.controls=true;e.muted=true;e.playsInline=true;e.preload='none';
+    c.innerHTML='<b>'+v.label+' · '+v.dur+'</b>'+short(v.name);
+    f.appendChild(e);f.appendChild(c);$('g-video').appendChild(f);
+  });
+  var vids=[].slice.call(document.querySelectorAll('video'));
+  vids.forEach(function(v){v.addEventListener('play',function(){vids.forEach(function(o){if(o!==v)o.pause()})})});
+  var lb=$('lb');
+  function open(it){$('lb-img').src=it.src;$('lb-img').alt=short(it.name);$('lb-name').textContent=it.name;if(lb.showModal)lb.showModal();else lb.setAttribute('open','')}
+  function close(){if(lb.close)lb.close();else lb.removeAttribute('open')}
+  $('lb-close').addEventListener('click',close);
+  lb.addEventListener('click',function(e){if(e.target===lb)close()});
+})();
+</script>

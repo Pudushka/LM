@@ -30,6 +30,14 @@
 
 视频都没有声音。发布时在平台里配音乐。
 
+## 在哪里
+
+- **预览页**（图片可放大，视频可播放）：https://claude.ai/artifact/R6iJH3cAHbiY1ZZRmrqQ5K
+- **Drive**（50 张图片和 7 张视频封面）：https://drive.google.com/drive/folders/1tFwg3FT91NQUamHlpAhB6Aw49Mxs4Lkc
+- **原尺寸视频**：只在本仓库 `out/video/`。Drive 连接器单次最多带约 3.1 MB 文件，8 个 MP4 都超限，没有上传。
+
+预览页用 `build/preview.template.html` 生成，网页用的缩小图和视频副本在 `preview/`（未入库）。
+
 ## 素材来源
 
 没有新拍摄，也没有新生成任何画面。全部由现有素材重新裁切、排版和合成：
