@@ -1,0 +1,81 @@
+/* SSKOI media kit: shared look for every still and video frame */
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap");
+:root{
+  --ink:#1d1418; --paper:#ede4e1; --paper-2:#e2d5d1; --paper-3:#d6c4bf;
+  --blush:#f6cfcd; --coral:#f47a60; --box:#12261c;
+  --display:"Bodoni Moda","Didot",Georgia,serif;
+  --text:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono",Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+img{display:block}
+.mono{font:400 21px/1.45 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.mast{font:500 40px/1 var(--display);letter-spacing:.36em;margin-right:-.36em;display:inline-block}
+em{font-style:italic}
+.canvas{position:absolute;inset:0;overflow:hidden}
+
+/* ---- cover: full-bleed photograph, masthead, two-line title ---- */
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,20,24,.46) 0,rgba(29,20,24,0) 20%),linear-gradient(0deg,rgba(29,20,24,.84) 0,rgba(29,20,24,.46) 30%,rgba(29,20,24,0) 58%)}
+.cover .top{position:absolute;inset:54px 0 auto;text-align:center;color:var(--paper)}
+.cover .bot{position:absolute;inset:auto 64px 60px;color:var(--paper)}
+.cover h1{font:400 var(--h,150px)/.84 var(--display);letter-spacing:-.035em}
+.cover h1 span{display:block}
+.cover h1 em{display:block;color:var(--blush);padding-left:.3em}
+.cover .rule{height:1px;background:rgba(237,228,225,.34);margin:34px 0 20px}
+
+/* ---- plate: one photograph mounted on paper with a caption ---- */
+.plate .head{position:absolute;inset:58px 70px auto;display:flex;justify-content:space-between;align-items:baseline}
+.plate .head .mast{font-size:34px}
+.plate .photo{position:absolute;left:70px;top:132px;width:940px;height:960px;overflow:hidden;background:var(--paper-2)}
+.plate .photo img{width:100%;height:100%;object-fit:cover}
+.plate .cap{position:absolute;inset:auto 70px 62px;display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+.plate h2{font:400 84px/.92 var(--display);letter-spacing:-.025em}
+.plate .cap .mono{text-align:right;max-width:330px}
+
+/* ---- note: styling advice with two photographs ---- */
+.note .head{position:absolute;inset:58px 70px auto;display:flex;justify-content:space-between;align-items:baseline}
+.note .head .mast{font-size:34px}
+.note .a{position:absolute;left:70px;top:132px;width:940px;height:690px;overflow:hidden}
+.note .b{position:absolute;left:70px;top:852px;width:420px;height:420px;overflow:hidden}
+.note .a img,.note .b img{width:100%;height:100%;object-fit:cover}
+.note .txt{position:absolute;left:530px;top:852px;width:480px;height:420px;display:flex;flex-direction:column;justify-content:flex-end}
+.note h2{font:400 70px/.95 var(--display);letter-spacing:-.025em;margin:16px 0 22px}
+.note p.body{font:400 27px/1.42 var(--text)}
+
+/* ---- colours: every colour of one flower, cut out on paper ---- */
+.colours .head{position:absolute;inset:58px 64px auto}
+.colours .head .row{display:flex;justify-content:space-between;align-items:baseline}
+.colours .head .mast{font-size:34px}
+.colours h1{font:400 92px/.9 var(--display);letter-spacing:-.03em;margin-top:42px}
+.colours h1 em{display:block}
+.colours .grid{position:absolute;left:50px;right:50px;top:372px;bottom:96px;display:flex;flex-wrap:wrap;justify-content:center;align-content:space-evenly}
+.colours .cell{width:var(--w);text-align:center}
+.colours .cell .im{width:100%;height:var(--ch);padding:0 var(--pad,10px)}
+.colours .cell img{width:100%;height:100%;object-fit:contain;object-position:50% 100%}
+.colours .cell span{display:block;font:400 16px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;margin-top:12px;min-height:21px}
+.colours .foot{position:absolute;inset:auto 64px 44px;display:flex;justify-content:space-between;opacity:.7}
+.colours .foot .mono{font-size:17px}
+
+/* ---- statement: large type with a bouquet in front of it ---- */
+.statement{background:var(--bg,var(--ink));color:var(--fg,var(--paper))}
+.statement .top{position:absolute;inset:58px 64px auto;display:flex;justify-content:space-between;align-items:baseline}
+.statement .top .mast{font-size:34px}
+.statement h1{position:absolute;left:60px;top:var(--ty,190px);font:400 var(--h,196px)/.82 var(--display);letter-spacing:-.04em}
+.statement h1 span{display:block}
+.statement h1 em{display:block;color:var(--em,var(--blush))}
+.statement .cut{position:absolute;left:var(--cx,120px);top:var(--cy,380px);width:var(--cw,980px);height:var(--cw,980px);object-fit:contain}
+.statement .foot{position:absolute;inset:auto 64px 54px;display:flex;justify-content:space-between;align-items:flex-end}
+.statement .foot p{max-width:560px;font:400 28px/1.4 var(--text)}
+
+/* ---- story: 9:16, photograph mounted on paper, title below.
+   Everything sits between y=250 and y=1670 so the Instagram header and reply bar never cover it ---- */
+.story .top{position:absolute;inset:262px 0 auto;text-align:center}
+.story .photo{position:absolute;left:60px;top:340px;width:960px;height:990px;overflow:hidden;background:var(--paper-2)}
+.story .photo img{width:100%;height:100%;object-fit:cover}
+.story .bot{position:absolute;inset:1366px 60px auto}
+.story h1{font:400 var(--h,112px)/.86 var(--display);letter-spacing:-.035em}
+.story h1 span{display:block}
+.story h1 em{display:block;padding-left:.3em}
+.story .rule{height:1px;background:var(--ink);opacity:.25;margin:24px 0 16px}
