@@ -1,136 +1,92 @@
 {%- liquid
   assign recipes = section.blocks | where: 'type', 'recipe'
   assign s = section.settings
-  assign rooms = ''
-  assign palettes = ''
-  for r in recipes
-    unless rooms contains r.settings.room
-      assign rooms = rooms | append: r.settings.room | append: ','
-    endunless
-    unless palettes contains r.settings.palette
-      assign palettes = palettes | append: r.settings.palette | append: ','
-    endunless
-  endfor
-  assign rooms = rooms | split: ','
-  assign palettes = palettes | split: ','
-  assign scales = 'Bud,Table,Statement' | split: ','
 -%}
 {{ 'ssko-v10.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'ssko-v10.js' | asset_url }}" defer></script>
-<div class="ssko-v10-book" data-ssko-v10-book>
+<div class="ssko-v10-book">
   <header class="ssko-v10-intro wrap">
     <p class="mono">{{ s.eyebrow | escape }}</p>
     <h1>{{ s.heading | escape }} <em>{{ s.emphasis | escape }}</em></h1>
     <p class="ssko-v10-lede">{{ s.intro | escape }}</p>
+    <ol class="ssko-v10-index mono" aria-label="Recipes">
+      {%- for r in recipes -%}
+        <li><a href="#{{ r.settings.anchor | escape }}"><span>{{ r.settings.number | escape }}</span> {{ r.settings.title | escape }} {{ r.settings.emphasis | escape }}</a></li>
+      {%- endfor -%}
+    </ol>
   </header>
 
-  <div class="ssko-v10-filters wrap" role="group" aria-label="Filter recipes">
-    {%- for group in (1..3) -%}
-      {%- case group -%}
-        {%- when 1 -%}{%- assign key = 'room' -%}{%- assign label = 'Room' -%}{%- assign values = rooms -%}
-        {%- when 2 -%}{%- assign key = 'palette' -%}{%- assign label = 'Palette' -%}{%- assign values = palettes -%}
-        {%- when 3 -%}{%- assign key = 'scale' -%}{%- assign label = 'Scale' -%}{%- assign values = scales -%}
-      {%- endcase -%}
-      <div class="ssko-v10-filter" data-filter="{{ key }}">
-        <span class="mono ssko-v10-filter__label">{{ label }}</span>
-        <div class="ssko-v10-filter__options">
-          <button type="button" data-value="" aria-pressed="true">All</button>
-          {%- for v in values -%}{%- if v != blank -%}<button type="button" data-value="{{ v | escape }}" aria-pressed="false">{{ v | escape }}</button>{%- endif -%}{%- endfor -%}
-        </div>
-      </div>
-    {%- endfor -%}
-    <p class="mono ssko-v10-count" aria-live="polite" data-ssko-v10-count>{{ recipes.size }} recipes</p>
-  </div>
-
-  <ol class="ssko-v10-contents wrap" aria-label="Recipes">
-    {%- for r in recipes -%}
-      {%- assign rs = r.settings -%}
-      <li data-room="{{ rs.room | escape }}" data-palette="{{ rs.palette | escape }}" data-scale="{{ rs.scale | escape }}">
-        <a href="#{{ rs.anchor | escape }}">
-          <span class="ssko-v10-contents__im">{% render 'ssko-v09-img', image: rs.image, asset: rs.image_asset, alt: '', width: 320, widths: '160, 320', sizes: '96px', aw: 1536, ah: 1024 %}</span>
-          <span class="ssko-v10-contents__txt">
-            <span class="mono">No. {{ rs.number | escape }}</span>
-            <strong>{{ rs.title | escape }} <em>{{ rs.emphasis | escape }}</em></strong>
-            <span class="mono">{{ rs.room | escape }} · {{ rs.palette | escape }} · {{ rs.stems | escape }} stems</span>
-          </span>
-        </a>
-      </li>
-    {%- endfor -%}
-  </ol>
-
-  <div class="ssko-v10-recipes">
-    {%- for r in recipes -%}
-      {%- liquid
-        assign rs = r.settings
-        assign lines = rs.ingredients | strip | newline_to_br | split: '<br />'
-        assign steps = rs.method | strip | newline_to_br | split: '<br />'
-        assign cart = 'https://www.amazon.com/gp/aws/cart/add.html?'
-        assign sets = 0
-        for line in lines
-          assign p = line | split: '|'
-          assign q = p[0] | strip | plus: 0
-          assign asin = p[4] | strip
-          assign n = forloop.index
-          if forloop.first == false
-            assign cart = cart | append: '&'
-          endif
-          assign cart = cart | append: 'ASIN.' | append: n | append: '=' | append: asin | append: '&Quantity.' | append: n | append: '=' | append: q
-          assign sets = sets | plus: q
-        endfor
-      -%}
-      <article class="ssko-v10-recipe{% cycle '', ' is-flip' %}" id="{{ rs.anchor | escape }}" data-room="{{ rs.room | escape }}" data-palette="{{ rs.palette | escape }}" data-scale="{{ rs.scale | escape }}" aria-labelledby="ssko-v10-r-{{ r.id }}" {{ r.shopify_attributes }}>
-        <figure class="ssko-v10-photo">
-          {% render 'ssko-v09-img', image: rs.image, asset: rs.image_asset, alt: rs.alt, width: 1400, widths: '700, 1000, 1400', sizes: '(min-width: 901px) 56vw, 100vw', aw: 1536, ah: 1024 %}
-          {%- if rs.stand_in -%}<figcaption class="ssko-v10-standin mono">Stand-in photo · REVIEW</figcaption>{%- endif -%}
-        </figure>
-        <div class="ssko-v10-card">
-          <p class="mono ssko-v10-card__kicker">Recipe No. {{ rs.number | escape }} · {{ rs.room | escape }} · {{ rs.palette | escape }}</p>
-          <h2 id="ssko-v10-r-{{ r.id }}">{{ rs.title | escape }} <em>{{ rs.emphasis | escape }}</em></h2>
-          <p class="ssko-v10-card__summary">{{ rs.summary | escape }}</p>
-
-          <h3 class="mono ssko-v10-card__h">You will need</h3>
-          <ul class="ssko-v10-items">
-            {%- for line in lines -%}
-              {%- assign p = line | split: '|' -%}
-              <li>
-                <span class="ssko-v10-items__qty">{{ p[0] | strip }} ×</span>
-                <span class="ssko-v10-items__dot" style="--c:{{ p[5] | strip }}" aria-hidden="true"></span>
-                <a href="{{ p[6] | strip | escape }}"><b>{{ p[1] | strip | escape }}</b> {{ p[2] | strip | escape }}</a>
-                <span class="mono ssko-v10-items__unit">{{ p[3] | strip | escape }}</span>
-              </li>
-            {%- endfor -%}
-          </ul>
-
-          <div class="ssko-v10-vessel">
-            {% render 'ssko-v10-vessel', type: rs.vessel_type %}
-            <p><b>{{ rs.vessel_name | escape }}</b><span class="mono">H {{ rs.vessel_height | escape }} cm · Ø {{ rs.vessel_opening | escape }} cm{% if rs.vessel_type != 'pair' %} · not included{% else %} · glass vase not included{% endif %}</span></p>
+  {%- for r in recipes -%}
+    {%- liquid
+      assign rs = r.settings
+      assign lines = rs.ingredients | strip | newline_to_br | split: '<br />'
+      assign steps = rs.method | strip | newline_to_br | split: '<br />'
+      assign cart = 'https://www.amazon.com/gp/aws/cart/add.html?'
+      assign sets = 0
+      for line in lines
+        assign p = line | split: '|'
+        assign q = p[0] | strip | plus: 0
+        assign asin = p[4] | strip
+        assign n = forloop.index
+        if forloop.first == false
+          assign cart = cart | append: '&'
+        endif
+        assign cart = cart | append: 'ASIN.' | append: n | append: '=' | append: asin | append: '&Quantity.' | append: n | append: '=' | append: q
+        assign sets = sets | plus: q
+      endfor
+    -%}
+    <article class="ssko-v10-recipe{% cycle '', ' is-flip' %}" id="{{ rs.anchor | escape }}" aria-labelledby="ssko-v10-r-{{ r.id }}" {{ r.shopify_attributes }}>
+      <figure class="ssko-v10-photo">
+        {%- if rs.image != blank or rs.image_asset != blank -%}
+          {% render 'ssko-v09-img', image: rs.image, asset: rs.image_asset, alt: rs.alt, width: 1600, sizes: '(min-width: 901px) 56vw, 100vw', loading: 'lazy' %}
+        {%- else -%}
+          <div class="ssko-v10-pending">
+            <span class="ssko-v10-pending__dots" aria-hidden="true">
+              {%- for line in lines -%}{%- assign p = line | split: '|' -%}<i style="--c:{{ p[5] | strip }}"></i>{%- endfor -%}
+            </span>
+            <span class="mono">Photograph in production</span>
           </div>
+        {%- endif -%}
+      </figure>
+      <div class="ssko-v10-card">
+        <p class="mono ssko-v10-card__kicker">No. {{ rs.number | escape }} · {{ rs.palette | escape }} · {{ rs.stems | escape }} stems</p>
+        <h2 id="ssko-v10-r-{{ r.id }}">{{ rs.title | escape }} <em>{{ rs.emphasis | escape }}</em></h2>
+        <p class="ssko-v10-card__why">{{ rs.why | escape }}</p>
 
-          <h3 class="mono ssko-v10-card__h">Method</h3>
-          <ol class="ssko-v10-method">
+        <ul class="ssko-v10-items" aria-label="What you need">
+          {%- for line in lines -%}
+            {%- assign p = line | split: '|' -%}
+            <li>
+              <span class="ssko-v10-items__dot" style="--c:{{ p[5] | strip }}" aria-hidden="true"></span>
+              <a href="{{ p[6] | strip | escape }}"><b>{{ p[1] | strip | escape }}</b> {{ p[2] | strip | escape }}</a>
+              <span class="mono ssko-v10-items__meta">{{ p[0] | strip }} × {{ p[3] | strip | escape }}{% if p[7] != blank %} · {{ p[7] | strip | escape }}{% endif %}</span>
+            </li>
+          {%- endfor -%}
+        </ul>
+
+        <p class="ssko-v10-vessel">
+          {% render 'ssko-v10-vessel', type: rs.vessel_type %}
+          <span>{{ rs.vessel_name | escape }}<span class="mono">{{ rs.vessel_height | escape }} cm tall · {{ rs.vessel_opening | escape }} cm opening · not included</span></span>
+        </p>
+
+        <a class="btn dark ssko-v10-buy" href="{{ cart | escape }}">{% if sets == 1 %}Add the set to your Amazon cart{% elsif sets == 2 %}Add both sets to your Amazon cart{% else %}Add all {{ sets }} sets to your Amazon cart{% endif %} {% render 'sskoi-arrow' %}</a>
+
+        <details class="ssko-v10-how">
+          <summary>How to arrange</summary>
+          <ol>
             {%- for step in steps -%}{%- assign t = step | strip -%}{%- if t != blank -%}<li>{{ t | escape }}</li>{%- endif -%}{%- endfor -%}
           </ol>
+        </details>
+      </div>
+    </article>
+  {%- endfor -%}
 
-          <div class="ssko-v10-buy">
-            <a class="btn dark" href="{{ cart | escape }}">{% if sets == 1 %}Add this set to your Amazon cart{% elsif sets == 2 %}Add both sets to your Amazon cart{% else %}Add all {{ sets }} sets to your Amazon cart{% endif %} {% render 'sskoi-arrow' %}</a>
-            <p class="mono">{{ rs.stems | escape }} stems · {{ sets }} {% if sets == 1 %}set{% else %}sets{% endif %} · {{ rs.scale | escape }}</p>
-            <p class="ssko-v10-buy__note">Opens Amazon with {% if sets == 1 %}this set{% else %}every set in this recipe{% endif %} ready to add. You review the cart and checkout on Amazon.</p>
-          </div>
-        </div>
-      </article>
-    {%- endfor -%}
-    <p class="ssko-v10-empty wrap" data-ssko-v10-empty hidden>No recipe matches these filters. <button type="button" data-ssko-v10-reset>Show all recipes</button></p>
-  </div>
-
-  <footer class="ssko-v10-foot wrap">
-    <p>{{ s.footnote | escape }}</p>
-  </footer>
+  <footer class="ssko-v10-foot wrap"><p>{{ s.footnote | escape }}</p></footer>
 </div>
 
 {% schema %}
 {
   "name": "SSKOI arrangement book",
-  "max_blocks": 20,
+  "max_blocks": 12,
   "settings": [
     {"type":"text","id":"eyebrow","label":"Small heading","default":"The arrangement book"},
     {"type":"text","id":"heading","label":"Heading","default":"Arrangements,"},
@@ -143,22 +99,19 @@
       {"type":"text","id":"number","label":"Number"},
       {"type":"text","id":"title","label":"Title"},
       {"type":"text","id":"emphasis","label":"Title accent"},
-      {"type":"text","id":"anchor","label":"Link name","info":"Used in the page address, for example long-table"},
-      {"type":"textarea","id":"summary","label":"Summary"},
+      {"type":"text","id":"anchor","label":"Link name","info":"Used in the page address, for example coral-hour"},
       {"type":"image_picker","id":"image","label":"Photo (4:5)"},
       {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"},
       {"type":"text","id":"alt","label":"Photo description"},
-      {"type":"checkbox","id":"stand_in","label":"Mark as stand-in photo","default":false},
-      {"type":"text","id":"room","label":"Room"},
-      {"type":"text","id":"palette","label":"Palette"},
-      {"type":"select","id":"scale","label":"Scale","options":[{"value":"Bud","label":"Bud"},{"value":"Table","label":"Table"},{"value":"Statement","label":"Statement"}],"default":"Table"},
+      {"type":"text","id":"palette","label":"Color pairing","info":"For example Tonal or Analogous"},
       {"type":"text","id":"stems","label":"Total stems"},
-      {"type":"textarea","id":"ingredients","label":"Ingredients","info":"One per line: quantity | set name | color | set size | ASIN | swatch | link"},
-      {"type":"select","id":"vessel_type","label":"Vessel drawing","options":[{"value":"bowl","label":"Bowl"},{"value":"cylinder","label":"Cylinder"},{"value":"jug","label":"Jug"},{"value":"urn","label":"Urn"},{"value":"bud","label":"Two bud vases"},{"value":"crock","label":"Crock"},{"value":"bottle","label":"Bottle"},{"value":"pair","label":"Paper vase and glass vase"}],"default":"bowl"},
+      {"type":"textarea","id":"why","label":"Why the pairing works"},
+      {"type":"textarea","id":"ingredients","label":"Ingredients","info":"One per line: quantity | set name | color | set size | ASIN | swatch | link | role"},
+      {"type":"select","id":"vessel_type","label":"Vessel drawing","options":[{"value":"bowl","label":"Bowl"},{"value":"cylinder","label":"Cylinder"},{"value":"jug","label":"Jug"},{"value":"urn","label":"Urn"},{"value":"bud","label":"Two bud vases"},{"value":"crock","label":"Crock"},{"value":"bottle","label":"Bottle"},{"value":"pair","label":"Paper vase and glass vase"}],"default":"urn"},
       {"type":"text","id":"vessel_name","label":"Vessel"},
       {"type":"text","id":"vessel_height","label":"Vessel height (cm)"},
       {"type":"text","id":"vessel_opening","label":"Vessel opening (cm)"},
-      {"type":"textarea","id":"method","label":"Method","info":"One step per line"}
+      {"type":"textarea","id":"method","label":"How to arrange","info":"One step per line"}
     ]}
   ],
   "presets": [{"name":"SSKOI arrangement book"}]
