@@ -34,7 +34,7 @@ slug = lambda s: s.lower().replace(' ', '-')
 
 R = [
  dict(no='01', key='blush-and-peach', title='Blush and', em='Peach', room='Console', palette='Analogous',
-  why='Two neighbouring pinks. The Austin roses lead; the smaller ranunculus fill the gaps and repeat the peach at the centre of each rose.',
+  why='Two neighboring pinks. The Austin roses lead; the smaller ranunculus fill the gaps and repeat the peach at the center of each rose.',
   summary='Baby pink Austin roses with light peach ranunculus in a cream vase.',
   items=[('austin','Baby Pink',1,6,'Focal'), ('peony','Light Peach',1,4,'Secondary')],
   vessel=dict(type='urn', name='Cream ceramic vase', h=20, w=9),
@@ -42,9 +42,9 @@ R = [
           'Add the ranunculus lower and to the sides, letting the buds stand a little above the roses.',
           'Turn the vase until the outline looks gathered rather than round.'],
   scene='A pale oak console against a limewashed wall, one small linen-bound book, soft window light from the left.',
-  camera='Standing eye level, 50 mm, vase slightly left of centre, the arrangement filling about 55% of the frame height.'),
+  camera='Standing eye level, 50 mm, vase slightly left of center, the arrangement filling about 55% of the frame height.'),
  dict(no='02', key='coral-hour', title='Coral', em='Hour', room='Reading table', palette='Analogous',
-  why='Coral and orange sit next to each other on the colour wheel. The open roses and their buds carry the shape; the orange ranunculus warm the base.',
+  why='Coral and orange sit next to each other on the color wheel. The open roses and their buds carry the shape; the orange ranunculus warm the base.',
   summary='Coral classic roses with orange ranunculus in a stone jug.',
   items=[('classic','Coral',1,6,'Focal'), ('peony','Orange',1,4,'Secondary')],
   vessel=dict(type='jug', name='Stone jug', h=20, w=8),
@@ -52,19 +52,19 @@ R = [
           'Add the ranunculus low, close to the lip of the jug.',
           'Leave one side lighter than the other so the arrangement looks gathered, not packed.'],
   scene='A round walnut side table beside a worn leather reading chair, an open book and a cup. Warm late-afternoon sun from the right.',
-  camera='Seated eye level, 50 mm, jug right of centre, chair arm entering the left edge.'),
+  camera='Seated eye level, 50 mm, jug right of center, chair arm entering the left edge.'),
  dict(no='03', key='white-garden', title='White', em='Garden', room='Dining table', palette='Tonal',
-  why='One colour, three textures: smooth tulips for height, cupped Austin roses as the focal point, layered ranunculus with silvery leaves in between.',
+  why='One color, three textures: smooth tulips for height, cupped Austin roses as the focal point, layered ranunculus with silvery leaves in between.',
   summary='White tulips, Austin roses and ranunculus in a wide stoneware crock.',
   items=[('tulip','White',1,12,'Line'), ('austin','White',1,6,'Focal'), ('peony','White',1,4,'Secondary')],
   vessel=dict(type='crock', name='Wide stoneware crock', h=22, w=14),
   method=['Stand the tulips around the rim first, leaning out to set the width.',
-          'Place the roses in the centre at two or three different heights.',
+          'Place the roses in the center at two or three different heights.',
           'Fill the gaps with the ranunculus and let a few tulips rise above everything.'],
   scene='A long scrubbed oak dining table in a pale plaster room, linen runner, a stack of plates at the far end. Soft overcast daylight from tall windows.',
-  camera='Standing, 50 mm, crock centred on the table, the room receding behind.'),
+  camera='Standing, 50 mm, crock centerd on the table, the room receding behind.'),
  dict(no='04', key='pink-and-green', title='Pink and', em='Green', room='Living room', palette='Tonal',
-  why='Three pinks at different scales, tied together by the green of the tulips. The tulips draw the lines, the roses hold the centre, the ranunculus add detail.',
+  why='Three pinks at different scales, tied together by the green of the tulips. The tulips draw the lines, the roses hold the center, the ranunculus add detail.',
   summary='Green-and-pink tulips with pink Austin roses and pink ranunculus.',
   items=[('tulip','Green With Pink Tip',1,12,'Line'), ('austin','Pink',1,6,'Focal'), ('peony','Pink',1,4,'Secondary')],
   vessel=dict(type='crock', name='Wide glazed ceramic vase', h=22, w=14),
@@ -72,19 +72,19 @@ R = [
           'Place the roses in the middle at different heights.',
           'Tuck the ranunculus between the roses and let the buds stand above them.'],
   scene='A garden room with a pine table, terracotta floor and a window onto green foliage. Bright, soft overcast light.',
-  camera='Standing, 35 mm, vase centred on the table, window behind and to the right.'),
+  camera='Standing, 35 mm, vase centerd on the table, window behind and to the right.'),
  dict(no='05', key='soft-white', title='Soft', em='White', room='Bedside', palette='Tonal',
-  why='The pink edges on the white roses are picked up by the baby pink ranunculus, so the two sets read as one soft colour.',
+  why='The pink edges on the white roses are picked up by the baby pink ranunculus, so the two sets read as one soft color.',
   summary='White classic roses with pink tips and baby pink ranunculus in a slim vase.',
   items=[('classic','White With Pink Tip',1,6,'Focal'), ('peony','Baby Pink',1,4,'Secondary')],
   vessel=dict(type='bottle', name='Slim glazed vase', h=18, w=6),
   method=['Set the roses so the open blooms sit low and the buds rise above.',
-          'Add the ranunculus to one side for an off-centre outline.',
+          'Add the ranunculus to one side for an off-center outline.',
           'Keep the top of the arrangement below the lampshade so the light falls on the petals.'],
   scene='An oak bedside table, linen bedding edge, a pleated lamp switched on, two books. Dusk light.',
-  camera='Low, at mattress height, 50 mm, vase right of centre, lamp partly in frame.'),
+  camera='Low, at mattress height, 50 mm, vase right of center, lamp partly in frame.'),
  dict(no='06', key='late-plum', title='Late', em='Plum', room='Evening table', palette='Analogous',
-  why='Burgundy and dark purple share their depth. The tall tulips draw the outline; the roses and their buds give it weight at the centre.',
+  why='Burgundy and dark purple share their depth. The tall tulips draw the outline; the roses and their buds give it weight at the center.',
   summary='Burgundy classic roses with dark purple tulips in smoked glass.',
   items=[('classic','Burgundy',1,6,'Focal'), ('tulip','Dark Purple',1,12,'Line')],
   vessel=dict(type='cylinder', name='Smoked glass vase', h=22, w=9),
@@ -92,7 +92,7 @@ R = [
           'Place the roses through the middle, open blooms low and buds high.',
           'Light the table from one side; the dark petals need it.'],
   scene='A dark-stained dining table, two lit taper candles, linen napkins, a deep plaster wall. Evening candlelight and one soft side light.',
-  camera='Seated eye level, 50 mm, vase centred, candles slightly out of focus on either side.'),
+  camera='Seated eye level, 50 mm, vase centerd, candles slightly out of focus on either side.'),
 ]
 
 def scale(n): return 'Bud' if n <= 8 else ('Table' if n <= 18 else 'Statement')
@@ -147,9 +147,8 @@ for r in R:
     md += [f"### {r['no']} {r['title']} {r['em']}", '', r['summary'], '', '为什么这样配：' + r['why'], '']
     md += [f"{i+1}. {m}" for i,m in enumerate(r['method'])]
     md += ['', f"一键加购链接：`{r['cart']}`", '']
-md += ['## 注意', '', '- 04 用到的 Austin Roses with Eucalyptus（B0FLLPR1W9）不在网站花页里，链接直接到 Amazon。它的子 ASIN 是目录已标注的两个之一。',
-       '- Amazon 组合加购链接对未登录的客人会先要求登录，再回到加购页。上线前请用自己的 Amazon 账号点一次确认。',
-       '- 照片到位之前，页面用现有照片做临时图，并标注 Stand-in photo；临时图和配方的花材不完全一致，不能上线。']
+md += ['## 注意', '', '- Amazon 组合加购链接对未登录的客人会先要求登录，再回到加购页。上线前请用自己的 Amazon 账号点一次确认。',
+       '- 配方照片由 Codex 用商品原图生成（AI，REVIEW），James 或 Rachel 批准前不能上线。']
 open(ROOT+'/RECIPES.md','w').write('\n'.join(md)+'\n')
 
 # Shot list for Codex

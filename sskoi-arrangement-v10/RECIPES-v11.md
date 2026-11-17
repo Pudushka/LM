@@ -21,7 +21,7 @@
 
 Baby pink Austin roses with light peach ranunculus in a cream vase.
 
-为什么这样配：Two neighbouring pinks. The Austin roses lead; the smaller ranunculus fill the gaps and repeat the peach at the centre of each rose.
+为什么这样配：Two neighboring pinks. The Austin roses lead; the smaller ranunculus fill the gaps and repeat the peach at the center of each rose.
 
 1. Set the six roses first at slightly different heights, the tallest about twice the height of the vase.
 2. Add the ranunculus lower and to the sides, letting the buds stand a little above the roses.
@@ -33,7 +33,7 @@ Baby pink Austin roses with light peach ranunculus in a cream vase.
 
 Coral classic roses with orange ranunculus in a stone jug.
 
-为什么这样配：Coral and orange sit next to each other on the colour wheel. The open roses and their buds carry the shape; the orange ranunculus warm the base.
+为什么这样配：Coral and orange sit next to each other on the color wheel. The open roses and their buds carry the shape; the orange ranunculus warm the base.
 
 1. Place the roses first and let a few buds lean out over the rim.
 2. Add the ranunculus low, close to the lip of the jug.
@@ -45,10 +45,10 @@ Coral classic roses with orange ranunculus in a stone jug.
 
 White tulips, Austin roses and ranunculus in a wide stoneware crock.
 
-为什么这样配：One colour, three textures: smooth tulips for height, cupped Austin roses as the focal point, layered ranunculus with silvery leaves in between.
+为什么这样配：One color, three textures: smooth tulips for height, cupped Austin roses as the focal point, layered ranunculus with silvery leaves in between.
 
 1. Stand the tulips around the rim first, leaning out to set the width.
-2. Place the roses in the centre at two or three different heights.
+2. Place the roses in the center at two or three different heights.
 3. Fill the gaps with the ranunculus and let a few tulips rise above everything.
 
 一键加购链接：`https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DQDXM72R&Quantity.1=1&ASIN.2=B0DTFNZQRG&Quantity.2=1&ASIN.3=B0DTYJ5V1W&Quantity.3=1`
@@ -57,7 +57,7 @@ White tulips, Austin roses and ranunculus in a wide stoneware crock.
 
 Green-and-pink tulips with pink Austin roses and pink ranunculus.
 
-为什么这样配：Three pinks at different scales, tied together by the green of the tulips. The tulips draw the lines, the roses hold the centre, the ranunculus add detail.
+为什么这样配：Three pinks at different scales, tied together by the green of the tulips. The tulips draw the lines, the roses hold the center, the ranunculus add detail.
 
 1. Start with the tulips around the rim, leaning out.
 2. Place the roses in the middle at different heights.
@@ -69,10 +69,10 @@ Green-and-pink tulips with pink Austin roses and pink ranunculus.
 
 White classic roses with pink tips and baby pink ranunculus in a slim vase.
 
-为什么这样配：The pink edges on the white roses are picked up by the baby pink ranunculus, so the two sets read as one soft colour.
+为什么这样配：The pink edges on the white roses are picked up by the baby pink ranunculus, so the two sets read as one soft color.
 
 1. Set the roses so the open blooms sit low and the buds rise above.
-2. Add the ranunculus to one side for an off-centre outline.
+2. Add the ranunculus to one side for an off-center outline.
 3. Keep the top of the arrangement below the lampshade so the light falls on the petals.
 
 一键加购链接：`https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DSWSM1QY&Quantity.1=1&ASIN.2=B0DTYL1GYT&Quantity.2=1`
@@ -81,7 +81,7 @@ White classic roses with pink tips and baby pink ranunculus in a slim vase.
 
 Burgundy classic roses with dark purple tulips in smoked glass.
 
-为什么这样配：Burgundy and dark purple share their depth. The tall tulips draw the outline; the roses and their buds give it weight at the centre.
+为什么这样配：Burgundy and dark purple share their depth. The tall tulips draw the outline; the roses and their buds give it weight at the center.
 
 1. Stand the tulips first and let them fall open toward the rim.
 2. Place the roses through the middle, open blooms low and buds high.
@@ -91,6 +91,5 @@ Burgundy classic roses with dark purple tulips in smoked glass.
 
 ## 注意
 
-- 04 用到的 Austin Roses with Eucalyptus（B0FLLPR1W9）不在网站花页里，链接直接到 Amazon。它的子 ASIN 是目录已标注的两个之一。
 - Amazon 组合加购链接对未登录的客人会先要求登录，再回到加购页。上线前请用自己的 Amazon 账号点一次确认。
-- 照片到位之前，页面用现有照片做临时图，并标注 Stand-in photo；临时图和配方的花材不完全一致，不能上线。
+- 配方照片由 Codex 用商品原图生成（AI，REVIEW），James 或 Rachel 批准前不能上线。
