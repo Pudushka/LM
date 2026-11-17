@@ -95,6 +95,45 @@ R = [
   camera='Seated eye level, 50 mm, vase centerd, candles slightly out of focus on either side.'),
 ]
 
+# v12: roles, vases and copy follow real stem length (working values; confirm against the product size charts).
+STEM = {'tulip': 35, 'classic': 43, 'austin': 44, 'peony': 52}
+ROLE = {'tulip': 'Base', 'classic': 'Focal', 'austin': 'Focal', 'peony': 'Height'}
+V12 = {
+ '01': dict(vessel=dict(type='urn', name='Cream ceramic vase', h=20, w=9),
+   why='Two neighboring pinks. The Austin roses form the body; the ranunculus, on longer stems, rise above them and repeat the peach at the center of each rose.',
+   method=['Place the six roses first, heads turned outward, so they sit a little above the rim.',
+           'Add the four ranunculus between them; their longer stems carry the flowers and buds above the roses.',
+           'Turn the vase until one side stands a little higher than the other.']),
+ '02': dict(vessel=dict(type='jug', name='Stone jug', h=20, w=8),
+   why='Coral and orange sit next to each other on the color wheel. The roses and their buds make the body; the orange ranunculus lift above them on longer stems.',
+   method=['Place the roses first and let a few buds lean out over the lip.',
+           'Add the ranunculus behind and between the roses, where they stand taller.',
+           'Leave one side lighter than the other so the arrangement looks gathered, not packed.']),
+ '03': dict(vessel=dict(type='crock', name='Wide stoneware crock', h=16, w=14),
+   why='One color in three heights: tulips gathered low at the rim, Austin roses as the body, ranunculus above them with their round buds.',
+   method=['Set the twelve tulips around the rim first and let them lean outward.',
+           'Place the roses through the center, above the tulips.',
+           'Add the ranunculus last; their longer stems carry them above everything.']),
+ '04': dict(vessel=dict(type='crock', name='Wide glazed ceramic vase', h=16, w=13),
+   why='Three pinks in three heights, tied together by the green of the tulips: tulips low at the rim, roses through the middle, ranunculus on top.',
+   method=['Set the tulips around the rim first, leaning out.',
+           'Place the roses in the middle, above the tulips.',
+           'Add the ranunculus last and let their buds stand above the roses.']),
+ '05': dict(vessel=dict(type='bottle', name='Slim glazed vase', h=18, w=6),
+   why='The pink edges on the white roses are picked up by the baby pink ranunculus, so the two sets read as one soft color. The ranunculus stand above the roses.',
+   method=['Set the roses so the open blooms sit near the rim and the buds rise above them.',
+           'Add the ranunculus behind the roses, a little to one side, for an off-center outline.',
+           'Keep the top below the lampshade so the light falls on the petals.']),
+ '06': dict(vessel=dict(type='cylinder', name='Smoked glass vase', h=16, w=10),
+   why='Burgundy and dark purple share their depth. The tulips gather low around the rim; the roses and their buds rise above them.',
+   method=['Stand the tulips around the rim first and let them lean outward.',
+           'Place the roses through the middle, open blooms above the tulips and buds highest.',
+           'Light the table from one side; the dark petals need it.']),
+}
+for r in R:
+    r.update(V12[r['no']])
+    r['items'] = [(k, c, q, s, ROLE.get(k, role)) for k, c, q, s, role in r['items']]
+
 def scale(n): return 'Bud' if n <= 8 else ('Table' if n <= 18 else 'Statement')
 for r in R:
     r['stems'] = sum(s for _,_,_,s,_ in r['items'])
@@ -113,7 +152,7 @@ def prompt(r):
             f"On it, a {r['vessel']['name'].lower()} about {r['vessel']['h']} cm tall holding one loose, natural arrangement of exactly: {parts}. "
             "Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. "
             "Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. "
-            f"The arrangement is about twice the height of the vase, with varied heights and an asymmetric, gathered outline. {r['camera']} "
+            f"Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. {r['camera']} "
             "Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5.")
 
 for r in R: r['prompt'] = prompt(r)
@@ -135,8 +174,8 @@ for r in R:
 json.dump(dict(blocks=blocks, block_order=order), open(ROOT+'/build/template-blocks.json','w'), indent=1, ensure_ascii=False)
 
 # Recipe document (Chinese notes, English customer copy)
-md = ['# SSKOI 花艺配方册 v11（REVIEW，6 套）', '', '2026-11-17。替换现在的 Arrangement Studio（抠图拼贴）。6 套配方，每套由两到三种能直接买到的整套花组成，同一个花瓶里混搭。页面给出照片、用料和每种花的角色、花器、摆法和“一键加入 Amazon 购物车”。', '',
-      '搭配原则：每种花有角色（Focal 主花：Austin 和 Classic 玫瑰；Secondary 辅花：植绒露莲，补空隙、加质感；Line 线条花：郁金香，定高度和外轮廓）。花型大小要有变化。颜色用同色系深浅（Tonal）或相邻色（Analogous），一种颜色在几种花之间重复，绿色做框。整体高度约为花瓶的 1.5–2 倍。', '',
+md = ['# SSKOI 花艺配方册 v12（REVIEW，6 套）', '', '2026-11-17。替换现在的 Arrangement Studio（抠图拼贴）。6 套配方，每套由两到三种能直接买到的整套花组成，同一个花瓶里混搭。页面给出照片、用料和每种花的角色、花器、摆法和“一键加入 Amazon 购物车”。', '',
+      '搭配原则：每种花有角色，按真实枝长分层。花型大小要有变化。颜色用同色系深浅（Tonal）或相邻色（Analogous），一种颜色在几种花之间重复，绿色做框。高度由真实枝长决定（工作值，待按尺寸表确认）：郁金香约 35 cm 最矮，放在瓶口一圈（Base）；Classic 约 43 cm、Austin 约 44 cm 做主体（Focal）；露莲约 52 cm 最高，在上层（Height）。含郁金香的配方用 16 cm 花器，郁金香约露出 19 cm。', '',
       '体量：Bud ≤ 8 枝，Table 9–18 枝，Statement 19 枝以上。花器都不在套装内（礼盒自带的纸花器除外）。', '',
       '| No. | 名称 | 房间 | 色调 | 体量 | 用料（套 × 规格 · 颜色 · ASIN） | 花器 |', '|---|---|---|---|---|---|---|']
 for r in R:
@@ -152,7 +191,7 @@ md += ['## 注意', '', '- Amazon 组合加购链接对未登录的客人会先�
 open(ROOT+'/RECIPES.md','w').write('\n'.join(md)+'\n')
 
 # Shot list for Codex
-sl = ['# 配方照片拍摄清单（给 Codex ImageGen）v11，6 套', '', '每套出两张：`Hero 4:5`（2000 × 2500）和 `Wide 16:9`（2560 × 1440），sRGB JPEG，文件名 `SSKOI_Recipe-<No>_<Name>_<Hero-4x5|Wide-16x9>_v01_REVIEW.jpg`。上传到 Drive `SSKOI_Arrangement-Recipes_v10_REVIEW_20261117/02_Photos`，状态 REVIEW。',
+sl = ['# 配方照片拍摄清单 v12（6 套；花器高度和层次按真实枝长）', '', '每套出两张：`Hero 4:5`（2000 × 2500）和 `Wide 16:9`（2560 × 1440），sRGB JPEG，文件名 `SSKOI_Recipe-<No>_<Name>_<Hero-4x5|Wide-16x9>_v01_REVIEW.jpg`。上传到 Drive `SSKOI_Arrangement-Recipes_v10_REVIEW_20261117/02_Photos`，状态 REVIEW。',
       '', '## 所有照片的共同要求', '',
       '- 写实室内大片，水准对标 Architectural Digest、Hermès 和 Louis Vuitton 的居家画册：自然光单侧照明，柔和真实的阴影，材质真实（石灰墙、橡木、胡桃木、石材、亚麻），色调安静，衬托花而不抢花。',
       '- **花必须和参考商品图一致**：花型、花瓣层次、颜色、叶子、花苞数量都按参考图。Austin 玫瑰是参考图里的杯状花型，不要画成开敞露出黄色花蕊的样子；Classic 玫瑰每枝一朵开花加两个花苞；露莲每枝两朵花加一个花苞，叶子是银绿色植绒叶；郁金香是闭合的杯形。',

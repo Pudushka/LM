@@ -1,0 +1,280 @@
+[
+ {
+  "no": "01",
+  "key": "blush-and-peach",
+  "title": "Blush and",
+  "em": "Peach",
+  "room": "Console",
+  "palette": "Analogous",
+  "why": "Two neighboring pinks. The Austin roses form the body; the ranunculus, on longer stems, rise above them and repeat the peach at the center of each rose.",
+  "summary": "Baby pink Austin roses with light peach ranunculus in a cream vase.",
+  "items": [
+   [
+    "austin",
+    "Baby Pink",
+    1,
+    6,
+    "Focal"
+   ],
+   [
+    "peony",
+    "Light Peach",
+    1,
+    4,
+    "Height"
+   ]
+  ],
+  "vessel": {
+   "type": "urn",
+   "name": "Cream ceramic vase",
+   "h": 20,
+   "w": 9
+  },
+  "method": [
+   "Place the six roses first, heads turned outward, so they sit a little above the rim.",
+   "Add the four ranunculus between them; their longer stems carry the flowers and buds above the roses.",
+   "Turn the vase until one side stands a little higher than the other."
+  ],
+  "scene": "A pale oak console against a limewashed wall, one small linen-bound book, soft window light from the left.",
+  "camera": "Standing eye level, 50 mm, vase slightly left of center, the arrangement filling about 55% of the frame height.",
+  "stems": 10,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DTFNXBHF&Quantity.1=1&ASIN.2=B0DTYG3SY1&Quantity.2=1",
+  "prompt": "Photorealistic editorial interior photograph for a luxury home magazine, in the manner of Architectural Digest. A pale oak console against a limewashed wall, one small linen-bound book, soft window light from the left. On it, a cream ceramic vase about 20 cm tall holding one loose, natural arrangement of exactly: 6 stems of Austin roses in baby pink, one cupped many-petalled bloom per stem; 4 stems of flocked ranunculus in light peach, each stem with two layered flowers, one round bud and silvery-green flocked leaves. Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. Standing eye level, 50 mm, vase slightly left of center, the arrangement filling about 55% of the frame height. Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5."
+ },
+ {
+  "no": "02",
+  "key": "coral-hour",
+  "title": "Coral",
+  "em": "Hour",
+  "room": "Reading table",
+  "palette": "Analogous",
+  "why": "Coral and orange sit next to each other on the color wheel. The roses and their buds make the body; the orange ranunculus lift above them on longer stems.",
+  "summary": "Coral classic roses with orange ranunculus in a stone jug.",
+  "items": [
+   [
+    "classic",
+    "Coral",
+    1,
+    6,
+    "Focal"
+   ],
+   [
+    "peony",
+    "Orange",
+    1,
+    4,
+    "Height"
+   ]
+  ],
+  "vessel": {
+   "type": "jug",
+   "name": "Stone jug",
+   "h": 20,
+   "w": 8
+  },
+  "method": [
+   "Place the roses first and let a few buds lean out over the lip.",
+   "Add the ranunculus behind and between the roses, where they stand taller.",
+   "Leave one side lighter than the other so the arrangement looks gathered, not packed."
+  ],
+  "scene": "A round walnut side table beside a worn leather reading chair, an open book and a cup. Warm late-afternoon sun from the right.",
+  "camera": "Seated eye level, 50 mm, jug right of center, chair arm entering the left edge.",
+  "stems": 10,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DSWT9NMF&Quantity.1=1&ASIN.2=B0DTYBG3DP&Quantity.2=1",
+  "prompt": "Photorealistic editorial interior photograph for a luxury home magazine, in the manner of Architectural Digest. A round walnut side table beside a worn leather reading chair, an open book and a cup. Warm late-afternoon sun from the right. On it, a stone jug about 20 cm tall holding one loose, natural arrangement of exactly: 6 stems of classic roses in coral, each stem with one open rose and two closed buds; 4 stems of flocked ranunculus in orange, each stem with two layered flowers, one round bud and silvery-green flocked leaves. Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. Seated eye level, 50 mm, jug right of center, chair arm entering the left edge. Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5."
+ },
+ {
+  "no": "03",
+  "key": "white-garden",
+  "title": "White",
+  "em": "Garden",
+  "room": "Dining table",
+  "palette": "Tonal",
+  "why": "One color in three heights: tulips gathered low at the rim, Austin roses as the body, ranunculus above them with their round buds.",
+  "summary": "White tulips, Austin roses and ranunculus in a wide stoneware crock.",
+  "items": [
+   [
+    "tulip",
+    "White",
+    1,
+    12,
+    "Base"
+   ],
+   [
+    "austin",
+    "White",
+    1,
+    6,
+    "Focal"
+   ],
+   [
+    "peony",
+    "White",
+    1,
+    4,
+    "Height"
+   ]
+  ],
+  "vessel": {
+   "type": "crock",
+   "name": "Wide stoneware crock",
+   "h": 16,
+   "w": 14
+  },
+  "method": [
+   "Set the twelve tulips around the rim first and let them lean outward.",
+   "Place the roses through the center, above the tulips.",
+   "Add the ranunculus last; their longer stems carry them above everything."
+  ],
+  "scene": "A long scrubbed oak dining table in a pale plaster room, linen runner, a stack of plates at the far end. Soft overcast daylight from tall windows.",
+  "camera": "Standing, 50 mm, crock centerd on the table, the room receding behind.",
+  "stems": 22,
+  "scale": "Statement",
+  "sets": 3,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DQDXM72R&Quantity.1=1&ASIN.2=B0DTFNZQRG&Quantity.2=1&ASIN.3=B0DTYJ5V1W&Quantity.3=1",
+  "prompt": "Photorealistic editorial interior photograph for a luxury home magazine, in the manner of Architectural Digest. A long scrubbed oak dining table in a pale plaster room, linen runner, a stack of plates at the far end. Soft overcast daylight from tall windows. On it, a wide stoneware crock about 16 cm tall holding one loose, natural arrangement of exactly: 12 tulips in white, one closed cup-shaped bloom per stem; 6 stems of Austin roses in white, one cupped many-petalled bloom per stem; 4 stems of flocked ranunculus in white, each stem with two layered flowers, one round bud and silvery-green flocked leaves. Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. Standing, 50 mm, crock centerd on the table, the room receding behind. Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5."
+ },
+ {
+  "no": "04",
+  "key": "pink-and-green",
+  "title": "Pink and",
+  "em": "Green",
+  "room": "Living room",
+  "palette": "Tonal",
+  "why": "Three pinks in three heights, tied together by the green of the tulips: tulips low at the rim, roses through the middle, ranunculus on top.",
+  "summary": "Green-and-pink tulips with pink Austin roses and pink ranunculus.",
+  "items": [
+   [
+    "tulip",
+    "Green With Pink Tip",
+    1,
+    12,
+    "Base"
+   ],
+   [
+    "austin",
+    "Pink",
+    1,
+    6,
+    "Focal"
+   ],
+   [
+    "peony",
+    "Pink",
+    1,
+    4,
+    "Height"
+   ]
+  ],
+  "vessel": {
+   "type": "crock",
+   "name": "Wide glazed ceramic vase",
+   "h": 16,
+   "w": 13
+  },
+  "method": [
+   "Set the tulips around the rim first, leaning out.",
+   "Place the roses in the middle, above the tulips.",
+   "Add the ranunculus last and let their buds stand above the roses."
+  ],
+  "scene": "A garden room with a pine table, terracotta floor and a window onto green foliage. Bright, soft overcast light.",
+  "camera": "Standing, 35 mm, vase centerd on the table, window behind and to the right.",
+  "stems": 22,
+  "scale": "Statement",
+  "sets": 3,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DQF16XSS&Quantity.1=1&ASIN.2=B0DTFPD9F9&Quantity.2=1&ASIN.3=B0DTYBPB9F&Quantity.3=1",
+  "prompt": "Photorealistic editorial interior photograph for a luxury home magazine, in the manner of Architectural Digest. A garden room with a pine table, terracotta floor and a window onto green foliage. Bright, soft overcast light. On it, a wide glazed ceramic vase about 16 cm tall holding one loose, natural arrangement of exactly: 12 tulips in green with pink tip, one closed cup-shaped bloom per stem; 6 stems of Austin roses in pink, one cupped many-petalled bloom per stem; 4 stems of flocked ranunculus in pink, each stem with two layered flowers, one round bud and silvery-green flocked leaves. Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. Standing, 35 mm, vase centerd on the table, window behind and to the right. Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5."
+ },
+ {
+  "no": "05",
+  "key": "soft-white",
+  "title": "Soft",
+  "em": "White",
+  "room": "Bedside",
+  "palette": "Tonal",
+  "why": "The pink edges on the white roses are picked up by the baby pink ranunculus, so the two sets read as one soft color. The ranunculus stand above the roses.",
+  "summary": "White classic roses with pink tips and baby pink ranunculus in a slim vase.",
+  "items": [
+   [
+    "classic",
+    "White With Pink Tip",
+    1,
+    6,
+    "Focal"
+   ],
+   [
+    "peony",
+    "Baby Pink",
+    1,
+    4,
+    "Height"
+   ]
+  ],
+  "vessel": {
+   "type": "bottle",
+   "name": "Slim glazed vase",
+   "h": 18,
+   "w": 6
+  },
+  "method": [
+   "Set the roses so the open blooms sit near the rim and the buds rise above them.",
+   "Add the ranunculus behind the roses, a little to one side, for an off-center outline.",
+   "Keep the top below the lampshade so the light falls on the petals."
+  ],
+  "scene": "An oak bedside table, linen bedding edge, a pleated lamp switched on, two books. Dusk light.",
+  "camera": "Low, at mattress height, 50 mm, vase right of center, lamp partly in frame.",
+  "stems": 10,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DSWSM1QY&Quantity.1=1&ASIN.2=B0DTYL1GYT&Quantity.2=1",
+  "prompt": "Photorealistic editorial interior photograph for a luxury home magazine, in the manner of Architectural Digest. An oak bedside table, linen bedding edge, a pleated lamp switched on, two books. Dusk light. On it, a slim glazed vase about 18 cm tall holding one loose, natural arrangement of exactly: 6 stems of classic roses in white with pink tip, each stem with one open rose and two closed buds; 4 stems of flocked ranunculus in baby pink, each stem with two layered flowers, one round bud and silvery-green flocked leaves. Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. Low, at mattress height, 50 mm, vase right of center, lamp partly in frame. Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5."
+ },
+ {
+  "no": "06",
+  "key": "late-plum",
+  "title": "Late",
+  "em": "Plum",
+  "room": "Evening table",
+  "palette": "Analogous",
+  "why": "Burgundy and dark purple share their depth. The tulips gather low around the rim; the roses and their buds rise above them.",
+  "summary": "Burgundy classic roses with dark purple tulips in smoked glass.",
+  "items": [
+   [
+    "classic",
+    "Burgundy",
+    1,
+    6,
+    "Focal"
+   ],
+   [
+    "tulip",
+    "Dark Purple",
+    1,
+    12,
+    "Base"
+   ]
+  ],
+  "vessel": {
+   "type": "cylinder",
+   "name": "Smoked glass vase",
+   "h": 16,
+   "w": 10
+  },
+  "method": [
+   "Stand the tulips around the rim first and let them lean outward.",
+   "Place the roses through the middle, open blooms above the tulips and buds highest.",
+   "Light the table from one side; the dark petals need it."
+  ],
+  "scene": "A dark-stained dining table, two lit taper candles, linen napkins, a deep plaster wall. Evening candlelight and one soft side light.",
+  "camera": "Seated eye level, 50 mm, vase centerd, candles slightly out of focus on either side.",
+  "stems": 18,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DSXY4KDH&Quantity.1=1&ASIN.2=B0DQDVL846&Quantity.2=1",
+  "prompt": "Photorealistic editorial interior photograph for a luxury home magazine, in the manner of Architectural Digest. A dark-stained dining table, two lit taper candles, linen napkins, a deep plaster wall. Evening candlelight and one soft side light. On it, a smoked glass vase about 16 cm tall holding one loose, natural arrangement of exactly: 6 stems of classic roses in burgundy, each stem with one open rose and two closed buds; 12 tulips in dark purple, one closed cup-shaped bloom per stem. Every flower must match the reference product photographs exactly: same flower shape, petal layers, colour, leaves and buds. Faux flowers that look real. No other flowers, no extra greenery, no fillers. All stems are in the vase. Every stem is full length (tulips about 35 cm, classic roses about 43 cm, Austin roses about 44 cm, ranunculus about 52 cm) and stands in a vase of the stated height, so the tulips sit lowest and the ranunculus highest. Natural overlap; flowers do not all face the camera. Seated eye level, 50 mm, vase centerd, candles slightly out of focus on either side. Natural light, soft real shadows, quiet muted palette that lets the flowers lead. No people, no text, no logos. Vertical 4:5."
+ }
+]
