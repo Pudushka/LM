@@ -1,0 +1,178 @@
+{%- liquid
+  assign facts = section.blocks | where: 'type', 'fact'
+  assign closeups = section.blocks | where: 'type', 'closeup'
+  assign colors = section.blocks | where: 'type', 'color'
+  assign scenes = section.blocks | where: 'type', 'scene'
+  assign others = section.blocks | where: 'type', 'flower'
+  assign s = section.settings
+-%}
+<div class="ssko-v09-more">
+  {%- if s.statement_heading != blank -%}
+    <section class="ssko-v09-mod ssko-v09-statement" aria-labelledby="ssko-v09-facts-{{ section.id }}">
+      <div class="wrap">
+        {%- if s.statement_eyebrow != blank -%}<p class="mono">{{ s.statement_eyebrow | escape }}</p>{%- endif -%}
+        <h2 id="ssko-v09-facts-{{ section.id }}">{{ s.statement_heading | escape }} <em>{{ s.statement_emphasis | escape }}</em></h2>
+        {%- if facts.size > 0 -%}
+          <dl class="ssko-v09-facts">
+            {%- for fact in facts -%}
+              <div {{ fact.shopify_attributes }}><dt>{{ fact.settings.label | escape }}</dt><dd>{{ fact.settings.value | escape }}{% if fact.settings.note != blank %}<small>{{ fact.settings.note | escape }}</small>{% endif %}</dd></div>
+            {%- endfor -%}
+          </dl>
+        {%- endif -%}
+        {%- if s.statement_note != blank -%}<p class="ssko-v09-note">{{ s.statement_note | escape }}</p>{%- endif -%}
+      </div>
+      {%- if s.statement_image != blank -%}
+        <div class="ssko-v09-statement__cut" aria-hidden="true">{{ s.statement_image | image_url: width: 1200 | image_tag: widths: '600, 900, 1200', sizes: '(min-width: 761px) 46vw, 90vw', alt: '', loading: 'lazy' }}</div>
+      {%- endif -%}
+    </section>
+  {%- endif -%}
+
+  {%- if closeups.size > 0 -%}
+    <section class="ssko-v09-mod wrap" aria-labelledby="ssko-v09-close-{{ section.id }}">
+      <div class="ssko-v09-mod__head"><div>
+        <h2 id="ssko-v09-close-{{ section.id }}">{{ s.closeup_heading | escape }} <em>{{ s.closeup_emphasis | escape }}</em></h2>
+        {%- if s.closeup_copy != blank -%}<p class="ssko-v09-lede">{{ s.closeup_copy | escape }}</p>{%- endif -%}
+      </div></div>
+      <ul class="ssko-v09-trio">
+        {%- for item in closeups -%}
+          <li {{ item.shopify_attributes }}><figure>
+            <div class="ssko-v09-ph">{% render 'ssko-v09-img', image: item.settings.image, asset: item.settings.image_asset, alt: item.settings.alt, width: 900, widths: '450, 900', sizes: '(min-width: 761px) 31vw, 72vw' %}</div>
+            <figcaption class="mono"><span>{{ item.settings.caption | escape }}</span><span>{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span></figcaption>
+          </figure></li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endif -%}
+
+  {%- if colors.size > 0 -%}
+    <section class="ssko-v09-mod wrap" aria-labelledby="ssko-v09-colors-{{ section.id }}">
+      <div class="ssko-v09-mod__head">
+        <div>
+          <h2 id="ssko-v09-colors-{{ section.id }}">{{ s.colors_heading | escape }} <em>{{ s.colors_emphasis | escape }}</em></h2>
+          {%- if s.colors_copy != blank -%}<p class="ssko-v09-lede">{{ s.colors_copy | escape }}</p>{%- endif -%}
+        </div>
+        <span class="mono">{{ colors.size }} colors</span>
+      </div>
+      <ul class="ssko-v09-mini">
+        {%- for item in colors -%}
+          <li {{ item.shopify_attributes }}>
+            <a href="#color={{ item.settings.name | url_encode }}" data-ssko-v09-color="{{ item.settings.name | escape }}"{% if forloop.first %} class="is-current" aria-current="true"{% endif %}>
+              <span class="ssko-v09-ph">{% render 'ssko-v09-img', image: item.settings.image, asset: item.settings.image_asset, alt: '', width: 600, widths: '300, 600', sizes: '(min-width: 761px) 18vw, 30vw' %}</span>
+              <span class="mono">{{ item.settings.name | escape }}</span>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endif -%}
+
+  {%- if scenes.size > 0 -%}
+    <section class="ssko-v09-mod wrap" aria-labelledby="ssko-v09-home-{{ section.id }}">
+      <div class="ssko-v09-mod__head">
+        <div>
+          <h2 id="ssko-v09-home-{{ section.id }}">{{ s.home_heading | escape }} <em>{{ s.home_emphasis | escape }}</em></h2>
+          {%- if s.home_copy != blank -%}<p class="ssko-v09-lede">{{ s.home_copy | escape }}</p>{%- endif -%}
+        </div>
+        {%- if s.home_link != blank -%}<a class="text-link" href="{{ s.home_link | escape }}">{{ s.home_link_label | escape }} {% render 'sskoi-arrow', direction: 'right' %}</a>{%- endif -%}
+      </div>
+      <ul class="ssko-v09-duo{% if scenes.size == 1 %} is-single{% endif %}">
+        {%- for item in scenes -%}
+          <li {{ item.shopify_attributes }}><figure>
+            <div class="ssko-v09-ph">{% render 'ssko-v09-img', image: item.settings.image, asset: item.settings.image_asset, alt: item.settings.alt, width: 900, widths: '450, 900', sizes: '(min-width: 761px) 48vw, 92vw' %}</div>
+            <figcaption><b>{{ item.settings.title | escape }}</b>{{ item.settings.caption | escape }}</figcaption>
+          </figure></li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endif -%}
+
+  {%- if others.size > 0 -%}
+    <section class="ssko-v09-mod wrap" aria-labelledby="ssko-v09-more-{{ section.id }}">
+      <div class="ssko-v09-mod__head">
+        <h2 id="ssko-v09-more-{{ section.id }}">{{ s.more_heading | escape }} <em>{{ s.more_emphasis | escape }}</em></h2>
+        {%- if s.more_link != blank -%}<a class="text-link" href="{{ s.more_link | escape }}">All flowers {% render 'sskoi-arrow', direction: 'right' %}</a>{%- endif -%}
+      </div>
+      <ul class="ssko-v09-more-grid">
+        {%- for item in others -%}
+          <li {{ item.shopify_attributes }}>
+            <a href="{{ item.settings.link | escape }}">
+              <div class="ssko-v09-ph">{% render 'ssko-v09-img', image: item.settings.image, asset: item.settings.image_asset, alt: item.settings.alt, width: 720, widths: '360, 720', sizes: '(min-width: 761px) 23vw, 62vw' %}</div>
+              <h3>{{ item.settings.title | escape }} <em>{{ item.settings.emphasis | escape }}</em></h3>
+              <p class="mono">{{ item.settings.spec | escape }}</p>
+              {% render 'ssko-v09-dots', swatches: item.settings.swatches %}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "SSKOI flower page extras",
+  "max_blocks": 40,
+  "settings": [
+    {"type":"header","content":"Set at a glance"},
+    {"type":"text","id":"statement_eyebrow","label":"Small heading"},
+    {"type":"text","id":"statement_heading","label":"Headline"},
+    {"type":"text","id":"statement_emphasis","label":"Headline accent"},
+    {"type":"text","id":"statement_note","label":"Note under the facts"},
+    {"type":"image_picker","id":"statement_image","label":"Cut-out photo"},
+    {"type":"header","content":"Up close"},
+    {"type":"text","id":"closeup_heading","label":"Heading","default":"Up"},
+    {"type":"text","id":"closeup_emphasis","label":"Heading accent","default":"close."},
+    {"type":"textarea","id":"closeup_copy","label":"Text"},
+    {"type":"header","content":"In every color"},
+    {"type":"text","id":"colors_heading","label":"Heading","default":"In every"},
+    {"type":"text","id":"colors_emphasis","label":"Heading accent","default":"color."},
+    {"type":"text","id":"colors_copy","label":"Text","default":"Tap a color to switch the photos and the Amazon link above."},
+    {"type":"header","content":"At home"},
+    {"type":"text","id":"home_heading","label":"Heading"},
+    {"type":"text","id":"home_emphasis","label":"Heading accent","default":"at home."},
+    {"type":"textarea","id":"home_copy","label":"Text"},
+    {"type":"text","id":"home_link_label","label":"Link label","default":"Open the lookbook"},
+    {"type":"text","id":"home_link","label":"Link","default":"/?view=sskoi-lookbook"},
+    {"type":"header","content":"More flowers"},
+    {"type":"text","id":"more_heading","label":"Heading","default":"More"},
+    {"type":"text","id":"more_emphasis","label":"Heading accent","default":"flowers."},
+    {"type":"text","id":"more_link","label":"All flowers link","default":"/#flowers"}
+  ],
+  "blocks": [
+    {"type":"fact","name":"Fact","settings":[
+      {"type":"text","id":"label","label":"Label"},
+      {"type":"text","id":"value","label":"Value"},
+      {"type":"text","id":"note","label":"Small note"}
+    ]},
+    {"type":"closeup","name":"Close-up photo","settings":[
+      {"type":"image_picker","id":"image","label":"Photo"},
+      {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"},
+      {"type":"text","id":"caption","label":"Caption"},
+      {"type":"text","id":"alt","label":"Image description"}
+    ]},
+    {"type":"color","name":"Color","settings":[
+      {"type":"text","id":"name","label":"Color name (must match the color choice above)"},
+      {"type":"image_picker","id":"image","label":"Photo"},
+      {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"}
+    ]},
+    {"type":"scene","name":"Room photo","settings":[
+      {"type":"image_picker","id":"image","label":"Photo"},
+      {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"},
+      {"type":"text","id":"title","label":"Title"},
+      {"type":"text","id":"caption","label":"Caption"},
+      {"type":"text","id":"alt","label":"Image description"}
+    ]},
+    {"type":"flower","name":"Other flower","settings":[
+      {"type":"image_picker","id":"image","label":"Photo"},
+      {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"},
+      {"type":"text","id":"title","label":"Title"},
+      {"type":"text","id":"emphasis","label":"Title accent"},
+      {"type":"text","id":"spec","label":"Set specification"},
+      {"type":"text","id":"swatches","label":"Color dots","info":"Comma-separated, for example: Coral #d98268, Burgundy #6d283f"},
+      {"type":"text","id":"link","label":"Link"},
+      {"type":"text","id":"alt","label":"Image description"}
+    ]}
+  ],
+  "presets": [{"name":"SSKOI flower page extras"}]
+}
+{% endschema %}

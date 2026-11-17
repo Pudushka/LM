@@ -1,0 +1,15 @@
+{%- assign s = flower.settings -%}
+{%- if s.photo_room != blank or s.photo_room_asset != blank -%}
+  <div class="thumb ssko-v09-pair">
+    <figure>
+      <div class="ssko-v09-ph">{% render 'ssko-v09-img', image: s.photo_room, asset: s.photo_room_asset, alt: s.photo_room_alt, width: 720, widths: '360, 720', sizes: '(min-width: 901px) 150px, 46vw' %}</div>
+      <figcaption>{{ s.photo_room_label | escape }}</figcaption>
+    </figure>
+    <figure>
+      <div class="ssko-v09-ph">{% render 'ssko-v09-img', image: s.photo_close, asset: s.photo_close_asset, alt: s.photo_close_alt, width: 720, widths: '360, 720', sizes: '(min-width: 901px) 150px, 46vw' %}</div>
+      <figcaption>{{ s.photo_close_label | escape }}</figcaption>
+    </figure>
+  </div>
+{%- else -%}
+  <div class="thumb"><img src="{{ s.image | asset_url }}" width="700" height="700" loading="lazy" alt="{{ s.alt | escape }}"></div>
+{%- endif -%}

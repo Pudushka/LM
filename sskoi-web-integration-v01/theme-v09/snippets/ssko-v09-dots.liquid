@@ -1,0 +1,11 @@
+{%- comment -%} Color dots from "Name #hex" or "Name #hex/#hex" pairs separated by commas. {%- endcomment -%}
+{%- if swatches != blank -%}
+  {%- assign items = swatches | split: ',' -%}
+  <span class="ssko-v09-dots" aria-label="{{ items.size }} colors">
+    {%- for item in items -%}
+      {%- assign parts = item | strip | split: '#' -%}
+      {%- assign tip = parts[2] | strip -%}
+      <i title="{{ parts[0] | strip | remove: '/' | escape }}" style="--c:#{{ parts[1] | strip | remove: '/' }}{% if tip != blank %};--t:#{{ tip }}{% endif %}"></i>
+    {%- endfor -%}
+  </span>
+{%- endif -%}

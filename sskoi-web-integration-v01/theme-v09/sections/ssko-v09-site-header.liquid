@@ -1,0 +1,24 @@
+{%- assign journal = blogs['journal'] -%}
+<header class="ssko-v09-head">
+  <div class="bar wrap">
+    <a class="wordmark" href="{{ routes.root_url }}" aria-label="SSKOI home">SSKOI</a>
+    <nav class="mono" aria-label="Main">
+      <a href="{{ routes.root_url }}#flowers">Flowers</a>
+      <a href="{{ routes.root_url }}#rooms">Rooms</a>
+      <a href="{{ routes.root_url }}#gift">Gift box</a>
+      {%- if journal != blank -%}
+        <a class="ssko-home-journal-link" href="{{ journal.url | escape }}">Journal</a>
+      {%- endif -%}
+      <a class="pill" href="{{ section.settings.store_url | escape }}">Shop on Amazon {% render 'sskoi-arrow' %}</a>
+    </nav>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "SSKOI flower page header",
+  "settings": [
+    {"type":"text","id":"store_url","label":"Amazon storefront","default":"https://www.amazon.com/stores/Sskoi/page/E354F83F-CFAD-4E19-B21F-F4251CA5B249"}
+  ]
+}
+{% endschema %}

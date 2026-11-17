@@ -1,0 +1,12 @@
+{%- assign s = room.settings -%}
+<figure class="room ssko-v09-room" {{ room.shopify_attributes }}>
+  <a href="{{ s.link | escape }}">
+    <div class="frame">{% render 'ssko-v09-img', image: s.image_file, asset: s.image, alt: s.alt, width: 900, widths: '450, 900', sizes: '(min-width: 761px) 420px, 78vw', aw: 1536, ah: 1024 %}</div>
+    <span class="ssko-v09-room__shade" aria-hidden="true"></span>
+    <span class="ssko-v09-room__txt">
+      <strong>{{ s.title | escape }}{% if s.emphasis != blank %} <em>{{ s.emphasis | escape }}</em>{% endif %}</strong>
+      <span class="ssko-v09-room__rule" aria-hidden="true"></span>
+      <span class="mono ssko-v09-room__meta"><span>{{ s.flower | escape }}{% if s.meta != blank %} · {{ s.meta | escape }}{% endif %}</span><span>Shop {% render 'sskoi-arrow', direction: 'right' %}</span></span>
+    </span>
+  </a>
+</figure>

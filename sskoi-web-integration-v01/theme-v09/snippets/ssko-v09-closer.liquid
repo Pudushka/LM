@@ -1,0 +1,22 @@
+{%- assign plates = blocks | where: 'type', 'closer' -%}
+{%- if plates.size > 0 -%}
+  <section class="ssko-v09-closer wrap" id="closer" aria-labelledby="ssko-v09-closer-h">
+    <div class="sec-head">
+      <h2 id="ssko-v09-closer-h">{{ heading | escape }} <em>{{ emphasis | escape }}</em></h2>
+      {%- if copy != blank -%}<p>{{ copy | escape }}</p>{%- endif -%}
+    </div>
+    <ul class="ssko-v09-closer__grid">
+      {%- for plate in plates -%}
+        {%- assign s = plate.settings -%}
+        <li class="ssko-v09-plate" {{ plate.shopify_attributes }}>
+          <a href="{{ s.link | escape }}">
+            <div class="ssko-v09-plate__im">{% render 'ssko-v09-img', image: s.image, asset: s.image_asset, alt: s.alt, width: 900, widths: '450, 900', sizes: '(min-width: 761px) 23vw, 74vw' %}</div>
+            <h3>{{ s.title | escape }}</h3>
+            <p>{{ s.text | escape }}</p>
+            <span class="mono"><span>{{ s.meta | escape }}</span><span>Explore {% render 'sskoi-arrow', direction: 'right' %}</span></span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+{%- endif -%}

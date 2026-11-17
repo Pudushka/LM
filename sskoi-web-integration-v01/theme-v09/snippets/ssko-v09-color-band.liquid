@@ -1,0 +1,60 @@
+{%- comment -%}
+  Home "Every color". Each color_family block lists one color per line as "Name | file:<Files name>" or "Name | asset:<theme asset>".
+{%- endcomment -%}
+{%- assign families = blocks | where: 'type', 'color_family' -%}
+{%- if families.size > 0 -%}
+  {%- assign default_id = families.first.id -%}
+  {%- for fam in families -%}{%- if fam.settings.selected -%}{%- assign default_id = fam.id -%}{%- break -%}{%- endif -%}{%- endfor -%}
+  <section class="ssko-v09-colors" id="colors" aria-labelledby="ssko-v09-colors-h" data-ssko-v09-colors>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="ssko-v09-colors-h">{{ heading | escape }} <em>{{ emphasis | escape }}</em></h2>
+        {%- if copy != blank -%}<p>{{ copy | escape }}</p>{%- endif -%}
+      </div>
+      <div class="ssko-v09-tabs" role="tablist" aria-label="Flower sets">
+        {%- for fam in families -%}
+          {%- assign lines = fam.settings.colors | strip | newline_to_br | split: '<br />' -%}
+          <button type="button" role="tab" id="ssko-v09-tab-{{ fam.id }}" aria-controls="ssko-v09-panel-{{ fam.id }}" aria-selected="{% if fam.id == default_id %}true{% else %}false{% endif %}" tabindex="{% if fam.id == default_id %}0{% else %}-1{% endif %}">{{ fam.settings.name | escape }}<sup>{{ lines.size }}</sup></button>
+        {%- endfor -%}
+      </div>
+      {%- for fam in families -%}
+        {%- assign lines = fam.settings.colors | strip | newline_to_br | split: '<br />' -%}
+        {%- assign open_name = fam.settings.open | strip -%}
+        <div class="ssko-v09-panel" role="tabpanel" id="ssko-v09-panel-{{ fam.id }}" aria-labelledby="ssko-v09-tab-{{ fam.id }}" tabindex="0" {% unless fam.id == default_id %}hidden{% endunless %} {{ fam.shopify_attributes }}>
+          <ul class="ssko-v09-slices">
+            {%- for line in lines -%}
+              {%- assign parts = line | strip | split: '|' -%}
+              {%- assign cname = parts[0] | strip -%}
+              {%- if cname == blank -%}{%- continue -%}{%- endif -%}
+              {%- assign ref = parts[1] | strip -%}
+              {%- assign im = nil -%}
+              {%- assign as = nil -%}
+              {%- if ref contains 'file:' -%}
+                {%- assign fname = ref | remove_first: 'file:' | strip -%}
+                {%- assign im = images[fname] -%}
+              {%- else -%}
+                {%- assign as = ref | remove_first: 'asset:' | strip -%}
+              {%- endif -%}
+              {%- assign is_open = false -%}
+              {%- if open_name == blank and forloop.first -%}{%- assign is_open = true -%}{%- endif -%}
+              {%- if open_name != blank and cname == open_name -%}{%- assign is_open = true -%}{%- endif -%}
+              <li class="ssko-v09-slice{% if is_open %} is-open{% endif %}">
+                <a href="{{ fam.settings.link | escape }}#color={{ cname | url_encode }}" aria-label="{{ cname | escape }} {{ fam.settings.name | escape }}">
+                  <span class="ssko-v09-slice__im">
+                    {%- render 'ssko-v09-img', image: im, asset: as, alt: '', width: 600, widths: '300, 600', sizes: '(min-width: 761px) 22vw, 184px' -%}
+                    <span class="ssko-v09-slice__open" aria-hidden="true"><strong>{{ cname | escape }}</strong><em>Open {{ cname | escape }} {{ fam.settings.name | escape }} {% render 'sskoi-arrow', direction: 'right' %}</em></span>
+                  </span>
+                  <span class="ssko-v09-slice__label" aria-hidden="true"><b>{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</b> <i>{{ cname | escape }}</i></span>
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          <div class="ssko-v09-colors__foot mono">
+            <span>{{ fam.settings.name | escape }} · {{ lines.size }} colors{% if fam.settings.note != blank %} · {{ fam.settings.note | escape }}{% endif %}</span>
+            <a href="{{ fam.settings.link | escape }}">Shop {{ fam.settings.name | escape }} {% render 'sskoi-arrow', direction: 'right' %}</a>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </section>
+{%- endif -%}

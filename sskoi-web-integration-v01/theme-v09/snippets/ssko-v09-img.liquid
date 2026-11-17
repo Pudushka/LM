@@ -1,0 +1,13 @@
+{%- comment -%}
+  One photograph from Files (image) or, failing that, a theme asset filename (asset).
+  Pass width, widths, sizes, alt and loading. Asset images take aw and ah for their pixel size.
+{%- endcomment -%}
+{%- liquid
+  assign w = width | default: 900
+  assign l = loading | default: 'lazy'
+-%}
+{%- if image != blank -%}
+  {{- image | image_url: width: w | image_tag: widths: widths, sizes: sizes, alt: alt, loading: l, class: 'ssko-v09-img' -}}
+{%- elsif asset != blank -%}
+  <img class="ssko-v09-img" src="{{ asset | asset_url }}" width="{{ aw | default: 1260 }}" height="{{ ah | default: 1260 }}" alt="{{ alt | escape }}" loading="{{ l }}" decoding="async">
+{%- endif -%}
