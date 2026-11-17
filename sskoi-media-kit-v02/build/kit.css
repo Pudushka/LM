@@ -1,0 +1,152 @@
+/* SSKOI media kit: shared look for every still and video frame */
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap");
+:root{
+  --ink:#1d1418; --paper:#ede4e1; --paper-2:#e2d5d1; --paper-3:#d6c4bf;
+  --blush:#f6cfcd; --coral:#f47a60; --box:#12261c;
+  --display:"Bodoni Moda","Didot",Georgia,serif;
+  --text:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono",Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+img{display:block}
+.mono{font:400 21px/1.45 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.mast{font:500 40px/1 var(--display);letter-spacing:.36em;margin-right:-.36em;display:inline-block}
+em{font-style:italic}
+.canvas{position:absolute;inset:0;overflow:hidden}
+
+/* ---- cover: full-bleed photograph, masthead, two-line title ---- */
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,20,24,.46) 0,rgba(29,20,24,0) 20%),linear-gradient(0deg,rgba(29,20,24,.84) 0,rgba(29,20,24,.46) 30%,rgba(29,20,24,0) 58%)}
+.cover .top{position:absolute;inset:54px 0 auto;text-align:center;color:var(--paper)}
+.cover .bot{position:absolute;inset:auto 64px 60px;color:var(--paper)}
+.cover h1{font:400 var(--h,150px)/.84 var(--display);letter-spacing:-.035em}
+.cover h1 span{display:block}
+.cover h1 em{display:block;color:var(--blush);padding-left:.3em}
+.cover .rule{height:1px;background:rgba(237,228,225,.34);margin:34px 0 20px}
+
+/* ---- plate: one photograph mounted on paper with a caption ---- */
+.plate .head{position:absolute;inset:58px 70px auto;display:flex;justify-content:space-between;align-items:baseline}
+.plate .head .mast{font-size:34px}
+.plate .photo{position:absolute;left:70px;top:132px;width:940px;height:960px;overflow:hidden;background:var(--paper-2)}
+.plate .photo img{width:100%;height:100%;object-fit:cover}
+.plate .cap{position:absolute;inset:auto 70px 62px;display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+.plate h2{font:400 84px/.92 var(--display);letter-spacing:-.025em}
+.plate .cap .mono{text-align:right;max-width:330px}
+
+/* ---- note: styling advice with two photographs ---- */
+.note .head{position:absolute;inset:58px 70px auto;display:flex;justify-content:space-between;align-items:baseline}
+.note .head .mast{font-size:34px}
+.note .a{position:absolute;left:70px;top:132px;width:940px;height:690px;overflow:hidden}
+.note .b{position:absolute;left:70px;top:852px;width:420px;height:420px;overflow:hidden}
+.note .a img,.note .b img{width:100%;height:100%;object-fit:cover}
+.note .txt{position:absolute;left:530px;top:852px;width:480px;height:420px;display:flex;flex-direction:column;justify-content:flex-end}
+.note h2{font:400 70px/.95 var(--display);letter-spacing:-.025em;margin:16px 0 22px}
+.note p.body{font:400 27px/1.42 var(--text)}
+
+/* ---- colours: every colour of one flower, cut out on paper ---- */
+.colours .head{position:absolute;inset:58px 64px auto}
+.colours .head .row{display:flex;justify-content:space-between;align-items:baseline}
+.colours .head .mast{font-size:34px}
+.colours h1{font:400 92px/.9 var(--display);letter-spacing:-.03em;margin-top:42px}
+.colours h1 em{display:block}
+.colours .grid{position:absolute;left:50px;right:50px;top:372px;bottom:96px;display:flex;flex-wrap:wrap;justify-content:center;align-content:space-evenly}
+.colours .cell{width:var(--w);text-align:center}
+.colours .cell .im{width:100%;height:var(--ch);padding:0 var(--pad,10px)}
+.colours .cell img{width:100%;height:100%;object-fit:contain;object-position:50% 100%}
+.colours .cell span{display:block;font:400 16px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;margin-top:12px;min-height:21px}
+.colours .foot{position:absolute;inset:auto 64px 44px;display:flex;justify-content:space-between;opacity:.7}
+.colours .foot .mono{font-size:17px}
+
+/* ---- statement: large type with a bouquet in front of it ---- */
+.statement{background:var(--bg,var(--ink));color:var(--fg,var(--paper))}
+.statement .top{position:absolute;inset:58px 64px auto;display:flex;justify-content:space-between;align-items:baseline}
+.statement .top .mast{font-size:34px}
+.statement h1{position:absolute;left:60px;top:var(--ty,190px);font:400 var(--h,196px)/.82 var(--display);letter-spacing:-.04em}
+.statement h1 span{display:block}
+.statement h1 em{display:block;color:var(--em,var(--blush))}
+.statement .cut{position:absolute;left:var(--cx,120px);top:var(--cy,380px);width:var(--cw,980px);height:var(--cw,980px);object-fit:contain}
+.statement .foot{position:absolute;inset:auto 64px 54px;display:flex;justify-content:space-between;align-items:flex-end}
+.statement .foot p{max-width:560px;font:400 28px/1.4 var(--text)}
+
+/* ---- story: 9:16, photograph mounted on paper, title below.
+   Everything sits between y=250 and y=1670 so the Instagram header and reply bar never cover it ---- */
+.story .top{position:absolute;inset:262px 0 auto;text-align:center}
+.story .photo{position:absolute;left:60px;top:340px;width:960px;height:990px;overflow:hidden;background:var(--paper-2)}
+.story .photo img{width:100%;height:100%;object-fit:cover}
+.story .bot{position:absolute;inset:1366px 60px auto}
+.story h1{font:400 var(--h,112px)/.86 var(--display);letter-spacing:-.035em}
+.story h1 span{display:block}
+.story h1 em{display:block;padding-left:.3em}
+.story .rule{height:1px;background:var(--ink);opacity:.25;margin:24px 0 16px}
+
+/* ================= v02 layouts ================= */
+
+/* ---- mount: a landscape photograph on paper with the title below (4:5) ---- */
+.mount .head{position:absolute;inset:58px 70px auto;display:flex;justify-content:space-between;align-items:baseline}
+.mount .head .mast{font-size:34px}
+.mount .photo{position:absolute;left:70px;top:132px;width:940px;height:740px;overflow:hidden;background:var(--paper-2)}
+.mount .photo img{width:100%;height:100%;object-fit:cover}
+.mount .bot{position:absolute;inset:auto 70px 62px}
+.mount h1{font:400 var(--h,128px)/.86 var(--display);letter-spacing:-.035em}
+.mount h1 span{display:block}
+.mount h1 em{display:block;padding-left:.3em}
+.mount .rule{height:1px;background:var(--ink);opacity:.25;margin:28px 0 18px}
+
+/* ---- wide: 16:9 full-bleed photograph with a title ---- */
+.wide img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.wide .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,20,24,.4) 0,rgba(29,20,24,0) 22%),linear-gradient(0deg,rgba(29,20,24,.84) 0,rgba(29,20,24,.42) 34%,rgba(29,20,24,0) 62%)}
+.wide .top{position:absolute;inset:54px 70px auto;color:var(--paper)}
+.wide .bot{position:absolute;inset:auto 70px 58px;display:flex;justify-content:space-between;align-items:flex-end;color:var(--paper)}
+.wide h1{font:400 var(--h,150px)/.84 var(--display);letter-spacing:-.035em}
+.wide h1 span{display:block}
+.wide h1 em{display:block;color:var(--blush);padding-left:.3em}
+.wide .bot .mono{text-align:right;max-width:760px;font-size:22px}
+.wide.light .top,.wide.light .bot{color:var(--ink)}
+.wide.light h1 em{color:var(--ink)}
+.wide.light .shade{display:none}
+.wide.light .bot{display:block;inset:50% auto auto 70px;transform:translateY(-50%);width:var(--tw,820px)}
+.wide.light .bot .rule{height:1px;background:var(--ink);opacity:.25;margin:30px 0 18px}
+.wide.light .bot .mono{text-align:left;max-width:none}
+.wide.light.right .bot{left:auto;right:70px}
+
+/* ---- trip: three (or five) photographs in a row (16:9) ---- */
+.trip .head{position:absolute;inset:54px 70px auto;display:flex;justify-content:space-between;align-items:baseline}
+.trip .head .mast{font-size:34px}
+.trip .row{position:absolute;left:70px;right:70px;top:128px;display:flex;gap:var(--gap,30px)}
+.trip .cell{flex:1;min-width:0}
+.trip .cell .im{height:740px;overflow:hidden;background:var(--paper-2)}
+.trip .cell img{width:100%;height:100%;object-fit:cover}
+.trip .cell span{display:block;margin-top:14px;font:400 20px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.trip .foot{position:absolute;inset:auto 70px 46px;display:flex;justify-content:space-between;align-items:flex-end}
+.trip h2{font:400 66px/.95 var(--display);letter-spacing:-.025em}
+
+/* ---- card: a colour card, one slice of every colour ---- */
+.card .head{position:absolute;inset:58px 64px auto}
+.card .head .row{display:flex;justify-content:space-between;align-items:baseline}
+.card .head .mast{font-size:34px}
+.card h1{font:400 92px/.9 var(--display);letter-spacing:-.03em;margin-top:42px}
+.card h1 em{display:block}
+.card .slices{position:absolute;left:64px;right:64px;top:372px;bottom:214px;display:flex;gap:var(--gap,8px)}
+.card .sl{flex:1;position:relative;min-width:0}
+.card .sl .im{position:absolute;inset:0 0 34px;overflow:hidden;background:var(--paper-2)}
+.card .sl img{width:100%;height:100%;object-fit:cover}
+.card .sl b{position:absolute;left:0;bottom:0;font:400 19px/1 var(--mono);letter-spacing:.1em}
+.card .legend{position:absolute;inset:auto 64px 44px;font:400 19px/1.7 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.card .legend span{white-space:nowrap;margin-right:24px;display:inline-block}
+.card .legend i{font-style:normal;opacity:.55;margin-right:8px}
+.card.w .head{inset:54px auto auto 70px;width:520px}
+.card.w h1{font-size:100px;margin-top:150px}
+.card.w .slices{left:650px;right:70px;top:54px;bottom:54px}
+.card.w .legend{inset:auto auto 54px 70px;width:520px;font-size:20px}
+.card.w .legend span{display:block}
+
+/* ---- sstory: 9:16 full-bleed room photograph. Text stays between y=250 and y=1660 ---- */
+.sstory img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.sstory .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,20,24,.5) 0,rgba(29,20,24,0) 26%),linear-gradient(0deg,rgba(29,20,24,.86) 0,rgba(29,20,24,.56) 26%,rgba(29,20,24,0) 50%)}
+.sstory .top{position:absolute;inset:262px 0 auto;text-align:center;color:var(--paper)}
+.sstory .bot{position:absolute;inset:auto 60px 270px;color:var(--paper)}
+.sstory h1{font:400 var(--h,118px)/.86 var(--display);letter-spacing:-.035em}
+.sstory h1 span{display:block}
+.sstory h1 em{display:block;color:var(--blush);padding-left:.3em}
+.sstory .rule{height:1px;background:rgba(237,228,225,.34);margin:26px 0 16px}

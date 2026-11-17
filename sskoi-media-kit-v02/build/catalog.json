@@ -1,0 +1,716 @@
+{
+ "families": {
+  "tulip": {
+   "token": "Tulip",
+   "set": "15-Stems",
+   "label": "Tulips",
+   "noun": "tulips",
+   "zh": "郁金香",
+   "map": "郁金香",
+   "meta": "Faux tulips · 10 colours",
+   "colours": {
+    "White": {
+     "slug": "white",
+     "token": "White",
+     "asin": "B0FKZM7K42",
+     "asin_check": "待确认",
+     "shots": {
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "White With Blue Tip": {
+     "slug": "white-blue-tip",
+     "token": "White-With-Blue-Tip",
+     "asin": "B0FKZJL3RG",
+     "asin_check": "待确认",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white-blue-tip/SSKOI_Tulip_ASIN-PENDING_White-With-Blue-Tip_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white-blue-tip/SSKOI_Tulip_ASIN-PENDING_White-With-Blue-Tip_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white-blue-tip/SSKOI_Tulip_ASIN-PENDING_White-With-Blue-Tip_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white-blue-tip/SSKOI_Tulip_ASIN-PENDING_White-With-Blue-Tip_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-white-blue-tip/SSKOI_Tulip_ASIN-PENDING_White-With-Blue-Tip_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Yellow": {
+     "slug": "yellow",
+     "token": "Yellow",
+     "asin": "B0FKZF4MT3",
+     "asin_check": "待确认",
+     "shots": {
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-yellow/SSKOI_Tulip_ASIN-PENDING_Yellow_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-yellow/SSKOI_Tulip_ASIN-PENDING_Yellow_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-yellow/SSKOI_Tulip_ASIN-PENDING_Yellow_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-yellow/SSKOI_Tulip_ASIN-PENDING_Yellow_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-yellow/SSKOI_Tulip_ASIN-PENDING_Yellow_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Peach": {
+     "slug": "peach",
+     "token": "Peach",
+     "asin": "B0FKZLPV8C",
+     "asin_check": "待确认",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Orange": {
+     "slug": "orange",
+     "token": "Orange",
+     "asin": "B0FKZM6FG7",
+     "asin_check": "待确认",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-orange/SSKOI_Tulip_ASIN-PENDING_Orange_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-orange/SSKOI_Tulip_ASIN-PENDING_Orange_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-orange/SSKOI_Tulip_ASIN-PENDING_Orange_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-orange/SSKOI_Tulip_ASIN-PENDING_Orange_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-orange/SSKOI_Tulip_ASIN-PENDING_Orange_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Green With Pink Tip": {
+     "slug": "green-pink-tip",
+     "token": "Green-With-Pink-Tip",
+     "asin": "B0FKZF4VQL",
+     "asin_check": "待确认",
+     "shots": {
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-green-pink-tip/SSKOI_Tulip_ASIN-PENDING_Green-With-Pink-Tip_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-green-pink-tip/SSKOI_Tulip_ASIN-PENDING_Green-With-Pink-Tip_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-green-pink-tip/SSKOI_Tulip_ASIN-PENDING_Green-With-Pink-Tip_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-green-pink-tip/SSKOI_Tulip_ASIN-PENDING_Green-With-Pink-Tip_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-green-pink-tip/SSKOI_Tulip_ASIN-PENDING_Green-With-Pink-Tip_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Pink": {
+     "slug": "pink",
+     "token": "Pink",
+     "asin": "B0FKZLK5DN",
+     "asin_check": "待确认",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-pink/SSKOI_Tulip_ASIN-PENDING_Pink_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-pink/SSKOI_Tulip_ASIN-PENDING_Pink_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-pink/SSKOI_Tulip_ASIN-PENDING_Pink_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-pink/SSKOI_Tulip_ASIN-PENDING_Pink_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-pink/SSKOI_Tulip_ASIN-PENDING_Pink_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Hot Pink": {
+     "slug": "hot-pink",
+     "token": "Hot-Pink",
+     "asin": "B0FKZF4MD6",
+     "asin_check": "待确认",
+     "shots": {
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-hot-pink/SSKOI_Tulip_ASIN-PENDING_Hot-Pink_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-hot-pink/SSKOI_Tulip_ASIN-PENDING_Hot-Pink_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-hot-pink/SSKOI_Tulip_ASIN-PENDING_Hot-Pink_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-hot-pink/SSKOI_Tulip_ASIN-PENDING_Hot-Pink_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-hot-pink/SSKOI_Tulip_ASIN-PENDING_Hot-Pink_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Red": {
+     "slug": "red",
+     "token": "Red",
+     "asin": "B0FKZLR48C",
+     "asin_check": "待确认",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-red/SSKOI_Tulip_ASIN-PENDING_Red_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-red/SSKOI_Tulip_ASIN-PENDING_Red_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-red/SSKOI_Tulip_ASIN-PENDING_Red_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-red/SSKOI_Tulip_ASIN-PENDING_Red_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-red/SSKOI_Tulip_ASIN-PENDING_Red_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Dark Purple": {
+     "slug": "dark-purple",
+     "token": "Dark-Purple",
+     "asin": "B0FKZL5WS7",
+     "asin_check": "待确认",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-dark-purple/SSKOI_Tulip_ASIN-PENDING_Dark-Purple_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-dark-purple/SSKOI_Tulip_ASIN-PENDING_Dark-Purple_15stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-dark-purple/SSKOI_Tulip_ASIN-PENDING_Dark-Purple_15stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-dark-purple/SSKOI_Tulip_ASIN-PENDING_Dark-Purple_15stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/listing/tulip-dark-purple/SSKOI_Tulip_ASIN-PENDING_Dark-Purple_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg"
+     }
+    }
+   }
+  },
+  "classic": {
+   "token": "Classic-Rose",
+   "set": "6-Stems",
+   "label": "Classic roses",
+   "noun": "roses",
+   "zh": "普通玫瑰",
+   "map": "普通玫瑰（1花2苞）",
+   "meta": "Classic roses · 6 stems · 6 colours",
+   "colours": {
+    "Coral": {
+     "slug": "coral",
+     "token": "Coral",
+     "asin": "B0DSWT9NMF",
+     "asin_check": "可对应",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Mauve": {
+     "slug": "mauve",
+     "token": "Mauve",
+     "asin": "B0DSY942ZW",
+     "asin_check": "可对应",
+     "shots": {
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-mauve/SSKOI_Rose_ASIN-PENDING_Mauve_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-mauve/SSKOI_Rose_ASIN-PENDING_Mauve_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-mauve/SSKOI_Rose_ASIN-PENDING_Mauve_6stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-mauve/SSKOI_Rose_ASIN-PENDING_Mauve_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-mauve/SSKOI_Rose_ASIN-PENDING_Mauve_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Burgundy": {
+     "slug": "burgundy",
+     "token": "Burgundy",
+     "asin": "B0DSXY4KDH",
+     "asin_check": "可对应",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-burgundy/SSKOI_Rose_ASIN-PENDING_Burgundy_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-burgundy/SSKOI_Rose_ASIN-PENDING_Burgundy_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-burgundy/SSKOI_Rose_ASIN-PENDING_Burgundy_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-burgundy/SSKOI_Rose_ASIN-PENDING_Burgundy_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-burgundy/SSKOI_Rose_ASIN-PENDING_Burgundy_6stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Purple": {
+     "slug": "purple",
+     "token": "Purple",
+     "asin": "B0DSY93JJB",
+     "asin_check": "可对应",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-purple/SSKOI_Rose_ASIN-PENDING_Purple_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-purple/SSKOI_Rose_ASIN-PENDING_Purple_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-purple/SSKOI_Rose_ASIN-PENDING_Purple_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-purple/SSKOI_Rose_ASIN-PENDING_Purple_6stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-purple/SSKOI_Rose_ASIN-PENDING_Purple_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "White With Pink Tip": {
+     "slug": "white-pink-tip",
+     "token": "White-With-Pink-Tip",
+     "asin": "B0DSWSM1QY",
+     "asin_check": "可对应",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white-pink-tip/SSKOI_Rose_ASIN-PENDING_White-With-Pink-Tip_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white-pink-tip/SSKOI_Rose_ASIN-PENDING_White-With-Pink-Tip_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white-pink-tip/SSKOI_Rose_ASIN-PENDING_White-With-Pink-Tip_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white-pink-tip/SSKOI_Rose_ASIN-PENDING_White-With-Pink-Tip_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white-pink-tip/SSKOI_Rose_ASIN-PENDING_White-With-Pink-Tip_6stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "White": {
+     "slug": "white",
+     "token": "White",
+     "asin": "B0DSWV4S2V",
+     "asin_check": "可对应",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white/SSKOI_Rose_ASIN-PENDING_White_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white/SSKOI_Rose_ASIN-PENDING_White_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white/SSKOI_Rose_ASIN-PENDING_White_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white/SSKOI_Rose_ASIN-PENDING_White_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/classic-white/SSKOI_Rose_ASIN-PENDING_White_6stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg"
+     }
+    }
+   }
+  },
+  "ranunculus": {
+   "token": "Ranunculus",
+   "set": "4-Stems",
+   "label": "Ranunculus",
+   "noun": "ranunculus",
+   "zh": "植绒露莲",
+   "map": "植绒露莲",
+   "meta": "Flocked ranunculus · 4 stems · 7 colours",
+   "colours": {
+    "Light Peach": {
+     "slug": "light-peach",
+     "token": "Light-Peach",
+     "asin": "B0DTYG3SY1",
+     "asin_check": "可对应",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "White": {
+     "slug": "white",
+     "token": "White",
+     "asin": "B0DTYJ5V1W",
+     "asin_check": "可对应",
+     "shots": {
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-white/SSKOI_Ranunculus_ASIN-PENDING_White_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-white/SSKOI_Ranunculus_ASIN-PENDING_White_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-white/SSKOI_Ranunculus_ASIN-PENDING_White_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-white/SSKOI_Ranunculus_ASIN-PENDING_White_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-white/SSKOI_Ranunculus_ASIN-PENDING_White_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Baby Pink": {
+     "slug": "baby-pink",
+     "token": "Baby-Pink",
+     "asin": "B0DTYL1GYT",
+     "asin_check": "可对应",
+     "shots": {
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-baby-pink/SSKOI_Ranunculus_ASIN-PENDING_Baby-Pink_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-baby-pink/SSKOI_Ranunculus_ASIN-PENDING_Baby-Pink_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-baby-pink/SSKOI_Ranunculus_ASIN-PENDING_Baby-Pink_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-baby-pink/SSKOI_Ranunculus_ASIN-PENDING_Baby-Pink_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-baby-pink/SSKOI_Ranunculus_ASIN-PENDING_Baby-Pink_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Pink": {
+     "slug": "pink",
+     "token": "Pink",
+     "asin": "B0DTYBPB9F",
+     "asin_check": "可对应",
+     "shots": {
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-pink/SSKOI_Ranunculus_ASIN-PENDING_Pink_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-pink/SSKOI_Ranunculus_ASIN-PENDING_Pink_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-pink/SSKOI_Ranunculus_ASIN-PENDING_Pink_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-pink/SSKOI_Ranunculus_ASIN-PENDING_Pink_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-pink/SSKOI_Ranunculus_ASIN-PENDING_Pink_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Hot Pink": {
+     "slug": "hot-pink",
+     "token": "Hot-Pink",
+     "asin": "B0DTY9KJBP",
+     "asin_check": "可对应",
+     "shots": {
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-hot-pink/SSKOI_Ranunculus_ASIN-PENDING_Hot-Pink_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-hot-pink/SSKOI_Ranunculus_ASIN-PENDING_Hot-Pink_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-hot-pink/SSKOI_Ranunculus_ASIN-PENDING_Hot-Pink_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-hot-pink/SSKOI_Ranunculus_ASIN-PENDING_Hot-Pink_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-hot-pink/SSKOI_Ranunculus_ASIN-PENDING_Hot-Pink_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Orange": {
+     "slug": "orange",
+     "token": "Orange",
+     "asin": "B0DTYBG3DP",
+     "asin_check": "可对应",
+     "shots": {
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-orange/SSKOI_Ranunculus_ASIN-PENDING_Orange_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-orange/SSKOI_Ranunculus_ASIN-PENDING_Orange_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-orange/SSKOI_Ranunculus_ASIN-PENDING_Orange_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-orange/SSKOI_Ranunculus_ASIN-PENDING_Orange_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-orange/SSKOI_Ranunculus_ASIN-PENDING_Orange_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg"
+     }
+    },
+    "Purple": {
+     "slug": "purple",
+     "token": "Purple",
+     "asin": "B0DTYPLLHL",
+     "asin_check": "可对应",
+     "shots": {
+      "still": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-purple/SSKOI_Ranunculus_ASIN-PENDING_Purple_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+      "detail": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-purple/SSKOI_Ranunculus_ASIN-PENDING_Purple_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+      "bud": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-purple/SSKOI_Ranunculus_ASIN-PENDING_Purple_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+      "main": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-purple/SSKOI_Ranunculus_ASIN-PENDING_Purple_4stems_Listing-01-MAIN_v19_20261110_REVIEW.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/listing/ranunculus-purple/SSKOI_Ranunculus_ASIN-PENDING_Purple_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg"
+     }
+    }
+   }
+  },
+  "austin6": {
+   "token": "Austin-Rose",
+   "set": "6-Stems",
+   "label": "Austin roses",
+   "noun": "Austin roses",
+   "zh": "奥斯汀玫瑰",
+   "map": "奥斯汀玫瑰",
+   "meta": "Austin roses · 6 stems · 7 colours",
+   "colours": {
+    "White": {
+     "slug": "white",
+     "token": "White",
+     "asin": "B0DTFNZQRG",
+     "asin_check": "可对应",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-white/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-white/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-white/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-white/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-white/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Baby Pink": {
+     "slug": "baby-pink",
+     "token": "Baby-Pink",
+     "asin": "B0DTFNXBHF",
+     "asin_check": "可对应",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Light Peach": {
+     "slug": "light-peach",
+     "token": "Light-Peach",
+     "asin": "B0DTFPGD7K",
+     "asin_check": "待确认",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Purple": {
+     "slug": "purple",
+     "token": "Purple",
+     "asin": "B0DTFNB9BG",
+     "asin_check": "可对应",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-purple/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-purple/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-purple/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-purple/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-purple/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Pink": {
+     "slug": "pink",
+     "token": "Pink",
+     "asin": "B0DTFPD9F9",
+     "asin_check": "可对应",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Hot Pink": {
+     "slug": "hot-pink",
+     "token": "Hot-Pink",
+     "asin": "B0DTFLZ7SL",
+     "asin_check": "可对应",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-hot-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-hot-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-hot-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-hot-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-hot-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Red": {
+     "slug": "red",
+     "token": "Red",
+     "asin": "B0DTFP872K",
+     "asin_check": "可对应",
+     "shots": {
+      "room": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-red/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-red/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "stem": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-red/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-red/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin6-red/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    }
+   }
+  },
+  "austin66": {
+   "token": "Austin-Rose-Eucalyptus",
+   "set": "6-Roses-6-Eucalyptus",
+   "label": "Austin roses and eucalyptus",
+   "noun": "roses",
+   "zh": "奥斯汀玫瑰礼装",
+   "map": "奥斯汀玫瑰礼装",
+   "meta": "Austin roses and eucalyptus · 6 + 6 stems · 7 colours",
+   "colours": {
+    "White": {
+     "slug": "white",
+     "token": "White",
+     "asin": "B0FLLJMRT5",
+     "asin_check": "待确认",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-white/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-white/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-white/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-white/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-white/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Baby Pink": {
+     "slug": "baby-pink",
+     "token": "Baby-Pink",
+     "asin": "B0FLLPR1W9",
+     "asin_check": "一致",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-baby-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-baby-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-baby-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-baby-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-baby-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Champagne": {
+     "slug": "champagne",
+     "token": "Champagne",
+     "asin": "B0FLLB1TRY",
+     "asin_check": "一致",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-champagne/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-champagne/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-champagne/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-champagne/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-champagne/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Purple": {
+     "slug": "purple",
+     "token": "Purple",
+     "asin": "B0FLLRHTQW",
+     "asin_check": "待确认",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-purple/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-purple/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-purple/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-purple/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-purple/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Pink": {
+     "slug": "pink",
+     "token": "Pink",
+     "asin": "B0FLLGN9WR",
+     "asin_check": "待确认",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Hot Pink": {
+     "slug": "hot-pink",
+     "token": "Hot-Pink",
+     "asin": "B0FLLDC81K",
+     "asin_check": "待确认",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-hot-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-hot-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-hot-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-hot-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-hot-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    },
+    "Red": {
+     "slug": "red",
+     "token": "Red",
+     "asin": "B0FLLC8F2Y",
+     "asin_check": "待确认",
+     "shots": {
+      "arch": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-red/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+      "flatlay": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-red/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+      "vase2": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-red/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+      "vase": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-red/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+      "macro": "/home/user/LM/sskoi-media-kit-v02/raw/aplus/austin66-red/Source-AI-Photo-Plates_REVIEW/M02_source.jpg"
+     }
+    }
+   }
+  },
+  "gift": {
+   "token": "Rose-Gift-Box",
+   "set": "8-Stems",
+   "label": "The rose gift box",
+   "noun": "gift roses",
+   "zh": "普通玫瑰礼盒",
+   "map": "普通玫瑰礼盒",
+   "meta": "Rose gift box · 8 stems · Vase shown for styling",
+   "colours": {
+    "Coral": {
+     "slug": "coral",
+     "token": "Coral",
+     "asin": "B0FKJ68G3Z",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJ68G3Z_Coral_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    },
+    "Mauve Pink": {
+     "slug": "mauve-pink",
+     "token": "Mauve-Pink",
+     "asin": "B0FKJDR7LF",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJDR7LF_Mauve-Pink_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    },
+    "Red": {
+     "slug": "red",
+     "token": "Red",
+     "asin": "B0FKJDL8V5",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJDL8V5_Red_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    },
+    "Burgundy": {
+     "slug": "burgundy",
+     "token": "Burgundy",
+     "asin": "B0FKJ6Y2FQ",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJ6Y2FQ_Burgundy_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    },
+    "Purple": {
+     "slug": "purple",
+     "token": "Purple",
+     "asin": "B0FKJ4YYVY",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJ4YYVY_Purple_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    },
+    "White With Pink Tip": {
+     "slug": "white-pink-tip",
+     "token": "White-With-Pink-Tip",
+     "asin": "B0FKJG3BD6",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJG3BD6_White-With-Pink-Tip_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    },
+    "White": {
+     "slug": "white",
+     "token": "White",
+     "asin": "B0FKJGP99C",
+     "asin_check": "一致",
+     "shots": {
+      "styling": "/home/user/LM/sskoi-media-kit-v02/raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJGP99C_White_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg"
+     }
+    }
+   }
+  }
+ },
+ "scenes": [
+  {
+   "series": "wabi",
+   "family": "austin6",
+   "asin": "B0DTFNXBHF",
+   "colour": "Baby Pink",
+   "set": "6-Stems",
+   "place": "Dinner-Table",
+   "title": "The dinner table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/wabi/01_SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-Stems_Gemini-Dinner-Table_v02_20261114_REVIEW.jpg"
+  },
+  {
+   "series": "wabi",
+   "family": "tulip",
+   "asin": "B0DQDXM72R",
+   "colour": "White",
+   "set": "12-Stems",
+   "place": "Kitchen-Ledge",
+   "title": "The kitchen ledge",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/wabi/02_SSKOI_Tulip_B0DQDXM72R_White_12-Stems_Gemini-Kitchen-Ledge_v02_20261114_REVIEW.jpg"
+  },
+  {
+   "series": "wabi",
+   "family": "classic",
+   "asin": "B0DSWT9NMF",
+   "colour": "Coral",
+   "set": "6-Stems",
+   "place": "Reading-Table",
+   "title": "The reading table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/wabi/03_SSKOI_Classic-Rose_B0DSWT9NMF_Coral_6-Stems_Gemini-Reading-Table_v02_20261114_REVIEW.jpg"
+  },
+  {
+   "series": "wabi",
+   "family": "ranunculus",
+   "asin": "B0DTYG3SY1",
+   "colour": "Light Peach",
+   "set": "4-Stems",
+   "place": "Mantel",
+   "title": "The mantel",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/wabi/04_SSKOI_Flocked-Ranunculus_B0DTYG3SY1_Light-Peach_4-Stems_Gemini-Mantel_v02_20261114_REVIEW.jpg"
+  },
+  {
+   "series": "wabi",
+   "family": "gift",
+   "asin": "B0FKJ6Y2FQ",
+   "colour": "Burgundy",
+   "set": "8-Stems",
+   "place": "Entry-Console",
+   "title": "The entry console",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/wabi/05_SSKOI_Classic-Rose-Gift_B0FKJ6Y2FQ_Burgundy_8-Stems_Gemini-Entry-Console_v02_20261114_REVIEW.jpg"
+  },
+  {
+   "series": "slat",
+   "family": "austin6",
+   "asin": "B0DTFNXBHF",
+   "colour": "Baby Pink",
+   "set": "6-Stems",
+   "place": "Wood-Slat-Wall",
+   "title": "The side table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/slat/01_SSKOI-B0DTFNXBHF-Baby-Pink-Austin-Rose-6Stem-Listing-Amar-Wood-Slat-v08.5-2026-11-16-REVIEW.jpg"
+  },
+  {
+   "series": "slat",
+   "family": "tulip",
+   "asin": "B0DQDXM72R",
+   "colour": "White",
+   "set": "12-Stems",
+   "place": "Wood-Slat-Wall",
+   "title": "The side table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/slat/02_SSKOI-B0DQDXM72R-White-Real-Touch-Tulip-12Stem-Listing-Amar-Wood-Slat-v08.5-2026-11-16-REVIEW.jpg"
+  },
+  {
+   "series": "slat",
+   "family": "classic",
+   "asin": "B0DSWT9NMF",
+   "colour": "Coral",
+   "set": "6-Stems",
+   "place": "Wood-Slat-Wall",
+   "title": "The side table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/slat/03_SSKOI-B0DSWT9NMF-Coral-Classic-Rose-6Stem-Listing-Amar-Wood-Slat-v08.5-2026-11-16-REVIEW.jpg"
+  },
+  {
+   "series": "slat",
+   "family": "ranunculus",
+   "asin": "B0DTYG3SY1",
+   "colour": "Light Peach",
+   "set": "4-Stems",
+   "place": "Wood-Slat-Wall",
+   "title": "The side table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/slat/04_SSKOI-B0DTYG3SY1-Light-Peach-Flocked-Ranunculus-4Stem-Listing-Amar-Wood-Slat-v08.5-2026-11-16-REVIEW.jpg"
+  },
+  {
+   "series": "slat",
+   "family": "gift",
+   "asin": "B0FKJ6Y2FQ",
+   "colour": "Burgundy",
+   "set": "8-Stems",
+   "place": "Wood-Slat-Wall",
+   "title": "The side table",
+   "file": "/home/user/LM/sskoi-media-kit-v02/raw/slat/05_SSKOI-B0FKJ6Y2FQ-Burgundy-Classic-Rose-Gift-8Stem-Listing-Amar-Wood-Slat-v08.5-2026-11-16-REVIEW.jpg"
+  }
+ ]
+}

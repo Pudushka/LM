@@ -1,0 +1,110 @@
+[
+ {
+  "file": "out/video/SSKOI_Tulip_All-Colours_15-Stems_Colour-Change_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 12.5,
+  "slides": 10
+ },
+ {
+  "file": "out/video/SSKOI_Classic-Rose_All-Colours_6-Stems_Colour-Change_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 8.4,
+  "slides": 6
+ },
+ {
+  "file": "out/video/SSKOI_Ranunculus_All-Colours_4-Stems_Colour-Change_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 9.5,
+  "slides": 7
+ },
+ {
+  "file": "out/video/SSKOI_Austin-Rose_All-Colours_6-Stems_Colour-Change_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 9.5,
+  "slides": 7
+ },
+ {
+  "file": "out/video/SSKOI_Austin-Rose-Eucalyptus_All-Colours_6-Roses-6-Eucalyptus_Colour-Change_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 9.5,
+  "slides": 7
+ },
+ {
+  "file": "out/video/SSKOI_Rose-Gift-Box_All-Colours_8-Stems_Vase-Styling_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 10.5,
+  "slides": 7
+ },
+ {
+  "file": "out/video/SSKOI_All-Flowers_Five-Colours_Wabi-Sabi-Rooms_Reel_9x16_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Reel",
+  "ratio": "9x16",
+  "size": "1080x1920",
+  "seconds": 10,
+  "slides": 5
+ },
+ {
+  "file": "out/video/SSKOI_Tulip_All-Colours_15-Stems_Colour-Change_Loop_16x9_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Loop (no text)",
+  "ratio": "16x9",
+  "size": "1920x1080",
+  "seconds": 13,
+  "slides": 10
+ },
+ {
+  "file": "out/video/SSKOI_Classic-Rose_All-Colours_6-Stems_Colour-Change_Loop_16x9_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Loop (no text)",
+  "ratio": "16x9",
+  "size": "1920x1080",
+  "seconds": 8.4,
+  "slides": 6
+ },
+ {
+  "file": "out/video/SSKOI_Ranunculus_All-Colours_4-Stems_Colour-Change_Loop_16x9_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Loop (no text)",
+  "ratio": "16x9",
+  "size": "1920x1080",
+  "seconds": 9.8,
+  "slides": 7
+ },
+ {
+  "file": "out/video/SSKOI_Austin-Rose_All-Colours_6-Stems_Colour-Change_Loop_16x9_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Loop (no text)",
+  "ratio": "16x9",
+  "size": "1920x1080",
+  "seconds": 9.8,
+  "slides": 7
+ },
+ {
+  "file": "out/video/SSKOI_Austin-Rose-Eucalyptus_All-Colours_6-Roses-6-Eucalyptus_Colour-Change_Loop_16x9_v02_REVIEW.mp4",
+  "type": "Video",
+  "layout": "Loop (no text)",
+  "ratio": "16x9",
+  "size": "1920x1080",
+  "seconds": 9.8,
+  "slides": 7
+ }
+]
