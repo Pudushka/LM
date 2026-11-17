@@ -161,3 +161,16 @@
 .ssko-v09-duo.is-single figure{display:grid;grid-template-columns:minmax(0,560px) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:end}
 .ssko-v09-duo.is-single figcaption{max-width:36ch}
 @media (max-width:760px){.ssko-v09-duo.is-single figure{grid-template-columns:minmax(0,1fr);gap:12px}}
+
+/* v09.1 phones: equal cards that snap while swiping; no width changes while scrolling */
+@media (max-width:760px){
+  .ssko-v09-slices{height:auto;gap:10px;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .ssko-v09-slice,.ssko-v09-slice.is-open{flex:0 0 44vw;transition:none;scroll-snap-align:start}
+  .ssko-v09-slice a{height:auto}
+  .ssko-v09-slice__im{flex:none;aspect-ratio:2/3}
+  .ssko-v09-slice.is-open .ssko-v09-slice__im::after,.ssko-v09-slice.is-open .ssko-v09-slice__open{display:none}
+  .ssko-v09-slice:not(.is-open) .ssko-v09-slice__label i{display:inline}
+  .ssko-v09-slice__label,.ssko-v09-slice.is-open .ssko-v09-slice__label{font-size:10px;color:var(--paper)}
+  .ssko-v09-closer__grid,.ssko-v09-trio,.ssko-v09-more-grid{scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .ssko-v09-plate,.ssko-v09-trio li,.ssko-v09-more-grid li{scroll-snap-align:start}
+}

@@ -2,6 +2,7 @@
   if (document.documentElement.dataset.sskoV09) return;
   document.documentElement.dataset.sskoV09 = 'true';
   const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Phones show equal cards that snap while swiping; a tap opens the color directly.
   const noHover = matchMedia('(hover: none)');
 
   // Home: "Every color" tabs and slices
@@ -36,12 +37,6 @@
         const link = slice.querySelector('a');
         slice.addEventListener('mouseenter', () => { if (!noHover.matches) open(slice); });
         link.addEventListener('focus', () => open(slice));
-        link.addEventListener('click', (event) => {
-          if (noHover.matches && !slice.classList.contains('is-open')) {
-            event.preventDefault();
-            open(slice);
-          }
-        });
       });
     });
   }
