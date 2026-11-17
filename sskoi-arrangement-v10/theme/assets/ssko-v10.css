@@ -1,0 +1,79 @@
+/* SSKOI v10: the arrangement book. Paper, ink and Bodoni from ssko-v07-editorial.css; one recipe per spread. */
+.ssko-v10-book{background:var(--paper);color:var(--ink)}
+.ssko-v10-book [hidden]{display:none !important}
+.ssko-v10-intro{padding-block:clamp(56px,8vw,120px) clamp(32px,4vw,56px)}
+.ssko-v10-intro h1{font:400 clamp(56px,9vw,148px)/.86 var(--display);letter-spacing:-.04em;margin:18px 0 28px;max-width:12ch;text-wrap:balance}
+.ssko-v10-intro h1 em{display:block;font-style:italic;padding-left:.4em}
+.ssko-v10-lede{max-width:54ch;font-size:17px;line-height:1.55;margin:0}
+
+.ssko-v10-filters{display:grid;grid-template-columns:repeat(3,auto) 1fr;gap:14px clamp(24px,4vw,56px);align-items:end;padding-block:22px;border-block:1px solid var(--rule)}
+.ssko-v10-filter{display:flex;flex-direction:column;gap:10px;min-width:0}
+.ssko-v10-filter__label{opacity:.6}
+.ssko-v10-filter__options{display:flex;flex-wrap:wrap;gap:6px 16px}
+.ssko-v10-filter button{all:unset;cursor:pointer;font:400 15px/1.2 var(--text);padding-bottom:3px;border-bottom:1px solid transparent;color:rgba(29,20,24,.58);white-space:nowrap}
+.ssko-v10-filter button:hover{color:var(--ink)}
+.ssko-v10-filter button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.ssko-v10-filter button:focus-visible,.ssko-v10-empty button:focus-visible{outline:2px solid var(--coral);outline-offset:3px}
+.ssko-v10-count{justify-self:end;margin:0;opacity:.65}
+
+.ssko-v10-contents{list-style:none;margin:0;padding-block:32px clamp(32px,4vw,56px);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px 28px}
+.ssko-v10-contents a{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-items:center;text-decoration:none;color:inherit}
+.ssko-v10-contents__im{display:block;aspect-ratio:4/5;overflow:hidden;background:var(--paper-2)}
+.ssko-v10-contents__txt .mono{display:block;font-size:10px;opacity:.65}
+.ssko-v10-contents strong{display:block;font:400 22px/1.05 var(--display);letter-spacing:-.01em;margin:5px 0}
+.ssko-v10-contents em{font-style:italic}
+.ssko-v10-contents a:hover strong{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+
+.ssko-v10-recipe{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(28px,5vw,88px);align-items:center;padding:clamp(56px,8vw,128px) var(--gutter);border-top:1px solid var(--rule);scroll-margin-top:72px}
+.ssko-v10-recipe.is-flip{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.ssko-v10-recipe.is-flip .ssko-v10-photo{order:2}
+.ssko-v10-photo{margin:0;position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--paper-2)}
+.ssko-v10-photo img{width:100%;height:100%;object-fit:cover}
+.ssko-v10-standin{position:absolute;left:14px;top:14px;background:rgba(29,20,24,.8);color:var(--paper);padding:7px 10px;font-size:10px}
+.ssko-v10-card{max-width:520px;justify-self:center;width:100%}
+.ssko-v10-card__kicker{margin:0;opacity:.65}
+.ssko-v10-card h2{font:400 clamp(48px,6vw,96px)/.9 var(--display);letter-spacing:-.03em;margin:18px 0;text-wrap:balance}
+.ssko-v10-card h2 em{font-style:italic}
+.ssko-v10-card__summary{font-size:17px;line-height:1.55;margin:0 0 30px;max-width:40ch}
+.ssko-v10-card__h{margin:0 0 10px;opacity:.65}
+.ssko-v10-items{list-style:none;margin:0 0 26px;padding:0;border-top:1px solid var(--rule)}
+.ssko-v10-items li{display:grid;grid-template-columns:34px 12px minmax(0,1fr) auto;gap:10px;align-items:center;padding:13px 0;border-bottom:1px solid var(--rule)}
+.ssko-v10-items__qty{font:400 19px/1 var(--display);font-variant-numeric:tabular-nums}
+.ssko-v10-items__dot{width:12px;height:12px;border-radius:50%;background:var(--c);box-shadow:inset 0 0 0 1px rgba(29,20,24,.2)}
+.ssko-v10-items a{color:inherit;text-decoration:none;font-size:15px;line-height:1.35}
+.ssko-v10-items a b{font-weight:600}
+.ssko-v10-items a:hover{text-decoration:underline;text-underline-offset:4px}
+.ssko-v10-items__unit{font-size:10px;opacity:.65;text-align:right;max-width:16ch}
+.ssko-v10-vessel{display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:end;margin:0 0 28px;padding-bottom:22px;border-bottom:1px solid var(--rule)}
+.ssko-v10-vessel__art{width:72px;height:auto;color:var(--ink)}
+.ssko-v10-vessel p{margin:0;font-size:15px;line-height:1.45}
+.ssko-v10-vessel p b{display:block;font-weight:500}
+.ssko-v10-vessel .mono{display:block;margin-top:6px;font-size:10px;opacity:.65}
+.ssko-v10-method{list-style:none;counter-reset:step;margin:0 0 32px;padding:0}
+.ssko-v10-method li{counter-increment:step;display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;padding:7px 0;font-size:15px;line-height:1.5}
+.ssko-v10-method li::before{content:counter(step,upper-roman) ".";font:italic 400 18px/1.3 var(--display)}
+.ssko-v10-buy .btn{width:100%;justify-content:space-between}
+.ssko-v10-buy .mono{margin:14px 0 6px;opacity:.7}
+.ssko-v10-buy__note{font-size:12px;line-height:1.5;opacity:.65;margin:0;max-width:46ch}
+.ssko-v10-empty{padding-block:56px;font-size:17px;border-top:1px solid var(--rule)}
+.ssko-v10-empty button{all:unset;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+.ssko-v10-foot{padding-block:40px 88px;border-top:1px solid var(--rule)}
+.ssko-v10-foot p{font-size:13px;line-height:1.55;opacity:.7;max-width:72ch;margin:0}
+@media (max-width:1100px){.ssko-v10-contents{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){
+  .ssko-v10-filters{grid-template-columns:minmax(0,1fr);gap:18px}
+  .ssko-v10-filter__options{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:calc(var(--gutter) * -1);padding-right:var(--gutter)}
+  .ssko-v10-filter__options::-webkit-scrollbar{display:none}
+  .ssko-v10-count{justify-self:start}
+  .ssko-v10-recipe,.ssko-v10-recipe.is-flip{grid-template-columns:minmax(0,1fr);padding-inline:0;gap:30px}
+  .ssko-v10-recipe.is-flip .ssko-v10-photo{order:0}
+  .ssko-v10-card{padding-inline:var(--gutter);max-width:none}
+}
+@media (max-width:560px){
+  .ssko-v10-contents{grid-template-columns:minmax(0,1fr);gap:14px}
+  .ssko-v10-contents a{grid-template-columns:56px minmax(0,1fr)}
+  .ssko-v10-contents strong{font-size:20px}
+  .ssko-v10-items li{grid-template-columns:30px 12px minmax(0,1fr);row-gap:2px}
+  .ssko-v10-items__unit{grid-column:3;text-align:left;max-width:none}
+}
+.ssko-v10-items__qty{font:400 12px/1 var(--mono);letter-spacing:.06em;font-variant-numeric:tabular-nums}

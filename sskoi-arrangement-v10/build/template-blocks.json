@@ -1,0 +1,198 @@
+{
+ "blocks": {
+  "recipe-01": {
+   "type": "recipe",
+   "settings": {
+    "number": "01",
+    "title": "The Long",
+    "emphasis": "Table",
+    "summary": "Austin roses and flocked ranunculus, kept low so you can talk across the table.",
+    "room": "Dining",
+    "palette": "Blush",
+    "scale": "Table",
+    "stems": "10",
+    "ingredients": "1 | Austin Roses | Baby Pink | 6 stems | B0DTFNXBHF | #e6b7b5 | /?view=sskoi-austin#color=Baby+Pink\n1 | Flocked Ranunculus | Light Peach | 4 stems | B0DTYG3SY1 | #eac3a9 | /?view=sskoi-peony#color=Light+Peach",
+    "vessel_type": "bowl",
+    "vessel_name": "Low footed stoneware bowl with a flower frog",
+    "vessel_height": "11",
+    "vessel_opening": "15",
+    "method": "Set the six roses first, low and turned outward, so the heads rest just above the rim.\nTuck the ranunculus between the roses and let the buds rise a little higher.\nWalk around the table and turn the bowl until it looks full from every chair.",
+    "stand_in": true,
+    "anchor": "long-table",
+    "alt": "Austin roses and flocked ranunculus, kept low so you can talk across the table.",
+    "image": "shopify://shop_images/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp"
+   }
+  },
+  "recipe-02": {
+   "type": "recipe",
+   "settings": {
+    "number": "02",
+    "title": "Morning",
+    "emphasis": "Kitchen",
+    "summary": "White tulips with white ranunculus in clear glass, for a counter by the window.",
+    "room": "Kitchen",
+    "palette": "White",
+    "scale": "Table",
+    "stems": "16",
+    "ingredients": "1 | Real-Touch Tulips | White | 12 stems | B0DQDXM72R | #f4eee2 | /?view=sskoi-tulip#color=White\n1 | Flocked Ranunculus | White | 4 stems | B0DTYJ5V1W | #f4eee2 | /?view=sskoi-peony#color=White",
+    "vessel_type": "cylinder",
+    "vessel_name": "Clear glass cylinder",
+    "vessel_height": "20",
+    "vessel_opening": "9",
+    "method": "Stand the twelve tulips upright and let them fall open toward the rim.\nAdd the ranunculus at the front, a little lower than the tulips.\nKeep the stems visible through the glass; they are part of the look.",
+    "stand_in": true,
+    "anchor": "morning-kitchen",
+    "alt": "White tulips with white ranunculus in clear glass, for a counter by the window.",
+    "image": "shopify://shop_images/ssko-v09-rooms-tulip-white-wabi-kitchen-ledge.webp"
+   }
+  },
+  "recipe-03": {
+   "type": "recipe",
+   "settings": {
+    "number": "03",
+    "title": "Coral",
+    "emphasis": "Hour",
+    "summary": "Coral roses and orange ranunculus in a stone jug beside a reading chair.",
+    "room": "Living",
+    "palette": "Warm",
+    "scale": "Table",
+    "stems": "10",
+    "ingredients": "1 | Classic Roses | Coral | 6 stems | B0DSWT9NMF | #d98268 | /?view=sskoi-classic#color=Coral\n1 | Flocked Ranunculus | Orange | 4 stems | B0DTYBG3DP | #dc884d | /?view=sskoi-peony#color=Orange",
+    "vessel_type": "jug",
+    "vessel_name": "Stone jug",
+    "vessel_height": "18",
+    "vessel_opening": "8",
+    "method": "Place the roses first and let a few buds lean out toward the chair.\nAdd the ranunculus lower, near the lip of the jug.\nLeave one side lighter than the other so the arrangement looks gathered, not packed.",
+    "stand_in": true,
+    "anchor": "coral-hour",
+    "alt": "Coral roses and orange ranunculus in a stone jug beside a reading chair.",
+    "image": "shopify://shop_images/ssko-v09-rooms-classic-coral-wabi-reading-table.webp"
+   }
+  },
+  "recipe-04": {
+   "type": "recipe",
+   "settings": {
+    "number": "04",
+    "title": "Mantel in",
+    "emphasis": "Blush",
+    "summary": "Baby pink and white Austin roses with eucalyptus trailing over the edge of the mantel.",
+    "room": "Mantel",
+    "palette": "Blush",
+    "scale": "Table",
+    "stems": "18",
+    "ingredients": "1 | Austin Roses with Eucalyptus | Baby Pink | 6 roses and 6 eucalyptus stems | B0FLLPR1W9 | #e6b7b5 | https://www.amazon.com/dp/B0FLLPR1W9?th=1\n1 | Austin Roses | White | 6 stems | B0DTFNZQRG | #f4eee2 | /?view=sskoi-austin#color=White",
+    "vessel_type": "urn",
+    "vessel_name": "Wide ceramic urn",
+    "vessel_height": "22",
+    "vessel_opening": "12",
+    "method": "Set the eucalyptus first, letting two stems trail down one side.\nAdd the white roses at the center, then the pink roses around them.\nStep back to the far side of the room and correct the outline from there.",
+    "stand_in": true,
+    "anchor": "mantel-in-blush",
+    "alt": "Baby pink and white Austin roses with eucalyptus trailing over the edge of the mantel.",
+    "image_asset": "ssko-v6-shelf.webp"
+   }
+  },
+  "recipe-05": {
+   "type": "recipe",
+   "settings": {
+    "number": "05",
+    "title": "By the",
+    "emphasis": "Bed",
+    "summary": "One set of baby pink ranunculus, split between two bud vases.",
+    "room": "Bedroom",
+    "palette": "Blush",
+    "scale": "Bud",
+    "stems": "4",
+    "ingredients": "1 | Flocked Ranunculus | Baby Pink | 4 stems | B0DTYL1GYT | #e6b7b5 | /?view=sskoi-peony#color=Baby+Pink",
+    "vessel_type": "bud",
+    "vessel_name": "Two bud vases",
+    "vessel_height": "12",
+    "vessel_opening": "2.5",
+    "method": "Put two stems in each vase.\nSet one vase a little forward of the other.\nKeep the flowers below the lampshade so the light falls on them.",
+    "stand_in": true,
+    "anchor": "by-the-bed",
+    "alt": "One set of baby pink ranunculus, split between two bud vases.",
+    "image_asset": "ssko-v6-bedside.webp"
+   }
+  },
+  "recipe-06": {
+   "type": "recipe",
+   "settings": {
+    "number": "06",
+    "title": "The",
+    "emphasis": "Entry",
+    "summary": "The burgundy gift set in its own paper vase, paired with dark purple tulips in glass.",
+    "room": "Entry",
+    "palette": "Deep",
+    "scale": "Statement",
+    "stems": "20",
+    "ingredients": "1 | Classic Rose Gift Set | Burgundy | 8 stems and paper vase | B0FKJ6Y2FQ | #6d283f | /?view=sskoi-rose-gift#color=Burgundy\n1 | Real-Touch Tulips | Dark Purple | 12 stems | B0DQDVL846 | #654181 | /?view=sskoi-tulip#color=Dark+Purple",
+    "vessel_type": "pair",
+    "vessel_name": "Paper vase from the gift set, and a tall glass vase",
+    "vessel_height": "25",
+    "vessel_opening": "8",
+    "method": "Open the gift box into its standing vase and arrange the eight roses.\nStand the tulips upright in the glass vase.\nPlace the two vases a hand’s width apart, the taller one at the back.",
+    "stand_in": true,
+    "anchor": "the-entry",
+    "alt": "The burgundy gift set in its own paper vase, paired with dark purple tulips in glass.",
+    "image": "shopify://shop_images/ssko-v09-rooms-gift-burgundy-wabi-entry-console.webp"
+   }
+  },
+  "recipe-07": {
+   "type": "recipe",
+   "settings": {
+    "number": "07",
+    "title": "Garden",
+    "emphasis": "Room",
+    "summary": "Tulips, Austin roses and ranunculus in pinks and green, loose like a cut-garden bunch.",
+    "room": "Living",
+    "palette": "Garden",
+    "scale": "Statement",
+    "stems": "22",
+    "ingredients": "1 | Real-Touch Tulips | Green With Pink Tip | 12 stems | B0DQF16XSS | #c5c6a3 | /?view=sskoi-tulip#color=Green+With+Pink+Tip\n1 | Austin Roses | Pink | 6 stems | B0DTFPD9F9 | #d982a6 | /?view=sskoi-austin#color=Pink\n1 | Flocked Ranunculus | Pink | 4 stems | B0DTYBPB9F | #d982a6 | /?view=sskoi-peony#color=Pink",
+    "vessel_type": "crock",
+    "vessel_name": "Wide ceramic crock",
+    "vessel_height": "24",
+    "vessel_opening": "14",
+    "method": "Start with the tulips around the rim, leaning out.\nPlace the roses in the middle at different heights.\nFill the gaps with the ranunculus and let the buds stand above the roses.",
+    "stand_in": true,
+    "anchor": "garden-room",
+    "alt": "Tulips, Austin roses and ranunculus in pinks and green, loose like a cut-garden bunch.",
+    "image_asset": "ssko-v5-peony-scene.webp"
+   }
+  },
+  "recipe-08": {
+   "type": "recipe",
+   "settings": {
+    "number": "08",
+    "title": "Late",
+    "emphasis": "Plum",
+    "summary": "Burgundy classic roses and purple Austin roses for an evening table.",
+    "room": "Dining",
+    "palette": "Deep",
+    "scale": "Table",
+    "stems": "12",
+    "ingredients": "1 | Classic Roses | Burgundy | 6 stems | B0DSXY4KDH | #6d283f | /?view=sskoi-classic#color=Burgundy\n1 | Austin Roses | Purple | 6 stems | B0DTFNB9BG | #9473b3 | /?view=sskoi-austin#color=Purple",
+    "vessel_type": "bottle",
+    "vessel_name": "Smoked glass vase",
+    "vessel_height": "20",
+    "vessel_opening": "9",
+    "method": "Set the Austin roses low around the rim.\nRaise the classic roses above them, with the buds at the top.\nLight the table from the side; the dark petals need it.",
+    "stand_in": true,
+    "anchor": "late-plum",
+    "alt": "Burgundy classic roses and purple Austin roses for an evening table.",
+    "image_asset": "ssko-v5-gift-scene.webp"
+   }
+  }
+ },
+ "block_order": [
+  "recipe-01",
+  "recipe-02",
+  "recipe-03",
+  "recipe-04",
+  "recipe-05",
+  "recipe-06",
+  "recipe-07",
+  "recipe-08"
+ ]
+}

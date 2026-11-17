@@ -1,0 +1,14 @@
+{%- comment -%} Line drawing of a vessel type: bowl, cylinder, jug, urn, bud, crock, bottle or pair. {%- endcomment -%}
+<svg class="ssko-v10-vessel__art" viewBox="0 0 120 132" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
+  {%- case type -%}
+    {%- when 'bowl' -%}<path d="M20 74 Q22 102 48 109 L48 118 L72 118 L72 109 Q98 102 100 74 Z"/><path d="M20 74 Q60 82 100 74"/>
+    {%- when 'cylinder' -%}<path d="M44 34 L44 118 L76 118 L76 34"/><ellipse cx="60" cy="34" rx="16" ry="3"/>
+    {%- when 'jug' -%}<path d="M49 38 L70 38 Q68 50 75 59 Q91 80 83 106 Q79 118 60 118 Q41 118 37 106 Q29 80 45 59 Q51 50 49 38 Z"/><path d="M80 64 Q98 68 91 92 Q89 98 84 99"/><path d="M47 38 Q44 36 42 38"/>
+    {%- when 'urn' -%}<path d="M40 38 L80 38 Q73 49 83 62 Q96 84 80 102 L74 109 L77 118 L43 118 L46 109 L40 102 Q24 84 37 62 Q47 49 40 38 Z"/><path d="M40 38 Q60 42 80 38"/>
+    {%- when 'bud' -%}<path d="M34 72 L34 82 Q26 92 28 108 Q30 118 40 118 Q50 118 52 108 Q54 92 46 82 L46 72"/><path d="M70 60 L70 72 Q61 84 63 104 Q65 118 76 118 Q87 118 89 104 Q91 84 82 72 L82 60"/>
+    {%- when 'crock' -%}<path d="M28 48 L92 48 L89 114 Q89 118 85 118 L35 118 Q31 118 31 114 Z"/><path d="M26 48 L94 48"/>
+    {%- when 'bottle' -%}<path d="M51 34 L69 34 L69 50 Q88 60 86 88 Q84 118 60 118 Q36 118 34 88 Q32 60 51 50 Z"/>
+    {%- when 'pair' -%}<path d="M70 26 L70 118 L94 118 L94 26"/><ellipse cx="82" cy="26" rx="12" ry="2.4"/><path d="M28 56 L54 56 L58 118 L24 118 Z"/><path d="M33 56 L41 47 L49 56"/>
+  {%- endcase -%}
+  <path d="M10 118 L110 118" stroke-opacity=".35"/>
+</svg>

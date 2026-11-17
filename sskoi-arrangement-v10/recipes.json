@@ -1,0 +1,354 @@
+[
+ {
+  "no": "01",
+  "key": "long-table",
+  "title": "The Long",
+  "em": "Table",
+  "room": "Dining",
+  "palette": "Blush",
+  "summary": "Austin roses and flocked ranunculus, kept low so you can talk across the table.",
+  "items": [
+   [
+    "austin",
+    "Baby Pink",
+    1,
+    6
+   ],
+   [
+    "peony",
+    "Light Peach",
+    1,
+    4
+   ]
+  ],
+  "vessel": {
+   "type": "bowl",
+   "name": "Low footed stoneware bowl with a flower frog",
+   "h": 11,
+   "w": 15
+  },
+  "method": [
+   "Set the six roses first, low and turned outward, so the heads rest just above the rim.",
+   "Tuck the ranunculus between the roses and let the buds rise a little higher.",
+   "Walk around the table and turn the bowl until it looks full from every chair."
+  ],
+  "standin": [
+   "file",
+   "ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp"
+  ],
+  "scene": "A long oak dining table in a limewashed room, linen runner, two place settings at the far end. Window light from the left, late morning.",
+  "camera": "Eye level of a seated guest, 50 mm, the bowl centered one third from the bottom; table runs away from camera.",
+  "stems": 10,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DTFNXBHF&Quantity.1=1&ASIN.2=B0DTYG3SY1&Quantity.2=1"
+ },
+ {
+  "no": "02",
+  "key": "morning-kitchen",
+  "title": "Morning",
+  "em": "Kitchen",
+  "room": "Kitchen",
+  "palette": "White",
+  "summary": "White tulips with white ranunculus in clear glass, for a counter by the window.",
+  "items": [
+   [
+    "tulip",
+    "White",
+    1,
+    12
+   ],
+   [
+    "peony",
+    "White",
+    1,
+    4
+   ]
+  ],
+  "vessel": {
+   "type": "cylinder",
+   "name": "Clear glass cylinder",
+   "h": 20,
+   "w": 9
+  },
+  "method": [
+   "Stand the twelve tulips upright and let them fall open toward the rim.",
+   "Add the ranunculus at the front, a little lower than the tulips.",
+   "Keep the stems visible through the glass; they are part of the look."
+  ],
+  "standin": [
+   "file",
+   "ssko-v09-rooms-tulip-white-wabi-kitchen-ledge.webp"
+  ],
+  "scene": "Honed limestone counter beside a steel-framed window, a stoneware cup and a wooden board in soft focus. Clear morning light.",
+  "camera": "Standing eye level, 50 mm, slight three-quarter angle so the stems show through the glass.",
+  "stems": 16,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DQDXM72R&Quantity.1=1&ASIN.2=B0DTYJ5V1W&Quantity.2=1"
+ },
+ {
+  "no": "03",
+  "key": "coral-hour",
+  "title": "Coral",
+  "em": "Hour",
+  "room": "Living",
+  "palette": "Warm",
+  "summary": "Coral roses and orange ranunculus in a stone jug beside a reading chair.",
+  "items": [
+   [
+    "classic",
+    "Coral",
+    1,
+    6
+   ],
+   [
+    "peony",
+    "Orange",
+    1,
+    4
+   ]
+  ],
+  "vessel": {
+   "type": "jug",
+   "name": "Stone jug",
+   "h": 18,
+   "w": 8
+  },
+  "method": [
+   "Place the roses first and let a few buds lean out toward the chair.",
+   "Add the ranunculus lower, near the lip of the jug.",
+   "Leave one side lighter than the other so the arrangement looks gathered, not packed."
+  ],
+  "standin": [
+   "file",
+   "ssko-v09-rooms-classic-coral-wabi-reading-table.webp"
+  ],
+  "scene": "Round walnut side table next to a worn leather reading chair, an open book and a cup. Low warm sun from the right, early evening.",
+  "camera": "Seated eye level, 50 mm, jug slightly right of center, chair arm entering the left edge.",
+  "stems": 10,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DSWT9NMF&Quantity.1=1&ASIN.2=B0DTYBG3DP&Quantity.2=1"
+ },
+ {
+  "no": "04",
+  "key": "mantel-in-blush",
+  "title": "Mantel in",
+  "em": "Blush",
+  "room": "Mantel",
+  "palette": "Blush",
+  "summary": "Baby pink and white Austin roses with eucalyptus trailing over the edge of the mantel.",
+  "items": [
+   [
+    "austineu",
+    "Baby Pink",
+    1,
+    12
+   ],
+   [
+    "austin",
+    "White",
+    1,
+    6
+   ]
+  ],
+  "vessel": {
+   "type": "urn",
+   "name": "Wide ceramic urn",
+   "h": 22,
+   "w": 12
+  },
+  "method": [
+   "Set the eucalyptus first, letting two stems trail down one side.",
+   "Add the white roses at the center, then the pink roses around them.",
+   "Step back to the far side of the room and correct the outline from there."
+  ],
+  "standin": [
+   "asset",
+   "ssko-v6-shelf.webp"
+  ],
+  "scene": "Plaster fireplace mantel, a leaning unframed linen-toned painting behind, one candle. Soft daylight from a tall window on the left.",
+  "camera": "Standing, 70 mm from across the room, mantel edge in the lower third, urn left of center.",
+  "stems": 18,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0FLLPR1W9&Quantity.1=1&ASIN.2=B0DTFNZQRG&Quantity.2=1"
+ },
+ {
+  "no": "05",
+  "key": "by-the-bed",
+  "title": "By the",
+  "em": "Bed",
+  "room": "Bedroom",
+  "palette": "Blush",
+  "summary": "One set of baby pink ranunculus, split between two bud vases.",
+  "items": [
+   [
+    "peony",
+    "Baby Pink",
+    1,
+    4
+   ]
+  ],
+  "vessel": {
+   "type": "bud",
+   "name": "Two bud vases",
+   "h": 12,
+   "w": 2.5
+  },
+  "method": [
+   "Put two stems in each vase.",
+   "Set one vase a little forward of the other.",
+   "Keep the flowers below the lampshade so the light falls on them."
+  ],
+  "standin": [
+   "asset",
+   "ssko-v6-bedside.webp"
+  ],
+  "scene": "Oak bedside table, linen bedding edge, a pleated lamp switched on, a small stack of books. Dusk light.",
+  "camera": "Low, at mattress height, 50 mm, the two vases staggered on the table.",
+  "stems": 4,
+  "scale": "Bud",
+  "sets": 1,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DTYL1GYT&Quantity.1=1"
+ },
+ {
+  "no": "06",
+  "key": "the-entry",
+  "title": "The",
+  "em": "Entry",
+  "room": "Entry",
+  "palette": "Deep",
+  "summary": "The burgundy gift set in its own paper vase, paired with dark purple tulips in glass.",
+  "items": [
+   [
+    "gift",
+    "Burgundy",
+    1,
+    8
+   ],
+   [
+    "tulip",
+    "Dark Purple",
+    1,
+    12
+   ]
+  ],
+  "vessel": {
+   "type": "pair",
+   "name": "Paper vase from the gift set, and a tall glass vase",
+   "h": 25,
+   "w": 8
+  },
+  "method": [
+   "Open the gift box into its standing vase and arrange the eight roses.",
+   "Stand the tulips upright in the glass vase.",
+   "Place the two vases a hand’s width apart, the taller one at the back."
+  ],
+  "standin": [
+   "file",
+   "ssko-v09-rooms-gift-burgundy-wabi-entry-console.webp"
+  ],
+  "scene": "Walnut console in an entry hall, a framed small drawing, a ceramic dish for keys, a doorway to a bright room behind. Daylight from the doorway.",
+  "camera": "Standing, 50 mm, console in the lower half, both vases fully visible with the printed paper vase facing camera.",
+  "stems": 20,
+  "scale": "Statement",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0FKJ6Y2FQ&Quantity.1=1&ASIN.2=B0DQDVL846&Quantity.2=1"
+ },
+ {
+  "no": "07",
+  "key": "garden-room",
+  "title": "Garden",
+  "em": "Room",
+  "room": "Living",
+  "palette": "Garden",
+  "summary": "Tulips, Austin roses and ranunculus in pinks and green, loose like a cut-garden bunch.",
+  "items": [
+   [
+    "tulip",
+    "Green With Pink Tip",
+    1,
+    12
+   ],
+   [
+    "austin",
+    "Pink",
+    1,
+    6
+   ],
+   [
+    "peony",
+    "Pink",
+    1,
+    4
+   ]
+  ],
+  "vessel": {
+   "type": "crock",
+   "name": "Wide ceramic crock",
+   "h": 24,
+   "w": 14
+  },
+  "method": [
+   "Start with the tulips around the rim, leaning out.",
+   "Place the roses in the middle at different heights.",
+   "Fill the gaps with the ranunculus and let the buds stand above the roses."
+  ],
+  "standin": [
+   "asset",
+   "ssko-v5-peony-scene.webp"
+  ],
+  "scene": "Garden room with a scrubbed pine table, terracotta floor, a window onto green foliage. Bright overcast light.",
+  "camera": "Standing, 35 mm, crock centered on the table, window light behind and to the right.",
+  "stems": 22,
+  "scale": "Statement",
+  "sets": 3,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DQF16XSS&Quantity.1=1&ASIN.2=B0DTFPD9F9&Quantity.2=1&ASIN.3=B0DTYBPB9F&Quantity.3=1"
+ },
+ {
+  "no": "08",
+  "key": "late-plum",
+  "title": "Late",
+  "em": "Plum",
+  "room": "Dining",
+  "palette": "Deep",
+  "summary": "Burgundy classic roses and purple Austin roses for an evening table.",
+  "items": [
+   [
+    "classic",
+    "Burgundy",
+    1,
+    6
+   ],
+   [
+    "austin",
+    "Purple",
+    1,
+    6
+   ]
+  ],
+  "vessel": {
+   "type": "bottle",
+   "name": "Smoked glass vase",
+   "h": 20,
+   "w": 9
+  },
+  "method": [
+   "Set the Austin roses low around the rim.",
+   "Raise the classic roses above them, with the buds at the top.",
+   "Light the table from the side; the dark petals need it."
+  ],
+  "standin": [
+   "asset",
+   "ssko-v5-gift-scene.webp"
+  ],
+  "scene": "Dark-stained dining table, two lit taper candles, linen napkins, deep plaster wall. Evening, candlelight plus one soft side light.",
+  "camera": "Seated eye level, 50 mm, vase centered, candles slightly out of focus on either side.",
+  "stems": 12,
+  "scale": "Table",
+  "sets": 2,
+  "cart": "https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0DSXY4KDH&Quantity.1=1&ASIN.2=B0DTFNB9BG&Quantity.2=1"
+ }
+]
