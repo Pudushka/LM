@@ -1,0 +1,809 @@
+{
+ "files": [
+  {
+   "group": "rows",
+   "name": "austin-room",
+   "files": [
+    "web/rows/austin-room-720.webp",
+    "web/rows/austin-room-360.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M01_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "austin-close",
+   "files": [
+    "web/rows/austin-close-720.webp",
+    "web/rows/austin-close-360.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "tulip-room",
+   "files": [
+    "web/rows/tulip-room-720.webp",
+    "web/rows/tulip-room-360.webp"
+   ],
+   "source": "raw/wabi/02_SSKOI_Tulip_B0DQDXM72R_White_12-Stems_Gemini-Kitchen-Ledge_v02_20261114_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "tulip-close",
+   "files": [
+    "web/rows/tulip-close-720.webp",
+    "web/rows/tulip-close-360.webp"
+   ],
+   "source": "raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "classic-room",
+   "files": [
+    "web/rows/classic-room-720.webp",
+    "web/rows/classic-room-360.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "classic-close",
+   "files": [
+    "web/rows/classic-close-720.webp",
+    "web/rows/classic-close-360.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "ranunculus-room",
+   "files": [
+    "web/rows/ranunculus-room-720.webp",
+    "web/rows/ranunculus-room-360.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "ranunculus-close",
+   "files": [
+    "web/rows/ranunculus-close-720.webp",
+    "web/rows/ranunculus-close-360.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "gift-room",
+   "files": [
+    "web/rows/gift-room-720.webp",
+    "web/rows/gift-room-360.webp"
+   ],
+   "source": "ssko-v072-gift-coral-set.webp",
+   "note": ""
+  },
+  {
+   "group": "rows",
+   "name": "gift-close",
+   "files": [
+    "web/rows/gift-close-720.webp",
+    "web/rows/gift-close-360.webp"
+   ],
+   "source": "raw/wabi/05_SSKOI_Classic-Rose-Gift_B0FKJ6Y2FQ_Burgundy_8-Stems_Gemini-Entry-Console_v02_20261114_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-white",
+   "files": [
+    "web/colour/austin-white-600.webp",
+    "web/colour/austin-white-300.webp"
+   ],
+   "source": "raw/aplus/austin6-white/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-baby-pink",
+   "files": [
+    "web/colour/austin-baby-pink-600.webp",
+    "web/colour/austin-baby-pink-300.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-light-peach",
+   "files": [
+    "web/colour/austin-light-peach-600.webp",
+    "web/colour/austin-light-peach-300.webp"
+   ],
+   "source": "raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-purple",
+   "files": [
+    "web/colour/austin-purple-600.webp",
+    "web/colour/austin-purple-300.webp"
+   ],
+   "source": "raw/aplus/austin6-purple/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-pink",
+   "files": [
+    "web/colour/austin-pink-600.webp",
+    "web/colour/austin-pink-300.webp"
+   ],
+   "source": "raw/aplus/austin6-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-hot-pink",
+   "files": [
+    "web/colour/austin-hot-pink-600.webp",
+    "web/colour/austin-hot-pink-300.webp"
+   ],
+   "source": "raw/aplus/austin6-hot-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "austin-red",
+   "files": [
+    "web/colour/austin-red-600.webp",
+    "web/colour/austin-red-300.webp"
+   ],
+   "source": "raw/aplus/austin6-red/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-white",
+   "files": [
+    "web/colour/tulip-white-600.webp",
+    "web/colour/tulip-white-300.webp"
+   ],
+   "source": "raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-white-blue-tip",
+   "files": [
+    "web/colour/tulip-white-blue-tip-600.webp",
+    "web/colour/tulip-white-blue-tip-300.webp"
+   ],
+   "source": "raw/listing/tulip-white-blue-tip/SSKOI_Tulip_ASIN-PENDING_White-With-Blue-Tip_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-yellow",
+   "files": [
+    "web/colour/tulip-yellow-600.webp",
+    "web/colour/tulip-yellow-300.webp"
+   ],
+   "source": "raw/listing/tulip-yellow/SSKOI_Tulip_ASIN-PENDING_Yellow_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-peach",
+   "files": [
+    "web/colour/tulip-peach-600.webp",
+    "web/colour/tulip-peach-300.webp"
+   ],
+   "source": "raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-orange",
+   "files": [
+    "web/colour/tulip-orange-600.webp",
+    "web/colour/tulip-orange-300.webp"
+   ],
+   "source": "raw/listing/tulip-orange/SSKOI_Tulip_ASIN-PENDING_Orange_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-green-pink-tip",
+   "files": [
+    "web/colour/tulip-green-pink-tip-600.webp",
+    "web/colour/tulip-green-pink-tip-300.webp"
+   ],
+   "source": "raw/listing/tulip-green-pink-tip/SSKOI_Tulip_ASIN-PENDING_Green-With-Pink-Tip_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-pink",
+   "files": [
+    "web/colour/tulip-pink-600.webp",
+    "web/colour/tulip-pink-300.webp"
+   ],
+   "source": "raw/listing/tulip-pink/SSKOI_Tulip_ASIN-PENDING_Pink_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-hot-pink",
+   "files": [
+    "web/colour/tulip-hot-pink-600.webp",
+    "web/colour/tulip-hot-pink-300.webp"
+   ],
+   "source": "raw/listing/tulip-hot-pink/SSKOI_Tulip_ASIN-PENDING_Hot-Pink_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-red",
+   "files": [
+    "web/colour/tulip-red-600.webp",
+    "web/colour/tulip-red-300.webp"
+   ],
+   "source": "raw/listing/tulip-red/SSKOI_Tulip_ASIN-PENDING_Red_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "tulip-dark-purple",
+   "files": [
+    "web/colour/tulip-dark-purple-600.webp",
+    "web/colour/tulip-dark-purple-300.webp"
+   ],
+   "source": "raw/listing/tulip-dark-purple/SSKOI_Tulip_ASIN-PENDING_Dark-Purple_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "classic-coral",
+   "files": [
+    "web/colour/classic-coral-600.webp",
+    "web/colour/classic-coral-300.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "classic-mauve",
+   "files": [
+    "web/colour/classic-mauve-600.webp",
+    "web/colour/classic-mauve-300.webp"
+   ],
+   "source": "raw/listing/classic-mauve/SSKOI_Rose_ASIN-PENDING_Mauve_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "classic-burgundy",
+   "files": [
+    "web/colour/classic-burgundy-600.webp",
+    "web/colour/classic-burgundy-300.webp"
+   ],
+   "source": "raw/listing/classic-burgundy/SSKOI_Rose_ASIN-PENDING_Burgundy_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "classic-purple",
+   "files": [
+    "web/colour/classic-purple-600.webp",
+    "web/colour/classic-purple-300.webp"
+   ],
+   "source": "raw/listing/classic-purple/SSKOI_Rose_ASIN-PENDING_Purple_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "classic-white-pink-tip",
+   "files": [
+    "web/colour/classic-white-pink-tip-600.webp",
+    "web/colour/classic-white-pink-tip-300.webp"
+   ],
+   "source": "raw/listing/classic-white-pink-tip/SSKOI_Rose_ASIN-PENDING_White-With-Pink-Tip_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "classic-white",
+   "files": [
+    "web/colour/classic-white-600.webp",
+    "web/colour/classic-white-300.webp"
+   ],
+   "source": "raw/listing/classic-white/SSKOI_Rose_ASIN-PENDING_White_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-light-peach",
+   "files": [
+    "web/colour/ranunculus-light-peach-600.webp",
+    "web/colour/ranunculus-light-peach-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-white",
+   "files": [
+    "web/colour/ranunculus-white-600.webp",
+    "web/colour/ranunculus-white-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-white/SSKOI_Ranunculus_ASIN-PENDING_White_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-baby-pink",
+   "files": [
+    "web/colour/ranunculus-baby-pink-600.webp",
+    "web/colour/ranunculus-baby-pink-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-baby-pink/SSKOI_Ranunculus_ASIN-PENDING_Baby-Pink_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-pink",
+   "files": [
+    "web/colour/ranunculus-pink-600.webp",
+    "web/colour/ranunculus-pink-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-pink/SSKOI_Ranunculus_ASIN-PENDING_Pink_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-hot-pink",
+   "files": [
+    "web/colour/ranunculus-hot-pink-600.webp",
+    "web/colour/ranunculus-hot-pink-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-hot-pink/SSKOI_Ranunculus_ASIN-PENDING_Hot-Pink_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-orange",
+   "files": [
+    "web/colour/ranunculus-orange-600.webp",
+    "web/colour/ranunculus-orange-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-orange/SSKOI_Ranunculus_ASIN-PENDING_Orange_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "ranunculus-purple",
+   "files": [
+    "web/colour/ranunculus-purple-600.webp",
+    "web/colour/ranunculus-purple-300.webp"
+   ],
+   "source": "raw/listing/ranunculus-purple/SSKOI_Ranunculus_ASIN-PENDING_Purple_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "colour",
+   "name": "gift-coral",
+   "files": [
+    "web/colour/gift-coral-600.webp",
+    "web/colour/gift-coral-300.webp"
+   ],
+   "source": "ssko-v072-gift-coral-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "colour",
+   "name": "gift-mauve-pink",
+   "files": [
+    "web/colour/gift-mauve-pink-600.webp",
+    "web/colour/gift-mauve-pink-300.webp"
+   ],
+   "source": "ssko-v072-gift-mauve-pink-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "colour",
+   "name": "gift-red",
+   "files": [
+    "web/colour/gift-red-600.webp",
+    "web/colour/gift-red-300.webp"
+   ],
+   "source": "ssko-v072-gift-red-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "colour",
+   "name": "gift-burgundy",
+   "files": [
+    "web/colour/gift-burgundy-600.webp",
+    "web/colour/gift-burgundy-300.webp"
+   ],
+   "source": "ssko-v072-gift-burgundy-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "colour",
+   "name": "gift-purple",
+   "files": [
+    "web/colour/gift-purple-600.webp",
+    "web/colour/gift-purple-300.webp"
+   ],
+   "source": "ssko-v072-gift-purple-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "colour",
+   "name": "gift-white-pink-tip",
+   "files": [
+    "web/colour/gift-white-pink-tip-600.webp",
+    "web/colour/gift-white-pink-tip-300.webp"
+   ],
+   "source": "ssko-v072-gift-white-with-pink-tip-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "colour",
+   "name": "gift-white",
+   "files": [
+    "web/colour/gift-white-600.webp",
+    "web/colour/gift-white-300.webp"
+   ],
+   "source": "ssko-v072-gift-white-set.webp",
+   "note": "live site image (paper vase set)"
+  },
+  {
+   "group": "rooms",
+   "name": "austin-baby-pink-wabi-dinner-table",
+   "files": [
+    "web/rooms/austin-baby-pink-wabi-dinner-table-900.webp",
+    "web/rooms/austin-baby-pink-wabi-dinner-table-450.webp"
+   ],
+   "source": "raw/wabi/01_SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-Stems_Gemini-Dinner-Table_v02_20261114_REVIEW.jpg",
+   "note": "Codex scene, REVIEW"
+  },
+  {
+   "group": "rooms",
+   "name": "tulip-white-wabi-kitchen-ledge",
+   "files": [
+    "web/rooms/tulip-white-wabi-kitchen-ledge-900.webp",
+    "web/rooms/tulip-white-wabi-kitchen-ledge-450.webp"
+   ],
+   "source": "raw/wabi/02_SSKOI_Tulip_B0DQDXM72R_White_12-Stems_Gemini-Kitchen-Ledge_v02_20261114_REVIEW.jpg",
+   "note": "Codex scene, REVIEW"
+  },
+  {
+   "group": "rooms",
+   "name": "classic-coral-wabi-reading-table",
+   "files": [
+    "web/rooms/classic-coral-wabi-reading-table-900.webp",
+    "web/rooms/classic-coral-wabi-reading-table-450.webp"
+   ],
+   "source": "raw/wabi/03_SSKOI_Classic-Rose_B0DSWT9NMF_Coral_6-Stems_Gemini-Reading-Table_v02_20261114_REVIEW.jpg",
+   "note": "Codex scene, REVIEW"
+  },
+  {
+   "group": "rooms",
+   "name": "ranunculus-light-peach-wabi-mantel",
+   "files": [
+    "web/rooms/ranunculus-light-peach-wabi-mantel-900.webp",
+    "web/rooms/ranunculus-light-peach-wabi-mantel-450.webp"
+   ],
+   "source": "raw/wabi/04_SSKOI_Flocked-Ranunculus_B0DTYG3SY1_Light-Peach_4-Stems_Gemini-Mantel_v02_20261114_REVIEW.jpg",
+   "note": "Codex scene, REVIEW"
+  },
+  {
+   "group": "rooms",
+   "name": "gift-burgundy-wabi-entry-console",
+   "files": [
+    "web/rooms/gift-burgundy-wabi-entry-console-900.webp",
+    "web/rooms/gift-burgundy-wabi-entry-console-450.webp"
+   ],
+   "source": "raw/wabi/05_SSKOI_Classic-Rose-Gift_B0FKJ6Y2FQ_Burgundy_8-Stems_Gemini-Entry-Console_v02_20261114_REVIEW.jpg",
+   "note": "Codex scene, REVIEW"
+  },
+  {
+   "group": "rooms",
+   "name": "gift-burgundy-slat-side-table",
+   "files": [
+    "web/rooms/gift-burgundy-slat-side-table-900.webp",
+    "web/rooms/gift-burgundy-slat-side-table-450.webp"
+   ],
+   "source": "raw/slat/05_SSKOI-B0FKJ6Y2FQ-Burgundy-Classic-Rose-Gift-8Stem-Listing-Amar-Wood-Slat-v08.5-2026-11-16-REVIEW.jpg",
+   "note": "Codex scene, REVIEW"
+  },
+  {
+   "group": "closer",
+   "name": "classic-coral-bud",
+   "files": [
+    "web/closer/classic-coral-bud-900.webp",
+    "web/closer/classic-coral-bud-450.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "ranunculus-light-peach-bud",
+   "files": [
+    "web/closer/ranunculus-light-peach-bud-900.webp",
+    "web/closer/ranunculus-light-peach-bud-450.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-05-Flower-and-Bud-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "tulip-peach-petal",
+   "files": [
+    "web/closer/tulip-peach-petal-900.webp",
+    "web/closer/tulip-peach-petal-450.webp"
+   ],
+   "source": "raw/listing/tulip-peach/SSKOI_Tulip_ASIN-PENDING_Peach_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "austin-light-peach-petal",
+   "files": [
+    "web/closer/austin-light-peach-petal-900.webp",
+    "web/closer/austin-light-peach-petal-450.webp"
+   ],
+   "source": "raw/aplus/austin6-light-peach/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "classic-coral-petal",
+   "files": [
+    "web/closer/classic-coral-petal-900.webp",
+    "web/closer/classic-coral-petal-450.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "classic-coral-still",
+   "files": [
+    "web/closer/classic-coral-still-900.webp",
+    "web/closer/classic-coral-still-450.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "austin-baby-pink-petal",
+   "files": [
+    "web/closer/austin-baby-pink-petal-900.webp",
+    "web/closer/austin-baby-pink-petal-450.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M02_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "austin-baby-pink-stem",
+   "files": [
+    "web/closer/austin-baby-pink-stem-900.webp",
+    "web/closer/austin-baby-pink-stem-450.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M04_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "austin-baby-pink-flatlay",
+   "files": [
+    "web/closer/austin-baby-pink-flatlay-900.webp",
+    "web/closer/austin-baby-pink-flatlay-450.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M03_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "austin-baby-pink-room",
+   "files": [
+    "web/closer/austin-baby-pink-room-900.webp",
+    "web/closer/austin-baby-pink-room-450.webp"
+   ],
+   "source": "raw/aplus/austin6-baby-pink/Source-AI-Photo-Plates_REVIEW/M05_source.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "classic-coral-vase",
+   "files": [
+    "web/closer/classic-coral-vase-900.webp",
+    "web/closer/classic-coral-vase-450.webp"
+   ],
+   "source": "raw/listing/classic-coral/SSKOI_Rose_ASIN-PENDING_Coral_6stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "ranunculus-light-peach-vase",
+   "files": [
+    "web/closer/ranunculus-light-peach-vase-900.webp",
+    "web/closer/ranunculus-light-peach-vase-450.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-04-Vase-Scene_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "tulip-white-petal",
+   "files": [
+    "web/closer/tulip-white-petal-900.webp",
+    "web/closer/tulip-white-petal-450.webp"
+   ],
+   "source": "raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "tulip-white-stem",
+   "files": [
+    "web/closer/tulip-white-stem-900.webp",
+    "web/closer/tulip-white-stem-450.webp"
+   ],
+   "source": "raw/listing/tulip-white/SSKOI_Tulip_ASIN-PENDING_White_15stems_Listing-05-Single-Stem_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "tulip-white-set",
+   "files": [
+    "web/closer/tulip-white-set-900.webp",
+    "web/closer/tulip-white-set-450.webp"
+   ],
+   "source": "ssko-v072-tulip-white-set.webp",
+   "note": "live site image"
+  },
+  {
+   "group": "closer",
+   "name": "ranunculus-light-peach-petal",
+   "files": [
+    "web/closer/ranunculus-light-peach-petal-900.webp",
+    "web/closer/ranunculus-light-peach-petal-450.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-03-Petal-Detail_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "ranunculus-light-peach-still",
+   "files": [
+    "web/closer/ranunculus-light-peach-still-900.webp",
+    "web/closer/ranunculus-light-peach-still-450.webp"
+   ],
+   "source": "raw/listing/ranunculus-light-peach/SSKOI_Ranunculus_ASIN-PENDING_Light-Peach_4stems_Listing-02-Still-Life_v19_20261110_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "closer",
+   "name": "gift-coral-petal",
+   "files": [
+    "web/closer/gift-coral-petal-900.webp",
+    "web/closer/gift-coral-petal-450.webp"
+   ],
+   "source": "ssko-v072-gift-coral-detail.webp",
+   "note": "live site image"
+  },
+  {
+   "group": "closer",
+   "name": "gift-coral-paper-vase",
+   "files": [
+    "web/closer/gift-coral-paper-vase-900.webp",
+    "web/closer/gift-coral-paper-vase-450.webp"
+   ],
+   "source": "ssko-v072-gift-coral-set.webp",
+   "note": "live site image"
+  },
+  {
+   "group": "closer",
+   "name": "gift-coral-styled",
+   "files": [
+    "web/closer/gift-coral-styled-900.webp",
+    "web/closer/gift-coral-styled-450.webp"
+   ],
+   "source": "raw/gift/SSKOI_Classic-Rose-8-Gift_B0FKJ68G3Z_Coral_Listing-04-Vase-Styling_v03_20261113_REVIEW.jpg",
+   "note": ""
+  },
+  {
+   "group": "cutout",
+   "name": "classic-coral",
+   "files": [
+    "web/cutout/classic-coral-900.webp"
+   ],
+   "source": "sskoi-v08/assets/p/classic-coral.webp",
+   "note": "listing main image, background removed"
+  },
+  {
+   "group": "cutout",
+   "name": "ranunculus-orange",
+   "files": [
+    "web/cutout/ranunculus-orange-900.webp"
+   ],
+   "source": "sskoi-v08/assets/p/ranunculus-orange.webp",
+   "note": "listing main image, background removed"
+  },
+  {
+   "group": "cutout",
+   "name": "tulip-pink",
+   "files": [
+    "web/cutout/tulip-pink-900.webp"
+   ],
+   "source": "sskoi-v08/assets/p/tulip-pink.webp",
+   "note": "listing main image, background removed"
+  },
+  {
+   "group": "cutout",
+   "name": "austin-baby-pink",
+   "files": [
+    "web/cutout/austin-baby-pink-900.webp"
+   ],
+   "source": "sskoi-v08/assets/p/austin-baby-pink.webp",
+   "note": "listing main image, background removed"
+  }
+ ],
+ "swatches": {
+  "austin/White": "#ddbe7e",
+  "austin/Baby Pink": "#f4af96",
+  "austin/Light Peach": "#f7b77f",
+  "austin/Purple": "#da9595",
+  "austin/Pink": "#f17363",
+  "austin/Hot Pink": "#da3344",
+  "austin/Red": "#a10412",
+  "tulip/White": "#d9cfbe",
+  "tulip/White With Blue Tip": "#d8d2c5",
+  "tulip/Yellow": "#eaae09",
+  "tulip/Peach": "#eaae8d",
+  "tulip/Orange": "#d6440e",
+  "tulip/Green With Pink Tip": "#d9c4ae",
+  "tulip/Pink": "#e38698",
+  "tulip/Hot Pink": "#bf225c",
+  "tulip/Red": "#850b17",
+  "tulip/Dark Purple": "#7b406c",
+  "classic/Coral": "#d86629",
+  "classic/Mauve": "#9f3b3e",
+  "classic/Burgundy": "#510512",
+  "classic/Purple": "#baa0c7",
+  "classic/White With Pink Tip": "#ddc3b3",
+  "classic/White": "#d8d4c5",
+  "ranunculus/Light Peach": "#dfbb91",
+  "ranunculus/White": "#d5d3af",
+  "ranunculus/Baby Pink": "#e2cbb6",
+  "ranunculus/Pink": "#d8a094",
+  "ranunculus/Hot Pink": "#d46f70",
+  "ranunculus/Orange": "#e9a504",
+  "ranunculus/Purple": "#a684ac",
+  "gift/Coral": "#df7957",
+  "gift/Mauve Pink": "#bd4852",
+  "gift/Red": "#46050e",
+  "gift/Burgundy": "#2e0814",
+  "gift/Purple": "#a682af",
+  "gift/White With Pink Tip": "#d392a8",
+  "gift/White": "#bec3a9"
+ }
+}
