@@ -38,6 +38,7 @@
       <figure class="ssko-v10-photo">
         {%- if rs.image != blank or rs.image_asset != blank -%}
           {% render 'ssko-v09-img', image: rs.image, asset: rs.image_asset, alt: rs.alt, width: 1600, sizes: '(min-width: 901px) 56vw, 100vw', loading: 'lazy' %}
+          {%- if rs.photo_review -%}<figcaption class="ssko-v10-review mono">Styling image · under review</figcaption>{%- endif -%}
         {%- else -%}
           <div class="ssko-v10-pending">
             <span class="ssko-v10-pending__dots" aria-hidden="true">
@@ -65,7 +66,7 @@
 
         <p class="ssko-v10-vessel">
           {% render 'ssko-v10-vessel', type: rs.vessel_type %}
-          <span>{{ rs.vessel_name | escape }}<span class="mono">{{ rs.vessel_height | escape }} cm tall · {{ rs.vessel_opening | escape }} cm opening · not included</span></span>
+          <span>{{ rs.vessel_name | escape }}<span class="mono">Suggested: about {{ rs.vessel_height | escape }} cm tall{% if rs.vessel_opening != blank %} · {{ rs.vessel_opening | escape }} cm opening{% else %}, wide mouth{% endif %} · not included</span></span>
         </p>
 
         <a class="btn dark ssko-v10-buy" href="{{ cart | escape }}">{% if sets == 1 %}Add the set to your Amazon cart{% elsif sets == 2 %}Add both sets to your Amazon cart{% else %}Add all {{ sets }} sets to your Amazon cart{% endif %} {% render 'sskoi-arrow' %}</a>
@@ -103,14 +104,15 @@
       {"type":"image_picker","id":"image","label":"Photo (4:5)"},
       {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"},
       {"type":"text","id":"alt","label":"Photo description"},
+      {"type":"checkbox","id":"photo_review","label":"Show the Photo under review tag","default":false},
       {"type":"text","id":"palette","label":"Color pairing","info":"For example Tonal or Analogous"},
       {"type":"text","id":"stems","label":"Total stems"},
       {"type":"textarea","id":"why","label":"Why the pairing works"},
       {"type":"textarea","id":"ingredients","label":"Ingredients","info":"One per line: quantity | set name | color | set size | ASIN | swatch | link | role"},
-      {"type":"select","id":"vessel_type","label":"Vessel drawing","options":[{"value":"bowl","label":"Bowl"},{"value":"cylinder","label":"Cylinder"},{"value":"jug","label":"Jug"},{"value":"urn","label":"Urn"},{"value":"bud","label":"Two bud vases"},{"value":"crock","label":"Crock"},{"value":"bottle","label":"Bottle"},{"value":"pair","label":"Paper vase and glass vase"}],"default":"urn"},
+      {"type":"select","id":"vessel_type","label":"Vessel drawing","options":[{"value":"bowl","label":"Bowl"},{"value":"cylinder","label":"Cylinder"},{"value":"jug","label":"Jug"},{"value":"urn","label":"Urn"},{"value":"jar","label":"Wide-mouth jar"},{"value":"bud","label":"Two bud vases"},{"value":"crock","label":"Crock"},{"value":"bottle","label":"Bottle"},{"value":"pair","label":"Paper vase and glass vase"}],"default":"urn"},
       {"type":"text","id":"vessel_name","label":"Vessel"},
-      {"type":"text","id":"vessel_height","label":"Vessel height (cm)"},
-      {"type":"text","id":"vessel_opening","label":"Vessel opening (cm)"},
+      {"type":"text","id":"vessel_height","label":"Suggested vessel height (cm)"},
+      {"type":"text","id":"vessel_opening","label":"Vessel opening (cm)","info":"Leave blank to show wide mouth"},
       {"type":"textarea","id":"method","label":"How to arrange","info":"One step per line"}
     ]}
   ],

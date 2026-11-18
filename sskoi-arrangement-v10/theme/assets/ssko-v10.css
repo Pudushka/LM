@@ -55,3 +55,5 @@
   .ssko-v10-items li{grid-template-columns:12px minmax(0,1fr);row-gap:4px}
   .ssko-v10-items__meta{grid-column:2;text-align:left}
 }
+.ssko-v10-photo{position:relative}
+.ssko-v10-review{position:absolute;left:14px;top:14px;background:rgba(29,20,24,.8);color:var(--paper);padding:7px 10px;font-size:10px}
