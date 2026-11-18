@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "sskoi-lookbook",
+      "settings": {
+        "title": "The Lookbook",
+        "intro": "Seven rooms, styled with SSKOI flowers. Vases shown are styling props.",
+        "catalog_url": "/?view=sskoi-shop",
+        "care_url": "/?view=sskoi-care"
+      },
+      "blocks": {
+        "austin": {
+          "type": "look",
+          "settings": {
+            "room": "By the window",
+            "title": "An easy morning",
+            "note": "Set a low, round vase on a small side table near the light. Angle a few of the blooms outward to show the layered petals from both sides.",
+            "alt": "Baby Pink Austin roses in a cream stoneware vase on a linen-draped side table by a window",
+            "product": "Austin Roses",
+            "anchor": "austin",
+            "asset": "ssko-v104-look-austin-window.webp",
+            "product_url": "/?view=sskoi-austin",
+            "product_asset": "ssko-v07-austin.webp",
+            "variant": "Baby Pink · 6 stems"
+          }
+        },
+        "tulip": {
+          "type": "look",
+          "settings": {
+            "room": "Entry console",
+            "title": "White at the door",
+            "note": "Keep the arrangement compact in a straight-sided vase. Angle a few outer stems and let the narrow white cups break the line at different heights.",
+            "alt": "White tulips in a clear glass vase on a white oak entry console",
+            "product": "White Tulips",
+            "anchor": "tulip",
+            "asset": "ssko-v104-look-tulip-entry.webp",
+            "product_url": "/?view=sskoi-tulip",
+            "product_asset": "ssko-v07-tulip.webp",
+            "variant": "White · 12 stems"
+          }
+        },
+        "peony": {
+          "type": "look",
+          "settings": {
+            "room": "Reading corner",
+            "title": "Room for a few stems",
+            "note": "Try a few branches in a matte vessel by your favorite chair. Leave some space between the blooms so you can see the buds and flocked leaves.",
+            "alt": "Light peach ranunculus branches in an olive stoneware vase beside a book",
+            "product": "Flocked Ranunculus",
+            "anchor": "peony",
+            "asset": "ssko-v5-peony-scene.webp",
+            "detail_asset": "ssko-v075-lookbook-ranunculus-flocked-bud.webp",
+            "detail_format": "portrait",
+            "detail_alt": "Close-up of a round ranunculus bud and the soft gray-green surface of a flocked leaf",
+            "detail_caption": "A closer look at the flocked leaves and round buds.",
+            "product_url": "/?view=sskoi-peony",
+            "product_asset": "ssko-v07-peony.webp",
+            "variant": "Light Peach · 4 stems"
+          }
+        },
+        "vanity": {
+          "type": "look",
+          "settings": {
+            "room": "At the vanity",
+            "title": "White by the basin",
+            "note": "A few tulip stems fit beside a sink. Keep the flower cups just above the rim of a ribbed glass vase and leave room for everyday things.",
+            "alt": "White tulips in a ribbed glass vase on a limestone bathroom vanity",
+            "product": "White Tulips",
+            "anchor": "vanity",
+            "asset": "ssko-v104-look-tulip-vanity.webp",
+            "product_url": "/?view=sskoi-tulip",
+            "product_asset": "ssko-v07-tulip.webp",
+            "variant": "White · 12 stems"
+          }
+        },
+        "bedside": {
+          "type": "look",
+          "settings": {
+            "room": "Beside the bed",
+            "title": "A little peach at dusk",
+            "note": "Set a few branches in low pottery, where you can see the small green buds and the texture of the leaves.",
+            "alt": "Light peach ranunculus beside rumpled linen bedding",
+            "product": "Flocked Ranunculus",
+            "anchor": "bedside",
+            "asset": "ssko-v6-bedside.webp",
+            "product_url": "/?view=sskoi-peony",
+            "product_asset": "ssko-v07-peony.webp",
+            "variant": "Light Peach · 4 stems"
+          }
+        },
+        "kitchen": {
+          "type": "look",
+          "settings": {
+            "room": "In the kitchen",
+            "title": "Coral on the counter",
+            "note": "Use a few coral branches in a small jug. Let the closed buds sit a little higher so their shapes stay visible.",
+            "alt": "Coral classic roses in a gray stoneware jug on a white oak kitchen counter",
+            "product": "Classic Roses",
+            "anchor": "kitchen",
+            "asset": "ssko-v104-look-classic-kitchen.webp",
+            "detail_asset": "ssko-v075-lookbook-classic-coral-still-life.webp",
+            "detail_format": "landscape",
+            "detail_alt": "Coral classic rose blooms and tapered buds arranged diagonally on linen",
+            "detail_caption": "Open blooms and pointed buds along the branches.",
+            "product_url": "/?view=sskoi-classic",
+            "product_asset": "ssko-v07-classic.webp",
+            "variant": "Coral · 6 stems"
+          }
+        },
+        "shelf": {
+          "type": "look",
+          "settings": {
+            "room": "On the bookshelf",
+            "title": "Pink between the books",
+            "note": "Try a small grouping in a low vase between books. Turn one bloom out so its center catches the light.",
+            "alt": "Baby Pink Austin roses in a low terracotta vase on a walnut bookshelf",
+            "product": "Austin Roses",
+            "anchor": "shelf",
+            "asset": "ssko-v104-look-austin-shelf.webp",
+            "product_url": "/?view=sskoi-austin",
+            "product_asset": "ssko-v07-austin.webp",
+            "variant": "Baby Pink · 6 stems"
+          }
+        }
+      },
+      "block_order": [
+        "austin",
+        "tulip",
+        "peony",
+        "vanity",
+        "bedside",
+        "kitchen",
+        "shelf"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

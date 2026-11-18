@@ -1,0 +1,84 @@
+[
+ {
+  "slot": "H1-a",
+  "source_png": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "445bd7af0184e86c4d1a26e4cba3d5b097627d468095dae6527269df9d49140d",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-a_1122x1402_Codex_v01_20261118_APPROVED.png",
+  "theme_asset": "ssko-v104-rows-austin-room.webp",
+  "webp_bytes": 154524,
+  "webp_sha256": "0d3be5b6f0f4b44787e82903c4e2c0763e66a5b6aea5f587dbdeecf7ff8e8324"
+ },
+ {
+  "slot": "L1-a",
+  "source_png": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "fbfb12b6962b87c90366b70edc7e8938bddbb73455c5542a39a1bc30846f4f51",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-a_1536x1024_Codex_v01_20261118_APPROVED.png",
+  "theme_asset": "ssko-v104-look-austin-window.webp",
+  "webp_bytes": 128558,
+  "webp_sha256": "be0feed00c46855c653179427369f76070ab82b1ab0fcd2238ebc3a62481eca5"
+ },
+ {
+  "slot": "L7-c",
+  "source_png": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_APPROVED.png",
+  "theme_asset": "ssko-v104-look-austin-shelf.webp",
+  "webp_bytes": 183900,
+  "webp_sha256": "deed1546a17000eb3c9d3fdd67a28a893704d168ea5516783cbb8ce030ec5583"
+ },
+ {
+  "slot": "L2-b",
+  "source_png": "SSKOI_Tulip_B0DQDXM72R_White_L2-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "e4a61d0487abccb88529e3fefe32569e64d21546eaddb1d40024d6412fce6efc",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Tulip_B0DQDXM72R_White_L2-b_1536x1024_Codex_v01_20261118_APPROVED.png",
+  "theme_asset": "ssko-v104-look-tulip-entry.webp",
+  "webp_bytes": 100740,
+  "webp_sha256": "0309ffd79267f33fa946dd5c5515b201493034d089b07ff45194187d8ab6908a"
+ },
+ {
+  "slot": "L4-b",
+  "source_png": "SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_APPROVED.png",
+  "theme_asset": "ssko-v104-look-tulip-vanity.webp",
+  "webp_bytes": 118364,
+  "webp_sha256": "a1c4e5bd0e1dce0ab4e2660de808f5b312d55c9e8808ea828620e697d6a9286c"
+ },
+ {
+  "slot": "L6-b",
+  "source_png": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_APPROVED.png",
+  "theme_asset": "ssko-v104-look-classic-kitchen.webp",
+  "webp_bytes": 160296,
+  "webp_sha256": "fd34ddaa6125f2ef30d85424a10c607efc6e8b19047cf28d9ca4cbbc7d04e867"
+ },
+ {
+  "slot": "WW-b",
+  "source_png": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "a25df29b4e7c22ecfb73e88d8ebb6088b20cbf7cd76ee42764dfdc17035afff6",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_APPROVED.png"
+ },
+ {
+  "slot": "WM-a",
+  "source_png": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+  "source_sha256": "0908467bc5c7bf2270944f64b32f33266364971a75808ff1e4d6a85c65157d81",
+  "status": "APPROVED",
+  "approved_by": "James (in chat, 2026-11-18)",
+  "approved_name": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-a_1122x1402_Codex_v01_20261118_APPROVED.png"
+ }
+]

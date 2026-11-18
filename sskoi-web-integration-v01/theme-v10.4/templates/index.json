@@ -1,0 +1,269 @@
+{
+  "layout": "ssko-v07",
+  "sections": {
+    "main": {
+      "type": "sskoi-v07-home",
+      "blocks": {
+        "austin": {
+          "type": "flower",
+          "settings": {
+            "title": "Austin",
+            "emphasis": "Roses",
+            "color": "Baby Pink",
+            "specification": "6 stems",
+            "color_count": "7 colors",
+            "alt": "Baby Pink Austin roses on blush stone",
+            "image": "ssko-v07-austin.webp",
+            "link": "/?view=sskoi-austin",
+            "photo_room_asset": "ssko-v104-rows-austin-room.webp",
+            "photo_room_label": "In a room",
+            "photo_room_alt": "Baby Pink Austin roses in a cream stoneware vase on a walnut sideboard",
+            "photo_close_asset": "",
+            "photo_close_label": "Up close",
+            "photo_close_alt": "Baby Pink Austin rose flower center and layered petals close up",
+            "swatches": "Baby Pink #e6b7b5, White #f4eee2, Purple #9473b3, Pink #d982a6, Hot Pink #b93766, Red #a6313e, Light Peach #eac3a9",
+            "photo_close": "shopify://shop_images/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg"
+          }
+        },
+        "tulip": {
+          "type": "flower",
+          "settings": {
+            "title": "",
+            "emphasis": "Tulips",
+            "color": "White",
+            "specification": "12 stems",
+            "color_count": "10 colors",
+            "alt": "White tulips on warm taupe plaster",
+            "image": "ssko-v07-tulip.webp",
+            "link": "/?view=sskoi-tulip",
+            "photo_room": "shopify://shop_images/ssko-v09-rows-tulip-room.webp",
+            "photo_room_label": "In a room",
+            "photo_room_alt": "White tulips in a glass vase on a kitchen ledge",
+            "photo_close_asset": "ssko-v072-tulip-white-set.webp",
+            "photo_close_label": "Up close",
+            "photo_close_alt": "Twelve white real-touch tulips laid flat on warm paper",
+            "swatches": "White #f4eee2, Yellow #e1b344, Peach #e6a483, Orange #dc884d, Green With Pink Tip #c5c6a3/#df9fb7, Hot Pink #b93766, Pink #d982a6, Red #a6313e, Dark Purple #654181, White With Blue Tip #f1ede3/#8faec0"
+          }
+        },
+        "classic": {
+          "type": "flower",
+          "settings": {
+            "title": "Classic",
+            "emphasis": "Roses",
+            "color": "Coral",
+            "specification": "6 stems · 2 buds on each",
+            "color_count": "6 colors",
+            "alt": "Coral Classic Roses with buds on flax linen",
+            "image": "ssko-v07-classic.webp",
+            "link": "/?view=sskoi-classic",
+            "photo_room": "shopify://shop_images/ssko-v09-rows-classic-room.webp",
+            "photo_room_label": "In a vase",
+            "photo_room_alt": "Coral classic roses in a vase",
+            "photo_close": "shopify://shop_images/ssko-v09-rows-classic-close.webp",
+            "photo_close_label": "Up close",
+            "photo_close_alt": "Coral classic roses with buds up close",
+            "swatches": "Coral #d98268, Burgundy #6d283f, Purple #9473b3, Mauve #a36c82, White With Pink Tip #f2e4de/#d99eb2, White #f4eee2"
+          }
+        },
+        "peony": {
+          "type": "flower",
+          "settings": {
+            "title": "Flocked",
+            "emphasis": "Ranunculus",
+            "color": "Light Peach",
+            "specification": "4 stems · 2 flowers and a bud on each",
+            "color_count": "7 colors",
+            "alt": "Light Peach ranunculus with flocked leaves on natural stone",
+            "image": "ssko-v07-peony.webp",
+            "link": "/?view=sskoi-peony",
+            "photo_room": "shopify://shop_images/ssko-v09-rows-ranunculus-room.webp",
+            "photo_room_label": "In a vase",
+            "photo_room_alt": "Light Peach ranunculus in a vase",
+            "photo_close": "shopify://shop_images/ssko-v09-rows-ranunculus-close.webp",
+            "photo_close_label": "Up close",
+            "photo_close_alt": "Light Peach ranunculus up close",
+            "swatches": "Light Peach #eac3a9, Baby Pink #e6b7b5, Pink #d982a6, Hot Pink #b93766, Orange #dc884d, White #f4eee2, Purple #9473b3"
+          }
+        },
+        "room1": {
+          "type": "room",
+          "settings": {
+            "title": "The dinner",
+            "emphasis": "table.",
+            "flower": "Austin Roses",
+            "meta": "Baby Pink · 6 stems",
+            "image_file": "shopify://shop_images/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+            "alt": "Baby Pink Austin roses in a cream vase on a dinner table",
+            "link": "/?view=sskoi-austin#color=Baby+Pink"
+          }
+        },
+        "room2": {
+          "type": "room",
+          "settings": {
+            "title": "The kitchen",
+            "emphasis": "ledge.",
+            "flower": "Tulips",
+            "meta": "White · 12 stems",
+            "image_file": "shopify://shop_images/ssko-v09-rooms-tulip-white-wabi-kitchen-ledge.webp",
+            "alt": "White tulips in a clear glass vase on a kitchen ledge",
+            "link": "/?view=sskoi-tulip#color=White"
+          }
+        },
+        "room3": {
+          "type": "room",
+          "settings": {
+            "title": "The reading",
+            "emphasis": "table.",
+            "flower": "Classic Roses",
+            "meta": "Coral · 6 stems",
+            "image_file": "shopify://shop_images/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+            "alt": "Coral classic roses in a stone jug on a reading table",
+            "link": "/?view=sskoi-classic#color=Coral"
+          }
+        },
+        "room4": {
+          "type": "room",
+          "settings": {
+            "title": "On the",
+            "emphasis": "mantel.",
+            "flower": "Flocked Ranunculus",
+            "meta": "Light Peach · 4 stems",
+            "image_file": "shopify://shop_images/ssko-v09-rooms-ranunculus-light-peach-wabi-mantel.webp",
+            "alt": "Light Peach ranunculus in a cream jug on a mantel",
+            "link": "/?view=sskoi-peony#color=Light+Peach"
+          }
+        },
+        "colors-austin": {
+          "type": "color_family",
+          "settings": {
+            "name": "Austin Roses",
+            "link": "/?view=sskoi-austin",
+            "colors": "Baby Pink | asset:ssko-v072-austin-baby-pink-set.webp\nWhite | asset:ssko-v072-austin-white-set.webp\nPurple | asset:ssko-v072-austin-purple-set.webp\nPink | asset:ssko-v072-austin-pink-set.webp\nHot Pink | asset:ssko-v072-austin-hot-pink-set.webp\nRed | asset:ssko-v072-austin-red-set.webp\nLight Peach | asset:ssko-v072-austin-light-peach-set.webp",
+            "note": "styled color studies",
+            "selected": false
+          }
+        },
+        "colors-tulip": {
+          "type": "color_family",
+          "settings": {
+            "name": "Tulips",
+            "link": "/?view=sskoi-tulip",
+            "colors": "White | asset:ssko-v072-tulip-white-set.webp\nYellow | asset:ssko-v072-tulip-yellow-set.webp\nPeach | asset:ssko-v072-tulip-peach-set.webp\nOrange | asset:ssko-v072-tulip-orange-set.webp\nGreen With Pink Tip | asset:ssko-v072-tulip-green-with-pink-tip-set.webp\nHot Pink | asset:ssko-v072-tulip-hot-pink-set.webp\nPink | asset:ssko-v072-tulip-pink-set.webp\nRed | asset:ssko-v072-tulip-red-set.webp\nDark Purple | asset:ssko-v072-tulip-dark-purple-set.webp\nWhite With Blue Tip | asset:ssko-v072-tulip-white-with-blue-tip-set.webp",
+            "note": "styled color studies",
+            "selected": false
+          }
+        },
+        "colors-classic": {
+          "type": "color_family",
+          "settings": {
+            "name": "Classic Roses",
+            "link": "/?view=sskoi-classic",
+            "colors": "Coral | file:ssko-v09-colour-classic-coral.webp\nBurgundy | file:ssko-v09-colour-classic-burgundy.webp\nPurple | file:ssko-v09-colour-classic-purple.webp\nMauve | file:ssko-v09-colour-classic-mauve.webp\nWhite With Pink Tip | file:ssko-v09-colour-classic-white-pink-tip.webp\nWhite | file:ssko-v09-colour-classic-white.webp",
+            "note": "close-up photos",
+            "selected": true,
+            "open": "Coral"
+          }
+        },
+        "colors-peony": {
+          "type": "color_family",
+          "settings": {
+            "name": "Flocked Ranunculus",
+            "link": "/?view=sskoi-peony",
+            "colors": "Light Peach | file:ssko-v09-colour-ranunculus-light-peach.webp\nBaby Pink | file:ssko-v09-colour-ranunculus-baby-pink.webp\nPink | file:ssko-v09-colour-ranunculus-pink.webp\nHot Pink | file:ssko-v09-colour-ranunculus-hot-pink.webp\nOrange | file:ssko-v09-colour-ranunculus-orange.webp\nWhite | file:ssko-v09-colour-ranunculus-white.webp\nPurple | file:ssko-v09-colour-ranunculus-purple.webp",
+            "note": "close-up photos",
+            "selected": false
+          }
+        },
+        "closer1": {
+          "type": "closer",
+          "settings": {
+            "image": "shopify://shop_images/ssko-v09-closer-classic-coral-bud.webp",
+            "title": "Classic Roses",
+            "text": "One open rose and two buds on every stem.",
+            "meta": "6 stems · Coral",
+            "link": "/?view=sskoi-classic#color=Coral",
+            "alt": "Coral classic rose bloom and buds"
+          }
+        },
+        "closer2": {
+          "type": "closer",
+          "settings": {
+            "image": "shopify://shop_images/ssko-v09-closer-ranunculus-light-peach-bud.webp",
+            "title": "Flocked Ranunculus",
+            "text": "Two flowers and a bud on every stem, with soft flocked leaves.",
+            "meta": "4 stems · Light Peach",
+            "link": "/?view=sskoi-peony#color=Light+Peach",
+            "alt": "Light Peach ranunculus flowers and bud"
+          }
+        },
+        "closer3": {
+          "type": "closer",
+          "settings": {
+            "image_asset": "ssko-v072-tulip-peach-detail.webp",
+            "title": "Tulips",
+            "text": "Real-touch petals with fine ribs from base to tip.",
+            "meta": "12 stems · Peach",
+            "link": "/?view=sskoi-tulip#color=Peach",
+            "alt": "Peach tulips up close"
+          }
+        },
+        "closer4": {
+          "type": "closer",
+          "settings": {
+            "image_asset": "",
+            "title": "Austin Roses",
+            "text": "Loosely cupped, layered petals with a garden-rose shape.",
+            "meta": "6 stems · Light Peach",
+            "link": "/?view=sskoi-austin#color=Light+Peach",
+            "alt": "Light Peach Austin rose flower center and layered petals close up",
+            "image": "shopify://shop_images/SSKOI_Austin-Rose_B0DTFPGD7K_Light-Peach_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "austin",
+        "tulip",
+        "classic",
+        "peony",
+        "room1",
+        "room2",
+        "room3",
+        "room4",
+        "colors-austin",
+        "colors-tulip",
+        "colors-classic",
+        "colors-peony",
+        "closer1",
+        "closer2",
+        "closer3",
+        "closer4"
+      ],
+      "settings": {
+        "hero_heading": "In bloom,",
+        "hero_emphasis": "all year.",
+        "hero_copy": "Faux roses, tulips and ranunculus for the places you come home to.",
+        "hero_image": "ssko-v07-hero-wide.webp",
+        "hero_mobile": "ssko-v07-hero-mobile.webp",
+        "hero_motion": "ssko-v07-hero-motion.mp4",
+        "hero_amazon": "https://www.amazon.com/dp/B0DTFNXBHF?th=1",
+        "hero_details": "/?view=sskoi-austin",
+        "store_url": "https://www.amazon.com/stores/Sskoi/page/E354F83F-CFAD-4E19-B21F-F4251CA5B249",
+        "lookbook_url": "/?view=sskoi-lookbook",
+        "gift_details": "/?view=sskoi-rose-gift",
+        "about_url": "/?view=sskoi-about",
+        "care_url": "/?view=sskoi-care",
+        "colors_heading": "Every flower,",
+        "colors_emphasis": "every color.",
+        "colors_copy": "",
+        "closer_heading": "Look",
+        "closer_emphasis": "closer.",
+        "closer_copy": "",
+        "show_closer": false,
+        "show_buy": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
