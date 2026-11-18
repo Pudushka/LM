@@ -658,5 +658,41 @@
   "sha256": "d970935bb1231ca2ed58eb1d13e87f6fea9ddfb7244dbd6b7d2b2b777f30a9c6",
   "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
   "status": "REVIEW"
+ },
+ {
+  "id": "D18",
+  "asset": "ssko-v072-peony-white-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 66734,
+  "sha256": "b2a92f83d377d6105802a0241556bb85ca896d8e3c8fefdc4493f9da8fe6a290",
+  "source": "Gemini paper edit v02 (redo of NEEDS-FIX v01)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D28",
+  "asset": "ssko-v072-tulip-yellow-detail.webp",
+  "size": [
+   1080,
+   1080
+  ],
+  "bytes": 63570,
+  "sha256": "b4934f19a550660e10c46d9b5a7e77771a135361e7ade02b2c5d12c7e8e9c22f",
+  "source": "Gemini paper edit v02 (redo of NEEDS-FIX v01)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S26",
+  "asset": "ssko-v072-tulip-pink-set.webp",
+  "size": [
+   1254,
+   1254
+  ],
+  "bytes": 69904,
+  "sha256": "6add32faf07688cfe7468c9a5da5de154b2c70a5e8c970a5f8de28351b63e1a0",
+  "source": "Gemini paper edit v02 (redo of NEEDS-FIX v01)",
+  "status": "REVIEW"
  }
 ]
