@@ -55,6 +55,16 @@
 1. James 或 Rachel 看预览后批准，再在后台手动发布。
 2. Gemini 重做 3 张后，由 Claude 质检，再补进来。
 3. Lookbook 阅读角和卧室两张仍是旧图，等 Codex 重做 L3、L5（Light Peach 颜色太桃）。
-4. Journal 的 3 篇文章封面（选购指南用 L7-c、花瓶尺寸用 L6-b、郁金香插法用 L4-b）：
-   - 文章封面是店铺数据，不在主题里，一改就直接上线；
-   - 需要 James 明确授权后再改。
+4. Journal 的 3 篇文章封面已于 2026-11-18 经 James 授权（“现在换”）直接在正式网站替换：
+
+   | 文章 | 新封面 | 原封面 |
+   |---|---|---|
+   | faux-flower-buying-guide | L7-c | v6-shelf |
+   | faux-flower-vase-size-guide | L6-b | v6-kitchen |
+   | how-to-style-faux-tulips | L4-b | v6-vanity |
+
+   - 图片描述文字同步更新。
+   - 验证：Journal 列表和三篇文章在手机上都显示新封面，没有旧封面，没有坏图，没有横向溢出。
+5. 建议（未改）：选购指南正文里还嵌着一张旧的 v5 玄关郁金香图。
+   - 它引用的是旧主题 t/21 的文件，那个主题删除后图会失效。
+   - 可以换成已批准的 L2-b 玄关图，等 James 决定。
