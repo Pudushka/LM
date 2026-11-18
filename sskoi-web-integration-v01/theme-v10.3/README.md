@@ -22,11 +22,11 @@
 4. **404 页**：品牌化的 “This page has moved.”，下面链接到花、配方、礼物和首页。文件：`sections/ssko-v103-404.liquid`、`templates/404.json`。
 5. **单枝尺寸图**：4 张原来是冷灰底，改为暖纸底（#E2D5CF）。只改了和画面边缘连通的灰色背景像素，花、茎、叶、尺寸线都没动；白郁金香的花瓣放大核对过，没有变色。新文件覆盖了原来的 `ssko-v072-*-stem.webp`，所以模板不用改。
 
+6. **404 和搜索页**：改用品牌页头页脚（`layout/theme.liquid` 的品牌页面列表里加入 404 和 search）。商品页和购物车仍保留 Dawn 页头和购物车。
+
 ## 试过但没用的
 - **28 张白底 Flower detail 的确定性换底**：这些原图的背景是带窗光条纹和偏色的墙面，不是纯色背景，换完花边会出现锯齿白边，所以不用。
 - 改为 Gemini 只编辑背景，出图单见 `../brand/BRIEF-01_flower-detail-paper-Gemini.md`。
-
-6. **404 和搜索页**：改用品牌页头页脚（`layout/theme.liquid` 的品牌页面列表里加入 404 和 search）。商品页和购物车仍保留 Dawn 页头和购物车。
 
 ## 验证（2026-11-18，Chromium 模拟 iPhone 13 和桌面 1440）
 检查了首页、Austin、Lookbook、About、Care、全部花、Journal、商品页、配方、礼物、搜索和 404：
