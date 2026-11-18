@@ -105,10 +105,9 @@ James 决定：近期不安排专业拍摄，网站图片由 AI 生成和编辑�
 | Journal 封面 | 3:2 | 1600 宽 | Codex 或沿用房间图 |
 
 ## 7. 待做清单（按优先级）
-1. **28 张白底 Flower detail 改纸面**：Austin 5、Tulips 10、Classic 6、Ranunculus 7。
-   - 有颜色的花，Claude 直接做确定性换底，花的像素不动；
-   - 白色和很浅的花（White、White With Blue Tip、White With Pink Tip、Light Peach、Baby Pink 等），交给 Gemini 编辑，Claude 质检。
-2. **平铺图纸面统一**：现在有粉、棕、灰三种。由 Gemini 编辑成统一纸面，花不动。
+1. **28 张白底 Flower detail 改纸面**：Austin 5、Tulips 10、Classic 6、Ranunculus 7。全部交给 Gemini 只换背景，Claude 质检。提示词见 `PROMPT-Gemini-v01.md` 第一批。
+2. **平铺图纸面统一**：30 张，现在有粉棕纸、灰亚麻、灰石面、棕纸四种。由 Gemini 编辑成统一纸面，花不动。见 `PROMPT-Gemini-v01.md` 第二批。
+   - 第 3–5 项的 Codex 提示词见 `PROMPT-Codex-v01.md`。
 3. **v5、v6 早期场景换成 v09 风格**：Lookbook 7 张、Journal 封面 6 张，由 Codex 生成。
 4. **首页首屏高分辨率版**：桌面原图 1672 宽，偏软。Grok 出方向，Codex 生成。
 5. **每季首页章节图**：冬季深色，例如 Burgundy、Dark Purple、Red。

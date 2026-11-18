@@ -1,3 +1,5 @@
+> **已被取代（2026-11-18）**：改用 `PROMPT-Gemini-v01.md`，它包含这 28 张，并增加了 30 张平铺图。
+
 # 出图单 01：28 张 Flower detail 换纸面衬底（Gemini 编辑，REVIEW）
 
 2026-11-18，Claude。依据《SSKOI 视觉手册与 AI 出图流程 v01》第 5–7 节。
