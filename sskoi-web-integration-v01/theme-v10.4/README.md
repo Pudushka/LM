@@ -11,6 +11,30 @@
 - 图片文件：`../theme-v10.3/assets-img/gemini-paper-v01/`（WebP，附 manifest.json）。
 - 质检：`../brand/QA-Gemini-paper-v01_Claude_20261118.md`。
 
+## 已批准的 Codex 场景图（James 2026-11-18 在对话中批准）
+- 8 张标为 APPROVED：H1-a、L1-a、L7-c、L2-b、L4-b、L6-b、WW-b、WM-a。
+- Drive 归档（批准版副本，原 REVIEW 文件保留）：https://drive.google.com/drive/folders/1_nFtud2ZH0ARW7AfxUpB5MDBaxqjMKD8
+- 批准记录：`../ai-images/approved-v01/approved-codex-v01.json`（原图文件名、SHA-256、网站用 WebP）。
+
+接入 v10.4 的 6 张：
+
+| 位置 | 编号 | 主题文件 |
+|---|---|---|
+| 首页 Austin 那一行（原来是平铺图） | H1-a | `assets/ssko-v104-rows-austin-room.webp` |
+| Lookbook · 窗边（替换 v5-austin-scene） | L1-a | `assets/ssko-v104-look-austin-window.webp` |
+| Lookbook · 玄关（替换 v5-tulip-scene） | L2-b | `assets/ssko-v104-look-tulip-entry.webp` |
+| Lookbook · 浴室（替换 v6-vanity） | L4-b | `assets/ssko-v104-look-tulip-vanity.webp` |
+| Lookbook · 厨房（替换 v6-kitchen） | L6-b | `assets/ssko-v104-look-classic-kitchen.webp` |
+| Lookbook · 书架（替换 v6-shelf） | L7-c | `assets/ssko-v104-look-austin-shelf.webp` |
+
+**文字随图片调整**（`templates/index.sskoi-lookbook.json`）：
+- 窗边：标签改为 By the window，标题改为 An easy morning，说明配合新场景。
+- 浴室：标题从 White against green tile 改为 White by the basin，因为新图没有绿砖。
+- 书架：标题从 Pink in a darker room 改为 Pink between the books。
+- 各图描述文字按新画面重写，用美式拼写（gray）。
+
+冬季 WW-b、WM-a 只归档，等首页季节模块做好再接。
+
 ## 没换的
 - D18（白色 Ranunculus 近景）、D28（黄色郁金香近景）、S26（粉色郁金香平铺）：Gemini 改了构图或重画了花，标为 NEEDS-FIX，继续用原图，等 Gemini 重做。
 - Austin Baby Pink 近景用的是 v10.1-r02 的新图，不在这一批里。
@@ -22,7 +46,15 @@
   - 没有坏图、横向溢出、Liquid 错误或 JS 报错；
   - 没加载的图都是轮播里还没滑到的懒加载图。
 - 截图：`review/v104-austin-mobile.jpg`。
+- 场景图：
+  - 首页 Austin 行和 Lookbook 的 6 个主题文件、2 个模板，MD5 都和本地一致。
+  - 手机和桌面都没有坏图、横向溢出、Liquid 错误或 JS 报错，页面上已经没有旧的 v5、v6 场景。
+  - 截图：`review/v104-home-austin-mobile.jpg`、`review/v104-lookbook-thumb.jpg`。
 
 ## 待办
 1. James 或 Rachel 看预览后批准，再在后台手动发布。
 2. Gemini 重做 3 张后，由 Claude 质检，再补进来。
+3. Lookbook 阅读角和卧室两张仍是旧图，等 Codex 重做 L3、L5（Light Peach 颜色太桃）。
+4. Journal 的 3 篇文章封面（选购指南用 L7-c、花瓶尺寸用 L6-b、郁金香插法用 L4-b）：
+   - 文章封面是店铺数据，不在主题里，一改就直接上线；
+   - 需要 James 明确授权后再改。
