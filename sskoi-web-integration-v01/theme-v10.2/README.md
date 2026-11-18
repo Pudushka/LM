@@ -213,3 +213,37 @@
 - 手机上信任行改为竖排，避免换行后分隔点错位。
 
 截图在 `review/after-r3-mobile.jpg`。
+
+## 第四轮（2026-11-18）：撤下礼盒系列
+
+James 和 Rachel 讨论后决定：礼盒系列用户反馈一般，先从网站撤下。网站图片专注在花上；包装里可能还会用纸花瓶，但不再作为主打卖点，避免客户拿到纸花瓶后觉得不如预期。
+
+v10.2 的改动：
+- **首页**：
+  - 删除 Find your flowers 里的礼盒一行；
+  - 删除 Every color 里的礼盒色卡（30 色，原来 37 色）；
+  - 删除 “The entry console”（纸花瓶）房间卡片；
+  - 删除深绿色的 “The box becomes the vase” 礼盒区。
+- **花页**：Austin、Tulips、Classic、Ranunculus 四页的 More flowers 都删掉了礼盒卡片。
+- **全部花页面**：删除礼盒卡片和 “Gift sets” 筛选按钮。
+- **Lookbook**：删除 “On the sideboard”（Coral Rose Gift Set）一节，8 个房间变成 7 个。导语、页面标题和描述同步改成 Seven。
+- **礼盒页**：删除 `?view=sskoi-rose-gift` 模板，旧链接会回到首页。主题 v10.1 里仍保留原文件，需要时可以恢复。
+- **礼物页（Gifts）**：
+  - Mother's Day 的礼盒 Mauve Pink 换成 Flocked Ranunculus Baby Pink；
+  - Anniversary 的两款礼盒换成 Austin Roses Red 和 Classic Roses Burgundy，配图从纸花瓶场景换成红色 Austin 平铺图；
+  - Sympathy 的礼盒 White 换成 Classic Roses White；
+  - 页脚改为 “Every set is stems only. The vases and rooms in these photos are styling props.”
+- **问答**（Care 页和首页隐藏的问答）：花瓶问题统一回答 “No. Each set is stems only. The vases in our photos are styling props.”；浇水问题删掉了纸盒那句。
+
+没改、需要决定的店铺内容（不在主题里，一改马上在正式店生效）：
+1. Journal 文章 “A guide to gifting faux roses with a vase”（handle `faux-rose-gift-box-guide`）现在仍然发布着，建议取消发布。“How to choose faux flowers for your home” 里可能也提到了礼盒，需要检查文字。
+2. Dawn 页脚菜单里的 “Rose gift sets” 链接（只在商品页、购物车、搜索页显示），建议在后台的导航菜单里删除。
+3. 亚马逊上的礼盒 listing 是否下架，不在网站范围内。
+
+验证：在 iPhone 13 宽度下逐页滚到底，检查了首页、四个花页、全部花页、Lookbook、礼物页、Care 和配方页：
+- 页面文字里没有 “gift box / gift set / paper vase / Rose Gift”；
+- 没有礼盒图片，也没有指向礼盒页的链接；
+- 旧网址 `?view=sskoi-rose-gift` 会打开首页；
+- 横向溢出、Liquid 错误和坏图都是 0。
+
+截图在 `review/after-r4-no-giftbox-mobile.jpg`。
