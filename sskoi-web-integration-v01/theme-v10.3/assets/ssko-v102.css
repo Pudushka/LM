@@ -126,3 +126,6 @@ html,body{overflow-x:clip;max-width:100%}
 .ssko-404 p{margin:0 auto;max-width:40ch;font-size:17px;opacity:.85}
 .ssko-404 nav{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 28px;margin-top:28px}
 .ssko-404 nav a{font:500 15px/1.4 "Hanken Grotesk","Helvetica Neue",Arial,sans-serif;color:inherit;text-underline-offset:6px}
+section.ssko-v07-product{--product-mono:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif}
+.ssko-v07-product__actions a.ssko-v07-product__store{text-decoration:underline!important;text-underline-offset:6px;justify-content:flex-start}
+.ssko-v3-theme .header__menu-item,.ssko-v3-theme .header__inline-menu a{font-family:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif!important;font-weight:500}
