@@ -134,3 +134,82 @@
    - 这是 Shopify 商品媒体，改了立刻在正式店生效，需要你们同意。
 3. **首页桌面首图原图只有 1672 px 宽**，在 2 倍屏桌面上略软。如有更高分辨率的原图请替换。
 4. **Austin Baby Pink 近景（Codex r02）背景是很浅的粉色**，接近白底，可以再换成纸面背景，也可以接受。
+
+## 第三轮（2026-11-18）：颜色寓意词、按场合选礼物、信任行、邮件订阅
+
+借鉴 Moon Magic 的前三条（笔记见 `../research/moonmagic-notes-20261118.md`）。
+
+### 1. 颜色寓意词（Claude 定稿）
+同一颜色在所有花种里用同一个词，统一由 `snippets/ssko-color-meaning.liquid` 管理，改一处全站生效。
+
+| 颜色 | 词 | 颜色 | 词 |
+|---|---|---|---|
+| White | Calm | Coral | Warmth |
+| Baby Pink | Tenderness | Peach / Light Peach | Comfort |
+| Pink | Gratitude | Orange | Energy |
+| Hot Pink | Delight | Yellow | Cheer |
+| Red | Love | White With Pink Tip | Romance |
+| Burgundy | Devotion | Green With Pink Tip | Renewal |
+| Purple | Wonder | White With Blue Tip | Serenity |
+| Dark Purple | Mystery | Mauve / Mauve Pink | Grace |
+
+显示位置：
+- 花页的颜色标签，例如 “Color Baby Pink · Tenderness”，切换颜色时跟着变；
+- 花页 “In every color” 的颜色卡片；
+- 首页 “Every color” 色卡；
+- 首页礼盒区的颜色名，切换颜色时跟着变。
+
+### 2. 按场合选礼物（新页面）
+`/?view=sskoi-gifts`，模板 `templates/index.sskoi-gifts.json`，区块 `sections/ssko-v102-gifts.liquid`，用品牌页头页脚。
+
+页面有 6 个场合：Mother's Day、Anniversary and Valentine's Day、Housewarming、Thank you、Sympathy、Just because。每个场合配：
+- 一张现有房间图（没有用待审的 AI 配方图）；
+- 一句话；
+- 3 个推荐，即套装和颜色（带寓意词）或配方，直接链接到对应花页的那个颜色或配方。
+
+页脚说明：只有礼盒自带纸花器，其他套装只含花枝，图中的花器和房间都是道具。
+
+入口：
+- 页头 “Gift box” 改为 “Gifts”；
+- 两种页脚都加 “Gifts by occasion”；
+- 首页礼盒区加 “Gifts by occasion” 链接。
+
+页面标题和描述已加入 `ssko-v08-index-meta`。顺手把配方页描述里的 “Eight” 改成 “Six”。
+
+### 3. 信任行：暂不显示亚马逊评分
+2026-11-18 亚马逊各套的评分和评价数：
+
+| 套装（示例颜色 ASIN） | 评分 | 评价数 |
+|---|---|---|
+| Austin Roses（B0DTFNXBHF） | 4.8 | 4 |
+| Tulips（B0DQDXM72R） | 5.0 | 2 |
+| Classic Roses（B0DSWT9NMF） | 5.0 | 4 |
+| Flocked Ranunculus（B0DTYG3SY1） | 5.0 | 3 |
+| Rose Gift Set（B0FKJ68G3Z） | 4.2 | 28 |
+| Austin Roses with Eucalyptus（B0FLLPR1W9） | 4.5 | 29 |
+
+结论：
+- 不显示评分。2–4 条评价的 5.0 说服力不足，礼盒的 4.2 反而减分。
+- 改为一行产品事实：“Lifelike petals and leaves · Display dry, no water · Order securely on Amazon”。
+  - 因为露莲是植绒丝面，不是 real-touch，所以写 lifelike，不写 real-touch；
+  - 也不写 Prime 或 “能用很多年”这类没法核实的话。
+- 位置：首页首屏下方、每个花页购买按钮下方、礼物页导语下方。
+- 建议等某一套达到 4.5 星以上、50 条以上评价时，再在那一套上显示评分。
+
+### 4. 邮件订阅
+- 两种页脚都加了一行订阅：“Seasonal styling notes, a few times a year”。
+- 用的是 Shopify 自带的客户表单：订阅者保存为同意接收营销邮件的 Shopify 客户，带标签 `newsletter`。在后台按这个标签就能导出名单。
+- 测试时没有真的提交，以免在正式店铺里生成测试客户。
+
+### 买家照片墙：未做
+店铺没有填写 Instagram 等社媒账号。建议先开账号或决定收集方式，例如随包裹附卡片、邀请客户发邮件，再做照片墙。
+
+### 验证
+在 iPhone 13 和桌面 1440 宽度下检查了 11 个页面，加上新的礼物页：
+- 没有横向溢出、Liquid 错误、JS 报错或坏图；
+- 切换颜色时寓意词同步变化；
+- 用礼物页链接打开礼盒页，会直接选中对应颜色（如 Mauve Pink · Grace）；
+- 订阅表单存在，带 `newsletter` 标签；
+- 手机上信任行改为竖排，避免换行后分隔点错位。
+
+截图在 `review/after-r3-mobile.jpg`。

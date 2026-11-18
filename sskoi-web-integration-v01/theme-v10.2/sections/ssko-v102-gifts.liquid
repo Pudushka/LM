@@ -1,0 +1,61 @@
+{%- assign s = section.settings -%}
+<div class="ssko-gifts">
+  <header class="ssko-gifts__intro wrap">
+    <p class="mono">{{ s.eyebrow | escape }}</p>
+    <h1>{{ s.heading | escape }} <em>{{ s.emphasis | escape }}</em></h1>
+    {%- if s.intro != blank -%}<p>{{ s.intro | escape }}</p>{%- endif -%}
+    {% render 'ssko-assurance' %}
+  </header>
+  <ol class="ssko-gifts__list wrap">
+    {%- for b in section.blocks -%}
+      {%- assign g = b.settings -%}
+      {%- assign lines = g.picks | strip | newline_to_br | split: '<br />' -%}
+      <li class="ssko-gift-row" id="{{ g.anchor | handleize }}" {{ b.shopify_attributes }}>
+        <figure class="ssko-gift-row__media">{% render 'ssko-v09-img', image: g.image, asset: g.image_asset, alt: g.alt, width: 1400, sizes: '(min-width: 761px) 52vw, 100vw', aw: 1536, ah: 1024 %}</figure>
+        <div>
+          <p class="mono">{{ g.occasion | escape }}</p>
+          <h2>{{ g.title | escape }} <em>{{ g.emphasis | escape }}</em></h2>
+          <p>{{ g.text | escape }}</p>
+          <ul class="ssko-picks">
+            {%- for line in lines -%}
+              {%- assign p = line | split: '|' -%}
+              {%- assign label = p[0] | strip -%}
+              {%- if label == blank -%}{%- continue -%}{%- endif -%}
+              {%- assign color = p[1] | strip -%}
+              <li><a href="{{ p[2] | strip | escape }}"><span class="dot" style="--c:{{ p[3] | strip | default: '#d3c4ba' }}" aria-hidden="true"></span><span><b>{{ label | escape }}</b> {{ color | escape }}</span>{%- if label != 'Recipe' -%}<em class="ssko-meaning">{% render 'ssko-color-meaning', name: color %}</em>{%- endif -%}</a></li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      </li>
+    {%- endfor -%}
+  </ol>
+  {%- if s.footnote != blank -%}<footer class="ssko-gifts__foot wrap"><p>{{ s.footnote | escape }}</p></footer>{%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "SSKOI gifts by occasion",
+  "max_blocks": 10,
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Small heading","default":"Gifts"},
+    {"type":"text","id":"heading","label":"Heading","default":"Gifts,"},
+    {"type":"text","id":"emphasis","label":"Heading accent","default":"by occasion."},
+    {"type":"textarea","id":"intro","label":"Intro"},
+    {"type":"textarea","id":"footnote","label":"Footnote"}
+  ],
+  "blocks": [
+    {"type":"occasion","name":"Occasion","settings":[
+      {"type":"text","id":"occasion","label":"Occasion"},
+      {"type":"text","id":"anchor","label":"Link name"},
+      {"type":"text","id":"title","label":"Title"},
+      {"type":"text","id":"emphasis","label":"Title accent"},
+      {"type":"textarea","id":"text","label":"Text"},
+      {"type":"image_picker","id":"image","label":"Photo"},
+      {"type":"text","id":"image_asset","label":"Theme photo filename (used when no photo is picked)"},
+      {"type":"text","id":"alt","label":"Photo description"},
+      {"type":"textarea","id":"picks","label":"Picks","info":"One per line: Set | Color | link | swatch. Use Recipe | Recipe name | link | swatch for a recipe."}
+    ]}
+  ],
+  "presets": [{"name":"SSKOI gifts by occasion"}]
+}
+{% endschema %}

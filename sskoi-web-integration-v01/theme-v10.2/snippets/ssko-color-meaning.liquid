@@ -1,0 +1,38 @@
+{%- comment -%} One word per flower color, the same in every set. Usage: {% render 'ssko-color-meaning', name: 'Baby Pink' %} {%- endcomment -%}
+{%- liquid
+  assign n = name | strip | downcase
+  case n
+    when 'white'
+      echo 'Calm'
+    when 'baby pink'
+      echo 'Tenderness'
+    when 'pink'
+      echo 'Gratitude'
+    when 'hot pink'
+      echo 'Delight'
+    when 'red'
+      echo 'Love'
+    when 'burgundy'
+      echo 'Devotion'
+    when 'purple'
+      echo 'Wonder'
+    when 'dark purple'
+      echo 'Mystery'
+    when 'mauve', 'mauve pink'
+      echo 'Grace'
+    when 'coral'
+      echo 'Warmth'
+    when 'peach', 'light peach'
+      echo 'Comfort'
+    when 'orange'
+      echo 'Energy'
+    when 'yellow'
+      echo 'Cheer'
+    when 'white with pink tip'
+      echo 'Romance'
+    when 'green with pink tip'
+      echo 'Renewal'
+    when 'white with blue tip'
+      echo 'Serenity'
+  endcase
+-%}

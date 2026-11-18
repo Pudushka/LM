@@ -52,3 +52,60 @@ html,body{overflow-x:clip;max-width:100%}
   .bar nav .ssko-home-journal-link{display:none!important}
 }
 .room-links{display:flex;flex-wrap:wrap;gap:12px 28px}
+/* Color words */
+.ssko-meaning{font:italic 400 15px/1.3 var(--display,"Bodoni Moda",Georgia,serif);letter-spacing:0;text-transform:none}
+.ssko-v07-product__color .ssko-meaning:not(:empty)::before{content:"· ";font-style:normal;opacity:.5}
+.ssko-v07-product__color .ssko-meaning{margin-inline-start:6px;opacity:.85}
+.ssko-v09-mini .ssko-meaning{display:block;margin-top:-6px;font-size:14px;opacity:.75}
+.ssko-v09-slice__label .ssko-meaning{display:block;margin-top:4px;font-size:15px;opacity:.75}
+.gift legend .ssko-meaning{margin-inline-start:6px;font-size:16px}
+/* Assurance line */
+.ssko-assure{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:18px 0 0;padding:0;font-size:10px;opacity:.75}
+.ssko-assure li{display:flex;align-items:center;gap:18px}
+.ssko-assure li+li::before{content:"";width:3px;height:3px;border-radius:50%;background:currentColor;margin-inline-start:-11px}
+.ssko-home-assure{border-bottom:1px solid var(--rule)}
+.ssko-home-assure .ssko-assure{justify-content:center;margin:0;padding-block:16px}
+/* Newsletter */
+.ssko-news{margin-top:26px;max-width:420px}
+.ssko-news label{display:block;margin-bottom:10px;opacity:.75}
+.ssko-news__row{display:flex;border-bottom:1px solid currentColor}
+.ssko-news input{flex:1;min-width:0;background:transparent;border:0;color:inherit;font:400 16px/1.4 var(--text,"Hanken Grotesk",Arial,sans-serif);padding:10px 0}
+.ssko-news input::placeholder{color:inherit;opacity:.55}
+.ssko-news input:focus{outline:none}
+.ssko-news__row:focus-within{border-bottom-width:2px}
+.ssko-news button{background:none;border:0;color:inherit;font:600 13px/1 var(--text,"Hanken Grotesk",Arial,sans-serif);letter-spacing:.04em;padding:10px 0 10px 16px;cursor:pointer}
+.ssko-news__done,.ssko-news__err{margin:10px 0 0;font-size:14px}
+/* Gifts page */
+.ssko-gifts{padding-bottom:40px}
+.ssko-gifts__intro{padding-block:clamp(48px,7vw,96px) clamp(24px,3vw,40px);max-width:860px}
+.ssko-gifts__intro h1{margin:10px 0 14px;font:400 clamp(44px,7vw,92px)/.98 var(--display);letter-spacing:-.02em}
+.ssko-gifts__intro h1 em{font-style:italic}
+.ssko-gifts__intro p:last-child{margin:0;max-width:46ch;font-size:17px;opacity:.85}
+.ssko-gifts__list{list-style:none;margin:0;padding:0}
+.ssko-gift-row{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);align-items:center;padding-block:clamp(28px,4vw,56px);border-top:1px solid var(--rule)}
+.ssko-gift-row:nth-child(even) .ssko-gift-row__media{order:2}
+.ssko-gift-row__media{margin:0;aspect-ratio:4/5;overflow:hidden;background:var(--paper-2)}
+.ssko-gift-row__media img{width:100%;height:100%;object-fit:cover}
+.ssko-gift-row h2{margin:10px 0 12px;font:400 clamp(32px,4.2vw,56px)/1.02 var(--display);letter-spacing:-.015em}
+.ssko-gift-row h2 em{font-style:italic}
+.ssko-gift-row p{margin:0;max-width:42ch;font-size:16px;line-height:1.55}
+.ssko-picks{list-style:none;margin:24px 0 0;padding:0;border-top:1px solid var(--rule)}
+.ssko-picks li{border-bottom:1px solid var(--rule)}
+.ssko-picks a{display:grid;grid-template-columns:12px minmax(0,1fr) auto;align-items:center;gap:14px;padding:14px 0;text-decoration:none;color:inherit}
+.ssko-picks a:hover b{text-decoration:underline;text-underline-offset:4px}
+.ssko-picks .dot{width:12px;height:12px;border-radius:50%;background:var(--c,#ccc);box-shadow:inset 0 0 0 1px rgba(29,20,24,.15)}
+.ssko-picks b{font-weight:600}
+.ssko-picks .ssko-meaning{font-size:16px;opacity:.75}
+.ssko-gifts__foot{padding-block:28px 0;border-top:1px solid var(--rule)}
+.ssko-gifts__foot p{margin:0;max-width:70ch;font-size:13px;opacity:.7}
+@media (max-width:760px){
+  .ssko-gift-row{grid-template-columns:minmax(0,1fr);gap:20px}
+  .ssko-gift-row:nth-child(even) .ssko-gift-row__media{order:0}
+  .ssko-picks a{grid-template-columns:12px minmax(0,1fr)}
+  .ssko-picks .ssko-meaning{grid-column:2;margin-top:-8px}
+}
+@media (max-width:640px){
+  .ssko-assure{flex-direction:column;gap:5px}
+  .ssko-assure li+li::before{display:none}
+  .ssko-home-assure .ssko-assure{align-items:center;padding-block:14px}
+}

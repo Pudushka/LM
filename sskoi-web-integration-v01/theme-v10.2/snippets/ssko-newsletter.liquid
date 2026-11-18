@@ -1,0 +1,17 @@
+{%- comment -%} Email sign-up. Saves the address as a Shopify customer who accepts marketing, tagged "newsletter". {%- endcomment -%}
+{%- assign fid = 'ssko-news-' | append: key -%}
+<div class="ssko-news">
+  {%- form 'customer', id: fid -%}
+    <input type="hidden" name="contact[tags]" value="newsletter">
+    {%- if form.posted_successfully? -%}
+      <p class="ssko-news__done" role="status">Thank you. You are on the list.</p>
+    {%- else -%}
+      <label class="mono" for="{{ fid }}-email">Seasonal styling notes, a few times a year</label>
+      <div class="ssko-news__row">
+        <input id="{{ fid }}-email" type="email" name="contact[email]" autocomplete="email" placeholder="Email address" required{% if form.errors %} aria-invalid="true"{% endif %}>
+        <button type="submit">Subscribe</button>
+      </div>
+      {%- if form.errors -%}<p class="ssko-news__err" role="alert">Please enter a valid email address.</p>{%- endif -%}
+    {%- endif -%}
+  {%- endform -%}
+</div>
