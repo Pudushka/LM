@@ -43,3 +43,12 @@
 .ssko-v07-product__proof>figcaption[data-ssko-v07-caption]{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:760px){.ssko-v07-product .ssko-v07-product__crumb{display:none}}
 .ssko-v3-count{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* Phones: the page never moves sideways. Carousels still scroll inside themselves. */
+html,body{overflow-x:clip;max-width:100%}
+@supports not (overflow:clip){html{overflow-x:hidden}}
+/* Recipes in the main menu; on phones it takes Journal's place (Journal stays in the footer). */
+@media (max-width:640px){
+  .bar nav .ssko-home-recipes-link{display:inline-block!important;padding-block:12px;font-size:10px}
+  .bar nav .ssko-home-journal-link{display:none!important}
+}
+.room-links{display:flex;flex-wrap:wrap;gap:12px 28px}
