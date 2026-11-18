@@ -4,6 +4,11 @@
 
 依据：`SSKOI-visual-handbook-v01.md` 第 1、2、5、6 节。
 
+## Drive 文件夹（2026-11-18 已由 Claude 放好）
+- 原图 58 张，按编号命名，附清单：https://drive.google.com/drive/folders/1AzTcHDaVSDypLWN3BGhOuOYMQyPOlOE5
+- 成图放这里：https://drive.google.com/drive/folders/1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3
+- 两个文件夹都在共享协作目录里，沿用原有的受限共享（James、Rachel、sskoillc、QL76.88）。
+
 ## 怎么用
 1. 用 Gemini 的图片编辑功能。如果有 Pro 图像模型，优先用它，分辨率更高。
 2. 新开一个对话，先把下面整段提示词发过去。
