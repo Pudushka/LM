@@ -1,0 +1,662 @@
+[
+ {
+  "id": "D01",
+  "asset": "ssko-v072-austin-hot-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 115760,
+  "sha256": "67cb98d9bad7faba9d238b0c9f1a2297ffc76eabfdca39873599274941ff49d2",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D02",
+  "asset": "ssko-v072-austin-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 87378,
+  "sha256": "672c0a374842b9c8d2f4d80e1c7d410cc7bb3dccfeca810b0197c3d968d2bbd4",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D03",
+  "asset": "ssko-v072-austin-purple-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 110610,
+  "sha256": "5a128c2cb2196ef4fb535463b8bc70c3bce27b7d181b864bed04c8eb2aac1665",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D04",
+  "asset": "ssko-v072-austin-red-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 122614,
+  "sha256": "f91a654eee9215063fccecae9ee6aefb345dfba279c9dd19549a297db8bfc92d",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D05",
+  "asset": "ssko-v072-austin-white-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 53598,
+  "sha256": "ebeebac4b45e00eb5992a697c1bd73f12759ffbef16b89e33365a1f96328e848",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D06",
+  "asset": "ssko-v072-classic-burgundy-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 130466,
+  "sha256": "6d7a71a534df3d47b9cec7f5b6bb208af5b49adf424138e706b2b6cc0b4fc8ac",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D07",
+  "asset": "ssko-v072-classic-coral-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 150386,
+  "sha256": "bcbc590af8637b3f6f5e041a24a1185cfdf8cfc75344d47d6aafec54a80cf5fc",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D08",
+  "asset": "ssko-v072-classic-mauve-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 135122,
+  "sha256": "2f1e3b47325050b1e43cb035af24ee09cbf556326edba97f9d4a0fbb10ce029e",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D09",
+  "asset": "ssko-v072-classic-purple-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 128788,
+  "sha256": "e0a04c2076e2b1b95d222dd0ad7ff35ee671081e723b59876cb40007a1f96bdd",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D10",
+  "asset": "ssko-v072-classic-white-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 99376,
+  "sha256": "b9150081ab16a6bfa2c6e4c27d934dbd00ea588f0035c80c237834fad1c0cddd",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D11",
+  "asset": "ssko-v072-classic-white-with-pink-tip-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 109672,
+  "sha256": "b51ea8227a465269b58fc3ec10f0ed6a00333251fc98111cfd4a40a9f99541f4",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D12",
+  "asset": "ssko-v072-peony-baby-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 88736,
+  "sha256": "9379a1e1f6b10cb6ffe9e476dede71291857ce13596d25a830f9856cfcb43ef4",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D13",
+  "asset": "ssko-v072-peony-hot-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 119624,
+  "sha256": "deeff46fe3a71b5f98c0a89fd74042e3d6b209abcafc79440bec24b811985495",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D14",
+  "asset": "ssko-v072-peony-light-peach-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 77768,
+  "sha256": "1ee6e0c4f4aa2506d38993a6e805a4898fde1a594cced1da786cfe7db6feba0e",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D15",
+  "asset": "ssko-v072-peony-orange-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 85286,
+  "sha256": "26d132729d9ff29c68b5cbfd993cd80128f0c6544e988bbfce5c0650fbfd4a03",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D16",
+  "asset": "ssko-v072-peony-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 68844,
+  "sha256": "127591d6bf83fd528f9765e9ff64982e9add29043f120f2e63fe264e77b46214",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D17",
+  "asset": "ssko-v072-peony-purple-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 111572,
+  "sha256": "0a5e8e552b61288f46ceddd3ce92e479da1256a1a415f9a06ac49b748c260e29",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D19",
+  "asset": "ssko-v072-tulip-dark-purple-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 92230,
+  "sha256": "e0ec734ac276bcf6f57ff50eb6c06647cbad860ad9741ce33e8de33c66f7ce07",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D20",
+  "asset": "ssko-v072-tulip-green-with-pink-tip-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 64256,
+  "sha256": "241442084b5295f55efd52b69b4667ba613ea05ebf9253ffe43524b826e9cc46",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D21",
+  "asset": "ssko-v072-tulip-hot-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 64466,
+  "sha256": "fe3f25bec86483d5420a6c24a7c96b5335e4ee8b26d9da936eb7f70492e974a7",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D22",
+  "asset": "ssko-v072-tulip-orange-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 130432,
+  "sha256": "01e77da16e1e9f97e78f63dfa8a7cf4c1955552365bed80160ae9b27a0ce9ba1",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D23",
+  "asset": "ssko-v072-tulip-peach-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 81506,
+  "sha256": "e2da9dd228e145c6cd82ff14a7da1680c65b21d65dd6f5e0709498835eb1f822",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D24",
+  "asset": "ssko-v072-tulip-pink-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 98682,
+  "sha256": "a92940ace8dea0cdfc6a4c9d6b06bb3a17cf44a95de10e3c9851f4b358121bd8",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D25",
+  "asset": "ssko-v072-tulip-red-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 102704,
+  "sha256": "8f498f97a6c8ea8e11ff00e467aa9b57971cc8385959712a1e710f533f11c629",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D26",
+  "asset": "ssko-v072-tulip-white-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 35926,
+  "sha256": "ba7561f0f94acd699fc1fa27c65bdb0eafd8fcb2981b23a3e3fdc29e7628e259",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "D27",
+  "asset": "ssko-v072-tulip-white-with-blue-tip-detail.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 49740,
+  "sha256": "695f7d3764234f196268f719e7723cd39d9b28a83da6059d8a52fa2a89b93f34",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S01",
+  "asset": "ssko-v072-austin-baby-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 66658,
+  "sha256": "58f3f2096eaf9fe4f8609bc67b110c36d9ebb7aed504e504b706a96f59e2538a",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S02",
+  "asset": "ssko-v072-austin-hot-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 89252,
+  "sha256": "c617da3efb8a4035149469c3e0aae67e75561160114dbadaedb33339c5ecbc65",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S03",
+  "asset": "ssko-v072-austin-light-peach-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 61654,
+  "sha256": "77bb8093e1eeb1be35c970d4af10436e4df91dbee7f69d650f3ad20955a84060",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S04",
+  "asset": "ssko-v072-austin-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 74932,
+  "sha256": "89a8c15ad921461022cb1bb0696dc4105b24baefa2ce504a32adb10e9834657c",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S05",
+  "asset": "ssko-v072-austin-purple-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 79664,
+  "sha256": "977ffd9d42f62dcc9f606f2c64ca3a51e950cf77397e2753e5164c03b34145d2",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S06",
+  "asset": "ssko-v072-austin-red-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 69808,
+  "sha256": "783756e61fdd374b7fb71c9ad52519c59a8095fdfd896f0b35e1b7bbcf5a4417",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S07",
+  "asset": "ssko-v072-austin-white-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 71790,
+  "sha256": "4f5b0327aba70b4804b044af6c5f95d3e49d81ff6300b1497665f9e67531e1b3",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S08",
+  "asset": "ssko-v072-classic-burgundy-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 80362,
+  "sha256": "34597451a1cf4e95bb42a606064c155ab62beef60e728b941d4c184cbb53a731",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S09",
+  "asset": "ssko-v072-classic-coral-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 68588,
+  "sha256": "7bb52a5757b3b8d94c2c4406dcfb2f926e67cae1eee67a951a139b70dc615d6b",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S10",
+  "asset": "ssko-v072-classic-mauve-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 71550,
+  "sha256": "256287b411bc0a12e0f213286c22e217bc8cdc136667e93f418c910a77b5b956",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S11",
+  "asset": "ssko-v072-classic-purple-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 67614,
+  "sha256": "ce147f6bb56d5d717775364d4ac8cdd53209a5c1fa2c5838775b61fc9e0ebd6e",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S12",
+  "asset": "ssko-v072-classic-white-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 57528,
+  "sha256": "0d46f65a81957fd23ef5248efd947f4d8757b1112e26a0ccab2b269cf2766682",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S13",
+  "asset": "ssko-v072-classic-white-with-pink-tip-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 69956,
+  "sha256": "af1b64715910301afce4c79bf41807f1bb155728c36649fbd90b23451565f173",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S14",
+  "asset": "ssko-v072-peony-baby-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 65782,
+  "sha256": "11c9ea3bc69c9a621477110af9d615e23cc372a2cf9479dfa7d2001c48a2d4eb",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S15",
+  "asset": "ssko-v072-peony-hot-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 68884,
+  "sha256": "146e00f8f71bf95062b10876516d88ff92b28f07dc2bafdfb9b6f9a6a74597b8",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S16",
+  "asset": "ssko-v072-peony-light-peach-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 63426,
+  "sha256": "7a1320961d4ddd70407d45fb5829c055de75e5ef9fcad88aa8f0365a45295dc4",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S17",
+  "asset": "ssko-v072-peony-orange-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 63838,
+  "sha256": "76bdd30eb6dada1d1c4387a5f5a3f268946f92b0e253c9391b80d76fa663d22e",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S18",
+  "asset": "ssko-v072-peony-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 61154,
+  "sha256": "d6a49415eadf0f5e499d814db79d6aa5b3e99c4454a54f7f2861cc700c38cf5b",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S19",
+  "asset": "ssko-v072-peony-purple-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 69910,
+  "sha256": "3bc10d80d87282a48e1526e462d9dc28a68d44a70fc54446e8482a29ee200077",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S20",
+  "asset": "ssko-v072-peony-white-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 64182,
+  "sha256": "e1bd78ee27b97cbca42e8f651e3430a152aae04b5fd6617234382c56e1602deb",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S21",
+  "asset": "ssko-v072-tulip-dark-purple-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 62158,
+  "sha256": "8cda36fbb0a796da955b6a9a8df266455202fc03d5ab3c54ee56f0cb5b5a9cc2",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S22",
+  "asset": "ssko-v072-tulip-green-with-pink-tip-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 46048,
+  "sha256": "88b9e91fec65b8e9c5e921cf2ffcabc057ced3faee793c97ac4b09995ee86225",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S23",
+  "asset": "ssko-v072-tulip-hot-pink-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 49332,
+  "sha256": "6449863abee03662a2e27f2e09c24e9ddd21eadaa11f21cd70bfeec868c81b85",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S24",
+  "asset": "ssko-v072-tulip-orange-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 45298,
+  "sha256": "32865fbd4bab883926b5195178abba0f635d2f6211f6fbc999a5f36d3ebd81aa",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S25",
+  "asset": "ssko-v072-tulip-peach-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 44736,
+  "sha256": "f963cef2498c81fe3eb3be534e5ebd1d60e5eafb6cc05b86d1285f636eccd30f",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S27",
+  "asset": "ssko-v072-tulip-red-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 49740,
+  "sha256": "c24542c50a4250671fa40b8b0fb569ed2c72487f98cb93430e5156089847f9d6",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S28",
+  "asset": "ssko-v072-tulip-white-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 47828,
+  "sha256": "7e15cc3614030deccb891e3070ab7694388d31a514ec63fbda58a9511e314626",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S29",
+  "asset": "ssko-v072-tulip-white-with-blue-tip-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 38908,
+  "sha256": "a44d3772f37a5484c7aa59de831c55071195ca6a07e2214c6e69c56e2ebf8408",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ },
+ {
+  "id": "S30",
+  "asset": "ssko-v072-tulip-yellow-set.webp",
+  "size": [
+   1024,
+   1024
+  ],
+  "bytes": 53852,
+  "sha256": "d970935bb1231ca2ed58eb1d13e87f6fea9ddfb7244dbd6b7d2b2b777f30a9c6",
+  "source": "Gemini paper edit v01 (Drive folder 1o2l__Ix-lUcj9PmU5coqE0zV3XQQrWD3)",
+  "status": "REVIEW"
+ }
+]
