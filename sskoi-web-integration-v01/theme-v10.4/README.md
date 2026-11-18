@@ -15,6 +15,14 @@
 - D18（白色 Ranunculus 近景）、D28（黄色郁金香近景）、S26（粉色郁金香平铺）：Gemini 改了构图或重画了花，标为 NEEDS-FIX，继续用原图，等 Gemini 重做。
 - Austin Baby Pink 近景用的是 v10.1-r02 的新图，不在这一批里。
 
+## 验证（2026-11-18，Chromium 模拟 iPhone 13 和桌面 1440）
+- 55 个文件写入 v10.4 后，主题里的 MD5 和本地文件逐个比对，55/55 一致。
+  - 第一次上传和主题复制同时进行，部分文件被复制进程覆盖回旧图，所以在复制完成后又全部重传了一次。
+- Austin、Classic、Tulips、Ranunculus 四个花页：
+  - 没有坏图、横向溢出、Liquid 错误或 JS 报错；
+  - 没加载的图都是轮播里还没滑到的懒加载图。
+- 截图：`review/v104-austin-mobile.jpg`。
+
 ## 待办
 1. James 或 Rachel 看预览后批准，再在后台手动发布。
 2. Gemini 重做 3 张后，由 Claude 质检，再补进来。
