@@ -1,0 +1,545 @@
+{
+  "version": "Codex-v01",
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "slotId": "L7",
+  "totalPlanned": 3,
+  "generationPlanSHA256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733",
+  "records": [
+    {
+      "slotId": "L7",
+      "candidate": "a",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2278311,
+      "sha256": "0151ae8fc485c89d1b2446014f7b4896dc8c6e7117aead330d45d076bdc8edff",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-cecd9ca0-cd33-48cf-a4ae-36826413fb69.png",
+      "rawToolOutputSHA256": "0151ae8fc485c89d1b2446014f7b4896dc8c6e7117aead330d45d076bdc8edff",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nBaby Pink Austin roses in a low terracotta stoneware vase on a walnut bookshelf with a few linen-bound books, 50mm at standing eye level.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "2ff195565c2bf94465d812831363d2fda8d26e562af1adbf42c1c774cea6ac1a",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L7-a_f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605.json",
+      "capturedActualJobSHA256": "f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+          "bytes": 266829,
+          "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+          "bytes": 167384,
+          "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+          "bytes": 66348,
+          "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "No exact main-stem count can be traced through opaque vase.",
+        "Center portrait composition needs a leftward focal shift.",
+        "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Most relaxed varied flower angles, calm shelf/books setting and least portrait flower trimming.",
+      "driveFileId": "1TJZ9W80q0JT44AUIc8_0DqrqmQ__WWWn",
+      "driveUrl": "https://drive.google.com/file/d/1TJZ9W80q0JT44AUIc8_0DqrqmQ__WWWn/view?usp=drivesdk",
+      "driveParents": [
+        "1OHwjwkXRlA-ZDnfGiufn2-rCPwyAbr7i"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L7.json",
+          "sha256": "ee606bc046ec3337a8c519fb69bf97f8fd48a2a90e671af91d339dddf0c2d7d3",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L7",
+          "candidate": "a",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-cecd9ca0-cd33-48cf-a4ae-36826413fb69.png",
+          "sha256": "0151ae8fc485c89d1b2446014f7b4896dc8c6e7117aead330d45d076bdc8edff",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": 0,
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "visibleHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "flowerFidelity": "Six round cupped Baby Pink Austin heads with cream outer petals/pink inner layers, small cream-yellow center clusters and serrated green leaves. No Classic pointed rose buds or eucalyptus. Openness follows attached creative macro more strongly than tighter full-set source; physical fidelity remains reviewable.",
+          "composition": {
+            "lowTerracottaStonewareVase": true,
+            "walnutBookshelf": true,
+            "linenBoundBooks": true,
+            "leftNaturalLight": true,
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+            "bookNote": "Blank fabric covers and page edges; no legible lettering observed.",
+            "scale": "Low squat vessel and short exposed stems keep the arrangement subordinate to shelf context. No independent44cm/9cm measurement."
+          },
+          "centralCrop": {
+            "result": "REQUIRES_SMALL_FOCAL_ADJUSTMENT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L7-a-centered4x5-QA-only.png",
+            "finding": "Default centered4:5 nearly fits all six heads, with a thin far-left petal edge trimmed; a tiny left shift can retain full product."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "No exact main-stem count can be traced through opaque vase.",
+            "Center portrait composition needs a leftward focal shift.",
+            "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+          ],
+          "recommendedWithinSlot": true,
+          "recommendationReason": "Most relaxed varied flower angles, calm shelf/books setting and least portrait flower trimming.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1TJZ9W80q0JT44AUIc8_0DqrqmQ__WWWn",
+        "title": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2278311",
+        "url": "https://drive.google.com/file/d/1TJZ9W80q0JT44AUIc8_0DqrqmQ__WWWn/view?usp=drivesdk",
+        "parent_ids": [
+          "1OHwjwkXRlA-ZDnfGiufn2-rCPwyAbr7i"
+        ],
+        "modified_time": "2026-11-18T18:04:59.189Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "0151ae8fc485c89d1b2446014f7b4896dc8c6e7117aead330d45d076bdc8edff",
+        "readbackBytes": 2278311,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "22fa00d46a34e2a57cce9b50a155baefdd0efc472c34d79eff130c9d24620ed3"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L7/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L7-a_f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605.json"
+      }
+    },
+    {
+      "slotId": "L7",
+      "candidate": "b",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2426753,
+      "sha256": "8b7d3112dbe8b7d01ffa3ab5a02de8655f453c141cbf89a49dba4ef6f270fdf3",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-a82c62b5-eddf-47ab-b3d6-e7de0e7bf85e.png",
+      "rawToolOutputSHA256": "8b7d3112dbe8b7d01ffa3ab5a02de8655f453c141cbf89a49dba4ef6f270fdf3",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nBaby Pink Austin roses in a low terracotta stoneware vase on a walnut bookshelf with a few linen-bound books, 50mm at standing eye level.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "2ff195565c2bf94465d812831363d2fda8d26e562af1adbf42c1c774cea6ac1a",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L7-b_a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03.json",
+      "capturedActualJobSHA256": "a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+          "bytes": 266829,
+          "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+          "bytes": 167384,
+          "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+          "bytes": 66348,
+          "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "No exact main-stem count can be traced through opaque vase.",
+        "Center portrait composition needs a leftward focal shift.",
+        "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Six-head alternative; leftmost head is more heavily clipped by default centered portrait crop.",
+      "driveFileId": "1WxBcAceeKYpZ-JKsBFIQU5qA6X9i7cro",
+      "driveUrl": "https://drive.google.com/file/d/1WxBcAceeKYpZ-JKsBFIQU5qA6X9i7cro/view?usp=drivesdk",
+      "driveParents": [
+        "1OHwjwkXRlA-ZDnfGiufn2-rCPwyAbr7i"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L7.json",
+          "sha256": "ee606bc046ec3337a8c519fb69bf97f8fd48a2a90e671af91d339dddf0c2d7d3",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L7",
+          "candidate": "b",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-a82c62b5-eddf-47ab-b3d6-e7de0e7bf85e.png",
+          "sha256": "8b7d3112dbe8b7d01ffa3ab5a02de8655f453c141cbf89a49dba4ef6f270fdf3",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": 0,
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "visibleHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "flowerFidelity": "Six round cupped Baby Pink Austin heads with cream outer petals/pink inner layers, small cream-yellow center clusters and serrated green leaves. No Classic pointed rose buds or eucalyptus. Openness follows attached creative macro more strongly than tighter full-set source; physical fidelity remains reviewable.",
+          "composition": {
+            "lowTerracottaStonewareVase": true,
+            "walnutBookshelf": true,
+            "linenBoundBooks": true,
+            "leftNaturalLight": true,
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+            "bookNote": "Blank fabric covers and page edges; no legible lettering observed.",
+            "scale": "Low squat vessel and short exposed stems keep the arrangement subordinate to shelf context. No independent44cm/9cm measurement."
+          },
+          "centralCrop": {
+            "result": "REQUIRES_SMALL_FOCAL_ADJUSTMENT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L7-b-centered4x5-QA-only.png",
+            "finding": "Default centered4:5 visibly cuts leftmost head. Move future focal crop slightly left; whole native landscape remains intact."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "No exact main-stem count can be traced through opaque vase.",
+            "Center portrait composition needs a leftward focal shift.",
+            "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Six-head alternative; leftmost head is more heavily clipped by default centered portrait crop.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1WxBcAceeKYpZ-JKsBFIQU5qA6X9i7cro",
+        "title": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2426753",
+        "url": "https://drive.google.com/file/d/1WxBcAceeKYpZ-JKsBFIQU5qA6X9i7cro/view?usp=drivesdk",
+        "parent_ids": [
+          "1OHwjwkXRlA-ZDnfGiufn2-rCPwyAbr7i"
+        ],
+        "modified_time": "2026-11-18T18:05:03.303Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "8b7d3112dbe8b7d01ffa3ab5a02de8655f453c141cbf89a49dba4ef6f270fdf3",
+        "readbackBytes": 2426753,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "2dabe988c34f5a4f25928c066097df9f85080dde8b55fed51bf90c7b44f36346"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L7/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L7-b_a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03.json"
+      }
+    },
+    {
+      "slotId": "L7",
+      "candidate": "c",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2491099,
+      "sha256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-4bf4c010-c824-4a20-87d3-560e79fb3206.png",
+      "rawToolOutputSHA256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nBaby Pink Austin roses in a low terracotta stoneware vase on a walnut bookshelf with a few linen-bound books, 50mm at standing eye level.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "2ff195565c2bf94465d812831363d2fda8d26e562af1adbf42c1c774cea6ac1a",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L7-c_16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c.json",
+      "capturedActualJobSHA256": "16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+          "bytes": 266829,
+          "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+          "bytes": 167384,
+          "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+          "bytes": 66348,
+          "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "No exact main-stem count can be traced through opaque vase.",
+        "Center portrait composition needs a leftward focal shift.",
+        "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Six-head alternative; leftmost head is more heavily clipped by default centered portrait crop.",
+      "driveFileId": "1f2GshhiTsK8z5PRYdonoRk0rpGC2xImD",
+      "driveUrl": "https://drive.google.com/file/d/1f2GshhiTsK8z5PRYdonoRk0rpGC2xImD/view?usp=drivesdk",
+      "driveParents": [
+        "1OHwjwkXRlA-ZDnfGiufn2-rCPwyAbr7i"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L7.json",
+          "sha256": "ee606bc046ec3337a8c519fb69bf97f8fd48a2a90e671af91d339dddf0c2d7d3",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L7",
+          "candidate": "c",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-4bf4c010-c824-4a20-87d3-560e79fb3206.png",
+          "sha256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": 0,
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "visibleHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "flowerFidelity": "Six round cupped Baby Pink Austin heads with cream outer petals/pink inner layers, small cream-yellow center clusters and serrated green leaves. No Classic pointed rose buds or eucalyptus. Openness follows attached creative macro more strongly than tighter full-set source; physical fidelity remains reviewable.",
+          "composition": {
+            "lowTerracottaStonewareVase": true,
+            "walnutBookshelf": true,
+            "linenBoundBooks": true,
+            "leftNaturalLight": true,
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+            "bookNote": "Blank fabric covers and page edges; no legible lettering observed.",
+            "scale": "Low squat vessel and short exposed stems keep the arrangement subordinate to shelf context. No independent44cm/9cm measurement."
+          },
+          "centralCrop": {
+            "result": "REQUIRES_SMALL_FOCAL_ADJUSTMENT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L7-c-centered4x5-QA-only.png",
+            "finding": "Default centered4:5 visibly cuts leftmost head. Move future focal crop slightly left; whole native landscape remains intact."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "No exact main-stem count can be traced through opaque vase.",
+            "Center portrait composition needs a leftward focal shift.",
+            "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Six-head alternative; leftmost head is more heavily clipped by default centered portrait crop.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1f2GshhiTsK8z5PRYdonoRk0rpGC2xImD",
+        "title": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2491099",
+        "url": "https://drive.google.com/file/d/1f2GshhiTsK8z5PRYdonoRk0rpGC2xImD/view?usp=drivesdk",
+        "parent_ids": [
+          "1OHwjwkXRlA-ZDnfGiufn2-rCPwyAbr7i"
+        ],
+        "modified_time": "2026-11-18T18:05:07.847Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be",
+        "readbackBytes": 2491099,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "77240c77bd64254fef5614f6670df95516ad03d773965a3b5902b64cc67a536a"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L7/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L7-c_16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c.json"
+      }
+    }
+  ],
+  "recommendation": {
+    "candidate": "a",
+    "reason": "Most relaxed varied flower angles, calm shelf/books setting and least portrait flower trimming.",
+    "requiresRevision": false,
+    "qa": {
+      "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L7.json",
+      "sha256": "ee606bc046ec3337a8c519fb69bf97f8fd48a2a90e671af91d339dddf0c2d7d3",
+      "reviewer": null,
+      "scope": null,
+      "summary": null
+    }
+  },
+  "finalization": {
+    "version": "Codex-v01-final-review",
+    "date": "2026-11-18",
+    "qaSlots": 12,
+    "driveByteVerified": 36,
+    "allNativePNGBytesPreserved": true,
+    "branch": "codex/sskoi-web-scenes-v01-20261118",
+    "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+    "approvalClaimed": false,
+    "websiteIntegrated": false,
+    "published": false,
+    "nextOwner": "Claude — visual QA"
+  }
+}

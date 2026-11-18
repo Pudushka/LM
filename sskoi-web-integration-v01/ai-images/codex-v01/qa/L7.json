@@ -1,0 +1,143 @@
+{
+  "slotId": "L7",
+  "batch": 2,
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "preferredCandidate": "a",
+  "requiresRevision": false,
+  "hardPixelDefects": [],
+  "retainedAllCandidates": true,
+  "noOriginalsModified": true,
+  "records": [
+    {
+      "slotId": "L7",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-cecd9ca0-cd33-48cf-a4ae-36826413fb69.png",
+      "sha256": "0151ae8fc485c89d1b2446014f7b4896dc8c6e7117aead330d45d076bdc8edff",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": 0,
+      "maxStems": 6,
+      "maxOpenHeads": 6,
+      "visibleHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "flowerFidelity": "Six round cupped Baby Pink Austin heads with cream outer petals/pink inner layers, small cream-yellow center clusters and serrated green leaves. No Classic pointed rose buds or eucalyptus. Openness follows attached creative macro more strongly than tighter full-set source; physical fidelity remains reviewable.",
+      "composition": {
+        "lowTerracottaStonewareVase": true,
+        "walnutBookshelf": true,
+        "linenBoundBooks": true,
+        "leftNaturalLight": true,
+        "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+        "bookNote": "Blank fabric covers and page edges; no legible lettering observed.",
+        "scale": "Low squat vessel and short exposed stems keep the arrangement subordinate to shelf context. No independent44cm/9cm measurement."
+      },
+      "centralCrop": {
+        "result": "REQUIRES_SMALL_FOCAL_ADJUSTMENT",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L7-a-centered4x5-QA-only.png",
+        "finding": "Default centered4:5 nearly fits all six heads, with a thin far-left petal edge trimmed; a tiny left shift can retain full product."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "No exact main-stem count can be traced through opaque vase.",
+        "Center portrait composition needs a leftward focal shift.",
+        "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+      ],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Most relaxed varied flower angles, calm shelf/books setting and least portrait flower trimming.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L7",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-a82c62b5-eddf-47ab-b3d6-e7de0e7bf85e.png",
+      "sha256": "8b7d3112dbe8b7d01ffa3ab5a02de8655f453c141cbf89a49dba4ef6f270fdf3",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": 0,
+      "maxStems": 6,
+      "maxOpenHeads": 6,
+      "visibleHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "flowerFidelity": "Six round cupped Baby Pink Austin heads with cream outer petals/pink inner layers, small cream-yellow center clusters and serrated green leaves. No Classic pointed rose buds or eucalyptus. Openness follows attached creative macro more strongly than tighter full-set source; physical fidelity remains reviewable.",
+      "composition": {
+        "lowTerracottaStonewareVase": true,
+        "walnutBookshelf": true,
+        "linenBoundBooks": true,
+        "leftNaturalLight": true,
+        "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+        "bookNote": "Blank fabric covers and page edges; no legible lettering observed.",
+        "scale": "Low squat vessel and short exposed stems keep the arrangement subordinate to shelf context. No independent44cm/9cm measurement."
+      },
+      "centralCrop": {
+        "result": "REQUIRES_SMALL_FOCAL_ADJUSTMENT",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L7-b-centered4x5-QA-only.png",
+        "finding": "Default centered4:5 visibly cuts leftmost head. Move future focal crop slightly left; whole native landscape remains intact."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "No exact main-stem count can be traced through opaque vase.",
+        "Center portrait composition needs a leftward focal shift.",
+        "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Six-head alternative; leftmost head is more heavily clipped by default centered portrait crop.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L7",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-4bf4c010-c824-4a20-87d3-560e79fb3206.png",
+      "sha256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": 0,
+      "maxStems": 6,
+      "maxOpenHeads": 6,
+      "visibleHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "flowerFidelity": "Six round cupped Baby Pink Austin heads with cream outer petals/pink inner layers, small cream-yellow center clusters and serrated green leaves. No Classic pointed rose buds or eucalyptus. Openness follows attached creative macro more strongly than tighter full-set source; physical fidelity remains reviewable.",
+      "composition": {
+        "lowTerracottaStonewareVase": true,
+        "walnutBookshelf": true,
+        "linenBoundBooks": true,
+        "leftNaturalLight": true,
+        "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+        "bookNote": "Blank fabric covers and page edges; no legible lettering observed.",
+        "scale": "Low squat vessel and short exposed stems keep the arrangement subordinate to shelf context. No independent44cm/9cm measurement."
+      },
+      "centralCrop": {
+        "result": "REQUIRES_SMALL_FOCAL_ADJUSTMENT",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L7-c-centered4x5-QA-only.png",
+        "finding": "Default centered4:5 visibly cuts leftmost head. Move future focal crop slightly left; whole native landscape remains intact."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "No exact main-stem count can be traced through opaque vase.",
+        "Center portrait composition needs a leftward focal shift.",
+        "Austin creative detail source is an AI creative master; source set/stem still control product anatomy. Exact physical color and flower opening need owner review."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Six-head alternative; leftmost head is more heavily clipped by default centered portrait crop.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

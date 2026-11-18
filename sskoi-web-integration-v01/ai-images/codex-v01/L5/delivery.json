@@ -1,0 +1,554 @@
+{
+  "version": "Codex-v01",
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "slotId": "L5",
+  "totalPlanned": 3,
+  "generationPlanSHA256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733",
+  "records": [
+    {
+      "slotId": "L5",
+      "candidate": "a",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2206677,
+      "sha256": "a113ce4448344dc054ba4d3d8418848a3b4e4161f6974fbb6640fd644fd0988d",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-0c946f1e-f9f5-4e44-9703-2cef65327c6b.png",
+      "rawToolOutputSHA256": "a113ce4448344dc054ba4d3d8418848a3b4e4161f6974fbb6640fd644fd0988d",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Ranunculus stems are about 52 cm long; flower head diameter is not specified in reference.\n\nA few Light Peach ranunculus stems in a small cream crock on a white oak bedside table, softly rumpled oat linen bedding at the edge of the frame, morning window light, 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Light Peach Ranunculus from the attached same-color product references. Flowers may be fewer than one set, never more: at most 4 stems, 8 open blooms and 4 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every ranunculus stem has two open flowers and one bud, with the silver-green flocked leaves shown in the product source; the peony filename is a legacy label, not a peony flower type. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "b6c5e52a7c8ab4c5250665da5552086e63baf9dcee7a3161fa6cb7db2d565be1",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L5-a_a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad.json",
+      "capturedActualJobSHA256": "a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-set.webp",
+          "bytes": 316646,
+          "sha256": "751ce412e3a0336467f329900a69b2546ac3cdb0945d1ff7c1c96ba7c09904d0",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-detail.webp",
+          "bytes": 161736,
+          "sha256": "f6a406df5b31f09311a02a754051c0f065259da6e7c79cbbdfcdfbb6e69aa694",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-stem.webp",
+          "bytes": 71382,
+          "sha256": "46c4b7d78e8ffc4b919d1b0b85e41da25a8083725e7e261c93f0e2a00a9d4e83",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Unrequested ceramic bowl present in all3; disclose prompt deviation.",
+        "Four visible heads/two buds are below8/4 ceiling, but exact assignment to2–4 physical main stems is not independently traceable through opaque crock.",
+        "Physical color, petal texture and nominal size remain subject to Claude/product-owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Good four-head alternative with bedside context, slightly fuller/denser flowers than c.",
+      "driveFileId": "1RCoPmjrQ6lIxBICplqPbz2ozjZAgRapd",
+      "driveUrl": "https://drive.google.com/file/d/1RCoPmjrQ6lIxBICplqPbz2ozjZAgRapd/view?usp=drivesdk",
+      "driveParents": [
+        "18z3mYvazRGJh-KrxtA3lhlVS8PODDh7T"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L5.json",
+          "sha256": "b2f544655cfbc9ae728247bda07dad3010f62f17a860874dc6e465d3e928bfe8",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L5",
+          "candidate": "a",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-0c946f1e-f9f5-4e44-9703-2cef65327c6b.png",
+          "sha256": "a113ce4448344dc054ba4d3d8418848a3b4e4161f6974fbb6640fd644fd0988d",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 2,
+          "maxStems": 4,
+          "maxOpenHeads": 8,
+          "maxBuds": 4,
+          "visibleHeadBudCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "otherFlowerTypesObserved": 0,
+          "flowerFidelity": "Cream outer cup layers, peach centers, round green/cream buds and silver-green flocked lobed foliage; broad morphology follows LightPeach Ranunculus set/stem. No Austin/Classic rose leaf substitution observed.",
+          "composition": {
+            "smallCreamCrock": true,
+            "whiteOakBedsideTable": true,
+            "oatBedding": true,
+            "leftSoftMorningLight": true,
+            "warmPlasterWall": true,
+            "unrequestedProp": "Empty ceramic bowl, not listed in C; within broad max-two-prop ceiling, but frozen no-extra-objects addendum deviates.",
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+            "scale": "Few-stem display with plausible small crock/furniture relation; exact52cm branch length and real head size not independently measured."
+          },
+          "centralCrop": {
+            "result": "PASS_PRODUCT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L5-a-centered4x5-QA-only.png",
+            "finding": "Floral heads/buds and complete crock fit centered4:5; added bowl may be cropped as non-product prop."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "Unrequested ceramic bowl present in all3; disclose prompt deviation.",
+            "Four visible heads/two buds are below8/4 ceiling, but exact assignment to2–4 physical main stems is not independently traceable through opaque crock.",
+            "Physical color, petal texture and nominal size remain subject to Claude/product-owner review."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Good four-head alternative with bedside context, slightly fuller/denser flowers than c.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1RCoPmjrQ6lIxBICplqPbz2ozjZAgRapd",
+        "title": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2206677",
+        "url": "https://drive.google.com/file/d/1RCoPmjrQ6lIxBICplqPbz2ozjZAgRapd/view?usp=drivesdk",
+        "parent_ids": [
+          "18z3mYvazRGJh-KrxtA3lhlVS8PODDh7T"
+        ],
+        "modified_time": "2026-11-18T17:58:22.116Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "a113ce4448344dc054ba4d3d8418848a3b4e4161f6974fbb6640fd644fd0988d",
+        "readbackBytes": 2206677,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "dc60ac238c315dfc566b79749b5d5d9b169f92ef40486148157585f442313222"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L5/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L5-a_a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad.json"
+      }
+    },
+    {
+      "slotId": "L5",
+      "candidate": "b",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2306875,
+      "sha256": "620fe82f7d8881e65cd62454ef2cac3801b5288185d2b2f9d32a25d99187486c",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-6426b688-91c5-4dee-98a7-b5c3e487abec.png",
+      "rawToolOutputSHA256": "620fe82f7d8881e65cd62454ef2cac3801b5288185d2b2f9d32a25d99187486c",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Ranunculus stems are about 52 cm long; flower head diameter is not specified in reference.\n\nA few Light Peach ranunculus stems in a small cream crock on a white oak bedside table, softly rumpled oat linen bedding at the edge of the frame, morning window light, 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Light Peach Ranunculus from the attached same-color product references. Flowers may be fewer than one set, never more: at most 4 stems, 8 open blooms and 4 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every ranunculus stem has two open flowers and one bud, with the silver-green flocked leaves shown in the product source; the peony filename is a legacy label, not a peony flower type. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "b6c5e52a7c8ab4c5250665da5552086e63baf9dcee7a3161fa6cb7db2d565be1",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L5-b_ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf.json",
+      "capturedActualJobSHA256": "ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-set.webp",
+          "bytes": 316646,
+          "sha256": "751ce412e3a0336467f329900a69b2546ac3cdb0945d1ff7c1c96ba7c09904d0",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-detail.webp",
+          "bytes": 161736,
+          "sha256": "f6a406df5b31f09311a02a754051c0f065259da6e7c79cbbdfcdfbb6e69aa694",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-stem.webp",
+          "bytes": 71382,
+          "sha256": "46c4b7d78e8ffc4b919d1b0b85e41da25a8083725e7e261c93f0e2a00a9d4e83",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Unrequested ceramic bowl present in all3; disclose prompt deviation.",
+        "Four visible heads/two buds are below8/4 ceiling, but exact assignment to2–4 physical main stems is not independently traceable through opaque crock.",
+        "Physical color, petal texture and nominal size remain subject to Claude/product-owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Good four-head alternative with correct foliage, but central flower is more front-facing/formal.",
+      "driveFileId": "1pco8hL24IuUihEVTYWqNh3D6n13ua8b5",
+      "driveUrl": "https://drive.google.com/file/d/1pco8hL24IuUihEVTYWqNh3D6n13ua8b5/view?usp=drivesdk",
+      "driveParents": [
+        "18z3mYvazRGJh-KrxtA3lhlVS8PODDh7T"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L5.json",
+          "sha256": "b2f544655cfbc9ae728247bda07dad3010f62f17a860874dc6e465d3e928bfe8",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L5",
+          "candidate": "b",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-6426b688-91c5-4dee-98a7-b5c3e487abec.png",
+          "sha256": "620fe82f7d8881e65cd62454ef2cac3801b5288185d2b2f9d32a25d99187486c",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 2,
+          "maxStems": 4,
+          "maxOpenHeads": 8,
+          "maxBuds": 4,
+          "visibleHeadBudCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "otherFlowerTypesObserved": 0,
+          "flowerFidelity": "Cream outer cup layers, peach centers, round green/cream buds and silver-green flocked lobed foliage; broad morphology follows LightPeach Ranunculus set/stem. No Austin/Classic rose leaf substitution observed.",
+          "composition": {
+            "smallCreamCrock": true,
+            "whiteOakBedsideTable": true,
+            "oatBedding": true,
+            "leftSoftMorningLight": true,
+            "warmPlasterWall": true,
+            "unrequestedProp": "Empty ceramic bowl, not listed in C; within broad max-two-prop ceiling, but frozen no-extra-objects addendum deviates.",
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+            "scale": "Few-stem display with plausible small crock/furniture relation; exact52cm branch length and real head size not independently measured."
+          },
+          "centralCrop": {
+            "result": "PASS_PRODUCT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L5-b-centered4x5-QA-only.png",
+            "finding": "Floral heads/buds and complete crock fit centered4:5; added bowl may be cropped as non-product prop."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "Unrequested ceramic bowl present in all3; disclose prompt deviation.",
+            "Four visible heads/two buds are below8/4 ceiling, but exact assignment to2–4 physical main stems is not independently traceable through opaque crock.",
+            "Physical color, petal texture and nominal size remain subject to Claude/product-owner review."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Good four-head alternative with correct foliage, but central flower is more front-facing/formal.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1pco8hL24IuUihEVTYWqNh3D6n13ua8b5",
+        "title": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2306875",
+        "url": "https://drive.google.com/file/d/1pco8hL24IuUihEVTYWqNh3D6n13ua8b5/view?usp=drivesdk",
+        "parent_ids": [
+          "18z3mYvazRGJh-KrxtA3lhlVS8PODDh7T"
+        ],
+        "modified_time": "2026-11-18T17:58:26.568Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "620fe82f7d8881e65cd62454ef2cac3801b5288185d2b2f9d32a25d99187486c",
+        "readbackBytes": 2306875,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "c176e3327a5ea68ff7553003e71fc80289f3ba21a42da8e945ae1a6261edd54d"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L5/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L5-b_ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf.json"
+      }
+    },
+    {
+      "slotId": "L5",
+      "candidate": "c",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2241731,
+      "sha256": "846241d8926a24c55154bbcaaa3d8e8e7ced5a1ec509f6bea923c87905f7fc02",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-409c7478-86f8-4ccf-b5c6-5807b6815420.png",
+      "rawToolOutputSHA256": "846241d8926a24c55154bbcaaa3d8e8e7ced5a1ec509f6bea923c87905f7fc02",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Ranunculus stems are about 52 cm long; flower head diameter is not specified in reference.\n\nA few Light Peach ranunculus stems in a small cream crock on a white oak bedside table, softly rumpled oat linen bedding at the edge of the frame, morning window light, 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Light Peach Ranunculus from the attached same-color product references. Flowers may be fewer than one set, never more: at most 4 stems, 8 open blooms and 4 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every ranunculus stem has two open flowers and one bud, with the silver-green flocked leaves shown in the product source; the peony filename is a legacy label, not a peony flower type. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "b6c5e52a7c8ab4c5250665da5552086e63baf9dcee7a3161fa6cb7db2d565be1",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L5-c_da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76.json",
+      "capturedActualJobSHA256": "da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-set.webp",
+          "bytes": 316646,
+          "sha256": "751ce412e3a0336467f329900a69b2546ac3cdb0945d1ff7c1c96ba7c09904d0",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-detail.webp",
+          "bytes": 161736,
+          "sha256": "f6a406df5b31f09311a02a754051c0f065259da6e7c79cbbdfcdfbb6e69aa694",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-stem.webp",
+          "bytes": 71382,
+          "sha256": "46c4b7d78e8ffc4b919d1b0b85e41da25a8083725e7e261c93f0e2a00a9d4e83",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Unrequested ceramic bowl present in all3; disclose prompt deviation.",
+        "Four visible heads/two buds are below8/4 ceiling, but exact assignment to2–4 physical main stems is not independently traceable through opaque crock.",
+        "Physical color, petal texture and nominal size remain subject to Claude/product-owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Airier asymmetry and clear individual flowers, smaller restrained crock and strong safe portrait composition.",
+      "driveFileId": "1bd1nG-kKJ-JuLWqYe8M45uFMAGc0SIY4",
+      "driveUrl": "https://drive.google.com/file/d/1bd1nG-kKJ-JuLWqYe8M45uFMAGc0SIY4/view?usp=drivesdk",
+      "driveParents": [
+        "18z3mYvazRGJh-KrxtA3lhlVS8PODDh7T"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L5.json",
+          "sha256": "b2f544655cfbc9ae728247bda07dad3010f62f17a860874dc6e465d3e928bfe8",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L5",
+          "candidate": "c",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-409c7478-86f8-4ccf-b5c6-5807b6815420.png",
+          "sha256": "846241d8926a24c55154bbcaaa3d8e8e7ced5a1ec509f6bea923c87905f7fc02",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 2,
+          "maxStems": 4,
+          "maxOpenHeads": 8,
+          "maxBuds": 4,
+          "visibleHeadBudCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "otherFlowerTypesObserved": 0,
+          "flowerFidelity": "Cream outer cup layers, peach centers, round green/cream buds and silver-green flocked lobed foliage; broad morphology follows LightPeach Ranunculus set/stem. No Austin/Classic rose leaf substitution observed.",
+          "composition": {
+            "smallCreamCrock": true,
+            "whiteOakBedsideTable": true,
+            "oatBedding": true,
+            "leftSoftMorningLight": true,
+            "warmPlasterWall": true,
+            "unrequestedProp": "Empty ceramic bowl, not listed in C; within broad max-two-prop ceiling, but frozen no-extra-objects addendum deviates.",
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false,
+            "scale": "Few-stem display with plausible small crock/furniture relation; exact52cm branch length and real head size not independently measured."
+          },
+          "centralCrop": {
+            "result": "PASS_PRODUCT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L5-c-centered4x5-QA-only.png",
+            "finding": "Floral heads/buds and complete crock fit centered4:5; added bowl may be cropped as non-product prop."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "Unrequested ceramic bowl present in all3; disclose prompt deviation.",
+            "Four visible heads/two buds are below8/4 ceiling, but exact assignment to2–4 physical main stems is not independently traceable through opaque crock.",
+            "Physical color, petal texture and nominal size remain subject to Claude/product-owner review."
+          ],
+          "recommendedWithinSlot": true,
+          "recommendationReason": "Airier asymmetry and clear individual flowers, smaller restrained crock and strong safe portrait composition.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1bd1nG-kKJ-JuLWqYe8M45uFMAGc0SIY4",
+        "title": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2241731",
+        "url": "https://drive.google.com/file/d/1bd1nG-kKJ-JuLWqYe8M45uFMAGc0SIY4/view?usp=drivesdk",
+        "parent_ids": [
+          "18z3mYvazRGJh-KrxtA3lhlVS8PODDh7T"
+        ],
+        "modified_time": "2026-11-18T17:58:30.929Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "846241d8926a24c55154bbcaaa3d8e8e7ced5a1ec509f6bea923c87905f7fc02",
+        "readbackBytes": 2241731,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "f7e8d35895b6244028bb51e6c889010f08a039bc9ce2c193db25e7a471c9c199"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L5/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L5-c_da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76.json"
+      }
+    }
+  ],
+  "recommendation": {
+    "candidate": "c",
+    "reason": "Airier asymmetry and clear individual flowers, smaller restrained crock and strong safe portrait composition.",
+    "requiresRevision": false,
+    "qa": {
+      "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L5.json",
+      "sha256": "b2f544655cfbc9ae728247bda07dad3010f62f17a860874dc6e465d3e928bfe8",
+      "reviewer": null,
+      "scope": null,
+      "summary": null
+    }
+  },
+  "finalization": {
+    "version": "Codex-v01-final-review",
+    "date": "2026-11-18",
+    "qaSlots": 12,
+    "driveByteVerified": 36,
+    "allNativePNGBytesPreserved": true,
+    "branch": "codex/sskoi-web-scenes-v01-20261118",
+    "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+    "approvalClaimed": false,
+    "websiteIntegrated": false,
+    "published": false,
+    "nextOwner": "Claude — visual QA"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "slotId": "L6",
+  "batch": 2,
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "preferredCandidate": "c",
+  "requiresRevision": true,
+  "requiresRevisionCandidates": [
+    "a"
+  ],
+  "hardPixelDefects": [
+    "L6-a has seven open heads, exceeding Classic6 ceiling."
+  ],
+  "retainedAllCandidates": true,
+  "noOriginalsModified": true,
+  "records": [
+    {
+      "slotId": "L6",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": true,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-52df17f7-7921-4443-9643-7e9087ad6c98.png",
+      "sha256": "b6d07d58a902584a392b05b07515ed9a89b4a751c690cd8d634363d43761191c",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 7,
+      "visibleClosedBuds": null,
+      "closedBudCountNote": "Several separate closed rose buds visible; exact count not certified. No visibly excessive bud inventory established.",
+      "maxStems": 6,
+      "maxOpenHeads": 6,
+      "maxBuds": 12,
+      "visibleHeadCeilingPass": false,
+      "physicalStemTopologyCertified": false,
+      "flowerFidelity": "Coral/salmon layered pointed Classic rose form, pointed original buds and serrated green leaves broadly match Coral set/detail/stem; exact physical color and 43cm/9cm source claims are not independently measured.",
+      "composition": {
+        "wholeJugVisible": true,
+        "stonewareJug": true,
+        "whiteOakCounter": true,
+        "plasterWall": true,
+        "linenTeaTowel": true,
+        "leftWindowLight": true,
+        "unrequestedProp": "Small olive/fruit bowl not listed in C.",
+        "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false
+      },
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptDeviation": null,
+      "centralCrop": {
+        "result": "REQUIRES_FOCAL_ADJUSTMENT",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L6-a-centered4x5-QA-only.png",
+        "finding": "Centered4:5 clips far-left head/bud; complete native landscape retained."
+      },
+      "hardPixelDefects": [
+        "Seven clearly separate open heads exceed Classic six-head ceiling."
+      ],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+        "Color/material/nominal size require product-owner review.",
+        "Added fruit/olive bowl deviates from C/no-extra-objects addendum."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Not recommended: seven-head quantity violation.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L6",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-edff644f-cc97-46bb-8d67-efc4bbd48f1c.png",
+      "sha256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": null,
+      "closedBudCountNote": "Several separate closed rose buds visible; exact count not certified. No visibly excessive bud inventory established.",
+      "maxStems": 6,
+      "maxOpenHeads": 6,
+      "maxBuds": 12,
+      "visibleHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "flowerFidelity": "Coral/salmon layered pointed Classic rose form, pointed original buds and serrated green leaves broadly match Coral set/detail/stem; exact physical color and 43cm/9cm source claims are not independently measured.",
+      "composition": {
+        "wholeJugVisible": true,
+        "stonewareJug": true,
+        "whiteOakCounter": true,
+        "plasterWall": true,
+        "linenTeaTowel": true,
+        "leftWindowLight": true,
+        "unrequestedProp": "Bowl with peaches not listed in C.",
+        "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false
+      },
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptDeviation": null,
+      "centralCrop": {
+        "result": "REQUIRES_FOCAL_ADJUSTMENT",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L6-b-centered4x5-QA-only.png",
+        "finding": "Centered4:5 trims far-left buds; native landscape is complete."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+        "Color/material/nominal size require product-owner review.",
+        "Added fruit/olive bowl deviates from C/no-extra-objects addendum."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Six-head alternative, but added fruit bowl and left-bud portrait crop are less suitable than c.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L6",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-bdc77e25-1fde-4117-93c6-128a85a29bf4.png",
+      "sha256": "3d8e16f9abdcc999fcff3dc6acd56409098ac91cf95e44d9756f813ccb2b2ef6",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 4,
+      "visibleClosedBuds": 7,
+      "closedBudCountNote": "Seven separate colored closed rose buds visible: two upper-left, two top-right, two far-right, one low-left.",
+      "maxStems": 6,
+      "maxOpenHeads": 6,
+      "maxBuds": 12,
+      "visibleHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "flowerFidelity": "Coral/salmon layered pointed Classic rose form, pointed original buds and serrated green leaves broadly match Coral set/detail/stem; exact physical color and 43cm/9cm source claims are not independently measured.",
+      "composition": {
+        "wholeJugVisible": true,
+        "stonewareJug": true,
+        "whiteOakCounter": true,
+        "plasterWall": true,
+        "linenTeaTowel": true,
+        "leftWindowLight": true,
+        "unrequestedProp": null,
+        "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false
+      },
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptDeviation": "A separate quantity clarification requested FOUR open heads/four stems and no more than eight buds, retaining verbatim A+B+C+D; visually counted four heads and seven buds.",
+      "centralCrop": {
+        "result": "PASS_PRODUCT",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L6-c-centered4x5-QA-only.png",
+        "finding": "All four heads, seven buds and whole jug fit centered4:5."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+        "Color/material/nominal size require product-owner review."
+      ],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Four independently countable heads, seven buds, no unrequested bowl, full product safe in center portrait crop.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

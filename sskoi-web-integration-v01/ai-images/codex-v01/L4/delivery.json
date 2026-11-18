@@ -1,0 +1,545 @@
+{
+  "version": "Codex-v01",
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "slotId": "L4",
+  "totalPlanned": 3,
+  "generationPlanSHA256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733",
+  "records": [
+    {
+      "slotId": "L4",
+      "candidate": "a",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2220543,
+      "sha256": "8c6468fdafbd729f058ca65881f2cb2a9e9aabc627f910f6b5ed19fde51d9992",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-dbd329c9-4543-4331-8802-515cc439de58.png",
+      "rawToolOutputSHA256": "8c6468fdafbd729f058ca65881f2cb2a9e9aabc627f910f6b5ed19fde51d9992",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Tulips stems are about 35 cm long, flower head about 3.5 cm.\n\nWhite tulips loosely arranged in a clear ribbed glass vase on a pale limestone bathroom vanity, limewashed plaster wall, a folded oat linen towel, 50mm at standing eye level, tulip stems gently curving.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only White Tulips from the attached same-color product references. Flowers may be fewer than one set, never more: at most 12 stems, 12 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now. The pale limestone bathroom vanity specified by C is the slot-specific surface; no tiles or modern appliances.",
+      "actualPromptSHA256": "9f1ed70b0afadba6ca7a4a50f40f9387124f856d335336fda9095d77a92bdd22",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L4-a_eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb.json",
+      "capturedActualJobSHA256": "eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-set.webp",
+          "bytes": 164991,
+          "sha256": "3ad08252929857b6718c8571fc8be7d2896f39729d5a6d0d8bd743e82901ff1e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-detail.webp",
+          "bytes": 91548,
+          "sha256": "45725a56b8132b2234dd79e156d93b05eb2112608911323ab1795caf4e125586",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-stem.webp",
+          "bytes": 56302,
+          "sha256": "40f9163e0ae2fb185f1d2659fe9f03f3640dde6d1e53f1ecdf8019f51aa5dfda",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+        "Claude should check macro petal texture against original source and final crop focal point."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Good ten-head alternative, but lower-left cup nearly touches the portrait crop edge.",
+      "driveFileId": "1FH6NErZuO0ibn7HLi8t40rdwEh-xA15K",
+      "driveUrl": "https://drive.google.com/file/d/1FH6NErZuO0ibn7HLi8t40rdwEh-xA15K/view?usp=drivesdk",
+      "driveParents": [
+        "1di8EkHAH7l1yLbZhuXytSyNx6uTYZL4h"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L4.json",
+          "sha256": "af8342b8333814c3597d21941f7e03c17ff3e28e7a568d1d0eb720814ef7b9cf",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L4",
+          "candidate": "a",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-dbd329c9-4543-4331-8802-515cc439de58.png",
+          "sha256": "8c6468fdafbd729f058ca65881f2cb2a9e9aabc627f910f6b5ed19fde51d9992",
+          "width": 1536,
+          "height": 1024,
+          "visibleClosedTulipHeads": 10,
+          "headCountConfidence": "clear separated cups; petals not separately counted",
+          "maxStems": 12,
+          "visualHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "otherFlowerTypesObserved": 0,
+          "flowerFidelity": "White/ivory tulip cups with long green leaves and gentle curved stems, broad anatomy consistent with provided White sources.",
+          "composition": {
+            "clearRibbedGlassVase": true,
+            "dryGlass": "No definite liquid surface/waterline observed; ribbed glass reflections and thick base are not treated as water.",
+            "paleLimestoneVanity": true,
+            "warmPlasterWall": true,
+            "foldedOatLinenTowel": true,
+            "leftNaturalLight": true,
+            "mirrorOrSink": "Partial wall mirror supplies bathroom context, no people/flowers reflected.",
+            "lettersPeopleHandsPackagingOtherFlowersObserved": false,
+            "scale": "No gross vessel/table relation contradiction;35cm/3.5cm are source claims, unmeasured."
+          },
+          "centralCrop": {
+            "result": "PASS_PRODUCT_WITH_TIGHT_OUTER_MARGIN",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L4-a-centered4x5-QA-only.png",
+            "note": "Outermost left cup is close to left crop edge; verify final focal point, no substantial flower clipping in diagnostic."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery allowed.",
+            "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+            "Claude should check macro petal texture against original source and final crop focal point."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Good ten-head alternative, but lower-left cup nearly touches the portrait crop edge.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1FH6NErZuO0ibn7HLi8t40rdwEh-xA15K",
+        "title": "SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2220543",
+        "url": "https://drive.google.com/file/d/1FH6NErZuO0ibn7HLi8t40rdwEh-xA15K/view?usp=drivesdk",
+        "parent_ids": [
+          "1di8EkHAH7l1yLbZhuXytSyNx6uTYZL4h"
+        ],
+        "modified_time": "2026-11-18T17:58:09.223Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "8c6468fdafbd729f058ca65881f2cb2a9e9aabc627f910f6b5ed19fde51d9992",
+        "readbackBytes": 2220543,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "8989f543591f54213a5fe3ae7931815050eec0fe95d9b14153fdededfd458396"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L4/SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L4-a_eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb.json"
+      }
+    },
+    {
+      "slotId": "L4",
+      "candidate": "b",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2211738,
+      "sha256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-a07bf9e6-93dd-40f2-960b-e15b2756a30f.png",
+      "rawToolOutputSHA256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Tulips stems are about 35 cm long, flower head about 3.5 cm.\n\nWhite tulips loosely arranged in a clear ribbed glass vase on a pale limestone bathroom vanity, limewashed plaster wall, a folded oat linen towel, 50mm at standing eye level, tulip stems gently curving.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only White Tulips from the attached same-color product references. Flowers may be fewer than one set, never more: at most 12 stems, 12 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now. The pale limestone bathroom vanity specified by C is the slot-specific surface; no tiles or modern appliances.",
+      "actualPromptSHA256": "9f1ed70b0afadba6ca7a4a50f40f9387124f856d335336fda9095d77a92bdd22",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L4-b_7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d.json",
+      "capturedActualJobSHA256": "7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-set.webp",
+          "bytes": 164991,
+          "sha256": "3ad08252929857b6718c8571fc8be7d2896f39729d5a6d0d8bd743e82901ff1e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-detail.webp",
+          "bytes": 91548,
+          "sha256": "45725a56b8132b2234dd79e156d93b05eb2112608911323ab1795caf4e125586",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-stem.webp",
+          "bytes": 56302,
+          "sha256": "40f9163e0ae2fb185f1d2659fe9f03f3640dde6d1e53f1ecdf8019f51aa5dfda",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+        "Claude should check macro petal texture against original source and final crop focal point."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Ten distinct cups, balanced gentle curves and safest centered portrait fit; dry ribbed vessel and towel meet the brief.",
+      "driveFileId": "1SRtxbzNnn0XRkmyzKL2YKD2YV1PiHMFJ",
+      "driveUrl": "https://drive.google.com/file/d/1SRtxbzNnn0XRkmyzKL2YKD2YV1PiHMFJ/view?usp=drivesdk",
+      "driveParents": [
+        "1di8EkHAH7l1yLbZhuXytSyNx6uTYZL4h"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L4.json",
+          "sha256": "af8342b8333814c3597d21941f7e03c17ff3e28e7a568d1d0eb720814ef7b9cf",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L4",
+          "candidate": "b",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-a07bf9e6-93dd-40f2-960b-e15b2756a30f.png",
+          "sha256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472",
+          "width": 1536,
+          "height": 1024,
+          "visibleClosedTulipHeads": 10,
+          "headCountConfidence": "clear separated cups; petals not separately counted",
+          "maxStems": 12,
+          "visualHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "otherFlowerTypesObserved": 0,
+          "flowerFidelity": "White/ivory tulip cups with long green leaves and gentle curved stems, broad anatomy consistent with provided White sources.",
+          "composition": {
+            "clearRibbedGlassVase": true,
+            "dryGlass": "No definite liquid surface/waterline observed; ribbed glass reflections and thick base are not treated as water.",
+            "paleLimestoneVanity": true,
+            "warmPlasterWall": true,
+            "foldedOatLinenTowel": true,
+            "leftNaturalLight": true,
+            "mirrorOrSink": "Partial wall mirror supplies bathroom context, no people/flowers reflected.",
+            "lettersPeopleHandsPackagingOtherFlowersObserved": false,
+            "scale": "No gross vessel/table relation contradiction;35cm/3.5cm are source claims, unmeasured."
+          },
+          "centralCrop": {
+            "result": "PASS_PRODUCT_WITH_TIGHT_OUTER_MARGIN",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L4-b-centered4x5-QA-only.png",
+            "note": "All10 cups and vase fit with safer side clearance."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery allowed.",
+            "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+            "Claude should check macro petal texture against original source and final crop focal point."
+          ],
+          "recommendedWithinSlot": true,
+          "recommendationReason": "Ten distinct cups, balanced gentle curves and safest centered portrait fit; dry ribbed vessel and towel meet the brief.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1SRtxbzNnn0XRkmyzKL2YKD2YV1PiHMFJ",
+        "title": "SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2211738",
+        "url": "https://drive.google.com/file/d/1SRtxbzNnn0XRkmyzKL2YKD2YV1PiHMFJ/view?usp=drivesdk",
+        "parent_ids": [
+          "1di8EkHAH7l1yLbZhuXytSyNx6uTYZL4h"
+        ],
+        "modified_time": "2026-11-18T17:58:13.413Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472",
+        "readbackBytes": 2211738,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "8f874efefc19491957677cc7cc9d81397f8a61ea1744e26319191243ee990045"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L4/SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L4-b_7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d.json"
+      }
+    },
+    {
+      "slotId": "L4",
+      "candidate": "c",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2110709,
+      "sha256": "a8e92e5dadfabe345e9b7fc3f738404ed876b30b626333f50832e55044555e95",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-f0456edc-2a37-4da9-b7da-d9cad0e2e026.png",
+      "rawToolOutputSHA256": "a8e92e5dadfabe345e9b7fc3f738404ed876b30b626333f50832e55044555e95",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Tulips stems are about 35 cm long, flower head about 3.5 cm.\n\nWhite tulips loosely arranged in a clear ribbed glass vase on a pale limestone bathroom vanity, limewashed plaster wall, a folded oat linen towel, 50mm at standing eye level, tulip stems gently curving.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only White Tulips from the attached same-color product references. Flowers may be fewer than one set, never more: at most 12 stems, 12 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now. The pale limestone bathroom vanity specified by C is the slot-specific surface; no tiles or modern appliances.",
+      "actualPromptSHA256": "9f1ed70b0afadba6ca7a4a50f40f9387124f856d335336fda9095d77a92bdd22",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L4-c_c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324.json",
+      "capturedActualJobSHA256": "c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-set.webp",
+          "bytes": 164991,
+          "sha256": "3ad08252929857b6718c8571fc8be7d2896f39729d5a6d0d8bd743e82901ff1e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-detail.webp",
+          "bytes": 91548,
+          "sha256": "45725a56b8132b2234dd79e156d93b05eb2112608911323ab1795caf4e125586",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-tulip-white-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-stem.webp",
+          "bytes": 56302,
+          "sha256": "40f9163e0ae2fb185f1d2659fe9f03f3640dde6d1e53f1ecdf8019f51aa5dfda",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+        "Claude should check macro petal texture against original source and final crop focal point."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Good nine-head alternative with basin context, but left cup sits very near portrait crop edge.",
+      "driveFileId": "1eShaJD2czhAUiJ6-2mcbWDtJxeqrCvtv",
+      "driveUrl": "https://drive.google.com/file/d/1eShaJD2czhAUiJ6-2mcbWDtJxeqrCvtv/view?usp=drivesdk",
+      "driveParents": [
+        "1di8EkHAH7l1yLbZhuXytSyNx6uTYZL4h"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L4.json",
+          "sha256": "af8342b8333814c3597d21941f7e03c17ff3e28e7a568d1d0eb720814ef7b9cf",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L4",
+          "candidate": "c",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-f0456edc-2a37-4da9-b7da-d9cad0e2e026.png",
+          "sha256": "a8e92e5dadfabe345e9b7fc3f738404ed876b30b626333f50832e55044555e95",
+          "width": 1536,
+          "height": 1024,
+          "visibleClosedTulipHeads": 9,
+          "headCountConfidence": "clear separated cups; petals not separately counted",
+          "maxStems": 12,
+          "visualHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "otherFlowerTypesObserved": 0,
+          "flowerFidelity": "White/ivory tulip cups with long green leaves and gentle curved stems, broad anatomy consistent with provided White sources.",
+          "composition": {
+            "clearRibbedGlassVase": true,
+            "dryGlass": "No definite liquid surface/waterline observed; ribbed glass reflections and thick base are not treated as water.",
+            "paleLimestoneVanity": true,
+            "warmPlasterWall": true,
+            "foldedOatLinenTowel": true,
+            "leftNaturalLight": true,
+            "mirrorOrSink": "Basin recess visible at lower right.",
+            "lettersPeopleHandsPackagingOtherFlowersObserved": false,
+            "scale": "No gross vessel/table relation contradiction;35cm/3.5cm are source claims, unmeasured."
+          },
+          "centralCrop": {
+            "result": "PASS_PRODUCT_WITH_TIGHT_OUTER_MARGIN",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L4-c-centered4x5-QA-only.png",
+            "note": "Outermost left cup is close to left crop edge; verify final focal point, no substantial flower clipping in diagnostic."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery allowed.",
+            "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+            "Claude should check macro petal texture against original source and final crop focal point."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Good nine-head alternative with basin context, but left cup sits very near portrait crop edge.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1eShaJD2czhAUiJ6-2mcbWDtJxeqrCvtv",
+        "title": "SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2110709",
+        "url": "https://drive.google.com/file/d/1eShaJD2czhAUiJ6-2mcbWDtJxeqrCvtv/view?usp=drivesdk",
+        "parent_ids": [
+          "1di8EkHAH7l1yLbZhuXytSyNx6uTYZL4h"
+        ],
+        "modified_time": "2026-11-18T17:58:17.965Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "a8e92e5dadfabe345e9b7fc3f738404ed876b30b626333f50832e55044555e95",
+        "readbackBytes": 2110709,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "2d9beafd352f45bb65782c7d27637a3d90b403120a8e34f3498ead04206adbcf"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L4/SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L4-c_c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324.json"
+      }
+    }
+  ],
+  "recommendation": {
+    "candidate": "b",
+    "reason": "Ten distinct cups, balanced gentle curves and safest centered portrait fit; dry ribbed vessel and towel meet the brief.",
+    "requiresRevision": false,
+    "qa": {
+      "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L4.json",
+      "sha256": "af8342b8333814c3597d21941f7e03c17ff3e28e7a568d1d0eb720814ef7b9cf",
+      "reviewer": null,
+      "scope": null,
+      "summary": null
+    }
+  },
+  "finalization": {
+    "version": "Codex-v01-final-review",
+    "date": "2026-11-18",
+    "qaSlots": 12,
+    "driveByteVerified": 36,
+    "allNativePNGBytesPreserved": true,
+    "branch": "codex/sskoi-web-scenes-v01-20261118",
+    "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+    "approvalClaimed": false,
+    "websiteIntegrated": false,
+    "published": false,
+    "nextOwner": "Claude — visual QA"
+  }
+}

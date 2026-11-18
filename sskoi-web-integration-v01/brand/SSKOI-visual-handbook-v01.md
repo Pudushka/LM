@@ -121,3 +121,4 @@ James 决定：近期不安排专业拍摄，网站图片由 AI 生成和编辑�
 ## 9. 命名与交付
 - 命名：`SSKOI_<花种>_<ASIN>_<颜色>_<位置>_<宽x高>_<来源 Codex|Gemini|Grok|Claude-edit>_v01_<日期>_REVIEW.<ext>`
 - 状态：默认 REVIEW；有明确问题标 NEEDS-FIX；只有 James 或 Rachel 批准后才标 APPROVED。
+

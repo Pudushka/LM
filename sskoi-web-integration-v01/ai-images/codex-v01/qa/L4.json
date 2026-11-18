@@ -1,0 +1,146 @@
+{
+  "slotId": "L4",
+  "batch": 2,
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "preferredCandidate": "b",
+  "requiresRevision": false,
+  "hardPixelDefects": [],
+  "retainedAllCandidates": true,
+  "noOriginalsModified": true,
+  "records": [
+    {
+      "slotId": "L4",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-dbd329c9-4543-4331-8802-515cc439de58.png",
+      "sha256": "8c6468fdafbd729f058ca65881f2cb2a9e9aabc627f910f6b5ed19fde51d9992",
+      "width": 1536,
+      "height": 1024,
+      "visibleClosedTulipHeads": 10,
+      "headCountConfidence": "clear separated cups; petals not separately counted",
+      "maxStems": 12,
+      "visualHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "otherFlowerTypesObserved": 0,
+      "flowerFidelity": "White/ivory tulip cups with long green leaves and gentle curved stems, broad anatomy consistent with provided White sources.",
+      "composition": {
+        "clearRibbedGlassVase": true,
+        "dryGlass": "No definite liquid surface/waterline observed; ribbed glass reflections and thick base are not treated as water.",
+        "paleLimestoneVanity": true,
+        "warmPlasterWall": true,
+        "foldedOatLinenTowel": true,
+        "leftNaturalLight": true,
+        "mirrorOrSink": "Partial wall mirror supplies bathroom context, no people/flowers reflected.",
+        "lettersPeopleHandsPackagingOtherFlowersObserved": false,
+        "scale": "No gross vessel/table relation contradiction;35cm/3.5cm are source claims, unmeasured."
+      },
+      "centralCrop": {
+        "result": "PASS_PRODUCT_WITH_TIGHT_OUTER_MARGIN",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L4-a-centered4x5-QA-only.png",
+        "note": "Outermost left cup is close to left crop edge; verify final focal point, no substantial flower clipping in diagnostic."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+        "Claude should check macro petal texture against original source and final crop focal point."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Good ten-head alternative, but lower-left cup nearly touches the portrait crop edge.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L4",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-a07bf9e6-93dd-40f2-960b-e15b2756a30f.png",
+      "sha256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472",
+      "width": 1536,
+      "height": 1024,
+      "visibleClosedTulipHeads": 10,
+      "headCountConfidence": "clear separated cups; petals not separately counted",
+      "maxStems": 12,
+      "visualHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "otherFlowerTypesObserved": 0,
+      "flowerFidelity": "White/ivory tulip cups with long green leaves and gentle curved stems, broad anatomy consistent with provided White sources.",
+      "composition": {
+        "clearRibbedGlassVase": true,
+        "dryGlass": "No definite liquid surface/waterline observed; ribbed glass reflections and thick base are not treated as water.",
+        "paleLimestoneVanity": true,
+        "warmPlasterWall": true,
+        "foldedOatLinenTowel": true,
+        "leftNaturalLight": true,
+        "mirrorOrSink": "Partial wall mirror supplies bathroom context, no people/flowers reflected.",
+        "lettersPeopleHandsPackagingOtherFlowersObserved": false,
+        "scale": "No gross vessel/table relation contradiction;35cm/3.5cm are source claims, unmeasured."
+      },
+      "centralCrop": {
+        "result": "PASS_PRODUCT_WITH_TIGHT_OUTER_MARGIN",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L4-b-centered4x5-QA-only.png",
+        "note": "All10 cups and vase fit with safer side clearance."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+        "Claude should check macro petal texture against original source and final crop focal point."
+      ],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Ten distinct cups, balanced gentle curves and safest centered portrait fit; dry ribbed vessel and towel meet the brief.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L4",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-f0456edc-2a37-4da9-b7da-d9cad0e2e026.png",
+      "sha256": "a8e92e5dadfabe345e9b7fc3f738404ed876b30b626333f50832e55044555e95",
+      "width": 1536,
+      "height": 1024,
+      "visibleClosedTulipHeads": 9,
+      "headCountConfidence": "clear separated cups; petals not separately counted",
+      "maxStems": 12,
+      "visualHeadCeilingPass": true,
+      "physicalStemTopologyCertified": false,
+      "otherFlowerTypesObserved": 0,
+      "flowerFidelity": "White/ivory tulip cups with long green leaves and gentle curved stems, broad anatomy consistent with provided White sources.",
+      "composition": {
+        "clearRibbedGlassVase": true,
+        "dryGlass": "No definite liquid surface/waterline observed; ribbed glass reflections and thick base are not treated as water.",
+        "paleLimestoneVanity": true,
+        "warmPlasterWall": true,
+        "foldedOatLinenTowel": true,
+        "leftNaturalLight": true,
+        "mirrorOrSink": "Basin recess visible at lower right.",
+        "lettersPeopleHandsPackagingOtherFlowersObserved": false,
+        "scale": "No gross vessel/table relation contradiction;35cm/3.5cm are source claims, unmeasured."
+      },
+      "centralCrop": {
+        "result": "PASS_PRODUCT_WITH_TIGHT_OUTER_MARGIN",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L4-c-centered4x5-QA-only.png",
+        "note": "Outermost left cup is close to left crop edge; verify final focal point, no substantial flower clipping in diagnostic."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Physical count, exact color and stem dimensions not independently certified; visible cups are below12 ceiling.",
+        "Claude should check macro petal texture against original source and final crop focal point."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Good nine-head alternative with basin context, but left cup sits very near portrait crop edge.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

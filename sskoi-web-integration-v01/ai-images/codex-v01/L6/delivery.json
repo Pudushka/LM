@@ -1,0 +1,560 @@
+{
+  "version": "Codex-v01",
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "slotId": "L6",
+  "totalPlanned": 3,
+  "generationPlanSHA256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733",
+  "records": [
+    {
+      "slotId": "L6",
+      "candidate": "a",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2536985,
+      "sha256": "b6d07d58a902584a392b05b07515ed9a89b4a751c690cd8d634363d43761191c",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-52df17f7-7921-4443-9643-7e9087ad6c98.png",
+      "rawToolOutputSHA256": "b6d07d58a902584a392b05b07515ed9a89b4a751c690cd8d634363d43761191c",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nCoral classic roses with their buds in a grey handmade stoneware jug on a white oak kitchen counter, plaster backsplash, a linen tea towel. The whole vase and the full stem height are clearly visible so the vase-to-stem proportion reads at a glance. 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Coral Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "02225a4c9e5d7b526dda2b7fda2d4a68f1cb78087320be1c216d7bea2456c70c",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L6-a_86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f.json",
+      "capturedActualJobSHA256": "86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-set.webp",
+          "bytes": 415085,
+          "sha256": "086e00a3d2c961d31fd8256d24cf9eeb813d96e7d70dc98cd4e68b921bb2f08a",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-detail.webp",
+          "bytes": 277846,
+          "sha256": "aefaebdae02e4daa448dfd2f97957d07ce41e313f3ab5b5f8aee2d7ff6907c67",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-stem.webp",
+          "bytes": 87965,
+          "sha256": "794d9feac35b901a771b607863741e733c6bc2d95c3d94b85f89d0e8071027ba",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": true,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+        "Color/material/nominal size require product-owner review.",
+        "Added fruit/olive bowl deviates from C/no-extra-objects addendum."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Not recommended: seven-head quantity violation.",
+      "driveFileId": "1SgKa8WdDkrK3z3hnOuQJScY42JECx2at",
+      "driveUrl": "https://drive.google.com/file/d/1SgKa8WdDkrK3z3hnOuQJScY42JECx2at/view?usp=drivesdk",
+      "driveParents": [
+        "1VfUNb8TittbNGo9SHs7VSEKKMiOC4Mzm"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L6.json",
+          "sha256": "73bc392b01da37ec3efb8409351d5c91e0773cbeac95bbae65611f2889d56a5c",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L6",
+          "candidate": "a",
+          "status": "REVIEW",
+          "requiresRevision": true,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-52df17f7-7921-4443-9643-7e9087ad6c98.png",
+          "sha256": "b6d07d58a902584a392b05b07515ed9a89b4a751c690cd8d634363d43761191c",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 7,
+          "visibleClosedBuds": null,
+          "closedBudCountNote": "Several separate closed rose buds visible; exact count not certified. No visibly excessive bud inventory established.",
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "maxBuds": 12,
+          "visibleHeadCeilingPass": false,
+          "physicalStemTopologyCertified": false,
+          "flowerFidelity": "Coral/salmon layered pointed Classic rose form, pointed original buds and serrated green leaves broadly match Coral set/detail/stem; exact physical color and 43cm/9cm source claims are not independently measured.",
+          "composition": {
+            "wholeJugVisible": true,
+            "stonewareJug": true,
+            "whiteOakCounter": true,
+            "plasterWall": true,
+            "linenTeaTowel": true,
+            "leftWindowLight": true,
+            "unrequestedProp": "Small olive/fruit bowl not listed in C.",
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false
+          },
+          "actualPromptMatchesFrozenPlan": true,
+          "actualPromptDeviation": null,
+          "centralCrop": {
+            "result": "REQUIRES_FOCAL_ADJUSTMENT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L6-a-centered4x5-QA-only.png",
+            "finding": "Centered4:5 clips far-left head/bud; complete native landscape retained."
+          },
+          "hardPixelDefects": [
+            "Seven clearly separate open heads exceed Classic six-head ceiling."
+          ],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+            "Color/material/nominal size require product-owner review.",
+            "Added fruit/olive bowl deviates from C/no-extra-objects addendum."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Not recommended: seven-head quantity violation.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1SgKa8WdDkrK3z3hnOuQJScY42JECx2at",
+        "title": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2536985",
+        "url": "https://drive.google.com/file/d/1SgKa8WdDkrK3z3hnOuQJScY42JECx2at/view?usp=drivesdk",
+        "parent_ids": [
+          "1VfUNb8TittbNGo9SHs7VSEKKMiOC4Mzm"
+        ],
+        "modified_time": "2026-11-18T18:00:17.199Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "b6d07d58a902584a392b05b07515ed9a89b4a751c690cd8d634363d43761191c",
+        "readbackBytes": 2536985,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "56d909156f62c7c30f28f4e3e2d555825dba45dae0adb55426143a7329b224fc"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L6/SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L6-a_86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f.json"
+      }
+    },
+    {
+      "slotId": "L6",
+      "candidate": "b",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2335676,
+      "sha256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-edff644f-cc97-46bb-8d67-efc4bbd48f1c.png",
+      "rawToolOutputSHA256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nCoral classic roses with their buds in a grey handmade stoneware jug on a white oak kitchen counter, plaster backsplash, a linen tea towel. The whole vase and the full stem height are clearly visible so the vase-to-stem proportion reads at a glance. 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Coral Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+      "actualPromptSHA256": "02225a4c9e5d7b526dda2b7fda2d4a68f1cb78087320be1c216d7bea2456c70c",
+      "actualPromptMatchesFrozenPlan": true,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L6-b_3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a.json",
+      "capturedActualJobSHA256": "3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-set.webp",
+          "bytes": 415085,
+          "sha256": "086e00a3d2c961d31fd8256d24cf9eeb813d96e7d70dc98cd4e68b921bb2f08a",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-detail.webp",
+          "bytes": 277846,
+          "sha256": "aefaebdae02e4daa448dfd2f97957d07ce41e313f3ab5b5f8aee2d7ff6907c67",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-stem.webp",
+          "bytes": 87965,
+          "sha256": "794d9feac35b901a771b607863741e733c6bc2d95c3d94b85f89d0e8071027ba",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+        "Color/material/nominal size require product-owner review.",
+        "Added fruit/olive bowl deviates from C/no-extra-objects addendum."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Six-head alternative, but added fruit bowl and left-bud portrait crop are less suitable than c.",
+      "driveFileId": "18SPPm9qcKPEfGxt0eabzElld7s38ore3",
+      "driveUrl": "https://drive.google.com/file/d/18SPPm9qcKPEfGxt0eabzElld7s38ore3/view?usp=drivesdk",
+      "driveParents": [
+        "1VfUNb8TittbNGo9SHs7VSEKKMiOC4Mzm"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L6.json",
+          "sha256": "73bc392b01da37ec3efb8409351d5c91e0773cbeac95bbae65611f2889d56a5c",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L6",
+          "candidate": "b",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-edff644f-cc97-46bb-8d67-efc4bbd48f1c.png",
+          "sha256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": null,
+          "closedBudCountNote": "Several separate closed rose buds visible; exact count not certified. No visibly excessive bud inventory established.",
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "maxBuds": 12,
+          "visibleHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "flowerFidelity": "Coral/salmon layered pointed Classic rose form, pointed original buds and serrated green leaves broadly match Coral set/detail/stem; exact physical color and 43cm/9cm source claims are not independently measured.",
+          "composition": {
+            "wholeJugVisible": true,
+            "stonewareJug": true,
+            "whiteOakCounter": true,
+            "plasterWall": true,
+            "linenTeaTowel": true,
+            "leftWindowLight": true,
+            "unrequestedProp": "Bowl with peaches not listed in C.",
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false
+          },
+          "actualPromptMatchesFrozenPlan": true,
+          "actualPromptDeviation": null,
+          "centralCrop": {
+            "result": "REQUIRES_FOCAL_ADJUSTMENT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L6-b-centered4x5-QA-only.png",
+            "finding": "Centered4:5 trims far-left buds; native landscape is complete."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+            "Color/material/nominal size require product-owner review.",
+            "Added fruit/olive bowl deviates from C/no-extra-objects addendum."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Six-head alternative, but added fruit bowl and left-bud portrait crop are less suitable than c.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "18SPPm9qcKPEfGxt0eabzElld7s38ore3",
+        "title": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2335676",
+        "url": "https://drive.google.com/file/d/18SPPm9qcKPEfGxt0eabzElld7s38ore3/view?usp=drivesdk",
+        "parent_ids": [
+          "1VfUNb8TittbNGo9SHs7VSEKKMiOC4Mzm"
+        ],
+        "modified_time": "2026-11-18T18:00:21.203Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f",
+        "readbackBytes": 2335676,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "c432606c37ca0d0e58f2c40fcf1ad54e48429163dce15d5ad124fabbf4a5cbd3"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L6/SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L6-b_3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a.json"
+      }
+    },
+    {
+      "slotId": "L6",
+      "candidate": "c",
+      "batch": 2,
+      "status": "REVIEW",
+      "filename": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "png",
+      "bytes": 2315186,
+      "sha256": "3d8e16f9abdcc999fcff3dc6acd56409098ac91cf95e44d9756f813ccb2b2ef6",
+      "requestedAspectRatio": "3:2",
+      "actualAspectRatio": "1536:1024",
+      "minimumDimensions": {
+        "width": 2000,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-bdc77e25-1fde-4117-93c6-128a85a29bf4.png",
+      "rawToolOutputSHA256": "3d8e16f9abdcc999fcff3dc6acd56409098ac91cf95e44d9756f813ccb2b2ef6",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nCoral classic roses with their buds in a grey handmade stoneware jug on a white oak kitchen counter, plaster backsplash, a linen tea towel. The whole vase and the full stem height are clearly visible so the vase-to-stem proportion reads at a glance. 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Coral Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.\nQuantity and identity clarification: use ONLY FOUR Classic Coral rose stems with FOUR open rose heads and at most EIGHT closed buds total, naturally branched as in the single-stem reference. Four is deliberately fewer than the six-stem set cap. Clearly countable four open heads, no fifth/sixth/seventh flower or concealed extra head. Use high-centered layered hybrid-tea Classic petals and folded pointed edges from the THREE Coral product references; do not borrow the rounded Austin rosette anatomy from the lighting-only style reference. No extra fruit bowl: linen tea towel is the sole secondary tabletop prop.",
+      "actualPromptSHA256": "d52ac1cd00d522e89df913aad77042e36cf293d680d4b729c146cba51dbb413d",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L6-c_3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0.json",
+      "capturedActualJobSHA256": "3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-set.webp",
+          "bytes": 415085,
+          "sha256": "086e00a3d2c961d31fd8256d24cf9eeb813d96e7d70dc98cd4e68b921bb2f08a",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-detail.webp",
+          "bytes": 277846,
+          "sha256": "aefaebdae02e4daa448dfd2f97957d07ce41e313f3ab5b5f8aee2d7ff6907c67",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-stem.webp",
+          "bytes": 87965,
+          "sha256": "794d9feac35b901a771b607863741e733c6bc2d95c3d94b85f89d0e8071027ba",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+        "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+        "Color/material/nominal size require product-owner review."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Four independently countable heads, seven buds, no unrequested bowl, full product safe in center portrait crop.",
+      "driveFileId": "1QMeBQXKc-Fs9SM_PeR-kjz3cBSCd0ICi",
+      "driveUrl": "https://drive.google.com/file/d/1QMeBQXKc-Fs9SM_PeR-kjz3cBSCd0ICi/view?usp=drivesdk",
+      "driveParents": [
+        "1VfUNb8TittbNGo9SHs7VSEKKMiOC4Mzm"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L6.json",
+          "sha256": "73bc392b01da37ec3efb8409351d5c91e0773cbeac95bbae65611f2889d56a5c",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "L6",
+          "candidate": "c",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-bdc77e25-1fde-4117-93c6-128a85a29bf4.png",
+          "sha256": "3d8e16f9abdcc999fcff3dc6acd56409098ac91cf95e44d9756f813ccb2b2ef6",
+          "width": 1536,
+          "height": 1024,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 7,
+          "closedBudCountNote": "Seven separate colored closed rose buds visible: two upper-left, two top-right, two far-right, one low-left.",
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "maxBuds": 12,
+          "visibleHeadCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "flowerFidelity": "Coral/salmon layered pointed Classic rose form, pointed original buds and serrated green leaves broadly match Coral set/detail/stem; exact physical color and 43cm/9cm source claims are not independently measured.",
+          "composition": {
+            "wholeJugVisible": true,
+            "stonewareJug": true,
+            "whiteOakCounter": true,
+            "plasterWall": true,
+            "linenTeaTowel": true,
+            "leftWindowLight": true,
+            "unrequestedProp": null,
+            "lettersPeopleHandsPackagingWaterOtherFlowersObserved": false
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "actualPromptDeviation": "A separate quantity clarification requested FOUR open heads/four stems and no more than eight buds, retaining verbatim A+B+C+D; visually counted four heads and seven buds.",
+          "centralCrop": {
+            "result": "PASS_PRODUCT",
+            "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L6-c-centered4x5-QA-only.png",
+            "finding": "All four heads, seven buds and whole jug fit centered4:5."
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1536x1024 below2000px width; unchanged delivery explicitly allowed.",
+            "Opaque vessel and overlapping branches prevent certification of exact physical main-stem topology.",
+            "Color/material/nominal size require product-owner review."
+          ],
+          "recommendedWithinSlot": true,
+          "recommendationReason": "Four independently countable heads, seven buds, no unrequested bowl, full product safe in center portrait crop.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1QMeBQXKc-Fs9SM_PeR-kjz3cBSCd0ICi",
+        "title": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2315186",
+        "url": "https://drive.google.com/file/d/1QMeBQXKc-Fs9SM_PeR-kjz3cBSCd0ICi/view?usp=drivesdk",
+        "parent_ids": [
+          "1VfUNb8TittbNGo9SHs7VSEKKMiOC4Mzm"
+        ],
+        "modified_time": "2026-11-18T18:00:25.678Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "3d8e16f9abdcc999fcff3dc6acd56409098ac91cf95e44d9756f813ccb2b2ef6",
+        "readbackBytes": 2315186,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "e85374dcc66131884ccf7686ca46763753b19e39148372bbcfa8636bdff02722"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/L6/SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L6-c_3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0.json"
+      }
+    }
+  ],
+  "recommendation": {
+    "candidate": "c",
+    "reason": "Four independently countable heads, seven buds, no unrequested bowl, full product safe in center portrait crop.",
+    "requiresRevision": false,
+    "qa": {
+      "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L6.json",
+      "sha256": "73bc392b01da37ec3efb8409351d5c91e0773cbeac95bbae65611f2889d56a5c",
+      "reviewer": null,
+      "scope": null,
+      "summary": null
+    }
+  },
+  "finalization": {
+    "version": "Codex-v01-final-review",
+    "date": "2026-11-18",
+    "qaSlots": 12,
+    "driveByteVerified": 36,
+    "allNativePNGBytesPreserved": true,
+    "branch": "codex/sskoi-web-scenes-v01-20261118",
+    "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+    "approvalClaimed": false,
+    "websiteIntegrated": false,
+    "published": false,
+    "nextOwner": "Claude — visual QA"
+  }
+}

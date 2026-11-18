@@ -1,0 +1,545 @@
+{
+  "version": "Codex-v01",
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "slotId": "WW",
+  "totalPlanned": 3,
+  "generationPlanSHA256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733",
+  "records": [
+    {
+      "slotId": "WW",
+      "candidate": "a",
+      "batch": 4,
+      "status": "REVIEW",
+      "filename": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png",
+      "bytes": 2295241,
+      "sha256": "26358fbbf8c415bf57ce5893b15979b69394a7f8288122eca219bf41845ba394",
+      "requestedAspectRatio": "16:9",
+      "actualAspectRatio": "1672:941",
+      "minimumDimensions": {
+        "width": 2400,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-75780b05-3ec5-41a9-834a-a37abd49c5ce.png",
+      "rawToolOutputSHA256": "26358fbbf8c415bf57ce5893b15979b69394a7f8288122eca219bf41845ba394",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nBurgundy classic roses with their buds in a cream handmade stoneware vase on a walnut table, low late-afternoon winter sun from the left, deeper but soft shadows, oat linen runner, calm and warm, not festive, no candles, no ornaments.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 16:9 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Burgundy Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds.\n\nQUANTITY/IDENTITY CLARIFICATION: Arrange ONLY FOUR Burgundy Classic rose stems, FOUR open main heads and no more than EIGHT closed buds total, clearly countable, a permitted subset of the six-stem pack. Preserve the high-centered layered Classic rose form, folded pointed petal edges, burgundy wine/plum hue and the original green sepals from the three Burgundy product references. Do not borrow Austin rosette anatomy or Coral color from the lighting-only style references. No additional decorative objects: just flowers, cream stoneware vase, walnut table and oat linen runner. For this WW desktop slot use an unmistakably wide native 16:9 composition with quiet negative space; do not crop, resize or letterbox afterwards.",
+      "actualPromptSHA256": "c7d02e0ec9f9009e0e025d479251cdd3cd60d6c3f6ba4978c2a815982c3db5da",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WW-a_86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb.json",
+      "capturedActualJobSHA256": "86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-set.webp",
+          "bytes": 374460,
+          "sha256": "73addefe381f9993077fd03b971ee44e03f5f4fd88fba59f084e573ff46411e3",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-detail.webp",
+          "bytes": 222043,
+          "sha256": "9df8c280096707a518f5ef58b42318e05b24c49e62b328a7ca6d1d478d2d41c1",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-stem.webp",
+          "role": "verified supplementary product-single-stem; omitted from PROMPT URL list",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-stem-supplement.webp",
+          "bytes": 84228,
+          "sha256": "622008d91de5d6e24d0acc2ec2922a93a513915dfe09634346ba1dbfc4296d55",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Warm gold light shifts apparent Burgundy toward wine/red-brown; no measured DeltaE or real-color approval.",
+        "Visible count does not independently certify four physical main stems or complete eight-bud inventory."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Complete four-head alternative; lower petal undersides take a stronger orange warmth.",
+      "driveFileId": "1aqDaaWB_iQYWJpYvFZlJi2QHFAGzYH_j",
+      "driveUrl": "https://drive.google.com/file/d/1aqDaaWB_iQYWJpYvFZlJi2QHFAGzYH_j/view?usp=drivesdk",
+      "driveParents": [
+        "1fq4dPRbF3EGWmVueFF4xVezHbj1thAlQ"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/WW.json",
+          "sha256": "41a48f50397589725fdc74c154298865aea1462ad9d596ba02d7f19593af324b",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "WW",
+          "candidate": "a",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-75780b05-3ec5-41a9-834a-a37abd49c5ce.png",
+          "sha256": "26358fbbf8c415bf57ce5893b15979b69394a7f8288122eca219bf41845ba394",
+          "width": 1672,
+          "height": 941,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 7,
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "maxBuds": 12,
+          "actualRequestedOpenHeads": 4,
+          "actualRequestedBudCeiling": 8,
+          "visibleHeadBudCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "budCountNote": "Counts include visually separate small green closed buds on their own branch, not just green sepals around a colored rose bud. Hidden buds/main-stem assignments cannot be certified through foliage and opaque vessel.",
+          "flowerFidelity": "Four high-centered layered Classic Burgundy heads, pointed colored/green buds, serrated olive-green leaves. No Austin yellow centers, round Ranunculus leaves or extra flower types. Under golden winter light petals look dark wine red/brown, less magenta than neutral source; retain as disclosed warm-light interpretation pending owner color review.",
+          "composition": {
+            "creamHandmadeStonewareVase": true,
+            "walnutTable": true,
+            "oatLinenRunner": true,
+            "leftLateAfternoonWinterLight": true,
+            "wholeVaseAndVisibleFlowerGroupInsideFrame": true,
+            "lettersPeopleHandsCandlesOrnamentsPackagingWaterOtherFlowersObserved": false,
+            "unrequestedDecorativePropsObserved": false,
+            "scale": "Four-head arrangement and cream vase have a balanced table relation; exact43cm branch length/9cm head size and physical vase dimensions not measured."
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "actualPromptDeviation": "Actual appended clarification selected four stems/four open heads and no more than eight buds, within one-set ceiling. Verbatim A+B+C+D retained; verified Burgundy single-stem supplement used with set/detail and two style refs.",
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+            "Warm gold light shifts apparent Burgundy toward wine/red-brown; no measured DeltaE or real-color approval.",
+            "Visible count does not independently certify four physical main stems or complete eight-bud inventory."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Complete four-head alternative; lower petal undersides take a stronger orange warmth.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1aqDaaWB_iQYWJpYvFZlJi2QHFAGzYH_j",
+        "title": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2295241",
+        "url": "https://drive.google.com/file/d/1aqDaaWB_iQYWJpYvFZlJi2QHFAGzYH_j/view?usp=drivesdk",
+        "parent_ids": [
+          "1fq4dPRbF3EGWmVueFF4xVezHbj1thAlQ"
+        ],
+        "modified_time": "2026-11-18T18:08:43.875Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "26358fbbf8c415bf57ce5893b15979b69394a7f8288122eca219bf41845ba394",
+        "readbackBytes": 2295241,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "a8cfe392746bab131c34a26eb85dcbc49f7ccbbc2194f05ba8b0fa9dbfcbdfa9"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/WW/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WW-a_86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb.json"
+      }
+    },
+    {
+      "slotId": "WW",
+      "candidate": "b",
+      "batch": 4,
+      "status": "REVIEW",
+      "filename": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png",
+      "bytes": 2457081,
+      "sha256": "a25df29b4e7c22ecfb73e88d8ebb6088b20cbf7cd76ee42764dfdc17035afff6",
+      "requestedAspectRatio": "16:9",
+      "actualAspectRatio": "1672:941",
+      "minimumDimensions": {
+        "width": 2400,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-b07f75ef-881c-46cb-95e4-057f723cdcca.png",
+      "rawToolOutputSHA256": "a25df29b4e7c22ecfb73e88d8ebb6088b20cbf7cd76ee42764dfdc17035afff6",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nBurgundy classic roses with their buds in a cream handmade stoneware vase on a walnut table, low late-afternoon winter sun from the left, deeper but soft shadows, oat linen runner, calm and warm, not festive, no candles, no ornaments.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 16:9 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Burgundy Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds.\n\nQUANTITY/IDENTITY CLARIFICATION: Arrange ONLY FOUR Burgundy Classic rose stems, FOUR open main heads and no more than EIGHT closed buds total, clearly countable, a permitted subset of the six-stem pack. Preserve the high-centered layered Classic rose form, folded pointed petal edges, burgundy wine/plum hue and the original green sepals from the three Burgundy product references. Do not borrow Austin rosette anatomy or Coral color from the lighting-only style references. No additional decorative objects: just flowers, cream stoneware vase, walnut table and oat linen runner. For this WW desktop slot use an unmistakably wide native 16:9 composition with quiet negative space; do not crop, resize or letterbox afterwards.",
+      "actualPromptSHA256": "c7d02e0ec9f9009e0e025d479251cdd3cd60d6c3f6ba4978c2a815982c3db5da",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WW-b_3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd.json",
+      "capturedActualJobSHA256": "3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-set.webp",
+          "bytes": 374460,
+          "sha256": "73addefe381f9993077fd03b971ee44e03f5f4fd88fba59f084e573ff46411e3",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-detail.webp",
+          "bytes": 222043,
+          "sha256": "9df8c280096707a518f5ef58b42318e05b24c49e62b328a7ca6d1d478d2d41c1",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-stem.webp",
+          "role": "verified supplementary product-single-stem; omitted from PROMPT URL list",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-stem-supplement.webp",
+          "bytes": 84228,
+          "sha256": "622008d91de5d6e24d0acc2ec2922a93a513915dfe09634346ba1dbfc4296d55",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Warm gold light shifts apparent Burgundy toward wine/red-brown; no measured DeltaE or real-color approval.",
+        "Visible count does not independently certify four physical main stems or complete eight-bud inventory."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Four clearly separated Classic heads, varied angles, slightly cooler wine color closer to neutral product reference and useful left negative space.",
+      "driveFileId": "1Cfrzol6GkpxcT9iRGq0MGxNpZp5EZCfM",
+      "driveUrl": "https://drive.google.com/file/d/1Cfrzol6GkpxcT9iRGq0MGxNpZp5EZCfM/view?usp=drivesdk",
+      "driveParents": [
+        "1fq4dPRbF3EGWmVueFF4xVezHbj1thAlQ"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/WW.json",
+          "sha256": "41a48f50397589725fdc74c154298865aea1462ad9d596ba02d7f19593af324b",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "WW",
+          "candidate": "b",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-b07f75ef-881c-46cb-95e4-057f723cdcca.png",
+          "sha256": "a25df29b4e7c22ecfb73e88d8ebb6088b20cbf7cd76ee42764dfdc17035afff6",
+          "width": 1672,
+          "height": 941,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 7,
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "maxBuds": 12,
+          "actualRequestedOpenHeads": 4,
+          "actualRequestedBudCeiling": 8,
+          "visibleHeadBudCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "budCountNote": "Counts include visually separate small green closed buds on their own branch, not just green sepals around a colored rose bud. Hidden buds/main-stem assignments cannot be certified through foliage and opaque vessel.",
+          "flowerFidelity": "Four high-centered layered Classic Burgundy heads, pointed colored/green buds, serrated olive-green leaves. No Austin yellow centers, round Ranunculus leaves or extra flower types. Under golden winter light petals look dark wine red/brown, less magenta than neutral source; retain as disclosed warm-light interpretation pending owner color review.",
+          "composition": {
+            "creamHandmadeStonewareVase": true,
+            "walnutTable": true,
+            "oatLinenRunner": true,
+            "leftLateAfternoonWinterLight": true,
+            "wholeVaseAndVisibleFlowerGroupInsideFrame": true,
+            "lettersPeopleHandsCandlesOrnamentsPackagingWaterOtherFlowersObserved": false,
+            "unrequestedDecorativePropsObserved": false,
+            "scale": "Four-head arrangement and cream vase have a balanced table relation; exact43cm branch length/9cm head size and physical vase dimensions not measured."
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "actualPromptDeviation": "Actual appended clarification selected four stems/four open heads and no more than eight buds, within one-set ceiling. Verbatim A+B+C+D retained; verified Burgundy single-stem supplement used with set/detail and two style refs.",
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+            "Warm gold light shifts apparent Burgundy toward wine/red-brown; no measured DeltaE or real-color approval.",
+            "Visible count does not independently certify four physical main stems or complete eight-bud inventory."
+          ],
+          "recommendedWithinSlot": true,
+          "recommendationReason": "Four clearly separated Classic heads, varied angles, slightly cooler wine color closer to neutral product reference and useful left negative space.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1Cfrzol6GkpxcT9iRGq0MGxNpZp5EZCfM",
+        "title": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2457081",
+        "url": "https://drive.google.com/file/d/1Cfrzol6GkpxcT9iRGq0MGxNpZp5EZCfM/view?usp=drivesdk",
+        "parent_ids": [
+          "1fq4dPRbF3EGWmVueFF4xVezHbj1thAlQ"
+        ],
+        "modified_time": "2026-11-18T18:08:49.289Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "a25df29b4e7c22ecfb73e88d8ebb6088b20cbf7cd76ee42764dfdc17035afff6",
+        "readbackBytes": 2457081,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "12c2eaa1bcd2a38b6e8f33d084d3d25ae487441b47ea351de7540698cea6ad8a"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/WW/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WW-b_3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd.json"
+      }
+    },
+    {
+      "slotId": "WW",
+      "candidate": "c",
+      "batch": 4,
+      "status": "REVIEW",
+      "filename": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png",
+      "bytes": 2329204,
+      "sha256": "fad0556a9b83f774ed8ce8a9144bdfab05551f63493aaa67288ea8b07e3e64da",
+      "requestedAspectRatio": "16:9",
+      "actualAspectRatio": "1672:941",
+      "minimumDimensions": {
+        "width": 2400,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-4a49d958-4cfb-436a-a9ab-e38fc0dddb6b.png",
+      "rawToolOutputSHA256": "fad0556a9b83f774ed8ce8a9144bdfab05551f63493aaa67288ea8b07e3e64da",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nBurgundy classic roses with their buds in a cream handmade stoneware vase on a walnut table, low late-afternoon winter sun from the left, deeper but soft shadows, oat linen runner, calm and warm, not festive, no candles, no ornaments.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 16:9 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Burgundy Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds.\n\nQUANTITY/IDENTITY CLARIFICATION: Arrange ONLY FOUR Burgundy Classic rose stems, FOUR open main heads and no more than EIGHT closed buds total, clearly countable, a permitted subset of the six-stem pack. Preserve the high-centered layered Classic rose form, folded pointed petal edges, burgundy wine/plum hue and the original green sepals from the three Burgundy product references. Do not borrow Austin rosette anatomy or Coral color from the lighting-only style references. No additional decorative objects: just flowers, cream stoneware vase, walnut table and oat linen runner. For this WW desktop slot use an unmistakably wide native 16:9 composition with quiet negative space; do not crop, resize or letterbox afterwards.",
+      "actualPromptSHA256": "c7d02e0ec9f9009e0e025d479251cdd3cd60d6c3f6ba4978c2a815982c3db5da",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WW-c_0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561.json",
+      "capturedActualJobSHA256": "0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-set.webp",
+          "bytes": 374460,
+          "sha256": "73addefe381f9993077fd03b971ee44e03f5f4fd88fba59f084e573ff46411e3",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-detail.webp",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-detail.webp",
+          "bytes": 222043,
+          "sha256": "9df8c280096707a518f5ef58b42318e05b24c49e62b328a7ca6d1d478d2d41c1",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-burgundy-stem.webp",
+          "role": "verified supplementary product-single-stem; omitted from PROMPT URL list",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-stem-supplement.webp",
+          "bytes": 84228,
+          "sha256": "622008d91de5d6e24d0acc2ec2922a93a513915dfe09634346ba1dbfc4296d55",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+          "bytes": 154578,
+          "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp",
+          "role": "style-only; lighting, palette and material; do not copy composition or product geometry",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+          "bytes": 158382,
+          "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Warm gold light shifts apparent Burgundy toward wine/red-brown; no measured DeltaE or real-color approval.",
+        "Visible count does not independently certify four physical main stems or complete eight-bud inventory."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Complete four-head alternative with restrained6visible buds; more centered/formal arrangement than b.",
+      "driveFileId": "1bwbtDcS3oxqf0ndkmu_GfjE6m9UUQ3sf",
+      "driveUrl": "https://drive.google.com/file/d/1bwbtDcS3oxqf0ndkmu_GfjE6m9UUQ3sf/view?usp=drivesdk",
+      "driveParents": [
+        "1fq4dPRbF3EGWmVueFF4xVezHbj1thAlQ"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/WW.json",
+          "sha256": "41a48f50397589725fdc74c154298865aea1462ad9d596ba02d7f19593af324b",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "WW",
+          "candidate": "c",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-4a49d958-4cfb-436a-a9ab-e38fc0dddb6b.png",
+          "sha256": "fad0556a9b83f774ed8ce8a9144bdfab05551f63493aaa67288ea8b07e3e64da",
+          "width": 1672,
+          "height": 941,
+          "visibleOpenHeads": 4,
+          "visibleClosedBuds": 6,
+          "maxStems": 6,
+          "maxOpenHeads": 6,
+          "maxBuds": 12,
+          "actualRequestedOpenHeads": 4,
+          "actualRequestedBudCeiling": 8,
+          "visibleHeadBudCeilingPass": true,
+          "physicalStemTopologyCertified": false,
+          "budCountNote": "Counts include visually separate small green closed buds on their own branch, not just green sepals around a colored rose bud. Hidden buds/main-stem assignments cannot be certified through foliage and opaque vessel.",
+          "flowerFidelity": "Four high-centered layered Classic Burgundy heads, pointed colored/green buds, serrated olive-green leaves. No Austin yellow centers, round Ranunculus leaves or extra flower types. Under golden winter light petals look dark wine red/brown, less magenta than neutral source; retain as disclosed warm-light interpretation pending owner color review.",
+          "composition": {
+            "creamHandmadeStonewareVase": true,
+            "walnutTable": true,
+            "oatLinenRunner": true,
+            "leftLateAfternoonWinterLight": true,
+            "wholeVaseAndVisibleFlowerGroupInsideFrame": true,
+            "lettersPeopleHandsCandlesOrnamentsPackagingWaterOtherFlowersObserved": false,
+            "unrequestedDecorativePropsObserved": false,
+            "scale": "Four-head arrangement and cream vase have a balanced table relation; exact43cm branch length/9cm head size and physical vase dimensions not measured."
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "actualPromptDeviation": "Actual appended clarification selected four stems/four open heads and no more than eight buds, within one-set ceiling. Verbatim A+B+C+D retained; verified Burgundy single-stem supplement used with set/detail and two style refs.",
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+            "Warm gold light shifts apparent Burgundy toward wine/red-brown; no measured DeltaE or real-color approval.",
+            "Visible count does not independently certify four physical main stems or complete eight-bud inventory."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Complete four-head alternative with restrained6visible buds; more centered/formal arrangement than b.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1bwbtDcS3oxqf0ndkmu_GfjE6m9UUQ3sf",
+        "title": "SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2329204",
+        "url": "https://drive.google.com/file/d/1bwbtDcS3oxqf0ndkmu_GfjE6m9UUQ3sf/view?usp=drivesdk",
+        "parent_ids": [
+          "1fq4dPRbF3EGWmVueFF4xVezHbj1thAlQ"
+        ],
+        "modified_time": "2026-11-18T18:08:53.261Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "fad0556a9b83f774ed8ce8a9144bdfab05551f63493aaa67288ea8b07e3e64da",
+        "readbackBytes": 2329204,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "c9763cc42d71d9a6b973f428740a4193778df9b0582725dce37fde7d02f1d3b0"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/WW/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WW-c_0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561.json"
+      }
+    }
+  ],
+  "recommendation": {
+    "candidate": "b",
+    "reason": "Four clearly separated Classic heads, varied angles, slightly cooler wine color closer to neutral product reference and useful left negative space.",
+    "requiresRevision": false,
+    "qa": {
+      "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/WW.json",
+      "sha256": "41a48f50397589725fdc74c154298865aea1462ad9d596ba02d7f19593af324b",
+      "reviewer": null,
+      "scope": null,
+      "summary": null
+    }
+  },
+  "finalization": {
+    "version": "Codex-v01-final-review",
+    "date": "2026-11-18",
+    "qaSlots": 12,
+    "driveByteVerified": 36,
+    "allNativePNGBytesPreserved": true,
+    "branch": "codex/sskoi-web-scenes-v01-20261118",
+    "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+    "approvalClaimed": false,
+    "websiteIntegrated": false,
+    "published": false,
+    "nextOwner": "Claude — visual QA"
+  }
+}

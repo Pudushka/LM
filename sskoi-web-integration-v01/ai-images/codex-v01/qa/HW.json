@@ -1,0 +1,150 @@
+{
+  "slotId": "HW",
+  "batch": 3,
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "preferredCandidate": "a",
+  "requiresRevision": true,
+  "requiresRevisionCandidates": [
+    "b"
+  ],
+  "hardPixelDefects": [
+    "HW-b lower-right stem ends leave frame."
+  ],
+  "retainedAllCandidates": true,
+  "noOriginalsModified": true,
+  "records": [
+    {
+      "slotId": "HW",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-2604fc19-e078-47bb-bc29-28c6cf5e6654.png",
+      "sha256": "e83235b645973fe0ecace4127dcb86a2622851c14c9613d8000092ee3c5e7171",
+      "width": 1672,
+      "height": 941,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": 0,
+      "maxOpenHeads": 6,
+      "maxStems": 6,
+      "visibleHeadCeilingPass": true,
+      "exactCutEndCountCertified": false,
+      "stemCountNote": "Main shafts/cut ends overlap; no independent six-distinct-end certification. No visible extra seventh flower or stem was established.",
+      "flowerFidelity": "Baby Pink cupped six-head Austin with cream outer edges, pink inner layers, small cream-yellow stamens and serrated leaves; broad form/color follows supplied hero/set/stem. Creative detail macro has a broader open center and is not an authentic physical-truth photograph.",
+      "heroComparison": {
+        "sameBouquetRightLinenLeftLayout": true,
+        "linenColor": "Muted dusty mauve/brown linen remains broadly consistent with current hero; exact color equivalence/DeltaE not measured.",
+        "flowerColor": "Pale blush pink with cream outer edges remains broadly consistent; no recoloring to another variant observed.",
+        "leftLightAndSoftShadows": true,
+        "wholeBouquetAndStemsVisible": true,
+        "finding": "All six heads and grouped cut ends remain within frame, with broad linen negative space on left."
+      },
+      "actualPromptMatchesFrozenPlan": false,
+      "referenceDeviation": "Generation tool rejected seven attached refs without output; actual job uses three exact product refs + two original hero refs. The two already-inspected style refs are represented by A text only. No output is claimed from rejected request.",
+      "observations": {
+        "lettersHandsPeoplePackagingVaseOtherFlowersObserved": false,
+        "unrequestedDecorativePropsObserved": false
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+        "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+      ],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Closest restrained continuation of wide hero: all six heads and stem tips fit, ample left negative space, soft consistent linen and petal detail.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "HW",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": true,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-bb25526b-4c03-421d-98c0-c2bbf07f227c.png",
+      "sha256": "2d8de4c23bf77e91ae78a629fb89431798d1bbb3624803ef18580550411a8b55",
+      "width": 1672,
+      "height": 941,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": 0,
+      "maxOpenHeads": 6,
+      "maxStems": 6,
+      "visibleHeadCeilingPass": true,
+      "exactCutEndCountCertified": false,
+      "stemCountNote": "Main shafts/cut ends overlap; no independent six-distinct-end certification. No visible extra seventh flower or stem was established.",
+      "flowerFidelity": "Baby Pink cupped six-head Austin with cream outer edges, pink inner layers, small cream-yellow stamens and serrated leaves; broad form/color follows supplied hero/set/stem. Creative detail macro has a broader open center and is not an authentic physical-truth photograph.",
+      "heroComparison": {
+        "sameBouquetRightLinenLeftLayout": true,
+        "linenColor": "Muted dusty mauve/brown linen remains broadly consistent with current hero; exact color equivalence/DeltaE not measured.",
+        "flowerColor": "Pale blush pink with cream outer edges remains broadly consistent; no recoloring to another variant observed.",
+        "leftLightAndSoftShadows": true,
+        "wholeBouquetAndStemsVisible": false,
+        "finding": "Six heads intact, but stem shafts run out of lower-right image edge; wide source hero shows the cut ends within frame."
+      },
+      "actualPromptMatchesFrozenPlan": false,
+      "referenceDeviation": "Generation tool rejected seven attached refs without output; actual job uses three exact product refs + two original hero refs. The two already-inspected style refs are represented by A text only. No output is claimed from rejected request.",
+      "observations": {
+        "lettersHandsPeoplePackagingVaseOtherFlowersObserved": false,
+        "unrequestedDecorativePropsObserved": false
+      },
+      "hardPixelDefects": [
+        "Stem ends are cut off at lower-right border, departing from complete-bouquet wide hero composition."
+      ],
+      "knownIssues": [
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+        "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Less suitable for full wide-bouquet composition because stems leave frame.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "HW",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-f0c600d5-66be-4568-b39e-4a261d0af7e7.png",
+      "sha256": "e4942cc71bf17715743bd5bafc161da4b12a12e7f0c3cad31ad03978f4ef858a",
+      "width": 1672,
+      "height": 941,
+      "visibleOpenHeads": 6,
+      "visibleClosedBuds": 0,
+      "maxOpenHeads": 6,
+      "maxStems": 6,
+      "visibleHeadCeilingPass": true,
+      "exactCutEndCountCertified": false,
+      "stemCountNote": "Main shafts/cut ends overlap; no independent six-distinct-end certification. No visible extra seventh flower or stem was established.",
+      "flowerFidelity": "Baby Pink cupped six-head Austin with cream outer edges, pink inner layers, small cream-yellow stamens and serrated leaves; broad form/color follows supplied hero/set/stem. Creative detail macro has a broader open center and is not an authentic physical-truth photograph.",
+      "heroComparison": {
+        "sameBouquetRightLinenLeftLayout": true,
+        "linenColor": "Muted dusty mauve/brown linen remains broadly consistent with current hero; exact color equivalence/DeltaE not measured.",
+        "flowerColor": "Pale blush pink with cream outer edges remains broadly consistent; no recoloring to another variant observed.",
+        "leftLightAndSoftShadows": true,
+        "wholeBouquetAndStemsVisible": true,
+        "finding": "All six heads and grouped cut ends remain within frame, with broad linen negative space on left."
+      },
+      "actualPromptMatchesFrozenPlan": false,
+      "referenceDeviation": "Generation tool rejected seven attached refs without output; actual job uses three exact product refs + two original hero refs. The two already-inspected style refs are represented by A text only. No output is claimed from rejected request.",
+      "observations": {
+        "lettersHandsPeoplePackagingVaseOtherFlowersObserved": false,
+        "unrequestedDecorativePropsObserved": false
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+        "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Complete six-head alternative, but a gives slightly calmer spacing and clearer spread of leaves.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

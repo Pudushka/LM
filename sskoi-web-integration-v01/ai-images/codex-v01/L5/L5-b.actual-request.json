@@ -1,0 +1,39 @@
+{
+  "job": {
+    "sequence": 17,
+    "batch": 2,
+    "slotId": "L5",
+    "candidate": "b",
+    "status": "REVIEW",
+    "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Ranunculus stems are about 52 cm long; flower head diameter is not specified in reference.\n\nA few Light Peach ranunculus stems in a small cream crock on a white oak bedside table, softly rumpled oat linen bedding at the edge of the frame, morning window light, 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Light Peach Ranunculus from the attached same-color product references. Flowers may be fewer than one set, never more: at most 4 stems, 8 open blooms and 4 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every ranunculus stem has two open flowers and one bud, with the silver-green flocked leaves shown in the product source; the peony filename is a legacy label, not a peony flower type. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+    "referenceUrls": [
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-set.webp",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-detail.webp",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-peony-light-peach-stem.webp",
+      "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+      "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp"
+    ],
+    "referenceLocalPaths": [
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-set.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-detail.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-stem.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp"
+    ],
+    "referenceHashes": [
+      "751ce412e3a0336467f329900a69b2546ac3cdb0945d1ff7c1c96ba7c09904d0",
+      "f6a406df5b31f09311a02a754051c0f065259da6e7c79cbbdfcdfbb6e69aa694",
+      "46c4b7d78e8ffc4b919d1b0b85e41da25a8083725e7e261c93f0e2a00a9d4e83",
+      "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+      "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6"
+    ],
+    "requestedAspectRatio": "3:2",
+    "outputFolder": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5",
+    "filenameTemplate": "SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_<actualWidth>x<actualHeight>_Codex_v01_20261118_REVIEW.<nativeExt>"
+  },
+  "modelName": "image_gen (backend model name not exposed)",
+  "tool": "image_gen.imagegen",
+  "sourcePath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-6426b688-91c5-4dee-98a7-b5c3e487abec.png",
+  "status": "REVIEW",
+  "noPostProcessing": true
+}

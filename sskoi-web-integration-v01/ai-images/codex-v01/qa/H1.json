@@ -1,0 +1,173 @@
+{
+  "slotId": "H1",
+  "batch": 1,
+  "date": "2026-11-18",
+  "reviewer": "Codex independent local visual audit",
+  "scope": "All3 native source PNGs personally viewed against exact Austin set, single-stem and creative-detail caveat; no image editing, generation, upload or publication.",
+  "statusPolicy": "All candidates remain REVIEW per latest user override. Known issues and requiresRevision recorded separately; no Claude/James/Rachel approval inferred.",
+  "preferredCandidate": "a",
+  "preferredReason": "Airy varied angles, complete book stack and calm living-room context; no hard visible artifact requiring a rerun.",
+  "currentHardPixelDefects": [],
+  "requiresRevision": false,
+  "retainedAllCandidates": true,
+  "sourceReferenceManifest": "../_references/reference-provenance.json",
+  "notProductMeasurementOrApproval": true,
+  "records": [
+    {
+      "slotId": "H1",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "sourcePath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-e9c3e053-1488-4a82-aa54-939e1ba2b862.png",
+      "actualRequestPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\H1-a.actual-request.json",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2359655,
+      "sha256": "445bd7af0184e86c4d1a26e4cba3d5b097627d468095dae6527269df9d49140d",
+      "nativeBelowMinimum": true,
+      "noUpscalingOrSharpeningVerified": "Source bytes read from captured actual tool output; no processing performed by this reviewer.",
+      "visibleOpenHeads": 6,
+      "visibleClosedRoseBuds": 0,
+      "otherFlowerTypesObserved": 0,
+      "eucalyptusObserved": false,
+      "quantitativeLimit": {
+        "maxStems": 6,
+        "maxOpenBlooms": 6,
+        "visualHeadCeilingPass": true,
+        "individualStemCountCertified": false
+      },
+      "flowerFidelity": {
+        "colorFamily": "Pale blush Baby Pink with creamy ivory outer edges; gentle warmer light, not independently color-calibrated.",
+        "petalForm": "Layered cup/rosette Austin-like heads, natural small cream-yellow central clusters visible. No spiral Classic hybrid-tea substitution seen.",
+        "leaves": "Green pointed/serrated rose leaves, no eucalyptus or flocked ranunculus leaves.",
+        "referenceCaveat": "The attached1593x987 macro is an existing creative master with a more open face/enlarged yellow center. Set and single-stem morphology remain product controls; natural small stamens are permitted."
+      },
+      "composition": {
+        "surface": "Walnut sideboard, not dining table",
+        "wall": "Warm grey/beige limewashed plaster",
+        "vessel": "Cream handmade-looking stoneware, coherent dry rim, no water visible",
+        "prop": "One stack of two linen-bound books",
+        "light": "Left window/curtain light, soft shadows",
+        "peopleHandsFacesObserved": false,
+        "lettersLogosWatermarkObserved": false,
+        "paperVaseGiftBoxObserved": false,
+        "scale": "No gross vessel/furniture contradiction observed. Nominal centimeters are source claims, not pixel measurements."
+      },
+      "knownIssues": [
+        "Native1122x1402 output is below1440x1800 minimum; unchanged delivery explicitly permitted, no rerun required on this basis.",
+        "Stem bases are hidden by the ceramic vase; six visible heads do not prove six individually traceable physical stems.",
+        "Exact physical color,9cm head size and44cm stem scale are not independently measured from pixels.",
+        "Open faces lean toward the specified creative macro reference. Claude should compare ivory outer edges and degree of opening with the tighter full-set/stem references; no obvious replacement by another flower family observed."
+      ],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Most varied flower angles and airy spacing; the whole book stack remains in frame, with living-room furniture context and restrained left light. Product heads and vessel are complete.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "H1",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "sourcePath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-9a77d1fd-a773-46a8-8899-41c812af5438.png",
+      "actualRequestPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\H1-b.actual-request.json",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2293071,
+      "sha256": "699c98306bb1415cf62eae5287941e3f4539ea12fcbc29b7022b71c0fdccd7eb",
+      "nativeBelowMinimum": true,
+      "noUpscalingOrSharpeningVerified": "Source bytes read from captured actual tool output; no processing performed by this reviewer.",
+      "visibleOpenHeads": 6,
+      "visibleClosedRoseBuds": 0,
+      "otherFlowerTypesObserved": 0,
+      "eucalyptusObserved": false,
+      "quantitativeLimit": {
+        "maxStems": 6,
+        "maxOpenBlooms": 6,
+        "visualHeadCeilingPass": true,
+        "individualStemCountCertified": false
+      },
+      "flowerFidelity": {
+        "colorFamily": "Pale blush Baby Pink with creamy ivory outer edges; gentle warmer light, not independently color-calibrated.",
+        "petalForm": "Layered cup/rosette Austin-like heads, natural small cream-yellow central clusters visible. No spiral Classic hybrid-tea substitution seen.",
+        "leaves": "Green pointed/serrated rose leaves, no eucalyptus or flocked ranunculus leaves.",
+        "referenceCaveat": "The attached1593x987 macro is an existing creative master with a more open face/enlarged yellow center. Set and single-stem morphology remain product controls; natural small stamens are permitted."
+      },
+      "composition": {
+        "surface": "Walnut sideboard, not dining table",
+        "wall": "Warm grey/beige limewashed plaster",
+        "vessel": "Cream handmade-looking stoneware, coherent dry rim, no water visible",
+        "prop": "One stack of two linen-bound books",
+        "light": "Left window/curtain light, soft shadows",
+        "peopleHandsFacesObserved": false,
+        "lettersLogosWatermarkObserved": false,
+        "paperVaseGiftBoxObserved": false,
+        "scale": "No gross vessel/furniture contradiction observed. Nominal centimeters are source claims, not pixel measurements."
+      },
+      "knownIssues": [
+        "Native1122x1402 output is below1440x1800 minimum; unchanged delivery explicitly permitted, no rerun required on this basis.",
+        "Stem bases are hidden by the ceramic vase; six visible heads do not prove six individually traceable physical stems.",
+        "Exact physical color,9cm head size and44cm stem scale are not independently measured from pixels.",
+        "Right edge crops the outer part of the book stack; minor composition issue, no product clipping.",
+        "Open faces lean toward the specified creative macro reference. Claude should compare ivory outer edges and degree of opening with the tighter full-set/stem references; no obvious replacement by another flower family observed."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Alternative with centered vase and readable six heads; more uniform open forward-facing flowers and cropped book edge make it less convincing than a.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "H1",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "sourcePath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-667d9fda-e7ff-4f47-83e0-c0aeca646c67.png",
+      "actualRequestPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\H1-c.actual-request.json",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2253483,
+      "sha256": "b954e764e0133eeb82479f5f6deb440828fb9ad3e33966bfba4080d86d90e1ad",
+      "nativeBelowMinimum": true,
+      "noUpscalingOrSharpeningVerified": "Source bytes read from captured actual tool output; no processing performed by this reviewer.",
+      "visibleOpenHeads": 6,
+      "visibleClosedRoseBuds": 0,
+      "otherFlowerTypesObserved": 0,
+      "eucalyptusObserved": false,
+      "quantitativeLimit": {
+        "maxStems": 6,
+        "maxOpenBlooms": 6,
+        "visualHeadCeilingPass": true,
+        "individualStemCountCertified": false
+      },
+      "flowerFidelity": {
+        "colorFamily": "Pale blush Baby Pink with creamy ivory outer edges; gentle warmer light, not independently color-calibrated.",
+        "petalForm": "Layered cup/rosette Austin-like heads, natural small cream-yellow central clusters visible. No spiral Classic hybrid-tea substitution seen.",
+        "leaves": "Green pointed/serrated rose leaves, no eucalyptus or flocked ranunculus leaves.",
+        "referenceCaveat": "The attached1593x987 macro is an existing creative master with a more open face/enlarged yellow center. Set and single-stem morphology remain product controls; natural small stamens are permitted."
+      },
+      "composition": {
+        "surface": "Walnut sideboard, not dining table",
+        "wall": "Warm grey/beige limewashed plaster",
+        "vessel": "Cream handmade-looking stoneware, coherent dry rim, no water visible",
+        "prop": "One stack of two linen-bound books",
+        "light": "Left window/curtain light, soft shadows",
+        "peopleHandsFacesObserved": false,
+        "lettersLogosWatermarkObserved": false,
+        "paperVaseGiftBoxObserved": false,
+        "scale": "No gross vessel/furniture contradiction observed. Nominal centimeters are source claims, not pixel measurements."
+      },
+      "knownIssues": [
+        "Native1122x1402 output is below1440x1800 minimum; unchanged delivery explicitly permitted, no rerun required on this basis.",
+        "Stem bases are hidden by the ceramic vase; six visible heads do not prove six individually traceable physical stems.",
+        "Exact physical color,9cm head size and44cm stem scale are not independently measured from pixels.",
+        "Right edge crops the outer part of the book stack; minor composition issue, no product clipping.",
+        "Open faces lean toward the specified creative macro reference. Claude should compare ivory outer edges and degree of opening with the tighter full-set/stem references; no obvious replacement by another flower family observed."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Alternative with spacious warm wall and clear six heads; tighter rosette presentation and cropped books make it less airy than a.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

@@ -1,0 +1,544 @@
+{
+  "version": "Codex-v01",
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "slotId": "HW",
+  "totalPlanned": 3,
+  "generationPlanSHA256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733",
+  "records": [
+    {
+      "slotId": "HW",
+      "candidate": "a",
+      "batch": 3,
+      "status": "REVIEW",
+      "filename": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png",
+      "bytes": 2892808,
+      "sha256": "e83235b645973fe0ecace4127dcb86a2622851c14c9613d8000092ee3c5e7171",
+      "requestedAspectRatio": "16:9",
+      "actualAspectRatio": "1672:941",
+      "minimumDimensions": {
+        "width": 2400,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-2604fc19-e078-47bb-bc29-28c6cf5e6654.png",
+      "rawToolOutputSHA256": "e83235b645973fe0ecace4127dcb86a2622851c14c9613d8000092ee3c5e7171",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nSame subject, composition and color mood as the attached current hero: Baby Pink Austin roses arranged on linen, but sharper, with finer petal detail and a more natural light falloff. Do not change the flower color or the linen color.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 16:9 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. The current hero references are composition and linen-color references only. Product anatomy and color must still follow the same-color product references. Finer detail means native generation detail, not digital sharpening or enlargement.\n\nHERO-SPECIFIC CLARIFICATION: For this HW desktop image, use the attached landscape hero as the layout reference: six or fewer Baby Pink Austin roses lie diagonally on the same muted dusty mauve-brown linen, flower heads in the right half and generous quiet linen space at left. Match the attached linen color rather than substituting oat beige. The mobile hero is an additional subject/linen reference only. C's flat-lay subject takes precedence over A's generic interior materials; no vase, shelves, wall, book or added room props. Request a native 16:9 landscape composition. No new text. Three same-color product images and both hero images are attached; the tool permits at most five image references. Preserve the written A lighting/palette/material guidance; the two previously inspected style images are not attached in this call.",
+      "actualPromptSHA256": "24ea51c5348563db01b47b56f4e2e0baff0f8c426f5ce701e757d16bb4f3d1d1",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HW-a_ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345.json",
+      "capturedActualJobSHA256": "ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+          "bytes": 266829,
+          "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+          "bytes": 167384,
+          "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+          "bytes": 66348,
+          "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-wide.webp",
+          "role": "existing hero composition/linen-color only; do not reuse or modify the existing website file",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-wide.webp",
+          "bytes": 224169,
+          "sha256": "1524dd54990ad880e44bfcf3f4c2f4c7688526e2bf9c3ee43f0ee80772da82ec",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-mobile.webp",
+          "role": "existing hero composition/linen-color only; do not reuse or modify the existing website file",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-mobile.webp",
+          "bytes": 309102,
+          "sha256": "6525f57f9ff81e7de8a768aad19c8ffbe8291bf1380cba820af76c791bdbd334",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+        "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Closest restrained continuation of wide hero: all six heads and stem tips fit, ample left negative space, soft consistent linen and petal detail.",
+      "driveFileId": "10mPpHC6LFPfnM3hUbweNDiuCN8AbKylN",
+      "driveUrl": "https://drive.google.com/file/d/10mPpHC6LFPfnM3hUbweNDiuCN8AbKylN/view?usp=drivesdk",
+      "driveParents": [
+        "1ZjtkbNZjkdPBswoss5zzlLnTASKi_Bj2"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/HW.json",
+          "sha256": "25e2969290a045d2b2e0529f859055fdce1fad0db1d20115c8165c91d149edb9",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "HW",
+          "candidate": "a",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-2604fc19-e078-47bb-bc29-28c6cf5e6654.png",
+          "sha256": "e83235b645973fe0ecace4127dcb86a2622851c14c9613d8000092ee3c5e7171",
+          "width": 1672,
+          "height": 941,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": 0,
+          "maxOpenHeads": 6,
+          "maxStems": 6,
+          "visibleHeadCeilingPass": true,
+          "exactCutEndCountCertified": false,
+          "stemCountNote": "Main shafts/cut ends overlap; no independent six-distinct-end certification. No visible extra seventh flower or stem was established.",
+          "flowerFidelity": "Baby Pink cupped six-head Austin with cream outer edges, pink inner layers, small cream-yellow stamens and serrated leaves; broad form/color follows supplied hero/set/stem. Creative detail macro has a broader open center and is not an authentic physical-truth photograph.",
+          "heroComparison": {
+            "sameBouquetRightLinenLeftLayout": true,
+            "linenColor": "Muted dusty mauve/brown linen remains broadly consistent with current hero; exact color equivalence/DeltaE not measured.",
+            "flowerColor": "Pale blush pink with cream outer edges remains broadly consistent; no recoloring to another variant observed.",
+            "leftLightAndSoftShadows": true,
+            "wholeBouquetAndStemsVisible": true,
+            "finding": "All six heads and grouped cut ends remain within frame, with broad linen negative space on left."
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "referenceDeviation": "Generation tool rejected seven attached refs without output; actual job uses three exact product refs + two original hero refs. The two already-inspected style refs are represented by A text only. No output is claimed from rejected request.",
+          "observations": {
+            "lettersHandsPeoplePackagingVaseOtherFlowersObserved": false,
+            "unrequestedDecorativePropsObserved": false
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+            "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+            "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+          ],
+          "recommendedWithinSlot": true,
+          "recommendationReason": "Closest restrained continuation of wide hero: all six heads and stem tips fit, ample left negative space, soft consistent linen and petal detail.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "10mPpHC6LFPfnM3hUbweNDiuCN8AbKylN",
+        "title": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2892808",
+        "url": "https://drive.google.com/file/d/10mPpHC6LFPfnM3hUbweNDiuCN8AbKylN/view?usp=drivesdk",
+        "parent_ids": [
+          "1ZjtkbNZjkdPBswoss5zzlLnTASKi_Bj2"
+        ],
+        "modified_time": "2026-11-18T18:05:49.011Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "e83235b645973fe0ecace4127dcb86a2622851c14c9613d8000092ee3c5e7171",
+        "readbackBytes": 2892808,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "f6d826a8ebbbec426523d271edeb0701a674e3d25bedd64c43454049ee8ce0e6"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/HW/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HW-a_ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345.json"
+      }
+    },
+    {
+      "slotId": "HW",
+      "candidate": "b",
+      "batch": 3,
+      "status": "REVIEW",
+      "filename": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png",
+      "bytes": 2720922,
+      "sha256": "2d8de4c23bf77e91ae78a629fb89431798d1bbb3624803ef18580550411a8b55",
+      "requestedAspectRatio": "16:9",
+      "actualAspectRatio": "1672:941",
+      "minimumDimensions": {
+        "width": 2400,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-bb25526b-4c03-421d-98c0-c2bbf07f227c.png",
+      "rawToolOutputSHA256": "2d8de4c23bf77e91ae78a629fb89431798d1bbb3624803ef18580550411a8b55",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nSame subject, composition and color mood as the attached current hero: Baby Pink Austin roses arranged on linen, but sharper, with finer petal detail and a more natural light falloff. Do not change the flower color or the linen color.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 16:9 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. The current hero references are composition and linen-color references only. Product anatomy and color must still follow the same-color product references. Finer detail means native generation detail, not digital sharpening or enlargement.\n\nHERO-SPECIFIC CLARIFICATION: For this HW desktop image, use the attached landscape hero as the layout reference: six or fewer Baby Pink Austin roses lie diagonally on the same muted dusty mauve-brown linen, flower heads in the right half and generous quiet linen space at left. Match the attached linen color rather than substituting oat beige. The mobile hero is an additional subject/linen reference only. C's flat-lay subject takes precedence over A's generic interior materials; no vase, shelves, wall, book or added room props. Request a native 16:9 landscape composition. No new text. Three same-color product images and both hero images are attached; the tool permits at most five image references. Preserve the written A lighting/palette/material guidance; the two previously inspected style images are not attached in this call.",
+      "actualPromptSHA256": "24ea51c5348563db01b47b56f4e2e0baff0f8c426f5ce701e757d16bb4f3d1d1",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HW-b_0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3.json",
+      "capturedActualJobSHA256": "0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+          "bytes": 266829,
+          "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+          "bytes": 167384,
+          "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+          "bytes": 66348,
+          "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-wide.webp",
+          "role": "existing hero composition/linen-color only; do not reuse or modify the existing website file",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-wide.webp",
+          "bytes": 224169,
+          "sha256": "1524dd54990ad880e44bfcf3f4c2f4c7688526e2bf9c3ee43f0ee80772da82ec",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-mobile.webp",
+          "role": "existing hero composition/linen-color only; do not reuse or modify the existing website file",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-mobile.webp",
+          "bytes": 309102,
+          "sha256": "6525f57f9ff81e7de8a768aad19c8ffbe8291bf1380cba820af76c791bdbd334",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": true,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+        "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Less suitable for full wide-bouquet composition because stems leave frame.",
+      "driveFileId": "143FE1OUo_GBZmZJnErz5E5CSV4r6Cjz9",
+      "driveUrl": "https://drive.google.com/file/d/143FE1OUo_GBZmZJnErz5E5CSV4r6Cjz9/view?usp=drivesdk",
+      "driveParents": [
+        "1ZjtkbNZjkdPBswoss5zzlLnTASKi_Bj2"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/HW.json",
+          "sha256": "25e2969290a045d2b2e0529f859055fdce1fad0db1d20115c8165c91d149edb9",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "HW",
+          "candidate": "b",
+          "status": "REVIEW",
+          "requiresRevision": true,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-bb25526b-4c03-421d-98c0-c2bbf07f227c.png",
+          "sha256": "2d8de4c23bf77e91ae78a629fb89431798d1bbb3624803ef18580550411a8b55",
+          "width": 1672,
+          "height": 941,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": 0,
+          "maxOpenHeads": 6,
+          "maxStems": 6,
+          "visibleHeadCeilingPass": true,
+          "exactCutEndCountCertified": false,
+          "stemCountNote": "Main shafts/cut ends overlap; no independent six-distinct-end certification. No visible extra seventh flower or stem was established.",
+          "flowerFidelity": "Baby Pink cupped six-head Austin with cream outer edges, pink inner layers, small cream-yellow stamens and serrated leaves; broad form/color follows supplied hero/set/stem. Creative detail macro has a broader open center and is not an authentic physical-truth photograph.",
+          "heroComparison": {
+            "sameBouquetRightLinenLeftLayout": true,
+            "linenColor": "Muted dusty mauve/brown linen remains broadly consistent with current hero; exact color equivalence/DeltaE not measured.",
+            "flowerColor": "Pale blush pink with cream outer edges remains broadly consistent; no recoloring to another variant observed.",
+            "leftLightAndSoftShadows": true,
+            "wholeBouquetAndStemsVisible": false,
+            "finding": "Six heads intact, but stem shafts run out of lower-right image edge; wide source hero shows the cut ends within frame."
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "referenceDeviation": "Generation tool rejected seven attached refs without output; actual job uses three exact product refs + two original hero refs. The two already-inspected style refs are represented by A text only. No output is claimed from rejected request.",
+          "observations": {
+            "lettersHandsPeoplePackagingVaseOtherFlowersObserved": false,
+            "unrequestedDecorativePropsObserved": false
+          },
+          "hardPixelDefects": [
+            "Stem ends are cut off at lower-right border, departing from complete-bouquet wide hero composition."
+          ],
+          "knownIssues": [
+            "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+            "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+            "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Less suitable for full wide-bouquet composition because stems leave frame.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "143FE1OUo_GBZmZJnErz5E5CSV4r6Cjz9",
+        "title": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2720922",
+        "url": "https://drive.google.com/file/d/143FE1OUo_GBZmZJnErz5E5CSV4r6Cjz9/view?usp=drivesdk",
+        "parent_ids": [
+          "1ZjtkbNZjkdPBswoss5zzlLnTASKi_Bj2"
+        ],
+        "modified_time": "2026-11-18T18:05:53.104Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "2d8de4c23bf77e91ae78a629fb89431798d1bbb3624803ef18580550411a8b55",
+        "readbackBytes": 2720922,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "26806d255c2432d813276302c3078f4f8f95e41b3d27d6f34cbea864e906a3a9"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/HW/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HW-b_0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3.json"
+      }
+    },
+    {
+      "slotId": "HW",
+      "candidate": "c",
+      "batch": 3,
+      "status": "REVIEW",
+      "filename": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png",
+      "bytes": 2893202,
+      "sha256": "e4942cc71bf17715743bd5bafc161da4b12a12e7f0c3cad31ad03978f4ef858a",
+      "requestedAspectRatio": "16:9",
+      "actualAspectRatio": "1672:941",
+      "minimumDimensions": {
+        "width": 2400,
+        "height": null
+      },
+      "minimumMet": false,
+      "aspectMet": true,
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-f0c600d5-66be-4568-b39e-4a261d0af7e7.png",
+      "rawToolOutputSHA256": "e4942cc71bf17715743bd5bafc161da4b12a12e7f0c3cad31ad03978f4ef858a",
+      "originalBytesCopiedUnchanged": true,
+      "imageProcessingOperations": [],
+      "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nSame subject, composition and color mood as the attached current hero: Baby Pink Austin roses arranged on linen, but sharper, with finer petal detail and a more natural light falloff. Do not change the flower color or the linen color.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 16:9 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. The current hero references are composition and linen-color references only. Product anatomy and color must still follow the same-color product references. Finer detail means native generation detail, not digital sharpening or enlargement.\n\nHERO-SPECIFIC CLARIFICATION: For this HW desktop image, use the attached landscape hero as the layout reference: six or fewer Baby Pink Austin roses lie diagonally on the same muted dusty mauve-brown linen, flower heads in the right half and generous quiet linen space at left. Match the attached linen color rather than substituting oat beige. The mobile hero is an additional subject/linen reference only. C's flat-lay subject takes precedence over A's generic interior materials; no vase, shelves, wall, book or added room props. Request a native 16:9 landscape composition. No new text. Three same-color product images and both hero images are attached; the tool permits at most five image references. Preserve the written A lighting/palette/material guidance; the two previously inspected style images are not attached in this call.",
+      "actualPromptSHA256": "24ea51c5348563db01b47b56f4e2e0baff0f8c426f5ce701e757d16bb4f3d1d1",
+      "actualPromptMatchesFrozenPlan": false,
+      "actualPromptSource": "Captured immutable actual-job JSON; never inferred from later plan",
+      "capturedActualJobPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HW-c_cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801.json",
+      "capturedActualJobSHA256": "cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801",
+      "references": [
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+          "role": "product-full-set: authoritative quantity ceiling and product anatomy",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+          "bytes": 266829,
+          "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+          "role": "product-flower-detail: color, petal layers, edges and texture",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+          "bytes": 167384,
+          "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+          "role": "product-single-stem: branching, leaf/bud anatomy and nominal dimensions",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+          "bytes": 66348,
+          "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-wide.webp",
+          "role": "existing hero composition/linen-color only; do not reuse or modify the existing website file",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-wide.webp",
+          "bytes": 224169,
+          "sha256": "1524dd54990ad880e44bfcf3f4c2f4c7688526e2bf9c3ee43f0ee80772da82ec",
+          "actualCaptured": true
+        },
+        {
+          "url": "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-mobile.webp",
+          "role": "existing hero composition/linen-color only; do not reuse or modify the existing website file",
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-mobile.webp",
+          "bytes": 309102,
+          "sha256": "6525f57f9ff81e7de8a768aad19c8ffbe8291bf1380cba820af76c791bdbd334",
+          "actualCaptured": true
+        }
+      ],
+      "modelName": "image_gen (backend model name not exposed)",
+      "modelDisclosure": "Record the actual exposed tool/model name; underlying image model is not exposed unless the tool explicitly reports it.",
+      "requiresRevision": false,
+      "knownIssues": [
+        "Native output is below requested minimum. Allowed unchanged delivery; no resize, upscale or regeneration to fabricate compliance.",
+        "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+        "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+        "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+      ],
+      "visualQAStatus": "REVIEWED",
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Complete six-head alternative, but a gives slightly calmer spacing and clearer spread of leaves.",
+      "driveFileId": "1iNGfgnbEHnDcWwHSdkoBL5QmL9r8N56Z",
+      "driveUrl": "https://drive.google.com/file/d/1iNGfgnbEHnDcWwHSdkoBL5QmL9r8N56Z/view?usp=drivesdk",
+      "driveParents": [
+        "1ZjtkbNZjkdPBswoss5zzlLnTASKi_Bj2"
+      ],
+      "branch": "codex/sskoi-web-scenes-v01-20261118",
+      "commit": null,
+      "nextOwner": "Claude — visual QA",
+      "qa": {
+        "source": {
+          "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/HW.json",
+          "sha256": "25e2969290a045d2b2e0529f859055fdce1fad0db1d20115c8165c91d149edb9",
+          "reviewer": null,
+          "scope": null,
+          "summary": null
+        },
+        "observations": {
+          "slotId": "HW",
+          "candidate": "c",
+          "status": "REVIEW",
+          "requiresRevision": false,
+          "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+          "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-f0c600d5-66be-4568-b39e-4a261d0af7e7.png",
+          "sha256": "e4942cc71bf17715743bd5bafc161da4b12a12e7f0c3cad31ad03978f4ef858a",
+          "width": 1672,
+          "height": 941,
+          "visibleOpenHeads": 6,
+          "visibleClosedBuds": 0,
+          "maxOpenHeads": 6,
+          "maxStems": 6,
+          "visibleHeadCeilingPass": true,
+          "exactCutEndCountCertified": false,
+          "stemCountNote": "Main shafts/cut ends overlap; no independent six-distinct-end certification. No visible extra seventh flower or stem was established.",
+          "flowerFidelity": "Baby Pink cupped six-head Austin with cream outer edges, pink inner layers, small cream-yellow stamens and serrated leaves; broad form/color follows supplied hero/set/stem. Creative detail macro has a broader open center and is not an authentic physical-truth photograph.",
+          "heroComparison": {
+            "sameBouquetRightLinenLeftLayout": true,
+            "linenColor": "Muted dusty mauve/brown linen remains broadly consistent with current hero; exact color equivalence/DeltaE not measured.",
+            "flowerColor": "Pale blush pink with cream outer edges remains broadly consistent; no recoloring to another variant observed.",
+            "leftLightAndSoftShadows": true,
+            "wholeBouquetAndStemsVisible": true,
+            "finding": "All six heads and grouped cut ends remain within frame, with broad linen negative space on left."
+          },
+          "actualPromptMatchesFrozenPlan": false,
+          "referenceDeviation": "Generation tool rejected seven attached refs without output; actual job uses three exact product refs + two original hero refs. The two already-inspected style refs are represented by A text only. No output is claimed from rejected request.",
+          "observations": {
+            "lettersHandsPeoplePackagingVaseOtherFlowersObserved": false,
+            "unrequestedDecorativePropsObserved": false
+          },
+          "hardPixelDefects": [],
+          "knownIssues": [
+            "Native1672x941 below2400px width; unchanged delivery explicitly allowed.",
+            "Exact product color, petal material,44cm/9cm nominal dimensions and hidden stem topology are not independently certified.",
+            "Actual five-reference job differs from frozen seven-reference attachment list; actual request captured."
+          ],
+          "recommendedWithinSlot": false,
+          "recommendationReason": "Complete six-head alternative, but a gives slightly calmer spacing and clearer spread of leaves.",
+          "approvalClaimed": false,
+          "nextOwner": "Claude — visual QA"
+        }
+      },
+      "driveMetadata": {
+        "id": "1iNGfgnbEHnDcWwHSdkoBL5QmL9r8N56Z",
+        "title": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+        "mime_type": "image/png",
+        "size": "2893202",
+        "url": "https://drive.google.com/file/d/1iNGfgnbEHnDcWwHSdkoBL5QmL9r8N56Z/view?usp=drivesdk",
+        "parent_ids": [
+          "1ZjtkbNZjkdPBswoss5zzlLnTASKi_Bj2"
+        ],
+        "modified_time": "2026-11-18T18:05:56.688Z"
+      },
+      "driveVerification": {
+        "metadataVerified": true,
+        "contentVerified": true,
+        "readbackSHA256": "e4942cc71bf17715743bd5bafc161da4b12a12e7f0c3cad31ad03978f4ef858a",
+        "readbackBytes": 2893202,
+        "restrictedSharingVerified": true,
+        "rachelCommenterAccessVerified": true,
+        "receiptSHA256": "182a842e81fe3f59b788e2d2746a21706d444c37fe4f0037426ea55ee765b530"
+      },
+      "portablePaths": {
+        "native": "sskoi-web-integration-v01/ai-images/codex-v01/HW/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+        "capturedActualJob": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HW-c_cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801.json"
+      }
+    }
+  ],
+  "recommendation": {
+    "candidate": "a",
+    "reason": "Closest restrained continuation of wide hero: all six heads and stem tips fit, ample left negative space, soft consistent linen and petal detail.",
+    "requiresRevision": false,
+    "qa": {
+      "path": "sskoi-web-integration-v01/ai-images/codex-v01/qa/HW.json",
+      "sha256": "25e2969290a045d2b2e0529f859055fdce1fad0db1d20115c8165c91d149edb9",
+      "reviewer": null,
+      "scope": null,
+      "summary": null
+    }
+  },
+  "finalization": {
+    "version": "Codex-v01-final-review",
+    "date": "2026-11-18",
+    "qaSlots": 12,
+    "driveByteVerified": 36,
+    "allNativePNGBytesPreserved": true,
+    "branch": "codex/sskoi-web-scenes-v01-20261118",
+    "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+    "approvalClaimed": false,
+    "websiteIntegrated": false,
+    "published": false,
+    "nextOwner": "Claude — visual QA"
+  }
+}

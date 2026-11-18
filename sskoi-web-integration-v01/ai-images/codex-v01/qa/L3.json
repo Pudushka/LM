@@ -1,0 +1,162 @@
+{
+  "slotId": "L3",
+  "batch": 2,
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "preferredCandidate": "c",
+  "requiresRevision": true,
+  "requiresRevisionCandidates": [
+    "a"
+  ],
+  "summary": "All3 show5 flowers3 buds within the8/4 visible ceilings. a has prohibited printed book pages; b/c are blank. Preferredc is portrait-crop safe. All statuses remainREVIEW; a requiresRevision is independent of status.",
+  "retainedAllCandidates": true,
+  "noOriginalsModified": true,
+  "records": [
+    {
+      "slotId": "L3",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": true,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-3d21b89d-d7dc-4777-8ec5-a562bf73ed70.png",
+      "sha256": "ad3ccf446dc5f9f37020fbe452fa7360c60e633026c28909b637d36cca7082c5",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 5,
+      "visibleClosedBuds": 3,
+      "maxStems": 4,
+      "maxOpenHeads": 8,
+      "maxBuds": 4,
+      "visibleHeadBudCeilingPass": true,
+      "individualFourStemTopologyCertified": false,
+      "flowerFidelity": "Cream outer petals with LightPeach centers; broad layered cups and silver-green flocked lobed leaves match Ranunculus references. Do not label peony solely from legacy file name.",
+      "composition": {
+        "creamStonewareJug": true,
+        "walnutSideTable": true,
+        "oatArmchair": true,
+        "leftNaturalLight": true,
+        "oneOpenBook": true,
+        "otherFlowersPeopleHandsPackagingObserved": false,
+        "lettersObserved": true,
+        "bookPages": "Printed lines/glyph-like text visible on both pages.",
+        "scale": "No gross vase/book/armchair scale contradiction; exact52cm physical stem scale unmeasured."
+      },
+      "actualPromptMatchesFrozenPlan": true,
+      "capturedPromptNote": "Original frozen prompt; open book produced prohibited print.",
+      "centralCrop": {
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L3-a-centered4x5-QA-only.png",
+        "result": "MARGINAL_LEFT_BUD_EDGE",
+        "finding": "Default centered4:5 is tight at leftmost bud edge; minor focal adjustment may be needed."
+      },
+      "hardPixelDefects": [
+        "Book pages visibly contain print, violating no-text requirement."
+      ],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Opaque vessel/overlapping branches prevent certifying exactly<=4 individually traceable source stems; visible5 heads3 buds are within8/4 ceilings.",
+        "Color and52cm size remain source/visual references, not independent physical validation.",
+        "Printed book must be corrected before use under strict no-text rule."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Printed-book defect makes it inferior to b/c despite appropriate flower anatomy.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L3",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-ee2fe5a8-9be9-4249-aed4-a9b4b9799561.png",
+      "sha256": "fb44f6e7dc462ab691030f9cbde6854d21cd38c4ff69eb39cdeaae779884badb",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 5,
+      "visibleClosedBuds": 3,
+      "maxStems": 4,
+      "maxOpenHeads": 8,
+      "maxBuds": 4,
+      "visibleHeadBudCeilingPass": true,
+      "individualFourStemTopologyCertified": false,
+      "flowerFidelity": "Cream outer petals with LightPeach centers; broad layered cups and silver-green flocked lobed leaves match Ranunculus references. Do not label peony solely from legacy file name.",
+      "composition": {
+        "creamStonewareJug": true,
+        "walnutSideTable": true,
+        "oatArmchair": true,
+        "leftNaturalLight": true,
+        "oneOpenBook": true,
+        "otherFlowersPeopleHandsPackagingObserved": false,
+        "lettersObserved": false,
+        "bookPages": "Blank/unprinted pages visually observed.",
+        "scale": "No gross vase/book/armchair scale contradiction; exact52cm physical stem scale unmeasured."
+      },
+      "actualPromptMatchesFrozenPlan": false,
+      "capturedPromptNote": "Blank-unprinted-page clarification was appended separately by root; A/B/C/D remain unchanged per task coordination.",
+      "centralCrop": {
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L3-b-centered4x5-QA-only.png",
+        "result": "DEFAULT_CENTER_CLIPS_LEFT_BUD",
+        "finding": "Default centered4:5 clips the leftmost bud. A leftward focal adjustment is needed for responsive use; full landscape original retains it."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Opaque vessel/overlapping branches prevent certifying exactly<=4 individually traceable source stems; visible5 heads3 buds are within8/4 ceilings.",
+        "Color and52cm size remain source/visual references, not independent physical validation.",
+        "Center-crop left bud clipping requires future crop-focal attention."
+      ],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Blank-book alternative, but default portrait crop cuts a bud.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L3",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-22fd3e06-eae2-40e6-b974-2b8ecedd7846.png",
+      "sha256": "bacd0cac7e6e7d432e5d22f98bfeb2c3bf98259da59c893eeaf52df2a4f825fa",
+      "width": 1536,
+      "height": 1024,
+      "visibleOpenHeads": 5,
+      "visibleClosedBuds": 3,
+      "maxStems": 4,
+      "maxOpenHeads": 8,
+      "maxBuds": 4,
+      "visibleHeadBudCeilingPass": true,
+      "individualFourStemTopologyCertified": false,
+      "flowerFidelity": "Cream outer petals with LightPeach centers; broad layered cups and silver-green flocked lobed leaves match Ranunculus references. Do not label peony solely from legacy file name.",
+      "composition": {
+        "creamStonewareJug": true,
+        "walnutSideTable": true,
+        "oatArmchair": true,
+        "leftNaturalLight": true,
+        "oneOpenBook": true,
+        "otherFlowersPeopleHandsPackagingObserved": false,
+        "lettersObserved": false,
+        "bookPages": "Blank/unprinted pages visually observed.",
+        "scale": "No gross vase/book/armchair scale contradiction; exact52cm physical stem scale unmeasured."
+      },
+      "actualPromptMatchesFrozenPlan": false,
+      "capturedPromptNote": "Blank-unprinted-page clarification was appended separately by root; A/B/C/D remain unchanged per task coordination.",
+      "centralCrop": {
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L3-c-centered4x5-QA-only.png",
+        "result": "PASS",
+        "finding": "Floral heads/buds and vase fit centered4:5 with breathing room."
+      },
+      "hardPixelDefects": [],
+      "knownIssues": [
+        "Native1536x1024 below2000px width; unchanged delivery allowed.",
+        "Opaque vessel/overlapping branches prevent certifying exactly<=4 individually traceable source stems; visible5 heads3 buds are within8/4 ceilings.",
+        "Color and52cm size remain source/visual references, not independent physical validation."
+      ],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Blank book pages, readable5 flowers3 buds, correct flocked leaves and strongest centered portrait crop fit.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

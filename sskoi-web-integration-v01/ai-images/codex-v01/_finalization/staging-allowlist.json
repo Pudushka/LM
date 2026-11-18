@@ -1,0 +1,1231 @@
+{
+  "status": "REVIEW",
+  "branch": "codex/sskoi-web-scenes-v01-20261118",
+  "sourceHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+  "noGitCommandsExecuted": true,
+  "noPRRequested": true,
+  "counts": {
+    "nativePNGs": 36,
+    "slotDeliveryJSON": 12,
+    "rootDeliveryJSON": 1,
+    "slotQAJSON": 12
+  },
+  "excluded": [
+    "thumbnails",
+    "diagnostic-crops",
+    "contactsheets",
+    "old assets",
+    "raw upload responses",
+    "temporary download URLs",
+    "secrets",
+    "unrelated registries",
+    "cancelled Red6",
+    "paused videos"
+  ],
+  "files": [
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/EXECUTION_AUDIT_zh.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\EXECUTION_AUDIT_zh.md",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 4699,
+      "sha256": "6a078a991651999c6817a781d5fb256118f79004042717cd5cb63eafe441d565"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/FINALIZATION_README_zh.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\FINALIZATION_README_zh.md",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 3814,
+      "sha256": "8d4332a0fc1747632a3768cb5e0100a79b6f9d640a969280a911ac0f17b4c34b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/H1-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\H1-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4351,
+      "sha256": "bebdde734c41371a0e58640698d61578b17348a592414a0c8059d9b8f7176aeb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/H1-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\H1-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4757,
+      "sha256": "13be45ff5b4bfd648f21d5b9e003db739d819c053d6833ee0ac6a7e195120209"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/H1-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\H1-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4757,
+      "sha256": "c44aee9d3f1965f95be44ec05f0d21c4be5a7495eef294fa10aa1f2992d8cae8"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2359655,
+      "sha256": "445bd7af0184e86c4d1a26e4cba3d5b097627d468095dae6527269df9d49140d"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-b_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-b_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2293071,
+      "sha256": "699c98306bb1415cf62eae5287941e3f4539ea12fcbc29b7022b71c0fdccd7eb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-c_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_H1-c_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2253483,
+      "sha256": "b954e764e0133eeb82479f5f6deb440828fb9ad3e33966bfba4080d86d90e1ad"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/H1/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\H1\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 42713,
+      "sha256": "7ba2d6eece0dbf36867da413b42272809cfd992763fd274b526229525811b6a5"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/HM-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\HM-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5906,
+      "sha256": "1f1db64fd1e3cd595ace8e193fa45a536d73e961535eee2fb50fd5b937122672"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/HM-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\HM-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5906,
+      "sha256": "2e0a5da832f31ab8a51b07b36840c45b4a818f555a5796b9090aaae55f6d05b1"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/HM-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\HM-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5906,
+      "sha256": "9634077f3ed4102150d6e40a0315c99972f866542b8069d3a0d0c50151a113fe"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2859182,
+      "sha256": "a3137ed1210043a4aad1ba5f81b78aa63de5e3aa3a4ea83f0dcc4130b66b6c30"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-b_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-b_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 3046309,
+      "sha256": "b5afb29f492b94dd91435397291023f6d86f893575c01a3b08325c39793ed753"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-c_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-c_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2991696,
+      "sha256": "a3e91e71d517cf282bb07033fa415b197bcefd0510cce4a76cfe96c4d8648fac"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HM/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 41812,
+      "sha256": "13c24c7fc2f60325a980c402d9cb1e86e156a8f384ff1b3ec1f56f968e152c04"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/HW-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\HW-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5878,
+      "sha256": "ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/HW-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\HW-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5878,
+      "sha256": "0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/HW-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\HW-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5878,
+      "sha256": "cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2892808,
+      "sha256": "e83235b645973fe0ecace4127dcb86a2622851c14c9613d8000092ee3c5e7171"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2720922,
+      "sha256": "2d8de4c23bf77e91ae78a629fb89431798d1bbb3624803ef18580550411a8b55"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2893202,
+      "sha256": "e4942cc71bf17715743bd5bafc161da4b12a12e7f0c3cad31ad03978f4ef858a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/HW/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HW\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 42210,
+      "sha256": "ebce6914c5b19aa3883d6d46392de6f14a91529f005ffbe0d5bcfff62385226b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/INGEST_README_zh.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\INGEST_README_zh.md",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 1798,
+      "sha256": "0dd40419495130f878d6eec89e6ff37e6586b7984f0be74b87f9ed881b79aeb2"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/L1-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\L1-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4781,
+      "sha256": "9aa8d48aff4b26d34a2b2f350598509f9bce27dcb53a07508929baf9828ccab3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/L1-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\L1-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4781,
+      "sha256": "7870e3b65b2c64ff08102ada9ad2e9650aa62f77347e2d52718e80fdc95d2878"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/L1-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\L1-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4781,
+      "sha256": "e5e5cd5e65bb51ba141bb741b2bccd28df4b284d1d77531f9fe252df27160ccd"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2265693,
+      "sha256": "fbfb12b6962b87c90366b70edc7e8938bddbb73455c5542a39a1bc30846f4f51"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2407728,
+      "sha256": "7ebae76d8abdd58a801d2a39d79a87ce9dd3bb67bd2192bf9b139bd32cc99195"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L1-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2469676,
+      "sha256": "104a133c5916f998f32b48b6dfffca2f4cd4dbb56d8bb5519913427e981a9ed3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L1/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L1\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 41342,
+      "sha256": "403dcb468a6b2e1a3795b8e6b292eb785e956c33ca15fd5e36559e347d01c5a0"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/L2-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\L2-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4641,
+      "sha256": "d52e26477a5872e1364c6bc318f9cc9bc619fe73f93117e90a06d82fec546b3a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/L2-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\L2-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4641,
+      "sha256": "f5d8de74441f29bf054aab860a6d16de9737fdf2214759dea31b415cd98b908c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/L2-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\L2-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4641,
+      "sha256": "d2d56e1dd3c2e7ec4eb52614109be34d03b9c47ae22418c0cb7328137c20a40b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/SSKOI_Tulip_B0DQDXM72R_White_L2-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\SSKOI_Tulip_B0DQDXM72R_White_L2-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2131765,
+      "sha256": "9cf6dc796e61b94bd91282a70ff6f79852815c53caa70964925af338f1490dea"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/SSKOI_Tulip_B0DQDXM72R_White_L2-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\SSKOI_Tulip_B0DQDXM72R_White_L2-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 1998362,
+      "sha256": "e4a61d0487abccb88529e3fefe32569e64d21546eaddb1d40024d6412fce6efc"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/SSKOI_Tulip_B0DQDXM72R_White_L2-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\SSKOI_Tulip_B0DQDXM72R_White_L2-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2129522,
+      "sha256": "b16e63231ccef0f47e436b53c15822d28ef9ca9016a245f91810a46ffffc4366"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L2/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 38160,
+      "sha256": "c4fc044747e216918d11f67f2d88931707af25801ee8abf89d9d8f712b34e7eb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/L3-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\L3-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4927,
+      "sha256": "5d8fda011433a9bc016e18ae44d655bdc4ab213701edba7c46a71063fcab4a02"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/L3-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\L3-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5325,
+      "sha256": "f39988aa3d6b7c41bbf6a0eec6b7256a907bc0769bb38bc4ff9611890b4f9049"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/L3-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\L3-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5325,
+      "sha256": "adf8ddd1b9738720a5a0798254ba43c50c1fba9e174fa228abdde66b0f60d133"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2469279,
+      "sha256": "ad3ccf446dc5f9f37020fbe452fa7360c60e633026c28909b637d36cca7082c5"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2362803,
+      "sha256": "fb44f6e7dc462ab691030f9cbde6854d21cd38c4ff69eb39cdeaae779884badb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L3-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2417837,
+      "sha256": "bacd0cac7e6e7d432e5d22f98bfeb2c3bf98259da59c893eeaf52df2a4f825fa"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L3/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L3\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 40871,
+      "sha256": "cc81108d15bb5efc7db504807fb8556b7874fd6d7530ddd7c30dc1e57c36a494"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/L4-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\L4-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4794,
+      "sha256": "eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/L4-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\L4-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4794,
+      "sha256": "7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/L4-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\L4-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4794,
+      "sha256": "c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2220543,
+      "sha256": "8c6468fdafbd729f058ca65881f2cb2a9e9aabc627f910f6b5ed19fde51d9992"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2211738,
+      "sha256": "12629d93ddc5bcf6e9941d11d82f44cf42dc6241362d3b5d4b3331e6598a2472"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\SSKOI_Tulip_B0DQDXM72R_White_L4-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2110709,
+      "sha256": "a8e92e5dadfabe345e9b7fc3f738404ed876b30b626333f50832e55044555e95"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L4/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L4\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 38336,
+      "sha256": "2eb70ba73ee0b3aeac7c6b19b68b4e6ca39aeb7dd7440bf21b0daab78810388e"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/L5-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\L5-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4940,
+      "sha256": "a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/L5-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\L5-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4940,
+      "sha256": "ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/L5-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\L5-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4940,
+      "sha256": "da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2206677,
+      "sha256": "a113ce4448344dc054ba4d3d8418848a3b4e4161f6974fbb6640fd644fd0988d"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2306875,
+      "sha256": "620fe82f7d8881e65cd62454ef2cac3801b5288185d2b2f9d32a25d99187486c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\SSKOI_Ranunculus_B0DTYG3SY1_Light-Peach_L5-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2241731,
+      "sha256": "846241d8926a24c55154bbcaaa3d8e8e7ced5a1ec509f6bea923c87905f7fc02"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L5/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L5\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 39783,
+      "sha256": "7244599442dfbce34662588578bc2772410a57d85b1911afd1e38ad5550e4279"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/L6-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\L6-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4861,
+      "sha256": "86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/L6-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\L6-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4861,
+      "sha256": "3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/L6-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\L6-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5613,
+      "sha256": "3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2536985,
+      "sha256": "b6d07d58a902584a392b05b07515ed9a89b4a751c690cd8d634363d43761191c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2335676,
+      "sha256": "7363a54d13ca37988bd034c68410d45d88f87d5442cb34712efefb8d46e4d47f"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2315186,
+      "sha256": "3d8e16f9abdcc999fcff3dc6acd56409098ac91cf95e44d9756f813ccb2b2ef6"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L6/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 39427,
+      "sha256": "6756a3e1156da14938f2ebe571edf451c588ba682af479773145df51bfcff4bb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/L7-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\L7-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4733,
+      "sha256": "f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/L7-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\L7-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4733,
+      "sha256": "a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/L7-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\L7-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 4733,
+      "sha256": "16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2278311,
+      "sha256": "0151ae8fc485c89d1b2446014f7b4896dc8c6e7117aead330d45d076bdc8edff"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2426753,
+      "sha256": "8b7d3112dbe8b7d01ffa3ab5a02de8655f453c141cbf89a49dba4ef6f270fdf3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_L7-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2491099,
+      "sha256": "7fd9f90f3ba6e669600bf8395c7fface2a6159058d936a07e9b96b326a70b8be"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/L7/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L7\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 38857,
+      "sha256": "1428a212c9e7816fb52e7358c7e1b760f33ab06fe1ad95f9eddc105c93e76761"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/README_REVIEW_zh.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\README_REVIEW_zh.md",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 5154,
+      "sha256": "35c15d3a248d409ef12e9aa72c0c217607fd25c4e1fb0590c2ee8b90245f2d37"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-a_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2549159,
+      "sha256": "0908467bc5c7bf2270944f64b32f33266364971a75808ff1e4d6a85c65157d81"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-b_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-b_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2513495,
+      "sha256": "dc634691c27bb21032e23e63a090697f263aa8f55705a9000993e439e12c7030"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-c_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WM-c_1122x1402_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2542259,
+      "sha256": "32cfc0442544e06f8627c8a915fbab7c4a22ac2107caf730f09f42794cab1758"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/WM-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\WM-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5555,
+      "sha256": "02e7cc39acc8305ddd5e5d2b53f6e2067682028bdbd9591a762d1f05da806c65"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/WM-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\WM-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5555,
+      "sha256": "fa6b8e9796578c6cf4a1fb07c3d936077bd400ca5debe0ce499808c1700f5859"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/WM-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\WM-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5555,
+      "sha256": "7e7812c78b82152d656d2be2fc1e8ce1a447e8cc638b84f3dbff27b21ff15539"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WM/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WM\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 41933,
+      "sha256": "94403c488a9146e8a32140d54e54da661f4fc991d8eed8d8227aeedb9cc0f7eb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-a_1672x941_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2295241,
+      "sha256": "26358fbbf8c415bf57ce5893b15979b69394a7f8288122eca219bf41845ba394"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-b_1672x941_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2457081,
+      "sha256": "a25df29b4e7c22ecfb73e88d8ebb6088b20cbf7cd76ee42764dfdc17035afff6"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\SSKOI_Classic-Rose_B0DSXY4KDH_Burgundy_WW-c_1672x941_Codex_v01_20261118_REVIEW.png",
+      "category": "native-candidate-png",
+      "bytes": 2329204,
+      "sha256": "fad0556a9b83f774ed8ce8a9144bdfab05551f63493aaa67288ea8b07e3e64da"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/WW-a.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\WW-a.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5546,
+      "sha256": "86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/WW-b.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\WW-b.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5546,
+      "sha256": "3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/WW-c.actual-request.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\WW-c.actual-request.json",
+      "category": "original-captured-actual-request",
+      "bytes": 5546,
+      "sha256": "0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/WW/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\WW\\delivery.json",
+      "category": "slot-delivery",
+      "bytes": 41628,
+      "sha256": "9ace2e35834b36f319fcac441dbafc5e1dbea40e00c7850792d0d230e2cc420c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/H1-a_bebdde734c41371a0e58640698d61578b17348a592414a0c8059d9b8f7176aeb.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\H1-a_bebdde734c41371a0e58640698d61578b17348a592414a0c8059d9b8f7176aeb.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4351,
+      "sha256": "bebdde734c41371a0e58640698d61578b17348a592414a0c8059d9b8f7176aeb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/H1-b_13be45ff5b4bfd648f21d5b9e003db739d819c053d6833ee0ac6a7e195120209.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\H1-b_13be45ff5b4bfd648f21d5b9e003db739d819c053d6833ee0ac6a7e195120209.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4757,
+      "sha256": "13be45ff5b4bfd648f21d5b9e003db739d819c053d6833ee0ac6a7e195120209"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/H1-c_c44aee9d3f1965f95be44ec05f0d21c4be5a7495eef294fa10aa1f2992d8cae8.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\H1-c_c44aee9d3f1965f95be44ec05f0d21c4be5a7495eef294fa10aa1f2992d8cae8.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4757,
+      "sha256": "c44aee9d3f1965f95be44ec05f0d21c4be5a7495eef294fa10aa1f2992d8cae8"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HM-a_1f1db64fd1e3cd595ace8e193fa45a536d73e961535eee2fb50fd5b937122672.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HM-a_1f1db64fd1e3cd595ace8e193fa45a536d73e961535eee2fb50fd5b937122672.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5906,
+      "sha256": "1f1db64fd1e3cd595ace8e193fa45a536d73e961535eee2fb50fd5b937122672"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HM-b_2e0a5da832f31ab8a51b07b36840c45b4a818f555a5796b9090aaae55f6d05b1.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HM-b_2e0a5da832f31ab8a51b07b36840c45b4a818f555a5796b9090aaae55f6d05b1.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5906,
+      "sha256": "2e0a5da832f31ab8a51b07b36840c45b4a818f555a5796b9090aaae55f6d05b1"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HM-c_9634077f3ed4102150d6e40a0315c99972f866542b8069d3a0d0c50151a113fe.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HM-c_9634077f3ed4102150d6e40a0315c99972f866542b8069d3a0d0c50151a113fe.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5906,
+      "sha256": "9634077f3ed4102150d6e40a0315c99972f866542b8069d3a0d0c50151a113fe"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HW-a_ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HW-a_ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5878,
+      "sha256": "ef52ffaca82d57be599f1341be7dce5b3def9451ccbe4285fa92d3b2e1708345"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HW-b_0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HW-b_0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5878,
+      "sha256": "0cbddc1546d9f356b85ba9419472c742930b657450619b0b277ec46f9bc8eeb3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/HW-c_cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\HW-c_cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5878,
+      "sha256": "cb60fe70ca9b1bda0c3e028c46239b0c2d77e1a65e9056e2971791fe08066801"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L1-a_9aa8d48aff4b26d34a2b2f350598509f9bce27dcb53a07508929baf9828ccab3.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L1-a_9aa8d48aff4b26d34a2b2f350598509f9bce27dcb53a07508929baf9828ccab3.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4781,
+      "sha256": "9aa8d48aff4b26d34a2b2f350598509f9bce27dcb53a07508929baf9828ccab3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L1-b_7870e3b65b2c64ff08102ada9ad2e9650aa62f77347e2d52718e80fdc95d2878.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L1-b_7870e3b65b2c64ff08102ada9ad2e9650aa62f77347e2d52718e80fdc95d2878.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4781,
+      "sha256": "7870e3b65b2c64ff08102ada9ad2e9650aa62f77347e2d52718e80fdc95d2878"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L1-c_e5e5cd5e65bb51ba141bb741b2bccd28df4b284d1d77531f9fe252df27160ccd.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L1-c_e5e5cd5e65bb51ba141bb741b2bccd28df4b284d1d77531f9fe252df27160ccd.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4781,
+      "sha256": "e5e5cd5e65bb51ba141bb741b2bccd28df4b284d1d77531f9fe252df27160ccd"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L2-a_d52e26477a5872e1364c6bc318f9cc9bc619fe73f93117e90a06d82fec546b3a.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L2-a_d52e26477a5872e1364c6bc318f9cc9bc619fe73f93117e90a06d82fec546b3a.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4641,
+      "sha256": "d52e26477a5872e1364c6bc318f9cc9bc619fe73f93117e90a06d82fec546b3a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L2-b_f5d8de74441f29bf054aab860a6d16de9737fdf2214759dea31b415cd98b908c.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L2-b_f5d8de74441f29bf054aab860a6d16de9737fdf2214759dea31b415cd98b908c.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4641,
+      "sha256": "f5d8de74441f29bf054aab860a6d16de9737fdf2214759dea31b415cd98b908c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L2-c_d2d56e1dd3c2e7ec4eb52614109be34d03b9c47ae22418c0cb7328137c20a40b.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L2-c_d2d56e1dd3c2e7ec4eb52614109be34d03b9c47ae22418c0cb7328137c20a40b.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4641,
+      "sha256": "d2d56e1dd3c2e7ec4eb52614109be34d03b9c47ae22418c0cb7328137c20a40b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L3-a_5d8fda011433a9bc016e18ae44d655bdc4ab213701edba7c46a71063fcab4a02.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L3-a_5d8fda011433a9bc016e18ae44d655bdc4ab213701edba7c46a71063fcab4a02.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4927,
+      "sha256": "5d8fda011433a9bc016e18ae44d655bdc4ab213701edba7c46a71063fcab4a02"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L3-b_f39988aa3d6b7c41bbf6a0eec6b7256a907bc0769bb38bc4ff9611890b4f9049.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L3-b_f39988aa3d6b7c41bbf6a0eec6b7256a907bc0769bb38bc4ff9611890b4f9049.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5325,
+      "sha256": "f39988aa3d6b7c41bbf6a0eec6b7256a907bc0769bb38bc4ff9611890b4f9049"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L3-c_adf8ddd1b9738720a5a0798254ba43c50c1fba9e174fa228abdde66b0f60d133.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L3-c_adf8ddd1b9738720a5a0798254ba43c50c1fba9e174fa228abdde66b0f60d133.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5325,
+      "sha256": "adf8ddd1b9738720a5a0798254ba43c50c1fba9e174fa228abdde66b0f60d133"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L4-a_eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L4-a_eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4794,
+      "sha256": "eac20888b08107a727964c346563bdfe55c6d5ba16c90bfcd17caa2286435ffb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L4-b_7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L4-b_7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4794,
+      "sha256": "7797e9eb76bb2529aef4530756b6d118a6c72b17c48ffc6f4766ede83027d69d"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L4-c_c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L4-c_c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4794,
+      "sha256": "c253882889554dbfcff8fa20f197397da47da0fc0e2420b36e3d52a2c2cf4324"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L5-a_a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L5-a_a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4940,
+      "sha256": "a8e6bae73ff6ebe60a15ae951c1c1b4536c561ef2d214b8885cdf779bd4e82ad"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L5-b_ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L5-b_ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4940,
+      "sha256": "ff844c0ada802223c0ecd9a6ec3cbddf1222ef0af1a338063b280ae6b8c64fcf"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L5-c_da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L5-c_da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4940,
+      "sha256": "da67df27ee9519e4179ca6fe9d0b43c26fda0c2c08939d3f37c4f061d7c34d76"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L6-a_86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L6-a_86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4861,
+      "sha256": "86009741116da6945691f57866fcb22104a8052faa7394c03cb607aba04f6c8f"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L6-b_3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L6-b_3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4861,
+      "sha256": "3a3077a0608b640509684e637b7ac5bbc8b61968a7de0d0fb9529e6653bb8d3a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L6-c_3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L6-c_3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5613,
+      "sha256": "3dbccb988f56b90d673b515229ac814674fbb880b92f1175100b6bf7ecb50ee0"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L7-a_f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L7-a_f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4733,
+      "sha256": "f153bdabc0e5be125e7c54af0e10fc2fd7fc675f330f9117c5c88f5b8922a605"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L7-b_a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L7-b_a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4733,
+      "sha256": "a3886655fa1c3a45e4c5592a9fe1d46b16f2165efd632e770c507c8578184e03"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/L7-c_16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\L7-c_16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 4733,
+      "sha256": "16b923dbc859bc1eab5dea8da731ce1a36a49aa8424358cdd1fc4fd8ccaa8b0c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WM-a_02e7cc39acc8305ddd5e5d2b53f6e2067682028bdbd9591a762d1f05da806c65.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WM-a_02e7cc39acc8305ddd5e5d2b53f6e2067682028bdbd9591a762d1f05da806c65.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5555,
+      "sha256": "02e7cc39acc8305ddd5e5d2b53f6e2067682028bdbd9591a762d1f05da806c65"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WM-b_fa6b8e9796578c6cf4a1fb07c3d936077bd400ca5debe0ce499808c1700f5859.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WM-b_fa6b8e9796578c6cf4a1fb07c3d936077bd400ca5debe0ce499808c1700f5859.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5555,
+      "sha256": "fa6b8e9796578c6cf4a1fb07c3d936077bd400ca5debe0ce499808c1700f5859"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WM-c_7e7812c78b82152d656d2be2fc1e8ce1a447e8cc638b84f3dbff27b21ff15539.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WM-c_7e7812c78b82152d656d2be2fc1e8ce1a447e8cc638b84f3dbff27b21ff15539.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5555,
+      "sha256": "7e7812c78b82152d656d2be2fc1e8ce1a447e8cc638b84f3dbff27b21ff15539"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WW-a_86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WW-a_86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5546,
+      "sha256": "86cfbafb1c5f679ca699d3e383c4f94ae89cb050f7d9584cf8af5d7ee705a1fb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WW-b_3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WW-b_3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5546,
+      "sha256": "3d6afeb0e664e28a1ef0597f171ab4f3ed28d830e11304e51ef332a70f7ef4fd"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_actual_jobs/WW-c_0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_actual_jobs\\WW-c_0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561.json",
+      "category": "immutable-captured-actual-request",
+      "bytes": 5546,
+      "sha256": "0fbff64055098255ab69b6735b1b68b867b9c352ad7742ae7e35124b2edec561"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_finalization/staging-allowlist.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_finalization\\staging-allowlist.json",
+      "category": "allowlist-self",
+      "sha256": null,
+      "note": "Manifest does not attempt to hash itself."
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_finalization/staging-allowlist.txt",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_finalization\\staging-allowlist.txt",
+      "category": "explicit-git-pathspec",
+      "bytes": 16826,
+      "sha256": "4e989e64477673d260aa23010617075d816e17e5e10310ff79367530bcb588c6"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/_provenance/PROMPT-Codex-v01.GitHub.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\_provenance\\PROMPT-Codex-v01.GitHub.md",
+      "category": "instruction-version-provenance",
+      "bytes": 8384,
+      "sha256": "7b9655f878e0fd1142be6704dd64667c8391456741ce65d94e7bf14f7fa08f16"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/_provenance/SSKOI-visual-handbook-v01.Drive-copy.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\_provenance\\SSKOI-visual-handbook-v01.Drive-copy.md",
+      "category": "instruction-version-provenance",
+      "bytes": 7760,
+      "sha256": "50542d64eb7f1e3383b5e56819934f875c09840612687cec60a28a2f01796a10"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/_provenance/SSKOI-visual-handbook-v01.GitHub.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\_provenance\\SSKOI-visual-handbook-v01.GitHub.md",
+      "category": "instruction-version-provenance",
+      "bytes": 7767,
+      "sha256": "f14d21a719af88e83a1f8aa7c97e75c80a9e28bcd37e3c3bf036f27f6f0455ad"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/_provenance/document-identity.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\_provenance\\document-identity.json",
+      "category": "instruction-version-provenance",
+      "bytes": 903,
+      "sha256": "dca35fc051d4ebd9e012df07976311e48f9f9aa2bf1cbbf76235741827103c8d"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/austin-baby-pink-detail.jpg",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+      "category": "byte-preserved-reference",
+      "bytes": 167384,
+      "sha256": "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/austin-baby-pink-set.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 266829,
+      "sha256": "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/austin-baby-pink-stem.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 66348,
+      "sha256": "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/classic-burgundy-detail.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-detail.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 222043,
+      "sha256": "9df8c280096707a518f5ef58b42318e05b24c49e62b328a7ca6d1d478d2d41c1"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/classic-burgundy-set.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-set.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 374460,
+      "sha256": "73addefe381f9993077fd03b971ee44e03f5f4fd88fba59f084e573ff46411e3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/classic-burgundy-stem-supplement.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-burgundy-stem-supplement.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 84228,
+      "sha256": "622008d91de5d6e24d0acc2ec2922a93a513915dfe09634346ba1dbfc4296d55"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/classic-coral-detail.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-detail.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 277846,
+      "sha256": "aefaebdae02e4daa448dfd2f97957d07ce41e313f3ab5b5f8aee2d7ff6907c67"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/classic-coral-set.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-set.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 415085,
+      "sha256": "086e00a3d2c961d31fd8256d24cf9eeb813d96e7d70dc98cd4e68b921bb2f08a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/classic-coral-stem.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-stem.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 87965,
+      "sha256": "794d9feac35b901a771b607863741e733c6bc2d95c3d94b85f89d0e8071027ba"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/hero-mobile.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-mobile.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 309102,
+      "sha256": "6525f57f9ff81e7de8a768aad19c8ffbe8291bf1380cba820af76c791bdbd334"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/hero-wide.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-wide.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 224169,
+      "sha256": "1524dd54990ad880e44bfcf3f4c2f4c7688526e2bf9c3ee43f0ee80772da82ec"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/ranunculus-light-peach-detail.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-detail.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 161736,
+      "sha256": "f6a406df5b31f09311a02a754051c0f065259da6e7c79cbbdfcdfbb6e69aa694"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/ranunculus-light-peach-set.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-set.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 316646,
+      "sha256": "751ce412e3a0336467f329900a69b2546ac3cdb0945d1ff7c1c96ba7c09904d0"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/ranunculus-light-peach-stem.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\ranunculus-light-peach-stem.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 71382,
+      "sha256": "46c4b7d78e8ffc4b919d1b0b85e41da25a8083725e7e261c93f0e2a00a9d4e83"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/reference-provenance.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\reference-provenance.json",
+      "category": "reference-provenance",
+      "bytes": 36229,
+      "sha256": "ed07cedbf9f29596588a00960880004a60864e1c9e27795f08db75a98e126954"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/style-austin-dinner.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 154578,
+      "sha256": "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/style-classic-reading.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 158382,
+      "sha256": "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/tulip-white-detail.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-detail.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 91548,
+      "sha256": "45725a56b8132b2234dd79e156d93b05eb2112608911323ab1795caf4e125586"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/tulip-white-set.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-set.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 164991,
+      "sha256": "3ad08252929857b6718c8571fc8be7d2896f39729d5a6d0d8bd743e82901ff1e"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/_references/tulip-white-stem.webp",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\tulip-white-stem.webp",
+      "category": "byte-preserved-reference",
+      "bytes": 56302,
+      "sha256": "40f9163e0ae2fb185f1d2659fe9f03f3640dde6d1e53f1ecdf8019f51aa5dfda"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/delivery.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\delivery.json",
+      "category": "root-delivery",
+      "bytes": 480542,
+      "sha256": "4847be322b9437fe736dff0ba4fb080806ba3d1a45b54331e48c81361cd11f8a"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/finalize_delivery.py",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\finalize_delivery.py",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 21454,
+      "sha256": "c1a21b1244c9c163ca928bb7b47e8c61a44f86113b4040a530237229b62c86f2"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/fingerprint_native.cjs",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\fingerprint_native.cjs",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 3285,
+      "sha256": "d6cb0007d4a7aa37f19840c11c478a93b2e74d45d706faa9e2a7f618638040c1"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/generation-plan-freeze.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\generation-plan-freeze.json",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 449,
+      "sha256": "42225321975981d4b6051accd053c70a2cb284d1174e87d30134f654cd9868cb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/generation-plan.frozen.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\generation-plan.frozen.json",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 299417,
+      "sha256": "37bb982c1b032fc1508305849a160f7e37e01fc2f254cf9dafad42df97d68733"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/ingest_native.cjs",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\ingest_native.cjs",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 8494,
+      "sha256": "5d1fdf456f2fa53f77cec69b1f4be66b5e9519f82025b1dd55114a96f1f9e298"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/prepare_git_staging.py",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\prepare_git_staging.py",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 8040,
+      "sha256": "19e1b2336e6d33d4ba1dd1569baba2ff3757e0c9552821ff064e5a7fab9111f1"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/H1.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\H1.json",
+      "category": "independent-slot-qa",
+      "bytes": 10908,
+      "sha256": "20c178235ec6b0ca7ebac9d0ef970d88588e3e95ca4394867a32116fe6ec787e"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/HM.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\HM.json",
+      "category": "independent-slot-qa",
+      "bytes": 8371,
+      "sha256": "5023ee9b45657ecd6fbe68c0675064ba698eec9b5e4b495936e98b37975b0932"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/HW.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\HW.json",
+      "category": "independent-slot-qa",
+      "bytes": 9321,
+      "sha256": "25e2969290a045d2b2e0529f859055fdce1fad0db1d20115c8165c91d149edb9"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L1.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L1.json",
+      "category": "independent-slot-qa",
+      "bytes": 9949,
+      "sha256": "6e1fe657e24a8ec334611463cde387bc2210bd5b9f7cea20c9e27db52054bdc7"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L2.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L2.json",
+      "category": "independent-slot-qa",
+      "bytes": 8493,
+      "sha256": "0c150a23de70ebebabaf22b88bf7751d206767feba3bfbaa601dd1be73bcb758"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L3.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L3.json",
+      "category": "independent-slot-qa",
+      "bytes": 8717,
+      "sha256": "4bd9670cd43e26f061521544d28f35bdb81c7e784b9358c994b6fbb280901a3b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L4.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L4.json",
+      "category": "independent-slot-qa",
+      "bytes": 8070,
+      "sha256": "af8342b8333814c3597d21941f7e03c17ff3e28e7a568d1d0eb720814ef7b9cf"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L5.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L5.json",
+      "category": "independent-slot-qa",
+      "bytes": 8566,
+      "sha256": "b2f544655cfbc9ae728247bda07dad3010f62f17a860874dc6e465d3e928bfe8"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L6.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L6.json",
+      "category": "independent-slot-qa",
+      "bytes": 8338,
+      "sha256": "73bc392b01da37ec3efb8409351d5c91e0773cbeac95bbae65611f2889d56a5c"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/L7.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\L7.json",
+      "category": "independent-slot-qa",
+      "bytes": 8434,
+      "sha256": "ee606bc046ec3337a8c519fb69bf97f8fd48a2a90e671af91d339dddf0c2d7d3"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/WM.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\WM.json",
+      "category": "independent-slot-qa",
+      "bytes": 9501,
+      "sha256": "fa68520783e5321bb5cfe990e7e80dd645b52d9514effe67924f5a7232b38ffb"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/qa/WW.json",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\WW.json",
+      "category": "independent-slot-qa",
+      "bytes": 9285,
+      "sha256": "41a48f50397589725fdc74c154298865aea1462ad9d596ba02d7f19593af324b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/ai-images/codex-v01/slot-matrix.csv",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\slot-matrix.csv",
+      "category": "necessary-plan-or-workflow-source",
+      "bytes": 577,
+      "sha256": "273514110558fbd046713657ad5c5c80595782a31657d97bf356ee04883e2b3b"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/brand/PROMPT-Codex-v01.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\brand\\PROMPT-Codex-v01.md",
+      "category": "authoritative-instruction-source",
+      "bytes": 8384,
+      "sha256": "7b9655f878e0fd1142be6704dd64667c8391456741ce65d94e7bf14f7fa08f16"
+    },
+    {
+      "repositoryPath": "sskoi-web-integration-v01/brand/SSKOI-visual-handbook-v01.md",
+      "sourcePath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\brand\\SSKOI-visual-handbook-v01.md",
+      "category": "authoritative-instruction-source",
+      "bytes": 7767,
+      "sha256": "f14d21a719af88e83a1f8aa7c97e75c80a9e28bcd37e3c3bf036f27f6f0455ad"
+    }
+  ]
+}

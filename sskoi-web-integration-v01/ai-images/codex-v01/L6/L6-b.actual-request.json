@@ -1,0 +1,39 @@
+{
+  "job": {
+    "sequence": 20,
+    "batch": 2,
+    "slotId": "L6",
+    "candidate": "b",
+    "status": "REVIEW",
+    "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Classic stems are about 43 cm long, flower head about 9 cm.\n\nCoral classic roses with their buds in a grey handmade stoneware jug on a white oak kitchen counter, plaster backsplash, a linen tea towel. The whole vase and the full stem height are clearly visible so the vase-to-stem proportion reads at a glance. 50mm.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 3:2 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Coral Classic from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 12 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. Every Classic rose stem has one open bloom and two original buds; do not count green sepals as extra buds. Keep the principal flower-and-vessel unit within the central area so a future 4:5 composition remains viable; deliver the untouched native 3:2 image, without cropping a derivative now.",
+    "referenceUrls": [
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-set.webp",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-detail.webp",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-classic-coral-stem.webp",
+      "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-austin-baby-pink-wabi-dinner-table.webp",
+      "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/ssko-v09-rooms-classic-coral-wabi-reading-table.webp"
+    ],
+    "referenceLocalPaths": [
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-set.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-detail.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\classic-coral-stem.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-austin-dinner.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\style-classic-reading.webp"
+    ],
+    "referenceHashes": [
+      "086e00a3d2c961d31fd8256d24cf9eeb813d96e7d70dc98cd4e68b921bb2f08a",
+      "aefaebdae02e4daa448dfd2f97957d07ce41e313f3ab5b5f8aee2d7ff6907c67",
+      "794d9feac35b901a771b607863741e733c6bc2d95c3d94b85f89d0e8071027ba",
+      "733fea87928a17c642ea69646827de439ea1aef2d3bfd659933f8b9b1b02d1bd",
+      "64f2ffda294ba108d41491da2fa845d3335f18fe2564d99293fcd2fd73f987f6"
+    ],
+    "requestedAspectRatio": "3:2",
+    "outputFolder": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L6",
+    "filenameTemplate": "SSKOI_Classic-Rose_B0DSWT9NMF_Coral_L6-b_<actualWidth>x<actualHeight>_Codex_v01_20261118_REVIEW.<nativeExt>"
+  },
+  "modelName": "image_gen (backend model name not exposed)",
+  "tool": "image_gen.imagegen",
+  "sourcePath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-edff644f-cc97-46bb-8d67-efc4bbd48f1c.png",
+  "status": "REVIEW",
+  "noPostProcessing": true
+}

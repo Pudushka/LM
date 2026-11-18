@@ -1,0 +1,145 @@
+{
+  "slotId": "L2",
+  "batch": 2,
+  "date": "2026-11-18",
+  "status": "REVIEW",
+  "preferredCandidate": "b",
+  "requiresRevision": false,
+  "hardPixelDefects": [],
+  "countCaveat": "Onlyb has an independently clear visible count10. a/c retain REVIEW with unverified exact count; not declared over-limit or count-pass.",
+  "retainedAllCandidates": true,
+  "noOriginalsModified": true,
+  "diagnosticCropOnly": true,
+  "records": [
+    {
+      "slotId": "L2",
+      "candidate": "a",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "requiresHumanCountVerification": true,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\SSKOI_Tulip_B0DQDXM72R_White_L2-a_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-9bfadad0-e0cd-4dd0-98f5-49587befa055.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9cf6dc796e61b94bd91282a70ff6f79852815c53caa70964925af338f1490dea",
+      "closedHeadCount": {
+        "exactVisibleCount": null,
+        "certainMinimum": 10,
+        "certainty": "uncertain due to overlapping white petal boundaries",
+        "ceiling12CertifiedVisually": false,
+        "independentSecondRead": "Second Codex subagent also confirms at least10, cannot reliably distinguish remaining head/petal boundaries; neither <=12 certification nor definite13 claim is justified."
+      },
+      "maxStems": 12,
+      "physicalIndividualStemCountCertified": false,
+      "otherFlowerTypesObserved": 0,
+      "productFidelity": "White closed tulip cups with fine vertical petal texture and long smooth green leaves; broad shape/color matches exact set/detail/stem references. No extra flower family.",
+      "composition": {
+        "clearCylinder": true,
+        "water": "No distinct horizontal waterline or liquid meniscus observed; bottom glass base/reflections are not called water.",
+        "surface": "White oak entry console",
+        "context": "Hallway arch and left window; appropriate entrance setting",
+        "prop": "Small cream handmade ceramic dish",
+        "extraProp": "Oat linen draped left; material from A but not requested by C.",
+        "lettersPeopleHandsPackagingObserved": false,
+        "central4x5ProductFit": "PASS: full floral group and complete glass vessel fit the centered crop with breathing room.",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L2-a-centered4x5-QA-only.png"
+      },
+      "knownIssues": [
+        "Native1536x1024 below2000px minimum width; unchanged delivery explicitly permitted.",
+        "Exact35cm stem/3.5cm head and physical color are source claims, not independently measured.",
+        "Overlapping white heads prevent reliable exact count; do not claim an independently verified12-stem/head display."
+      ],
+      "hardPixelDefects": [],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Visually attractive closed-white-tulip alternative, but count uncertainty makes it less safe than b for the one-set ceiling.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L2",
+      "candidate": "b",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "requiresHumanCountVerification": false,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\SSKOI_Tulip_B0DQDXM72R_White_L2-b_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-03dbe779-0f12-466d-98c4-179e1de1258a.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e4a61d0487abccb88529e3fefe32569e64d21546eaddb1d40024d6412fce6efc",
+      "closedHeadCount": {
+        "exactVisibleCount": 10,
+        "certainty": "clear",
+        "ceiling12CertifiedVisually": true
+      },
+      "maxStems": 12,
+      "physicalIndividualStemCountCertified": false,
+      "otherFlowerTypesObserved": 0,
+      "productFidelity": "White closed tulip cups with fine vertical petal texture and long smooth green leaves; broad shape/color matches exact set/detail/stem references. No extra flower family.",
+      "composition": {
+        "clearCylinder": true,
+        "water": "No distinct horizontal waterline or liquid meniscus observed; bottom glass base/reflections are not called water.",
+        "surface": "White oak entry console",
+        "context": "Hallway arch and left window; appropriate entrance setting",
+        "prop": "Small cream handmade ceramic dish",
+        "extraProp": null,
+        "lettersPeopleHandsPackagingObserved": false,
+        "central4x5ProductFit": "PASS: full floral group and complete glass vessel fit the centered crop with breathing room.",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L2-b-centered4x5-QA-only.png"
+      },
+      "knownIssues": [
+        "Native1536x1024 below2000px minimum width; unchanged delivery explicitly permitted.",
+        "Exact35cm stem/3.5cm head and physical color are source claims, not independently measured."
+      ],
+      "hardPixelDefects": [],
+      "recommendedWithinSlot": true,
+      "recommendationReason": "Ten clearly separable heads stay below the12 ceiling, airy arrangement, no extra linen prop, coherent dry cylinder and safe portrait crop.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    },
+    {
+      "slotId": "L2",
+      "candidate": "c",
+      "status": "REVIEW",
+      "requiresRevision": false,
+      "requiresHumanCountVerification": true,
+      "localPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\L2\\SSKOI_Tulip_B0DQDXM72R_White_L2-c_1536x1024_Codex_v01_20261118_REVIEW.png",
+      "rawToolOutputPath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-3f18a566-054e-4257-a56c-b9f8c84a6c84.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b16e63231ccef0f47e436b53c15822d28ef9ca9016a245f91810a46ffffc4366",
+      "closedHeadCount": {
+        "exactVisibleCount": null,
+        "certainMinimum": 10,
+        "certainty": "uncertain due to overlapping white petal boundaries",
+        "ceiling12CertifiedVisually": false,
+        "independentSecondRead": "Second Codex subagent also confirms at least10, cannot reliably distinguish remaining head/petal boundaries; neither <=12 certification nor definite13 claim is justified."
+      },
+      "maxStems": 12,
+      "physicalIndividualStemCountCertified": false,
+      "otherFlowerTypesObserved": 0,
+      "productFidelity": "White closed tulip cups with fine vertical petal texture and long smooth green leaves; broad shape/color matches exact set/detail/stem references. No extra flower family.",
+      "composition": {
+        "clearCylinder": true,
+        "water": "No distinct horizontal waterline or liquid meniscus observed; bottom glass base/reflections are not called water.",
+        "surface": "White oak entry console",
+        "context": "Hallway arch and left window; appropriate entrance setting",
+        "prop": "Small cream handmade ceramic dish",
+        "extraProp": null,
+        "lettersPeopleHandsPackagingObserved": false,
+        "central4x5ProductFit": "PASS: full floral group and complete glass vessel fit the centered crop with breathing room.",
+        "diagnosticPath": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\qa\\diagnostics\\L2-c-centered4x5-QA-only.png"
+      },
+      "knownIssues": [
+        "Native1536x1024 below2000px minimum width; unchanged delivery explicitly permitted.",
+        "Exact35cm stem/3.5cm head and physical color are source claims, not independently measured.",
+        "Overlapping white heads prevent reliable exact count; do not claim an independently verified12-stem/head display."
+      ],
+      "hardPixelDefects": [],
+      "recommendedWithinSlot": false,
+      "recommendationReason": "Visually attractive closed-white-tulip alternative, but count uncertainty makes it less safe than b for the one-set ceiling.",
+      "approvalClaimed": false,
+      "nextOwner": "Claude — visual QA"
+    }
+  ],
+  "nextOwner": "Claude — visual QA"
+}

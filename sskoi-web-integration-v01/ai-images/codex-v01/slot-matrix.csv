@@ -1,0 +1,13 @@
+﻿batch,slot,product,aspect,minWidth,minHeight,candidates,journalReuse
+1,H1,austin,4:5,1440,1800,3,
+2,L1,austin,3:2,2000,,3,
+2,L2,tulip,3:2,2000,,3,
+2,L3,ranunculus,3:2,2000,,3,Faux flowers for small rooms and apartments
+2,L4,tulip,3:2,2000,,3,How to arrange faux tulips in a vase
+2,L5,ranunculus,3:2,2000,,3,
+2,L6,coral,3:2,2000,,3,How to choose the right vase size for faux flowers
+2,L7,austin,3:2,2000,,3,How to choose faux flowers for your home
+3,HW,austin,16:9,2400,,3,
+3,HM,austin,4:5,1440,1800,3,
+4,WW,burgundy,16:9,2400,,3,
+4,WM,burgundy,4:5,1440,1800,3,

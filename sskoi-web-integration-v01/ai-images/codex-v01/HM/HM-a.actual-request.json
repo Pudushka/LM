@@ -1,0 +1,40 @@
+{
+  "job": {
+    "sequence": 28,
+    "batch": 3,
+    "slotId": "HM",
+    "candidate": "a",
+    "status": "REVIEW",
+    "fullPrompt": "Editorial interior photograph for a quiet luxury home magazine. Soft natural window light from the left, warm daylight around 4300K, gentle real shadows. Limewashed warm grey plaster wall, white oak or walnut surface, oat linen. Muted palette, subtle film grain. Photorealistic, not CGI.\n\nThe flowers must match the attached product reference photos exactly: same flower shape, petal layers, color and color edges, leaf shape and texture, bud shape. Keep real scale: Austin stems are about 44 cm long, flower head about 9 cm.\n\nSame subject, composition and color mood as the attached current hero: Baby Pink Austin roses arranged on linen, but sharper, with finer petal detail and a more natural light falloff. Do not change the flower color or the linen color.\n\nNo text, no logos, no people's faces, no paper vase or gift box, no extra flower types, no water in the vase, no plastic look.\n\nADDITIONAL EXECUTION CONSTRAINTS (separate from the verbatim A+B+C+D blocks):\nOutput a single 4:5 image. Use the maximum native image size available in the actual generation tool. Do not resize, upscale, sharpen or resample the delivered image. If native output falls below the stated minimum, retain it unchanged and report its actual dimensions. Use only Baby Pink Austin from the attached same-color product references. Flowers may be fewer than one set, never more: at most 6 stems, 6 open blooms and 0 buds throughout the entire image, including any background or reflection. Do not add other flowers, eucalyptus, extra buds, cut stems or extra bouquets. Stem lengths are nominal source claims, not independent measurements. Stems naturally enter the vessel; do not place the entire nominal stem length above the rim or enlarge the bouquet relative to furniture. Keep the flower vessel dry. No hands, people, unpacking, packaging, paper vase, gift box, text, lettering or watermark. Keep additional decorative props within two; add no objects beyond those specified by C. Product references control flowers and quantity. Style references control lighting, palette and materials only. The output is AI-generated REVIEW; no approval, website integration or publication is authorized. The current hero references are composition and linen-color references only. Product anatomy and color must still follow the same-color product references. Finer detail means native generation detail, not digital sharpening or enlargement.\n\nHERO-SPECIFIC CLARIFICATION: For this HM mobile image, use the attached portrait hero as the layout reference: six or fewer Baby Pink Austin roses lie diagonally across the upper portion of the portrait frame on the same muted dusty mauve-brown linen, stems towards the right, with quiet linen space below. Match the attached linen color rather than substituting oat beige. The landscape hero is an additional subject/linen reference only. C's flat-lay subject takes precedence over A's generic interior materials; no vase, shelves, wall, book or added room props. Request a native 4:5 portrait composition. No new text. Three same-color product images and both hero images are attached; the tool permits at most five image references. Preserve the written A lighting/palette/material guidance; the two previously inspected style images are not attached in this call.",
+    "referenceUrls": [
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-set.webp",
+      "https://cdn.shopify.com/s/files/1/0621/6017/5297/files/SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_6-stems_Website-Flower-Detail_v10.1-r02_20261118_REVIEW.jpg",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v072-austin-baby-pink-stem.webp",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-wide.webp",
+      "https://sskoi.com/cdn/shop/t/30/assets/ssko-v07-hero-mobile.webp"
+    ],
+    "referenceLocalPaths": [
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-set.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-detail.jpg",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\austin-baby-pink-stem.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-wide.webp",
+      "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\_references\\hero-mobile.webp"
+    ],
+    "referenceHashes": [
+      "2d77688a4a9a44615a4beafbfc942820a06b820509b155f70c55aa4488fcc001",
+      "aa1599354d8c088144a116484b4929dfe8ee3af4f9fbcd5ca2552a53c013fb7e",
+      "41063f4d5a339a6954c3419cf03dd2d44ccc196023873d92e83feaa394cdd463",
+      "1524dd54990ad880e44bfcf3f4c2f4c7688526e2bf9c3ee43f0ee80772da82ec",
+      "6525f57f9ff81e7de8a768aad19c8ffbe8291bf1380cba820af76c791bdbd334"
+    ],
+    "requestedAspectRatio": "4:5",
+    "outputFolder": "C:\\Users\\JAMES\\OneDrive\\文档\\sskoi\\sskoi-web-integration-v01\\ai-images\\codex-v01\\HM",
+    "filenameTemplate": "SSKOI_Austin-Rose_B0DTFNXBHF_Baby-Pink_HM-a_<actualWidth>x<actualHeight>_Codex_v01_20261118_REVIEW.<nativeExt>",
+    "actualPromptNote": "Tool rejected 7 image references before generation; actual call uses maximum 5: 3 same-color product references plus 2 current hero composition references. Both style references were inspected and their written A module is retained."
+  },
+  "modelName": "image_gen (backend model name not exposed)",
+  "tool": "image_gen.imagegen",
+  "sourcePath": "C:\\Users\\JAMES\\.codex\\generated_images\\01a1ef20-ee1a-7740-80a3-3ad23ed73cd9\\exec-03490524-4539-4c58-b5d3-96459216aef0.png",
+  "status": "REVIEW",
+  "noPostProcessing": true
+}

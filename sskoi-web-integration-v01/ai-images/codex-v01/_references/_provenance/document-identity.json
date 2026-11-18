@@ -1,0 +1,23 @@
+{
+  "repository": "Pudushka/LM",
+  "sourceBranch": "claude/pensive-planck-o61hll",
+  "observedHeadCommit": "94ce80d22474be84c37b1eed87eb2941d463e089",
+  "promptBlob": "f710e4de58c290592230645c9f48f4c705c03882",
+  "handbookBlob": "4fa615615370d24857d6474ff4fbb4bd6355e2d4",
+  "documents": [
+    {
+      "name": "PROMPT-Codex-v01",
+      "driveLocalSha256": "7b9655f878e0fd1142be6704dd64667c8391456741ce65d94e7bf14f7fa08f16",
+      "githubSnapshotSha256": "7b9655f878e0fd1142be6704dd64667c8391456741ce65d94e7bf14f7fa08f16",
+      "bytesEqual": true,
+      "textEqualNormalized": true
+    },
+    {
+      "name": "SSKOI-visual-handbook-v01",
+      "driveLocalSha256": "50542d64eb7f1e3383b5e56819934f875c09840612687cec60a28a2f01796a10",
+      "githubSnapshotSha256": "f14d21a719af88e83a1f8aa7c97e75c80a9e28bcd37e3c3bf036f27f6f0455ad",
+      "bytesEqual": false,
+      "textEqualNormalized": false
+    }
+  ]
+}
