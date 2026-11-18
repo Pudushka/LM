@@ -247,3 +247,13 @@ v10.2 的改动：
 - 横向溢出、Liquid 错误和坏图都是 0。
 
 截图在 `review/after-r4-no-giftbox-mobile.jpg`。
+
+### 第四轮补充（2026-11-18，按 James 授权）
+1. **Journal 文章（店铺内容，已在正式店生效）**：
+   - “A guide to gifting faux roses with a vase” 改写为 “How to give faux flowers as a gift”。按场合推荐花和颜色，写明每套只有花枝，并补充花器怎么选。封面图换成 Baby Pink Austin 餐桌图，SEO 标题和描述同步修改。
+   - 这篇的网址从 `/blogs/journal/faux-rose-gift-box-guide` 改为 `/blogs/journal/faux-flower-gift-guide`。旧网址已 301 跳转到新网址（实测通过）。
+   - “How to choose faux flowers for your home” 删掉了礼盒那一项和关于纸花瓶的两句，摘要同步修改。
+   - “How to choose the right vase size” 里推荐礼盒的那句，改为链接到新的送礼指南。
+   - 6 篇文章都已检查，没有 gift box、gift set、paper vase，也没有链接到礼盒页。
+2. **“Rose gift sets” 链接**：不在 Shopify 的导航菜单里，是写在主题默认页脚 `snippets/sskoi-brand-footer.liquid` 里的，所以在 v10.2 里删除。默认页头里的 “Gifts” 改为指向礼物页 `?view=sskoi-gifts`。正式站 v10.1 的页脚要等 v10.2 发布后才会更新。
+3. **亚马逊**：按指示没动。
