@@ -1,0 +1,40 @@
+{%- assign journal = blogs['journal'] -%}
+<div class="ssko-v09-foot">
+  <footer class="end">
+    <div class="end-top wrap">
+      <div>
+        <p>{{ section.settings.tagline | escape }} <em>{{ section.settings.tagline_emphasis | escape }}</em></p>
+        <nav class="ssko-v07-footer-links" aria-label="About SSKOI">
+          <a href="{{ section.settings.about_url | escape }}">About SSKOI</a>
+          <a href="{{ section.settings.lookbook_url | escape }}">Lookbook</a>
+          <a href="{{ routes.root_url }}?view=sskoi-arrangement">Arrangement recipes</a>
+          <a href="{{ routes.root_url }}?view=sskoi-gifts">Gifts by occasion</a>
+          {%- if journal != blank -%}<a href="{{ journal.url | escape }}">Journal</a>{%- endif -%}
+          <a href="{{ section.settings.care_url | escape }}">Flower care</a>
+        </nav>
+        {% render 'ssko-newsletter', key: section.id %}
+      </div>
+      <a class="btn" href="{{ section.settings.store_url | escape }}">Shop on Amazon {% render 'sskoi-arrow' %}</a>
+    </div>
+    <p class="giant" aria-hidden="true">SSKOI</p>
+    <div class="end-meta wrap mono">
+      <span>SSKOI faux florals</span>
+      <span class="ssko-site-version" data-ssko-site-version="v10.3" hidden></span>
+    </div>
+  </footer>
+</div>
+<script src="{{ 'ssko-v103-reveal.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "SSKOI flower page footer",
+  "settings": [
+    {"type":"text","id":"tagline","label":"Tagline","default":"Flowers for the rooms"},
+    {"type":"text","id":"tagline_emphasis","label":"Tagline accent","default":"you live in."},
+    {"type":"text","id":"store_url","label":"Amazon storefront","default":"https://www.amazon.com/stores/Sskoi/page/E354F83F-CFAD-4E19-B21F-F4251CA5B249"},
+    {"type":"text","id":"about_url","label":"About page","default":"/?view=sskoi-about"},
+    {"type":"text","id":"lookbook_url","label":"Lookbook page","default":"/?view=sskoi-lookbook"},
+    {"type":"text","id":"care_url","label":"Care page","default":"/?view=sskoi-care"}
+  ]
+}
+{% endschema %}

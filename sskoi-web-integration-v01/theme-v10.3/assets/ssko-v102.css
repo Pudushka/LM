@@ -1,0 +1,128 @@
+/* v10.2 quiet edit: shared brand header/footer on the remaining pages, and fewer labels. */
+.ssko-v09-head,.ssko-v09-foot{--ink:#1d1418;--paper:#ede4e1;--blush:#f6cfcd;--coral:#f47a60;--rule:rgba(29,20,24,.18);--rule-light:rgba(237,228,225,.22);--display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;--text:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;--mono:"DM Mono","SFMono-Regular",Menlo,monospace;--gutter:clamp(16px,4vw,56px);font:400 16px/1.55 var(--text);-webkit-font-smoothing:antialiased}
+.ssko-v09-head *,.ssko-v09-foot *{box-sizing:border-box}
+.ssko-v09-head a,.ssko-v09-foot a{color:inherit}
+.ssko-v09-head .wrap,.ssko-v09-foot .wrap{padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
+.ssko-v09-head .mono,.ssko-v09-foot .mono{font:400 11px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.ssko-v09-head{position:sticky;top:0;z-index:30;background:var(--paper);border-bottom:1px solid var(--rule);color:var(--ink)}
+.ssko-v09-head .bar{position:static;display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:16px;color:var(--ink)}
+.ssko-v09-head .wordmark{font:500 26px/1 var(--display);letter-spacing:.34em;text-decoration:none;margin-right:-.34em}
+.ssko-v09-head nav{display:flex;align-items:center;gap:clamp(14px,2.4vw,34px)}
+.ssko-v09-head nav a{text-decoration:none}
+.ssko-v09-head nav a:not(.pill):hover{text-decoration:underline;text-underline-offset:5px}
+.ssko-v09-head .pill{display:inline-flex;align-items:center;gap:8px;border:1px solid currentColor;border-radius:999px;padding:10px 16px;white-space:nowrap}
+.ssko-v09-head .pill:hover{background:var(--ink);color:var(--paper)}
+.ssko-v09-foot .end{background:var(--ink);color:var(--paper);overflow:hidden;padding-bottom:0}
+.ssko-v09-foot .end-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px;padding-block:clamp(48px,6vw,84px) clamp(24px,3vw,40px)}
+.ssko-v09-foot .end-top p{margin:0;font:400 clamp(28px,3.6vw,52px)/1.05 var(--display);letter-spacing:-.015em;max-width:18ch}
+.ssko-v09-foot .end-top p em{font-style:italic;color:var(--blush)}
+.ssko-v09-foot .ssko-v07-footer-links{display:flex;gap:12px 22px;flex-wrap:wrap;margin-block:17px 0;font-size:14px}
+.ssko-v09-foot .btn{display:inline-flex;align-items:center;gap:12px;padding:17px 26px;border-radius:999px;background:var(--blush);color:var(--ink);font:600 14px/1 var(--text);letter-spacing:.02em;text-decoration:none}
+.ssko-v09-foot .btn:hover{background:#fff}
+.ssko-v09-foot .giant{margin:0;font:500 clamp(84px,25vw,420px)/.8 var(--display);letter-spacing:.02em;text-align:center;color:var(--blush);white-space:nowrap;padding-block:.06em .1em;user-select:none}
+.ssko-v09-foot .end-meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;padding-block:16px;border-top:1px solid var(--rule-light);opacity:.7}
+@media (max-width:640px){
+  .ssko-v09-head nav a:not(.pill){display:none}
+  .ssko-v09-head nav .ssko-home-journal-link:not(.pill){display:inline-block;padding-block:12px;font-size:10px}
+  .ssko-v09-head .wordmark{font-size:22px}
+  .ssko-v09-head nav .pill{font-size:10px}
+  .ssko-v09-foot .btn{padding:16px 22px}
+}
+@media (max-width:380px){
+  .ssko-v09-head .bar{gap:8px}
+  .ssko-v09-head .wordmark{font-size:20px;letter-spacing:.24em;margin-right:0}
+  .ssko-v09-head nav{gap:8px}
+  .ssko-v09-head nav .pill{gap:5px;padding-inline:9px}
+}
+/* Home: quiet link instead of a pill under each flower; floating Amazon pill instead of a full-width bar. */
+.rows .row .go{border:0;border-radius:0;padding:0;background:none;color:inherit;justify-content:flex-start;gap:8px;text-decoration:underline;text-underline-offset:6px}
+.rows .row a:hover .go{background:none;color:inherit}
+.dock{background:transparent;justify-content:flex-end;pointer-events:none}
+.dock .btn{pointer-events:auto;box-shadow:0 10px 30px rgba(29,20,24,.22)}
+/* Flower pages: one label per image (thumbnails), breadcrumb only on wider screens. */
+.ssko-v07-product__proof>figcaption[data-ssko-v07-caption]{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:760px){.ssko-v07-product .ssko-v07-product__crumb{display:none}}
+.ssko-v3-count{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* Phones: the page never moves sideways. Carousels still scroll inside themselves. */
+html,body{overflow-x:clip;max-width:100%}
+@supports not (overflow:clip){html{overflow-x:hidden}}
+/* Recipes in the main menu; on phones it takes Journal's place (Journal stays in the footer). */
+@media (max-width:640px){
+  .bar nav .ssko-home-recipes-link{display:inline-block!important;padding-block:12px;font-size:10px}
+  .bar nav .ssko-home-journal-link{display:none!important}
+}
+.room-links{display:flex;flex-wrap:wrap;gap:12px 28px}
+/* Color words */
+.ssko-meaning{font:italic 400 15px/1.3 var(--display,"Bodoni Moda",Georgia,serif);letter-spacing:0;text-transform:none}
+.ssko-v07-product__color .ssko-meaning:not(:empty)::before{content:"· ";font-style:normal;opacity:.5}
+.ssko-v07-product__color .ssko-meaning{margin-inline-start:6px;opacity:.85}
+.ssko-v09-mini .ssko-meaning{display:block;margin-top:-6px;font-size:14px;opacity:.75}
+.ssko-v09-slice__label .ssko-meaning{display:block;margin-top:4px;font-size:15px;opacity:.75}
+.gift legend .ssko-meaning{margin-inline-start:6px;font-size:16px}
+/* Assurance line */
+.ssko-assure{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:18px 0 0;padding:0;font-size:10px;opacity:.75}
+.ssko-assure li{display:flex;align-items:center;gap:18px}
+.ssko-assure li+li::before{content:"";width:3px;height:3px;border-radius:50%;background:currentColor;margin-inline-start:-11px}
+.ssko-home-assure{border-bottom:1px solid var(--rule)}
+.ssko-home-assure .ssko-assure{justify-content:center;margin:0;padding-block:16px}
+/* Newsletter */
+.ssko-news{margin-top:26px;max-width:420px}
+.ssko-news label{display:block;margin-bottom:10px;opacity:.75}
+.ssko-news__row{display:flex;border-bottom:1px solid currentColor}
+.ssko-news input{flex:1;min-width:0;background:transparent;border:0;color:inherit;font:400 16px/1.4 var(--text,"Hanken Grotesk",Arial,sans-serif);padding:10px 0}
+.ssko-news input::placeholder{color:inherit;opacity:.55}
+.ssko-news input:focus{outline:none}
+.ssko-news__row:focus-within{border-bottom-width:2px}
+.ssko-news button{background:none;border:0;color:inherit;font:600 13px/1 var(--text,"Hanken Grotesk",Arial,sans-serif);letter-spacing:.04em;padding:10px 0 10px 16px;cursor:pointer}
+.ssko-news__done,.ssko-news__err{margin:10px 0 0;font-size:14px}
+/* Gifts page */
+.ssko-gifts{padding-bottom:40px}
+.ssko-gifts__intro{padding-block:clamp(48px,7vw,96px) clamp(24px,3vw,40px);max-width:860px}
+.ssko-gifts__intro h1{margin:10px 0 14px;font:400 clamp(44px,7vw,92px)/.98 var(--display);letter-spacing:-.02em}
+.ssko-gifts__intro h1 em{font-style:italic}
+.ssko-gifts__intro p:last-child{margin:0;max-width:46ch;font-size:17px;opacity:.85}
+.ssko-gifts__list{list-style:none;margin:0;padding:0}
+.ssko-gift-row{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);align-items:center;padding-block:clamp(28px,4vw,56px);border-top:1px solid var(--rule)}
+.ssko-gift-row:nth-child(even) .ssko-gift-row__media{order:2}
+.ssko-gift-row__media{margin:0;aspect-ratio:4/5;overflow:hidden;background:var(--paper-2)}
+.ssko-gift-row__media img{width:100%;height:100%;object-fit:cover}
+.ssko-gift-row h2{margin:10px 0 12px;font:400 clamp(32px,4.2vw,56px)/1.02 var(--display);letter-spacing:-.015em}
+.ssko-gift-row h2 em{font-style:italic}
+.ssko-gift-row p{margin:0;max-width:42ch;font-size:16px;line-height:1.55}
+.ssko-picks{list-style:none;margin:24px 0 0;padding:0;border-top:1px solid var(--rule)}
+.ssko-picks li{border-bottom:1px solid var(--rule)}
+.ssko-picks a{display:grid;grid-template-columns:12px minmax(0,1fr) auto;align-items:center;gap:14px;padding:14px 0;text-decoration:none;color:inherit}
+.ssko-picks a:hover b{text-decoration:underline;text-underline-offset:4px}
+.ssko-picks .dot{width:12px;height:12px;border-radius:50%;background:var(--c,#ccc);box-shadow:inset 0 0 0 1px rgba(29,20,24,.15)}
+.ssko-picks b{font-weight:600}
+.ssko-picks .ssko-meaning{font-size:16px;opacity:.75}
+.ssko-gifts__foot{padding-block:28px 0;border-top:1px solid var(--rule)}
+.ssko-gifts__foot p{margin:0;max-width:70ch;font-size:13px;opacity:.7}
+@media (max-width:760px){
+  .ssko-gift-row{grid-template-columns:minmax(0,1fr);gap:20px}
+  .ssko-gift-row:nth-child(even) .ssko-gift-row__media{order:0}
+  .ssko-picks a{grid-template-columns:12px minmax(0,1fr)}
+  .ssko-picks .ssko-meaning{grid-column:2;margin-top:-8px}
+}
+@media (max-width:640px){
+  .ssko-assure{flex-direction:column;gap:5px}
+  .ssko-assure li+li::before{display:none}
+  .ssko-home-assure .ssko-assure{align-items:center;padding-block:14px}
+}
+/* v10.3 brand system: one sans for labels instead of the typewriter mono; quieter secondary actions. */
+:root,.ssko-v09-head,.ssko-v09-foot{--mono:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif}
+.mono{font-weight:500;letter-spacing:.14em}
+.ssko-v07-product__store{border:0!important;border-radius:0!important;background:none!important;padding:0!important;min-height:44px;display:inline-flex;align-items:center;gap:8px;color:inherit!important;font-weight:500;text-decoration:underline;text-underline-offset:6px}
+.ssko-v07-product__store:hover{background:none!important;color:inherit!important;opacity:.7}
+.ssko-v4-link{text-transform:none!important;letter-spacing:.01em!important;font:500 14px/1.4 "Hanken Grotesk","Helvetica Neue",Arial,sans-serif!important}
+/* Quiet reveal on scroll; content stays visible without JavaScript or with reduced motion. */
+.js-reveal .ssko-reveal{opacity:0;transform:translateY(14px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.js-reveal .ssko-reveal.is-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js-reveal .ssko-reveal{opacity:1;transform:none;transition:none}}
+/* 404 */
+.ssko-404{padding-block:clamp(72px,12vw,160px) clamp(56px,8vw,120px);text-align:center}
+.ssko-404 h1{margin:12px 0 16px;font:400 clamp(44px,8vw,96px)/1 "Bodoni Moda",Georgia,serif;letter-spacing:-.02em}
+.ssko-404 h1 em{font-style:italic}
+.ssko-404 p{margin:0 auto;max-width:40ch;font-size:17px;opacity:.85}
+.ssko-404 nav{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 28px;margin-top:28px}
+.ssko-404 nav a{font:500 15px/1.4 "Hanken Grotesk","Helvetica Neue",Arial,sans-serif;color:inherit;text-underline-offset:6px}

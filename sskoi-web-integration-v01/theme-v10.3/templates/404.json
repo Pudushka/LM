@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "main": {
+      "type": "ssko-v103-404",
+      "settings": {}
+    }
+  },
+  "order": ["main"]
+}

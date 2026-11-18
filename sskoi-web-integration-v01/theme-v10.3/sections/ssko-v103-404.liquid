@@ -1,0 +1,23 @@
+<section class="ssko-404 wrap">
+  <p class="mono">{{ section.settings.eyebrow | escape }}</p>
+  <h1>{{ section.settings.heading | escape }} <em>{{ section.settings.emphasis | escape }}</em></h1>
+  <p>{{ section.settings.text | escape }}</p>
+  <nav aria-label="Where to next">
+    <a href="{{ routes.root_url }}#flowers">The flowers</a>
+    <a href="{{ routes.root_url }}?view=sskoi-arrangement">Arrangement recipes</a>
+    <a href="{{ routes.root_url }}?view=sskoi-gifts">Gifts by occasion</a>
+    <a href="{{ routes.root_url }}">Home</a>
+  </nav>
+</section>
+
+{% schema %}
+{
+  "name": "SSKOI page not found",
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Small heading","default":"404"},
+    {"type":"text","id":"heading","label":"Heading","default":"This page"},
+    {"type":"text","id":"emphasis","label":"Heading accent","default":"has moved."},
+    {"type":"textarea","id":"text","label":"Text","default":"The page you were looking for is no longer here. The flowers are."}
+  ]
+}
+{% endschema %}
