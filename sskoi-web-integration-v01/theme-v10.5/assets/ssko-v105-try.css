@@ -58,5 +58,6 @@
   .ssko-try__grid{grid-template-columns:minmax(0,1fr)}
   .ssko-try__stage{position:sticky;top:0;z-index:5;padding:8px 0 4px;background:var(--paper,#ede4e1)}
   .ssko-try__readout{margin-top:6px;font-size:13px;min-height:2.6em}
+  .ssko-try__panel button,.ssko-try__panel input,.ssko-try__panel label,.ssko-try__panel a{scroll-margin-top:62vh}
   .ssko-try__intro h1{font-size:clamp(40px,11vw,56px)}
 }
