@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="theme-color" content="#1d1418">
+    {%- if template.name == 'index' -%}
+      {% render 'ssko-v08-index-meta' %}
+      {%- if template.suffix == blank -%}
+        {% render 'ssko-v08-home-identity' %}
+      {%- endif -%}
+    {%- else -%}
+      <link rel="canonical" href="{{ canonical_url | escape }}">
+      <title>{{ page_title | default: 'SSKOI Faux Florals' | escape }}</title>
+      {% if page_description %}<meta name="description" content="{{ page_description | escape }}">{% endif %}
+    {%- endif -%}
+    {% render 'ssko-favicon-v074', favicon: settings.favicon %}
+    {{ 'ssko-v07-editorial.css' | asset_url | stylesheet_tag }}
+    {{ 'ssko-v074-type.css' | asset_url | stylesheet_tag }}
+    {{ 'ssko-v09.css' | asset_url | stylesheet_tag }}
+    {{ 'ssko-v101-type.css' | asset_url | stylesheet_tag }}
+    {{ 'ssko-v102.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'ssko-v09.js' | asset_url }}" defer></script>
+    {{ content_for_header }}
+  </head>
+  <body>
+    <a class="ssko-v07-skip" href="#ssko-v07-content">Skip to content</a>
+    {%- assign ssko_flower_views = 'sskoi-austin,sskoi-tulip,sskoi-classic,sskoi-peony,sskoi-rose-gift,sskoi-arrangement,sskoi-gifts,sskoi-try' | split: ',' -%}
+    {%- if ssko_flower_views contains template.suffix -%}{% section 'ssko-v09-site-header' %}{%- endif -%}
+    <main id="ssko-v07-content">{{ content_for_layout }}</main>
+    {%- if ssko_flower_views contains template.suffix -%}{% section 'ssko-v09-site-footer' %}{%- endif -%}
+  </body>
+</html>
+

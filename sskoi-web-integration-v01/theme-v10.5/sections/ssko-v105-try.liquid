@@ -1,0 +1,127 @@
+{%- comment -%}
+  See it in your vase (v10.5). Everything runs in the visitor's browser:
+  the photo is never uploaded. Bouquet cutouts are theme assets named
+  ssko-v105-cut-<family>-<color>.webp, cut from the paper flat lays.
+{%- endcomment -%}
+{%- assign s = section.settings -%}
+{%- assign base = 'ssko-v105-try.js' | asset_url | split: 'ssko-v105-try.js' | first -%}
+{{ 'ssko-v105-try.css' | asset_url | stylesheet_tag }}
+<div class="ssko-try" data-base="{{ base }}">
+  <header class="ssko-try__intro wrap">
+    <p class="mono">{{ s.eyebrow | escape }}</p>
+    <h1>{{ s.heading | escape }} <em>{{ s.emphasis | escape }}</em></h1>
+    <p>{{ s.intro | escape }}</p>
+  </header>
+
+  <div class="ssko-try__grid wrap">
+    <figure class="ssko-try__stage" data-stage>
+      <div class="ssko-try__canvas" data-canvas>
+        <svg class="ssko-try__sample" data-sample xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Sample: a cream vase on an oak table">
+          <defs>
+            <linearGradient id="sskoTryWall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e9ded6"/><stop offset="1" stop-color="#d9cbc1"/></linearGradient>
+            <linearGradient id="sskoTryTable" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8916b"/><stop offset="1" stop-color="#94704f"/></linearGradient>
+            <linearGradient id="sskoTryVase" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6efe6"/><stop offset=".55" stop-color="#ece2d5"/><stop offset="1" stop-color="#d8cab9"/></linearGradient>
+          </defs>
+          <rect width="800" height="1000" fill="url(#sskoTryWall)"/>
+          <rect y="820" width="800" height="180" fill="url(#sskoTryTable)"/>
+          <rect y="820" width="800" height="6" fill="#a37f5c"/>
+          <ellipse cx="400" cy="824" rx="120" ry="10" fill="#6f533a" opacity=".22"/>
+          <path d="M335 560 C330 600 300 640 300 700 C300 780 340 820 400 820 C460 820 500 780 500 700 C500 640 470 600 465 560 Z" fill="url(#sskoTryVase)"/>
+          <ellipse cx="400" cy="560" rx="65" ry="8" fill="#c9b9a6"/>
+        </svg>
+        <img class="ssko-try__photo" data-photo alt="Your photo" hidden>
+        <img class="ssko-try__bouquet" data-bouquet alt="" draggable="false">
+        <div class="ssko-try__guide" data-guide="rim" role="slider" tabindex="0" aria-label="Vase rim" aria-orientation="vertical"><span>Rim</span></div>
+        <div class="ssko-try__guide" data-guide="base" role="slider" tabindex="0" aria-label="Vase base" aria-orientation="vertical"><span>Base</span></div>
+      </div>
+      <figcaption class="ssko-try__readout" data-readout aria-live="polite"></figcaption>
+    </figure>
+
+    <div class="ssko-try__panel">
+      <ol class="ssko-try__steps">
+        <li>
+          <h2><span class="mono">1</span> Add a photo</h2>
+          <p>Stand back and photograph your empty vase where it will sit, straight on.</p>
+          <div class="ssko-try__row">
+            <label class="ssko-try__btn">Add a photo<input type="file" accept="image/*" data-file hidden></label>
+            <button type="button" class="ssko-try__link" data-use-sample>Use our sample vase</button>
+          </div>
+          <p class="ssko-try__fine">Your photo stays on this device. Nothing is uploaded.</p>
+        </li>
+        <li>
+          <h2><span class="mono">2</span> Mark your vase</h2>
+          <p>Drag the Rim line to the top of the vase and the Base line to where it sits. Then enter its height.</p>
+          <div class="ssko-try__row">
+            <label class="ssko-try__field">Vase height
+              <input type="number" inputmode="decimal" min="2" max="40" step="0.5" value="8" data-height>
+            </label>
+            <div class="ssko-try__units" role="group" aria-label="Units">
+              <button type="button" aria-pressed="true" data-unit="in">in</button>
+              <button type="button" aria-pressed="false" data-unit="cm">cm</button>
+            </div>
+          </div>
+          <label class="ssko-try__check"><input type="checkbox" data-glass> Clear glass vase (show the stems)</label>
+        </li>
+        <li>
+          <h2><span class="mono">3</span> Choose flowers</h2>
+          <div class="ssko-try__tabs" role="tablist">
+            {%- for fam in section.blocks -%}
+              <button type="button" role="tab" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" data-fam-tab="{{ fam.settings.key }}" {{ fam.shopify_attributes }}>{{ fam.settings.name | escape }}</button>
+            {%- endfor -%}
+          </div>
+          {%- for fam in section.blocks -%}
+            {%- assign f = fam.settings -%}
+            {%- assign lines = f.colors | strip | newline_to_br | split: '<br />' -%}
+            <div class="ssko-try__swatches" role="tabpanel" data-fam="{{ f.key }}" data-name="{{ f.name | escape }}" data-cm="{{ f.stem_cm }}" data-set="{{ f.set | escape }}" data-view="{{ f.view }}" {% unless forloop.first %}hidden{% endunless %}>
+              {%- for line in lines -%}
+                {%- assign p = line | split: '|' -%}
+                {%- assign color = p[0] | strip -%}
+                {%- if color == blank -%}{%- continue -%}{%- endif -%}
+                {%- capture meaning -%}{% render 'ssko-color-meaning', name: color %}{%- endcapture -%}
+                <button type="button" class="ssko-try__swatch" data-color="{{ color | escape }}" data-slug="{{ color | handleize }}" aria-pressed="false">
+                  <span class="dot" style="--c:{{ p[1] | strip | default: '#d3c4ba' }}" aria-hidden="true"></span>
+                  <span><b>{{ color | escape }}</b>{%- if meaning != blank -%}<em>{{ meaning | strip }}</em>{%- endif -%}</span>
+                </button>
+              {%- endfor -%}
+            </div>
+          {%- endfor -%}
+        </li>
+      </ol>
+
+      <div class="ssko-try__tools">
+        <label class="ssko-try__field ssko-try__field--range">Tilt <input type="range" min="-12" max="12" step="1" value="0" data-tilt></label>
+        <button type="button" class="ssko-try__link" data-flip>Flip</button>
+        <button type="button" class="ssko-try__btn ssko-try__btn--ghost" data-save>Save image</button>
+      </div>
+
+      <a class="ssko-v4-link ssko-try__cta" data-cta href="/?view=sskoi-austin">See the flowers <span aria-hidden="true">→</span></a>
+      <p class="ssko-try__fine">{{ s.footnote | escape }}</p>
+    </div>
+  </div>
+</div>
+<script src="{{ 'ssko-v105-try.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "SSKOI see it in your vase",
+  "max_blocks": 6,
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Small heading","default":"Try it at home"},
+    {"type":"text","id":"heading","label":"Heading","default":"See it in"},
+    {"type":"text","id":"emphasis","label":"Heading accent","default":"your vase."},
+    {"type":"textarea","id":"intro","label":"Intro"},
+    {"type":"textarea","id":"footnote","label":"Footnote"}
+  ],
+  "blocks": [
+    {"type":"family","name":"Flower set","settings":[
+      {"type":"text","id":"key","label":"Key (austin, tulip, classic, peony)"},
+      {"type":"text","id":"name","label":"Name"},
+      {"type":"text","id":"set","label":"Set"},
+      {"type":"number","id":"stem_cm","label":"Stem length (cm)"},
+      {"type":"text","id":"view","label":"Flower page view"},
+      {"type":"textarea","id":"colors","label":"Colors","info":"One per line: Color | swatch"}
+    ]}
+  ],
+  "presets": [{"name":"SSKOI see it in your vase"}]
+}
+{% endschema %}

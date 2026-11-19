@@ -1,0 +1,70 @@
+{
+  "layout": "ssko-v07",
+  "sections": {
+    "main": {
+      "type": "ssko-v105-try",
+      "blocks": {
+        "austin": {
+          "type": "family",
+          "settings": {
+            "key": "austin",
+            "name": "Austin Roses",
+            "set": "6 stems",
+            "stem_cm": 44,
+            "view": "sskoi-austin",
+            "colors": "Baby Pink | #e6b7b5\nWhite | #f4eee2\nPurple | #9473b3\nPink | #d982a6\nHot Pink | #b93766\nRed | #a6313e\nLight Peach | #eac3a9"
+          }
+        },
+        "tulip": {
+          "type": "family",
+          "settings": {
+            "key": "tulip",
+            "name": "Tulips",
+            "set": "12 stems",
+            "stem_cm": 35,
+            "view": "sskoi-tulip",
+            "colors": "White | #f4eee2\nYellow | #e1b344\nPeach | #e6a483\nOrange | #dc884d\nGreen With Pink Tip | #c5c6a3\nHot Pink | #b93766\nPink | #d982a6\nRed | #a6313e\nDark Purple | #654181\nWhite With Blue Tip | #f1ede3"
+          }
+        },
+        "classic": {
+          "type": "family",
+          "settings": {
+            "key": "classic",
+            "name": "Classic Roses",
+            "set": "6 stems",
+            "stem_cm": 43,
+            "view": "sskoi-classic",
+            "colors": "Coral | #d98268\nBurgundy | #6d283f\nPurple | #9473b3\nMauve | #a36c82\nWhite With Pink Tip | #f2e4de\nWhite | #f4eee2"
+          }
+        },
+        "peony": {
+          "type": "family",
+          "settings": {
+            "key": "peony",
+            "name": "Flocked Ranunculus",
+            "set": "4 stems",
+            "stem_cm": 52,
+            "view": "sskoi-peony",
+            "colors": "Light Peach | #eac3a9\nBaby Pink | #e6b7b5\nPink | #d982a6\nHot Pink | #b93766\nOrange | #dc884d\nWhite | #f4eee2\nPurple | #9473b3"
+          }
+        }
+      },
+      "block_order": [
+        "austin",
+        "tulip",
+        "classic",
+        "peony"
+      ],
+      "settings": {
+        "eyebrow": "Try it at home",
+        "heading": "See it in",
+        "emphasis": "your vase.",
+        "intro": "Photograph your vase, mark its rim and base, and the stems appear at true scale.",
+        "footnote": "Scale is approximate and based on the full stem length. Every set is stems only, so the vase is yours."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

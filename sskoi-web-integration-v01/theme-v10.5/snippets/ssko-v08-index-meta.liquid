@@ -1,0 +1,89 @@
+{%- liquid
+  assign title = page_title | default: shop.name
+  assign description = page_description
+  assign canonical = canonical_url
+
+  case template.suffix
+    when blank
+      assign title = page_title | default: 'Faux Flowers for Home | SSKOI'
+      assign description = page_description | default: 'Explore faux roses, tulips and flocked ranunculus from SSKOI. Compare flower sets and colors, see close-up photos, and find arrangement ideas for your home.'
+      assign image = 'ssko-v07-hero-wide.webp'
+    when 'sskoi-austin'
+      assign title = 'Faux Austin Roses, 6 Stems | SSKOI'
+      assign description = 'Compare seven colors of SSKOI faux Austin roses. Each set includes six stems with one cupped bloom per stem. See full-set photos, flower details, and styling ideas.'
+      assign image = 'ssko-v07-austin.webp'
+    when 'sskoi-tulip'
+      assign title = 'Real-Touch Faux Tulips, 12 Stems | SSKOI'
+      assign description = 'Compare ten colors of SSKOI real-touch faux tulips. View the standard twelve-stem set, see petal close-ups, and choose colors for your vase.'
+      assign image = 'ssko-v07-tulip.webp'
+    when 'sskoi-classic'
+      assign title = 'Faux Classic Roses with Buds, 6 Stems | SSKOI'
+      assign description = 'Explore six colors of SSKOI faux classic roses. Each of the six stems carries an open bloom and two buds. See the full set and flower close-ups by color.'
+      assign image = 'ssko-v07-classic.webp'
+    when 'sskoi-peony'
+      assign title = 'Flocked Faux Ranunculus, 4 Stems | SSKOI'
+      assign description = 'Explore seven colors of SSKOI faux ranunculus with flocked leaves. Each four-stem set has two flowers and one bud per stem. See close-ups by color.'
+      assign image = 'ssko-v07-peony.webp'
+    when 'sskoi-rose-gift'
+      assign title = 'Faux Rose Gift Set with Paper Vase, 8 Stems | SSKOI'
+      assign description = 'Compare seven colors of the SSKOI Classic Rose Gift Set. The box includes eight faux rose stems and folds open into a paper vase for dry display.'
+      assign image = 'ssko-v6-gift.webp'
+    when 'sskoi-lookbook'
+      assign title = 'Faux Flower Arrangement Ideas for Seven Rooms | SSKOI'
+      assign description = 'See seven ways to style faux roses, tulips and ranunculus, including dining tables, entry consoles, bookshelves and reading corners.'
+      assign image = 'ssko-v104-look-austin-window.webp'
+    when 'sskoi-arrangement'
+      assign title = 'Arrangement Recipes | SSKOI'
+      assign description = 'Six faux flower arrangements from SSKOI, with set details, vase choices and placement steps. Explore each recipe and check current availability on SSKOI.'
+      assign image = 'ssko-v5-austin-scene.webp'
+    when 'sskoi-gifts'
+      assign title = 'Faux Flower Gifts by Occasion | SSKOI'
+      assign description = "Faux flower gift ideas from SSKOI for Mother's Day, anniversaries, housewarmings, thank-yous and sympathy, with the set and color to choose for each."
+      assign image = 'ssko-v104-look-austin-window.webp'
+    when 'sskoi-try'
+      assign title = 'See Faux Flowers in Your Vase | SSKOI'
+      assign description = 'Photograph your vase and see SSKOI faux roses, tulips and ranunculus at true scale, in every color. Your photo stays on your device.'
+      assign image = 'ssko-v104-look-austin-window.webp'
+    when 'sskoi-about'
+      assign title = 'About SSKOI | Faux Flowers for Everyday Spaces'
+      assign description = 'Meet SSKOI, a faux flower brand for everyday rooms. Explore roses, tulips and ranunculus for home styling and gifting.'
+      assign image = 'ssko-v6-bedside.webp'
+    when 'sskoi-care'
+      assign title = 'How to Care for Faux Flowers | SSKOI'
+      assign description = 'Learn how to display, dust and store SSKOI faux flowers, including how to keep flocked leaves soft and dry.'
+      assign image = 'ssko-v07-peony.webp'
+    when 'sskoi-shop'
+      assign title = 'Shop Faux Roses, Tulips and Ranunculus | SSKOI'
+      assign description = 'Compare the SSKOI faux flower collection by bloom, color and stem count. Find Austin roses, tulips, classic roses and flocked ranunculus.'
+      assign image = 'ssko-v07-hero-wide.webp'
+  endcase
+
+  if image != blank and template.suffix != blank
+    assign canonical = canonical_url | split: '?' | first | append: '?view=' | append: template.suffix
+  endif
+
+  if image != blank
+    assign share_image = image | asset_url
+    assign url_prefix = share_image | slice: 0, 2
+    if url_prefix == '//'
+      assign share_image = share_image | prepend: 'https:'
+    endif
+  endif
+-%}
+<link rel="canonical" href="{{ canonical | escape }}">
+<title>{{ title | escape }}</title>
+{% if description != blank %}<meta name="description" content="{{ description | escape }}">{% endif %}
+{%- if image != blank -%}
+  <meta property="og:site_name" content="{{ shop.name | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ canonical | escape }}">
+  <meta property="og:title" content="{{ title | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:image" content="{{ share_image | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title | escape }}">
+  <meta name="twitter:description" content="{{ description | escape }}">
+  <meta name="twitter:image" content="{{ share_image | escape }}">
+{%- else -%}
+  {% render 'meta-tags' %}
+{%- endif -%}
