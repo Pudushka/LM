@@ -1,0 +1,27 @@
+<!--
+  Homepage integration snippet for lensho.com
+  1) Nav: add this link between "Focus" and "Partnerships" in <header class="header"> <nav>:
+       <a class="nav-oz" href="/opportunity-zones">OZ 2.0</a>
+  2) Section: insert the <section> below directly after the cinematic hero
+     (<section class="cinematic">), before <section class="platform-entry">.
+  3) Styles: oz-teaser.css. Script: oz-teaser.js (countdown + reveal, ~30 lines).
+  Chinese copy for the site's i18n dictionary is in README.md.
+-->
+<section class="oz-teaser" id="oz" aria-labelledby="oz-teaser-title" data-oz-teaser>
+  <div class="oz-teaser-copy">
+    <p class="oz-teaser-label"><b>NEW</b>OPPORTUNITY ZONES · OZ 2.0</p>
+    <h2 id="oz-teaser-title">The opportunity zone program, rewritten.<br><em>Substantial renovation at its core.</em></h2>
+    <p>From January 1, 2027, eligible capital gains invested in a qualified opportunity fund get rolling five-year deferral, a 10% step-up and tax-free appreciation after ten years. Rehabilitating existing buildings is central to how the program works — and to how we work.</p>
+    <div class="oz-teaser-actions">
+      <a class="oz-teaser-cta" href="/opportunity-zones">Explore OZ 2.0
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
+      <p class="oz-teaser-count"><b data-oz-days>--</b><span data-oz-days-label>days until it takes effect</span></p>
+    </div>
+  </div>
+  <div class="oz-teaser-numeral" aria-hidden="true"><span>2.0</span><span>2.0</span></div>
+  <dl class="oz-teaser-facts">
+    <div><dt>5<small>yrs</small></dt><dd>Rolling deferral from the date you invest</dd></div>
+    <div><dt>10<small>%</small></dt><dd>Step-up in basis on the deferred gain after five years</dd></div>
+    <div><dt>10<small>yrs+</small></dt><dd>Hold to exclude appreciation from federal capital gains tax</dd></div>
+  </dl>
+</section>
