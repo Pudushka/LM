@@ -1,0 +1,12 @@
+{
+  "name": "Lensho Capital",
+  "short_name": "Lensho",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#222828",
+  "theme_color": "#1c2729",
+  "icons": [
+    { "src": "/assets/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/images/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

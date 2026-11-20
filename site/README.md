@@ -1,57 +1,49 @@
-# Lensho Capital — OZ 2.0 integration
+# Lensho Capital website (完整版)
 
-A dedicated OZ 2.0 (opportunity zone) page for lensho.com, plus a homepage nav link and teaser band that lead to it. Everything follows the live site's design language: ink `#222828`, copper `#c9a07b`, Georgia, Barlow Condensed ExtraLight. The page is bilingual (EN / 中文).
+这是 lensho.com 的完整静态网站：六个页面，中英双语，不依赖任何框架。
 
-## Files
-
-| File | Purpose |
-|---|---|
-| `opportunity-zones.html` + `oz.css` + `oz.js` | Full OZ 2.0 page (intended route: `/opportunity-zones`) |
-| `oz-teaser.html` + `oz-teaser.css` + `oz-teaser.js` | Homepage snippet: nav link + teaser section |
-| `home-preview.html` | **Preview only**: a static copy of the live homepage with the teaser applied (uses `vendor/lensho-home.css`) |
-| `images/`, `fonts/` | Copies of the existing lensho.com assets the page uses |
-
-Local preview:
+- **上线说明（给 Codex 或工程师）：** [`CODEX_HANDOFF.md`](CODEX_HANDOFF.md)
+- **可直接部署的文件包：** `lensho-site.zip`，内容与 `dist-lensho/` 相同
+- **本地预览：** 运行下面两条命令，然后打开 http://localhost:8766
 
 ```bash
-cd site && python3 -m http.server 8765
+cd site && python3 build.py
 ```
 
-Then open `http://localhost:8765/opportunity-zones.html` and `http://localhost:8765/home-preview.html`.
+```bash
+cd dist && python3 -m http.server 8766
+```
 
-## OZ page structure
+## 页面
 
-1. **Hero**: the slogan "The gain has a clock. So does the map." over a huge gold "2.0" that fills in on load, with a live countdown to 1 January 2027.
-2. **Key figures**: 180 days / 5 years / 10% / 0 tax, with count-up numbers.
-3. **Scroll timeline**: a pinned section where the year steps 2027 → 2032 → 2037 as the curve draws (defer → step-up → exclude).
-4. **Illustrative calculator**: sliders for gain, growth and holding period. Compares paying tax today with investing through a QOF.
-5. **180-day window tool**: enter the date the gain was recognized and see days left, whether the window reaches into OZ 2.0, and a note for K-1 gains.
-6. **Where Lensho fits**: the substantial-improvement test (double the building basis within 30 months), which matches Lensho's focus on renovation.
-7. **A new map**: Hudson County priority markets on a schematic hex map. It is labelled as illustrative and is **not** a map of designated tracts.
-8. **OZ 1.0 → 2.0 comparison**, **FAQ**, then a **CTA** (mailto: lenshocapitalllc@gmail.com) and the footer disclaimers.
-
-## Porting into the vinext/Next app
-
-- Turn `opportunity-zones.html` into `app/opportunity-zones/page.tsx`. The bilingual copy uses `.en` / `.zh` sibling spans, so map them onto the site's existing language toggle. `oz.js` stores the language choice in `localStorage['lensho-lang']`; change that key to whatever the homepage uses.
-- Asset paths are relative (`images/…`, `fonts/…`). The same files already exist at `/images/…` and `/fonts/…` on lensho.com.
-- Homepage: add `<a class="nav-oz" href="/opportunity-zones">OZ 2.0</a>` to the nav. Then insert the `oz-teaser.html` section directly after `<section class="cinematic">`.
-
-### Homepage teaser — 中文 copy
-
-| EN | 中文 |
+| 页面 | 内容 |
 |---|---|
-| NEW · OPPORTUNITY ZONES · OZ 2.0 | 全新 · 机会区 · OZ 2.0 |
-| The opportunity zone program, rewritten. *Substantial renovation at its core.* | 机会区计划，全面改写。*以大幅翻修为核心。* |
-| From January 1, 2027, eligible capital gains invested in a qualified opportunity fund get rolling five-year deferral, a 10% step-up and tax-free appreciation after ten years. Rehabilitating existing buildings is central to how the program works — and to how we work. | 自 2027 年 1 月 1 日起，投入合格机会基金的资本利得可享五年滚动递延、10% 计税基础上调，以及持有十年后的增值免税。改造既有建筑是这一计划的核心，也正是我们的工作方式。 |
-| Explore OZ 2.0 | 了解 OZ 2.0 |
-| days until it takes effect | 天后正式生效 |
-| Rolling deferral from the date you invest | 自投资日起滚动递延 |
-| Step-up in basis on the deferred gain after five years | 持有满五年，递延利得计税基础上调 |
-| Hold to exclude appreciation from federal capital gains tax | 持有满十年，增值部分免缴联邦资本利得税 |
+| 首页 `/` | 三幕电影式首屏、OZ 2.0 专区、投资理念（連勝）、关注方向、项目五阶段、改造案例（可放大）、投资工具、合作方式、洞察、联系表单 |
+| OZ 2.0 `/opportunity-zones` | 倒计时首屏、滚动时间轴、收益示意计算器、180 天窗口测算、4 题资格自测、实质改善规划工具、哈德逊县示意地图、关键日期、1.0 与 2.0 对比、术语表（可筛选）、常见问题 |
+| 指南 `/oz-guide` | 约 12 分钟的长文：基本概念、180 天时钟、三重优惠示例表、六项变化、实质性改善、风险、向发起人提问清单、Lensho 的做法；带目录高亮和阅读进度条 |
+| 合作流程 `/how-we-work` | 三类合作方的切换卡片，以及会记住勾选状态的准备清单；六阶段分工表、合作承诺、合作平台入口、常见问题 |
+| 披露 `/disclosures` | 重要披露、隐私、使用条款 |
+| 404 | 自定义的找不到页面 |
 
-## Content to confirm before launch
+`/platform`（合作平台）和 `/calculators/refinance`（再融资计算器）沿用现有系统，新网站只是链接过去。
 
-- **Lensho's role.** The copy says Lensho is "reviewing designated tracts" and invites investors to "register interest". It does not claim that a fund or offering exists. Update it once a QOF structure, terms and a minimum investment are set, and have counsel review all investor-facing language.
-- **Tax summary.** The tax summary reflects the 2025 amendments to the federal program: a permanent program, new designations every 10 years from 1 Jan 2027, five-year rolling deferral, a 10% step-up (30% for rural funds), an exclusion after 10 years for appreciation through year 30, a stricter low-income test with no contiguous tracts, and expanded reporting. A tax advisor should verify it against final Treasury guidance.
-- **New zone map.** Once the new Hudson County designations are final, replace the schematic hex map with real tract data.
-- **Calculator assumptions.** The calculator uses a 23.8% federal rate, identical growth on both paths, and assumes the year-5 tax is paid from other funds. It ignores state tax and fees. A disclaimer is shown next to it.
+## 目录结构
+
+```
+site/
+  src/               页面源文件（含 <!--@header--> 等占位标记）
+  src/partials/      共用的 head、header、footer
+  assets/css|js|images|fonts
+  public/            robots.txt、sitemap.xml、site.webmanifest、_headers
+  build.py           生成 dist/（预览用，相对链接）和 dist-lensho/（上线用，无后缀链接）
+  CODEX_HANDOFF.md   部署说明与验收清单
+```
+
+## 上线前需要你确认的内容
+
+详见 `CODEX_HANDOFF.md` 第 6 节，摘要如下：
+
+- **OZ 基金表述：** 目前写的是「正在梳理地块，欢迎联系」，没有声称已有基金在发行。基金成立后再更新，并请律师审阅。
+- **服务承诺：** 「两个工作日内回复」等承诺，以及各阶段的时间估计。
+- **税务内容：** 需要税务顾问核实。
+- **示意地图：** 新机会区名单公布后换成真实地块。
